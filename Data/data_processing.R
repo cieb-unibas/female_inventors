@@ -123,12 +123,12 @@ ggplot(plot_dat, aes(x = Ctry_code, y = female_share, fill = gender_predicted))+
 # => Thus, higher shares in predicted sample could partially be driven by this. However,
 # => the algorithm does seem to predict more inventors to be female than actually are...
 
-##################################
-######## DATA PROCESSING #########
-##################################
+#############################
+######## PLOT DATA  #########
+#############################
 
 ## female inventors on patents per country and p_year:
-female_inv_shares <- pat_dat %>% 
+female_inv_shares <- pat_dat %>% filter(gender_predicted == "no") %>%
   group_by(Ctry_code, p_year) %>%
   summarise(total_inventors = n(),
             female_inventors = sum(gender == 0, na.rm = TRUE),
@@ -167,20 +167,20 @@ plot_dat <- female_inv_shares %>%
   distinct(p_year, Ctry_code, .keep_all = TRUE)
 
 write.csv(plot_dat, "Data/female_inventor_share.csv")
-# selected_countries <- c("US", "DE", "JP", "CH", "IT", "FR")
-# plot_dat <- plot_dat %>% filter(Ctry_code %in% selected_countries)
-# ggplot(plot_dat, aes(x = p_year, y = female_share_inventors, color = Ctry_code))+
-#   geom_line() + geom_point(aes(shape = Ctry_code))+ ylim(c(0, 0.4))+
-#   labs(y = "Share of Females Inventors", x = "Year",
-#        shape = "", color = "")+
-#   scale_color_viridis(option = "inferno", end = 0.9, discrete = TRUE)+
-#   guides(color = guide_legend(nrow = 1))+
-#   theme(panel.background = element_blank(),
-#         panel.grid.major.y = element_line(linetype = "dotted", color = "grey"),
-#         legend.position = "bottom", legend.direction = "horizontal",
-#         axis.line = element_line(),
-#         axis.title = element_text(face="bold",size=10))
-# # => convert this plot to an aimated graph in the sense of the specialization report
+selected_countries <- c("US", "DE", "JP", "CH", "IT", "FR")
+plot_dat <- plot_dat %>% filter(Ctry_code %in% selected_countries)
+ggplot(plot_dat, aes(x = p_year, y = female_share_inventors, color = Ctry_code))+
+  geom_line() + geom_point(aes(shape = Ctry_code))+ ylim(c(0, 0.4))+
+  labs(y = "Share of Females Inventors", x = "Year",
+       shape = "", color = "")+
+  scale_color_viridis(option = "inferno", end = 0.9, discrete = TRUE)+
+  guides(color = guide_legend(nrow = 1))+
+  theme(panel.background = element_blank(),
+        panel.grid.major.y = element_line(linetype = "dotted", color = "grey"),
+        legend.position = "bottom", legend.direction = "horizontal",
+        axis.line = element_line(),
+        axis.title = element_text(face="bold",size=10))
+# => convert this plot to an aimated graph in the sense of the specialization report
 
 
 ## FIGURE 2: FEMALE INVENTOR SHARES AND FEMALE UNIVERSITY GRADUATES IN NATURAL SCIENCES
