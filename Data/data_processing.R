@@ -47,7 +47,7 @@ grad_dat <- rename(grad_dat, inv_ctry = COUNTRY, p_year = YEAR,
 grad_dat <- select(grad_dat, - SEX)
 print("Data on university graduates ready for analysis")
 
-#### patent inventor data with gender information
+#### USPTO patent inventor data with gender information
 pat_dat <- readRDS(paste0(mainDir1, "/created data/us_inv_gender.rds"))
 gender_path <- paste0(mainDir1,"/raw data/inventor_gender.tsv")
 gender <- read.table(gender_path, sep = "\t", header = TRUE)#, quote = "")
@@ -58,8 +58,14 @@ gender <- gender %>%
   rename(id = disambig_inventor_id_20200630,
          gender = male)
 gender <- left_join(pat_dat, gender, by = "id")
-print("All data ready for analysis")
 
+#### PCT inventor data with gender information
+pct_dat <- read.csv("Data/female_pct.csv")
+names(pct_dat) <- c("Country", as.character(seq(2000, 2019)))
+pct_dat<- pct_dat %>% gather("p_year","female_share_inventors", -Country)
+pct_dat$inv_ctry <- countrycode(pct_dat$Country, origin = "country.name.en", "iso2c")
+write.csv(pct_dat, "Report/female_inventor_share_PCT.csv")
+print("All data ready for analysis")
 
 ################################
 ######## INSEPCT DATA  #########
@@ -97,13 +103,12 @@ female_inv_shares$Country <- countrycode(female_inv_shares$inv_ctry,
 
 ## DATA FIGURE 1: FEMALE INVENTOR SHARES ACROSS COUNTRIES ----------------------
 plot_dat <- female_inv_shares %>%
-  filter(inv_ctry %in% selected_countries,
-         p_year >= 1990, p_year <= 2015,
+  filter(p_year >= 1990, p_year <= 2015,
          total_inventors > 30) %>% 
   select(p_year, inv_ctry, female_share_inventors) %>%
   distinct(p_year, inv_ctry, .keep_all = TRUE)
 
-write.csv(plot_dat, "Report/female_inventor_share.csv")
+write.csv(plot_dat, "Report/female_inventor_share_USPTO.csv")
 print("Data for animated plot saved")
 
 ## FIGURE 2 & 3: FEMALE INVENTOR SHARES AND FEMALE UNIVERSITY GRADUATES IN NATURAL SCIENCES
@@ -119,7 +124,7 @@ plot_dat <- female_inv_shares %>%
   mutate(female_share_inventors = female_inventors / total_inventors,
          female_share_graduates = female_graduates / total_graduates)
 
-write.csv(plot_dat, "Report/female_inventors_graduates.csv")
+write.csv(plot_dat, "Report/female_inventors_graduates_USPTO.csv")
 print("Data for static plots saved.")
 
 # plot with 45degree line (all countries are bad)
@@ -152,8 +157,6 @@ ggplot(plot_dat, aes(x = female_share_graduates,
         legend.position = "none",
         axis.line = element_line(),
         axis.title = element_text(face="bold",size=10))
-
-
 
 
 
