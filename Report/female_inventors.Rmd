@@ -1,0 +1,71 @@
+---
+title: ''
+output:
+  html_document:
+    self_contained: false
+    theme: null
+    css: null
+    highlight: null
+    mathjax: null
+---
+
+
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+<div class="container-fluid main-container">
+
+## **Female inventors**
+
+<br>
+
+*February 2021* by <a href="https://wwz.unibas.ch/de/personen/matthias-niggli/" target = "_blank">Matthias Niggli</a> and <a href="https://wwz.unibas.ch/de/personen/christian-rutzer/" target = "_blank">Christian Rutzer</a> 
+
+
+<br>
+
+
+![](ADD.jpg){width=100%}
+<br>
+
+<hr class="hr_red">
+#### **ADD interactive figure here**
+<iframe width="100%" height="554" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/interactive_stuff/#emp_id" id="emp_plot">
+<p>Your browser does not support iframes</p>
+</iframe>
+
+
+**Interested in a comparison** of <a href =XXX target = “_blank”>XXX</a>.
+
+<br>
+
+<!-- **Share this article** -->
+<!-- <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://innoscape.ch/en/publications/cross-border-commuting-and-inventions-made-in-switzerland" data-a2a-title="Analysis within Innoscape: Cross-border commuting and inventions Made in Switzerland"> -->
+<!-- <a class="a2a_button_twitter"></a> -->
+<!-- <a class="a2a_button_linkedin"></a> -->
+<!-- <a class="a2a_button_xing"></a> -->
+<!-- <a class="a2a_button_facebook"></a> -->
+<!-- <a class="a2a_button_email"></a> -->
+<!-- </div> -->
+<!-- <script async src="https://static.addtoany.com/menu/page.js"></script> -->
+
+<!-- <br> -->
+
+<span style="font-size:0.8em">*This report was written using <a href = https://rmarkdown.rstudio.com/ target = “_blank”>R Markdown</a> and <a href = https://shiny.rstudio.com/ target = “_blank”>R shiny</a>. Calculations were performed at <a href = http://scicore.unibas.ch/ target = “_blank”> sciCORE </a> scientific computing center at the University of Basel. Data and code to reproduce the figures presented in this article are available on <a href= "XXX" target="_blank">GitHub</a>.*</span>
+
+<br>
+<br>
+<br>
+<br>
+
+<!-- </div> -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71167447-1"></script> -->
+<!-- <script> -->
+<!--   window.dataLayer = window.dataLayer || []; -->
+<!--   function gtag(){dataLayer.push(arguments);} -->
+<!--   gtag('js', new Date()); -->
+<!--   gtag('config', 'UA-71167447-1'); -->
+<!-- </script> -->
