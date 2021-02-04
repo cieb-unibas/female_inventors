@@ -74,7 +74,7 @@ Plotly.newPlot('plot_1', data, layout)
 
 
 
-<!-- Add plot to html as created above -->
+<!-- Add above created plot to html -->
 <body>
 	<div id='plot_1'></div>
 </body>
