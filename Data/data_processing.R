@@ -156,7 +156,7 @@ plot_dat <- female_inv_shares %>%
   mutate(female_share_inventors = female_inventors / total_inventors,
          female_share_graduates = female_graduates / total_graduates)
 
-write.csv(plot_dat, "Report/female_inventors_graduates_USPTO.csv")
+write.csv(plot_dat, "Report/female_inventors_graduates_USPTO.csv", row.names = FALSE)
 print("Data for static plots saved.")
 
 # plot with 45degree line (all countries are bad)
