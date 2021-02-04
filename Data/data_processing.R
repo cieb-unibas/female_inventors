@@ -92,7 +92,7 @@ paste("Female inventor share is:", round(female_inv / total_inv, 4) * 100, "%")
 ####################################
 
 # calculate the number and share of female inventors on patents per country and p_year:
-female_inv_shares <- gender %>%
+female_inv_shares <- gender %>% distinct(id, p_year, .keep_all = TRUE) %>%
   group_by(inv_ctry, p_year) %>%
   summarise(total_inventors = n(),
             female_inventors = sum(gender == 0, na.rm = TRUE),

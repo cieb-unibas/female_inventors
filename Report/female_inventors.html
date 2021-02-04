@@ -81,7 +81,7 @@ Plotly.newPlot('plot_1', data, layout)
 </script>
 <!-- FIGURE 1: SCATTERPOLOT WITH 45 DEGREE LINE -->
 <script>
-Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv?token=AJTHWURUIGUVJJNUWFMHR6LADP5RQ", function(err, rows){
+Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv?token=AJTHWUVQ2WU2CGMQ66E4TQ3ADQAXU", function(err, rows){
 
   function unpack(rows, key) {
   return rows.map(function(row) { return row[key]; });
@@ -93,11 +93,10 @@ Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/ma
       x: unpack(rows, 'female_share_graduates'),
       y: unpack(rows, 'female_share_inventors'),
       text: unpack(rows, 'inv_ctry'),
-      marker: {
-        size: unpack(rows, 'total_graduates'),
-        sizemode: "area",
-        sizeref: 1000
-      }
+      <!-- marker: { -->
+      <!--   size: unpack(rows, 'total_graduates'), -->
+      <!--   sizemode: "area", -->
+      <!-- } -->
     }]
 
 var layout = {
