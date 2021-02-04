@@ -1,0 +1,12 @@
+name: graph_gender_time
+title: graph_gender_time
+username:
+account: cieb
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3580998
+bundleId: 4180151
+url: https://cieb.shinyapps.io/graph_gender_time/
+when: 1612441776.11558
+asMultiple: FALSE
+asStatic: FALSE

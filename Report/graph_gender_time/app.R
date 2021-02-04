@@ -8,7 +8,7 @@ library(viridis)
 # Load data 
 fem_share <- read.csv2("female_inventor_share_USPTO.csv", sep = ",") 
 fem_share$female_share_inventors <- as.numeric(as.character(fem_share$female_share_inventors))
-fem_share <- filter(fem_share, inv_ctry %in% c("AT", "DE", "US"))
+fem_share$female_share_inventors_round <-round(fem_share$female_share_inventors, 2)
 
 # Define UI 
 ui <- fluidPage(
@@ -27,8 +27,8 @@ ui <- fluidPage(
               pickerInput(
                    inputId = "fem_share", 
                    label = "Choose a country", 
-                   choices = sort(unique(fem_share$inv_ctry)), 
-                   selected = c("CH", "US", "AT"), 
+                   choices = sort(unique(fem_share$country)), 
+                   selected = c("Germany", "Switzerland", "United States", "South Korea", "Japan", "France"), 
                    options = list(
                        # `max-options` = 8,
                        `actions-box` = TRUE, 
@@ -58,48 +58,60 @@ ui <- fluidPage(
 
 # Define server 
 server <- function(input, output, session) {
-    
-  # dat_set <-  reactive({filter(fem_share, inv_ctry %in% input$fem_share)})
+  
+  dat_set <-  reactive({filter(fem_share, country %in% input$fem_share)})
+  
   output$fem_share_plot <- renderPlotly({
-  ggplotly(
-        ggplot(data = subset(fem_share, inv_ctry %in% input$fem_share), aes(frame = p_year, fill = female_share_inventors)) +
-          geom_col(position = position_dodge2(), width = 20, aes(x = inv_ctry, y = female_share_inventors,  color = inv_ctry)) +
-               scale_fill_gradient2(low = "lightgrey", high = "darkred") +
-               xlab("Share of female inventors") +
-               ylab("") +
-               scale_color_viridis(discrete = T, begin = 0, end = 1) +
-               theme(plot.background  = element_rect(fill = "#202020"),
-                     panel.background = element_rect(fill = "#202020"),
-                     panel.grid.minor = element_line(color = "grey50"),
-                     panel.grid.major = element_line(color = "grey50"),
-                     panel.grid.major.x = element_blank() ,
-                     legend.position="none",
-                     axis.title = element_text(color = "#fdfafa", size = ifelse(session$clientData$pixelratio > 2, 9, 11)),
-                     axis.line = element_line(),
-                     axis.text = element_text(size = ifelse(session$clientData$pixelratio > 2, 7, 9), color = "#fdfafa")),
-             tooltip = c("label")) %>%
-      animation_opts(frame = 1000, redraw = T) %>%
-      animation_button(label = "Start", font = list(color = "#fdfafa"), x =  ifelse(session$clientData$pixelratio > 2, -0.25, 0.0), y = 0.1) %>%
-      animation_slider(currentvalue = list(visible = FALSE), bordercolor = "#fdfafa", bgcolor = "#fdfafa", x =  ifelse(session$clientData$pixelratio > 2, -0.1, 0), y = -0.06, font = list(color = "#fdfafa"), tickcolor = list(color = "#fdfafa")) %>%
-      config(displayModeBar = F) %>% layout(xaxis = list(fixedrange = TRUE), yaxis = list(fixedrange = TRUE))
-  
-  
-})
-}
+  if(nrow(dat_set()) != 0){
+      
+
+  p <-   dat_set() %>% 
+    plot_ly(
+    x = ~country, 
+    y = ~female_share_inventors,
+    frame = ~p_year,
+    hoverinfo = 'fed',
+    type = 'bar') %>% 
+    
+    
+    config(displayModeBar = F) %>% layout(yaxis = list(title = "Proportion of women\namong all inventors", fixedrange = TRUE), xaxis = list(title = "", fixedrange = TRUE)) %>%
+    animation_opts(frame = 500, redraw = F) %>%
+    animation_slider(currentvalue = list(visible = FALSE), bordercolor = "black", bgcolor = "black", x =  ifelse(session$clientData$pixelratio > 2, -0.1, 0), y = -0.06, font = list(color = "black"), 
+                     tickcolor = list(color = "black")) %>%
+    animation_button(label = "Start", x =  ifelse(session$clientData$pixelratio > 2, -0.25, 0.0), y = 0.1)
+    p  
+} else {} 
+})  
+}    
+  # dat_set <-  reactive({filter(fem_share, inv_ctry %in% input$fem_share)})
+#   output$fem_share_plot <- renderPlotly({
+#   ggplotly(
+#         ggplot(data = subset(fem_share, inv_ctry %in% input$fem_share), aes(frame = p_year, fill = female_share_inventors)) +
+#           geom_col(position = position_dodge2(), width = 20, aes(x = inv_ctry, y = female_share_inventors,  color = inv_ctry)) +
+#                scale_fill_gradient2(low = "lightgrey", high = "darkred") +
+#                xlab("Share of female inventors") +
+#                ylab("") +
+#                scale_color_viridis(discrete = T, begin = 0, end = 1) +
+#                theme(plot.background  = element_rect(fill = "#202020"),
+#                      panel.background = element_rect(fill = "#202020"),
+#                      panel.grid.minor = element_line(color = "grey50"),
+#                      panel.grid.major = element_line(color = "grey50"),
+#                      panel.grid.major.x = element_blank() ,
+#                      legend.position="none",
+#                      axis.title = element_text(color = "#fdfafa", size = ifelse(session$clientData$pixelratio > 2, 9, 11)),
+#                      axis.line = element_line(),
+#                      axis.text = element_text(size = ifelse(session$clientData$pixelratio > 2, 7, 9), color = "#fdfafa")),
+#              tooltip = c("label")) %>%
+#       animation_opts(frame = 1000, redraw = T) %>%
+#       animation_button(label = "Start", font = list(color = "#fdfafa"), x =  ifelse(session$clientData$pixelratio > 2, -0.25, 0.0), y = 0.1) %>%
+#       animation_slider(currentvalue = list(visible = FALSE), bordercolor = "#fdfafa", bgcolor = "#fdfafa", x =  ifelse(session$clientData$pixelratio > 2, -0.1, 0), y = -0.06, font = list(color = "#fdfafa"), tickcolor = list(color = "#fdfafa")) %>%
+#       config(displayModeBar = F) %>% layout(xaxis = list(fixedrange = TRUE), yaxis = list(fixedrange = TRUE))
+#   
+#   
+# })
+# }
 
 # Run the application 
 shinyApp(ui = ui, server = server)
 
-fem_share <- filter(fem_share, inv_ctry %in% c("AT", "DE", "US"))
 
-snow_plot <- fem_share %>% plot_ly(
-  x = ~inv_ctry, 
-  y = ~female_share_inventors, 
-  frame = ~p_year,
-  hoverinfo = 'text',
-  type = 'bar'
-) %>%
-  animation_opts(frame = 1000, redraw = T) %>%
-  animation_button(label = "Start", font = list(color = "#fdfafa"), x =  -0.25, y = 0.1) 
-
-snow_plot

@@ -140,7 +140,7 @@ plot_dat_1 <- mutate(plot_dat_1, country = ifelse(is.na(country), countrycode(in
 sum_inv <- aggregate(total_inventors ~ inv_ctry, data =  female_inv_shares, FUN = sum, na.rm = T) %>% arrange(-total_inventors)
 plot_dat_1 <- filter(plot_dat_1, inv_ctry %in% sum_inv[1:40, "inv_ctry"])
 
-write.csv(plot_dat_1, "Report/female_inventor_share_USPTO.csv")
+write.csv(plot_dat_1, "Report/graph_gender_time/female_inventor_share_USPTO.csv")
 print("Data for animated plot saved")
 
 ## FIGURE 2 & 3: FEMALE INVENTOR SHARES AND FEMALE UNIVERSITY GRADUATES IN NATURAL SCIENCES
