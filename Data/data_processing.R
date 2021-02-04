@@ -146,7 +146,7 @@ print("Data for animated plot saved")
 ## FIGURE 2 & 3: FEMALE INVENTOR SHARES AND FEMALE UNIVERSITY GRADUATES IN NATURAL SCIENCES
 plot_dat <- female_inv_shares %>%
   filter(FIELD == "F05", ISC11_LEVEL == "L7",
-         p_year >= 2010,
+         p_year >= 2010, p_year <= 2017,
          total_graduates > 30,
          total_inventors > 30) %>%
   group_by(inv_ctry) %>% summarize(total_graduates = sum(total_graduates),

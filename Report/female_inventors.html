@@ -49,39 +49,9 @@
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 </head>
 <p><link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet"> <link rel="stylesheet" href="style.css" type="text/css" /></p>
-<!-- TEST EXAMPLE: create function for java plotly -->
+<!-- FIGURE 2: SCATTERPOLOT WITH 45 DEGREE LINE -->
 <script>
-Plotly.d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv", function(err, rows){
-
-  function unpack(rows, key) {
-  return rows.map(function(row) { return row[key]; });
-}
-
-  var data = [{
-      type: 'scatter',
-      mode: 'markers',
-      x: unpack(rows, 'lifeExp'),
-      y: unpack(rows, 'gdpPercap'),
-      text: unpack(rows, 'continent'),
-      marker: {
-        size: unpack(rows, 'pop'),
-        sizemode: "area",
-        sizeref: 200000
-      }
-    }]
-
-var layout = {
-  yaxis: {
-    type: 'log'
-  }
-}
-
-Plotly.newPlot('plot_1', data, layout)
-});
-</script>
-<!-- FIGURE 1: SCATTERPOLOT WITH 45 DEGREE LINE -->
-<script>
-Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv?token=AJTHWUVQ2WU2CGMQ66E4TQ3ADQAXU", function(err, rows){
+Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv", function(err, rows){
 
   function unpack(rows, key) {
   return rows.map(function(row) { return row[key]; });
@@ -92,19 +62,75 @@ Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/ma
       mode: 'markers',
       x: unpack(rows, 'female_share_graduates'),
       y: unpack(rows, 'female_share_inventors'),
-      text: unpack(rows, 'inv_ctry'),
-      <!-- marker: { -->
-      <!--   size: unpack(rows, 'total_graduates'), -->
-      <!--   sizemode: "area", -->
-      <!-- } -->
+      text: unpack(rows, 'inv_ctry')
     }]
+    
+  var layout = {
+    xaxis: {range: [0, 0.75], tickformat: ',.1%', 
+            title: {text: 'Female Graduate Share in Natural Sciences <br> (2010-2017 Average)'},
+            showgrid: false},
+    yaxis: {range: [0, 0.6], tickformat: ',.1%',
+            title: {text: 'Female Inventor Share <br> (2010-2017 Average)'},
+            showgrid: false},
 
-var layout = {
-  xaxis: {range: [0, 0.75]},
-  yaxis: {range: [0, 0.6]}
+    shapes: [{
+      type: 'line',
+      x0: 0,
+      y0: 0,
+      x1: 1,
+      y1: 1,
+      line: {dash: 'dot'}
+    }]
 };
 
 Plotly.newPlot('plot_2', data, layout)
+});
+</script>
+<!-- FIGURE 3: SCATTERPOLOT FOR COUNTRY COMPARISON -->
+<script>
+Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv", function(err, rows){
+
+  function unpack(rows, key) {
+  return rows.map(function(row) { return row[key]; });
+}
+
+  var data = [{
+      type: 'scatter',
+      mode: 'markers+text',
+      x: unpack(rows, 'female_share_graduates'),
+      y: unpack(rows, 'female_share_inventors'),
+      text: unpack(rows, 'inv_ctry'),
+      textposition: 'top center'
+    }]
+    
+  var layout = {
+    xaxis: {range: [0.4, 0.75], tickformat: ',.1%',
+            title: {text: 'Female Graduate Share in Natural Sciences <br> (2010-2017 Average)'},
+            showgrid: false},
+    yaxis: {range: [0, 0.35], tickformat: ',.1%',
+            title: {text: 'Female Inventor Share <br> (2010-2017 Average)'},
+            showgrid: false, showline: true},
+    shapes: [
+    {
+      type: 'line',
+      x0: 0.522,
+      y0: 0,
+      x1: 0.522,
+      y1: 0.35,
+      line: {dash: 'dot'}
+    },
+    {
+      type: 'line',
+      x0: 0.4,
+      y0: 0.105,
+      x1: 0.75,
+      y1: 0.105,
+      line: {dash: 'dot'}
+    }
+    ]
+};
+
+Plotly.newPlot('plot_3', data, layout)
 });
 </script>
 <div class="container-fluid main-container">
@@ -123,15 +149,26 @@ Plotly.newPlot('plot_2', data, layout)
 Your browser does not support iframes
 </p>
 </iframe>
-<!-- Add above created plot to html -->
-<!-- <body> -->
-<!--    <div id='plot_1'></div> -->
-<!-- </body> -->
+<p><br></p>
+<hr class="hr_red">
+</div>
+<div id="female-inventor-shares-and-female-graduate-shares-in-natural-sciences" class="section level4">
+<h4><strong>Female inventor shares and female graduate shares in natural sciences</strong></h4>
 <body>
 <div id="plot_2">
 
 </div>
 </body>
+<hr class="hr_red">
+</div>
+<div id="female-inventor-shares-and-female-graduate-shares-in-natural-sciences-1" class="section level4">
+<h4><strong>Female inventor shares and female graduate shares in natural sciences</strong></h4>
+<body>
+<div id="plot_3">
+
+</div>
+</body>
+<p><br></p>
 <p><strong>Interested in a comparison</strong> of <a href =XXX target = “_blank”>XXX</a>.</p>
 <p><br></p>
 <!-- **Share this article** -->
