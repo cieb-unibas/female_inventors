@@ -8,7 +8,7 @@ library(viridis)
 # Load data 
 fem_share <- read.csv2("female_inventor_share_USPTO.csv", sep = ",") 
 fem_share$female_share_inventors <- as.numeric(as.character(fem_share$female_share_inventors))
-
+fem_share <- filter(fem_share, inv_ctry %in% c("AT", "DE", "US"))
 
 # Define UI 
 ui <- fluidPage(
@@ -61,9 +61,9 @@ server <- function(input, output, session) {
     
   # dat_set <-  reactive({filter(fem_share, inv_ctry %in% input$fem_share)})
   output$fem_share_plot <- renderPlotly({
-  p <-  ggplotly(
-        ggplot(data = subset(fem_share, inv_ctry %in% input$fem_share), aes(y = inv_ctry, x = female_share_inventors, frame = p_year)) +
-          geom_col(position = "dodge2") +
+  ggplotly(
+        ggplot(data = subset(fem_share, inv_ctry %in% input$fem_share), aes(frame = p_year, fill = female_share_inventors)) +
+          geom_col(position = position_dodge2(), width = 20, aes(x = inv_ctry, y = female_share_inventors,  color = inv_ctry)) +
                scale_fill_gradient2(low = "lightgrey", high = "darkred") +
                xlab("Share of female inventors") +
                ylab("") +
@@ -78,14 +78,28 @@ server <- function(input, output, session) {
                      axis.line = element_line(),
                      axis.text = element_text(size = ifelse(session$clientData$pixelratio > 2, 7, 9), color = "#fdfafa")),
              tooltip = c("label")) %>%
-      animation_opts(frame = 1000, redraw = F) %>%
+      animation_opts(frame = 1000, redraw = T) %>%
       animation_button(label = "Start", font = list(color = "#fdfafa"), x =  ifelse(session$clientData$pixelratio > 2, -0.25, 0.0), y = 0.1) %>%
       animation_slider(currentvalue = list(visible = FALSE), bordercolor = "#fdfafa", bgcolor = "#fdfafa", x =  ifelse(session$clientData$pixelratio > 2, -0.1, 0), y = -0.06, font = list(color = "#fdfafa"), tickcolor = list(color = "#fdfafa")) %>%
       config(displayModeBar = F) %>% layout(xaxis = list(fixedrange = TRUE), yaxis = list(fixedrange = TRUE))
-  p
+  
   
 })
 }
 
 # Run the application 
 shinyApp(ui = ui, server = server)
+
+fem_share <- filter(fem_share, inv_ctry %in% c("AT", "DE", "US"))
+
+snow_plot <- fem_share %>% plot_ly(
+  x = ~inv_ctry, 
+  y = ~female_share_inventors, 
+  frame = ~p_year,
+  hoverinfo = 'text',
+  type = 'bar'
+) %>%
+  animation_opts(frame = 1000, redraw = T) %>%
+  animation_button(label = "Start", font = list(color = "#fdfafa"), x =  -0.25, y = 0.1) 
+
+snow_plot

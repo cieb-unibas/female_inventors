@@ -9,10 +9,46 @@ output:
     mathjax: null
 ---
 
-
-
+<head>
+	<!-- Load plotly.js into the DOM -->
+	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+</head>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="style.css" type="text/css" />
+
+
+
+<!-- create function for java plotly -->
+<script>
+Plotly.d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv", function(err, rows){
+
+  function unpack(rows, key) {
+  return rows.map(function(row) { return row[key]; });
+}
+
+  var data = [{
+      type: 'scatter',
+      mode: 'markers',
+      x: unpack(rows, 'lifeExp'),
+      y: unpack(rows, 'gdpPercap'),
+      text: unpack(rows, 'continent'),
+      marker: {
+        size: unpack(rows, 'pop'),
+        sizemode: "area",
+        sizeref: 200000
+      }
+    }]
+
+var layout = {
+  yaxis: {
+    type: 'log'
+  }
+}
+
+Plotly.newPlot('plot_1', data, layout)
+});
+</script>
+
 
 <div class="container-fluid main-container">
 
@@ -34,6 +70,14 @@ output:
 <iframe width="100%" height="554" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/interactive_stuff/#emp_id" id="emp_plot">
 <p>Your browser does not support iframes</p>
 </iframe>
+
+
+
+
+<!-- Add plot to html as created above -->
+<body>
+	<div id='plot_1'></div>
+</body>
 
 
 **Interested in a comparison** of <a href =XXX target = “_blank”>XXX</a>.

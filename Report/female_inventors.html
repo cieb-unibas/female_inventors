@@ -44,19 +44,49 @@
 
 
 
-<!-- ```{r setup, include=FALSE} -->
-<!-- knitr::opts_chunk$set(echo = TRUE) -->
-<!-- ``` -->
+<head>
+<!-- Load plotly.js into the DOM -->
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+</head>
 <p><link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet"> <link rel="stylesheet" href="style.css" type="text/css" /></p>
+<!-- create function for java plotly -->
+<script>
+Plotly.d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv", function(err, rows){
+
+  function unpack(rows, key) {
+  return rows.map(function(row) { return row[key]; });
+}
+
+  var data = [{
+      type: 'scatter',
+      mode: 'markers',
+      x: unpack(rows, 'lifeExp'),
+      y: unpack(rows, 'gdpPercap'),
+      text: unpack(rows, 'continent'),
+      marker: {
+        size: unpack(rows, 'pop'),
+        sizemode: "area",
+        sizeref: 200000
+      }
+    }]
+
+var layout = {
+  yaxis: {
+    type: 'log'
+  }
+}
+
+Plotly.newPlot('plot_1', data, layout)
+});
+</script>
 <div class="container-fluid main-container">
 
-<!-- <a href="http://cieb.unibas.ch/" target = "_blank">![Foo](cieb.png){ width=30% }</a> -->
 <div id="female-inventors" class="section level2">
 <h2><strong>Female inventors</strong></h2>
 <p><br></p>
 <p><em>February 2021</em> by <a href="https://wwz.unibas.ch/de/personen/matthias-niggli/" target = "_blank">Matthias Niggli</a> and <a href="https://wwz.unibas.ch/de/personen/christian-rutzer/" target = "_blank">Christian Rutzer</a></p>
 <p><br></p>
-<p><img src="title_picture.jpg" style="width:100.0%" /> <br></p>
+<p><img src="ADD.jpg" style="width:100.0%" /> <br></p>
 <hr class="hr_red">
 <div id="add-interactive-figure-here" class="section level4">
 <h4><strong>ADD interactive figure here</strong></h4>
@@ -65,7 +95,13 @@
 Your browser does not support iframes
 </p>
 </iframe>
-<p><strong>Interested in a comparison</strong> of Swiss pharma with other countries? Then check out our analysis<a href = https://innoscape.ch/en/publications/the-pharmaceutical-industry-a-driver-of-innovation-and-growth-in-switzerland target = “_blank”> The pharmaceutical industry: a driver of innovation and growth in Switzerland</a>.</p>
+<!-- Add plot to html as created above -->
+<body>
+<div id="plot_1">
+
+</div>
+</body>
+<p><strong>Interested in a comparison</strong> of <a href =XXX target = “_blank”>XXX</a>.</p>
 <p><br></p>
 <!-- **Share this article** -->
 <!-- <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://innoscape.ch/en/publications/cross-border-commuting-and-inventions-made-in-switzerland" data-a2a-title="Analysis within Innoscape: Cross-border commuting and inventions Made in Switzerland"> -->
