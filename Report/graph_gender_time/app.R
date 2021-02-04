@@ -7,7 +7,7 @@ library(viridis)
 
 # Load data 
 fem_share <- read.csv2("female_inventor_share_USPTO.csv", sep = ",") 
-fem_share$female_share_inventors <- as.numeric(as.character(fem_share$female_share_inventors))
+fem_share$female_share_inventors <- round(as.numeric(as.character(fem_share$female_share_inventors))*100, 2)
 fem_share$female_share_inventors_round <- round(fem_share$female_share_inventors, 2)
 fem_share$info <- ifelse(fem_share$female_share_inventors == 0, "not enough\nobservations", " ")
 
@@ -75,7 +75,7 @@ server <- function(input, output, session) {
     type = 'bar',
     text = ~info) %>% 
     add_text(textposition = "top") %>%
-    config(displayModeBar = F) %>% layout(yaxis = list(title = "Proportion of women\namong all inventors", fixedrange = TRUE), xaxis = list(title = "", fixedrange = TRUE), showlegend = F) %>%
+    config(displayModeBar = F) %>% layout(yaxis = list(title = "Percentage of women\namong all inventors", fixedrange = TRUE), xaxis = list(title = "", fixedrange = TRUE), showlegend = F) %>%
     animation_opts(frame = 500, redraw = F) %>%
     animation_slider(currentvalue = list(visible = FALSE), bgcolor = "white", x =  ifelse(session$clientData$pixelratio > 2, -0.1, 0), y = -0.06, font = list(color = "black"), 
                      tickcolor = list(color = "black")) %>%
