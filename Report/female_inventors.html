@@ -49,7 +49,7 @@
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 </head>
 <p><link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet"> <link rel="stylesheet" href="style.css" type="text/css" /></p>
-<!-- create function for java plotly -->
+<!-- TEST EXAMPLE: create function for java plotly -->
 <script>
 Plotly.d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv", function(err, rows){
 
@@ -79,6 +79,34 @@ var layout = {
 Plotly.newPlot('plot_1', data, layout)
 });
 </script>
+<!-- FIGURE 1: SCATTERPOLOT WITH 45 DEGREE LINE -->
+<script>
+Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv?token=AJTHWUVQ2WU2CGMQ66E4TQ3ADQAXU", function(err, rows){
+
+  function unpack(rows, key) {
+  return rows.map(function(row) { return row[key]; });
+}
+
+  var data = [{
+      type: 'scatter',
+      mode: 'markers',
+      x: unpack(rows, 'female_share_graduates'),
+      y: unpack(rows, 'female_share_inventors'),
+      text: unpack(rows, 'inv_ctry'),
+      <!-- marker: { -->
+      <!--   size: unpack(rows, 'total_graduates'), -->
+      <!--   sizemode: "area", -->
+      <!-- } -->
+    }]
+
+var layout = {
+  xaxis: {range: [0, 0.75]},
+  yaxis: {range: [0, 0.6]}
+};
+
+Plotly.newPlot('plot_2', data, layout)
+});
+</script>
 <div class="container-fluid main-container">
 
 <div id="female-inventors" class="section level2">
@@ -88,16 +116,19 @@ Plotly.newPlot('plot_1', data, layout)
 <p><br></p>
 <p><img src="ADD.jpg" style="width:100.0%" /> <br></p>
 <hr class="hr_red">
-<div id="add-interactive-figure-here" class="section level4">
-<h4><strong>ADD interactive figure here</strong></h4>
+<div id="proportion-of-women-among-all-inventors-over-time" class="section level4">
+<h4><strong>Proportion of women among all inventors over time</strong></h4>
 <iframe width="100%" height="554" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/graph_gender_time" id="emp_plot">
 <p>
 Your browser does not support iframes
 </p>
 </iframe>
 <!-- Add above created plot to html -->
+<!-- <body> -->
+<!--    <div id='plot_1'></div> -->
+<!-- </body> -->
 <body>
-<div id="plot_1">
+<div id="plot_2">
 
 </div>
 </body>

@@ -18,7 +18,7 @@ output:
 
 
 
-<!-- create function for java plotly -->
+<!-- TEST EXAMPLE: create function for java plotly -->
 <script>
 Plotly.d3.csv("https://raw.githubusercontent.com/plotly/datasets/master/gapminderDataFiveYear.csv", function(err, rows){
 
@@ -49,6 +49,35 @@ Plotly.newPlot('plot_1', data, layout)
 });
 </script>
 
+<!-- FIGURE 1: SCATTERPOLOT WITH 45 DEGREE LINE -->
+<script>
+Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv?token=AJTHWUVQ2WU2CGMQ66E4TQ3ADQAXU", function(err, rows){
+
+  function unpack(rows, key) {
+  return rows.map(function(row) { return row[key]; });
+}
+
+  var data = [{
+      type: 'scatter',
+      mode: 'markers',
+      x: unpack(rows, 'female_share_graduates'),
+      y: unpack(rows, 'female_share_inventors'),
+      text: unpack(rows, 'inv_ctry'),
+      <!-- marker: { -->
+      <!--   size: unpack(rows, 'total_graduates'), -->
+      <!--   sizemode: "area", -->
+      <!-- } -->
+    }]
+
+var layout = {
+  xaxis: {range: [0, 0.75]},
+  yaxis: {range: [0, 0.6]}
+};
+
+Plotly.newPlot('plot_2', data, layout)
+});
+</script>
+
 
 <div class="container-fluid main-container">
 
@@ -72,11 +101,13 @@ Plotly.newPlot('plot_1', data, layout)
 </iframe>
 
 
-
-
 <!-- Add above created plot to html -->
+<!-- <body> -->
+<!-- 	<div id='plot_1'></div> -->
+<!-- </body> -->
+
 <body>
-	<div id='plot_1'></div>
+	<div id='plot_2'></div>
 </body>
 
 
