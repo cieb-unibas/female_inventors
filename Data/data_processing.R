@@ -171,16 +171,16 @@ print("Data for animated plot saved")
 
 ## FIGURE 2 & 3: FEMALE INVENTOR SHARES AND FEMALE UNIVERSITY GRADUATES IN NATURAL SCIENCES
 plot_dat <- female_inv_shares %>%
-  filter(FIELD == "F05", ISC11_LEVEL == "L7",
-         p_year >= 2010, p_year <= 2017,
-         total_graduates > 30,
-         total_inventors > 30) %>%
-  group_by(inv_ctry) %>% summarize(total_graduates = sum(total_graduates),
-                                    total_inventors = sum(total_inventors),
-                                    female_inventors = sum(female_inventors),
-                                    female_graduates = sum(female_graduates)) %>%
+  filter(#FIELD == "F05", ISC11_LEVEL == "L7", # natrual sciences only
+         FIELD %in% c("F05", "F06", "F07"), # all fields and at least master degree
+         p_year >= 2005, p_year <= 2015) %>%
+  group_by(inv_ctry) %>% summarize(total_graduates = sum(total_graduates, na.rm = TRUE),
+                                    total_inventors = sum(total_inventors, na.rm = TRUE),
+                                    female_inventors = sum(female_inventors, na.rm = TRUE),
+                                    female_graduates = sum(female_graduates, na.rm = TRUE)) %>%
   mutate(female_share_inventors = female_inventors / total_inventors,
-         female_share_graduates = female_graduates / total_graduates)
+         female_share_graduates = female_graduates / total_graduates) %>% 
+  filter(total_inventors >= 300, total_graduates >= 300)
 
 write.csv(plot_dat, "Report/female_inventors_graduates_USPTO.csv", row.names = FALSE)
 print("Data for static plots saved.")
@@ -204,7 +204,7 @@ ggplot(plot_dat, aes(x = female_share_graduates,
                       y = female_share_inventors))+
   geom_point(aes(size = total_graduates), alpha = 0.5, color = "steelblue")+
   geom_text(aes(label = inv_ctry), size = 3, nudge_y = 0.005, nudge_x = -0.003)+
-  xlim(0.4, 0.75)+
+  xlim(0, 0.75)+
   ylim(0, 0.4)+
   labs(x = "Female Graduate Share in Natural Sciences", y = "Female Inventor Share")+
   geom_vline(xintercept = mean(plot_dat$female_share_graduates), 
