@@ -30,23 +30,49 @@ if(substr(getwd(), nchar(getwd())-15, nchar(getwd())) != "female_inventors"){
 ##################################
 
 #### Load OECD data on gender shares of university graduates
-grad_dat <- read.csv("Data/oecd_graduates.csv")
-total_year <- grad_dat %>% filter(SEX == "T") %>% 
-  select(COUNTRY, FIELD, Field, ISC11_LEVEL, YEAR, Value) %>%
+
+# # (a) Natural Sciences only:
+# grad_dat <- read.csv("Data/oecd_graduates.csv") 
+# total_year <- grad_dat %>% filter(SEX == "T") %>% 
+#   select(COUNTRY, FIELD, Field, ISC11_LEVEL, YEAR, Value) %>%
+#   rename(total_graduates = Value)
+# grad_dat <- grad_dat %>% filter(SEX == "F") %>% 
+#   select(COUNTRY, SEX, FIELD, ISC11_LEVEL, YEAR, Value)
+# grad_dat <- merge(grad_dat, total_year, 
+#                   by = c("COUNTRY", "FIELD", "ISC11_LEVEL", "YEAR"),
+#                   all.x = TRUE)
+# total_year <- NULL
+# grad_dat <- mutate(grad_dat, female_share_graduates = Value / total_graduates)
+# grad_dat <- grad_dat[is.nan(grad_dat$female_share_graduates) == FALSE &
+#                        is.na(grad_dat$female_share_graduates) == FALSE, ]
+# grad_dat$COUNTRY <- countrycode(grad_dat$COUNTRY, "iso3c", "iso2c")
+# grad_dat <- rename(grad_dat, inv_ctry = COUNTRY, p_year = YEAR, 
+#                    female_graduates = Value)
+# grad_dat <- select(grad_dat, - SEX)
+
+# (b) Natural Sciences, ICT and Engineering fields
+grad_dat <- read.csv("Data/oecd_graduates_allFields.csv")
+names(grad_dat)[1] <- "COUNTRY"
+grad_dat <- grad_dat %>% #select(-SEX, -Country.of.origin, -COUNTRY_ORIGIN, -Level.of.education,
+                                # -YEAR, -Unit.Code, -Unit, -PowerCode, -PowerCode.Code, -Flag.Codes,
+                                # -Flags, -Reference.Period.Code, -Reference.Period, -ISC11P_CAT) %>%
+  filter(Category.of.education == "All educational programmes")
+
+total_year <- grad_dat %>% filter(Sex == "Total") %>% 
+  select(COUNTRY, FIELD, Field, Year, Value) %>%
   rename(total_graduates = Value)
-grad_dat <- grad_dat %>% filter(SEX == "F") %>% 
-  select(COUNTRY, SEX, FIELD, ISC11_LEVEL, YEAR, Value)
+grad_dat <- grad_dat %>% filter(Sex == "Women") %>% 
+  select(COUNTRY, FIELD, Year, Value)
 grad_dat <- merge(grad_dat, total_year, 
-                  by = c("COUNTRY", "FIELD", "ISC11_LEVEL", "YEAR"),
-                  all.x = TRUE)
+                  by = c("COUNTRY", "FIELD", "Year"), all = TRUE)
 total_year <- NULL
 grad_dat <- mutate(grad_dat, female_share_graduates = Value / total_graduates)
 grad_dat <- grad_dat[is.nan(grad_dat$female_share_graduates) == FALSE &
                        is.na(grad_dat$female_share_graduates) == FALSE, ]
 grad_dat$COUNTRY <- countrycode(grad_dat$COUNTRY, "iso3c", "iso2c")
-grad_dat <- rename(grad_dat, inv_ctry = COUNTRY, p_year = YEAR, 
+grad_dat <- rename(grad_dat, inv_ctry = COUNTRY, p_year = Year, 
                    female_graduates = Value)
-grad_dat <- select(grad_dat, - SEX)
+
 print("Data on university graduates ready for analysis")
 
 #### USPTO patent inventor data with gender information
