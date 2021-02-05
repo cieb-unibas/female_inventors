@@ -97,11 +97,11 @@ Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/ma
   var data = [{
       type: 'scatter',
       mode: 'markers+text',
-      marker: {color: ['blue', 'blue', 'blue', 'blue', 'blue', 'red', 'blue',
-                        'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue'
-                        'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue',
-                        'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue',
-                        'blue', 'blue', 'blue', 'blue', 'blue']},
+      <!-- ALTERNATIVE: https://community.plotly.com/t/color-a-group-of-individual-points-in-boxplot/10432/2 -->
+      marker: { color:  ['blue', 'blue', 'blue', 'blue', 'blue', 
+                         'red',
+                         'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue',
+                         'blue', 'blue', 'blue']},
       x: unpack(rows, 'female_share_graduates'),
       y: unpack(rows, 'female_share_inventors'),
       text: unpack(rows, 'inv_ctry'),
