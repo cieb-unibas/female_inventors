@@ -35,20 +35,21 @@ Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/ma
                          'blue', 'blue', 'blue', 'blue', 'blue', 
                          'blue', 'blue', 'blue', 'blue', 'blue', 
                          'blue', 'blue', 'blue', 'blue', 'blue',
-                         'blue', 'blue']},
+                         'blue', 'blue', 'blue', 'blue', 'blue',
+                         'blue', 'blue', 'blue', 'blue']},
       x: unpack(rows, 'female_share_graduates'),
       y: unpack(rows, 'female_share_inventors'),
+      hoverinfo: 'markers',
       text: unpack(rows, 'inv_ctry')
     }]
     
   var layout = {
     xaxis: {range: [0, 0.75], tickformat: ',.1%', 
-            title: {text: 'Female Graduate Share in STEM Fields <br> (2005-2015 Average)'},
+            title: {text: '<b>Female Graduate Share in STEM Fields <br> (2005-2015 Average)</b>'},
             showgrid: false},
     yaxis: {range: [0, 0.6], tickformat: ',.1%',
-            title: {text: 'Female Inventor Share <br> (2005-2015 Average)'},
+            title: {text: '<b>Female Inventor Share <br> (2005-2015 Average)</b>'},
             showgrid: false},
-
     shapes: [{
       type: 'line',
       x0: 0,
@@ -64,58 +65,57 @@ Plotly.newPlot('plot_2', data, layout)
 </script>
 
 <!-- FIGURE 3: SCATTERPOLOT FOR COUNTRY COMPARISON -->
-<script>
-Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv", function(err, rows){
+<!-- <script> -->
+<!-- Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv", function(err, rows){ -->
 
-  function unpack(rows, key) {
-  return rows.map(function(row) { return row[key]; });
-}
+<!--   function unpack(rows, key) { -->
+<!--   return rows.map(function(row) { return row[key]; }); -->
+<!-- } -->
 
-  var data = [{
-      type: 'scatter',
-      mode: 'markers+text',
-      <!-- @MN: Das Problem war ein fehlendes Komma :) -->
-      marker: { color:  ['blue', 'blue', 'blue', 'blue', 'blue', 
-                         'red',
-                         'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue',
-                         'blue', 'blue', 'blue']},
-      x: unpack(rows, 'female_share_graduates'),
-      y: unpack(rows, 'female_share_inventors'),
-      text: unpack(rows, 'inv_ctry'),
-      textposition: 'bottom center'
-    }]
-    
-  var layout = {
-    xaxis: {range: [0.25, 0.5], tickformat: ',.1%',
-            title: {text: 'Female Graduate Share in STEM Fields <br> (2005-2015 Average)'},
-            showgrid: false},
-    yaxis: {range: [0, 0.35], tickformat: ',.1%',
-            title: {text: 'Female Inventor Share <br> (2005-2015 Average)'},
-            showgrid: false, showline: true},
-    shapes: [
-    {
-      type: 'line',
-      x0: 0.355,
-      y0: 0,
-      x1: 0.355,
-      y1: 0.35,
-      line: {dash: 'dot'}
-    },
-    {
-      type: 'line',
-      x0: 0.25,
-      y0: 0.104,
-      x1: 0.5,
-      y1: 0.104,
-      line: {dash: 'dot'}
-    }
-    ]
-};
+<!--   var data = [{ -->
+<!--       type: 'scatter', -->
+<!--       mode: 'markers+text', -->
+<!--       <!-- @MN: Das Problem war ein fehlendes Komma :) --> -->
+<!--       marker: { color:  ['blue', 'blue', 'blue', 'blue', 'blue',  -->
+<!--                          'red', -->
+<!--                          'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', -->
+<!--                          'blue', 'blue', 'blue']}, -->
+<!--       x: unpack(rows, 'female_share_graduates'), -->
+<!--       y: unpack(rows, 'female_share_inventors'), -->
+<!--       text: unpack(rows, 'inv_ctry'), -->
+<!--       textposition: 'bottom center' -->
+<!--     }] -->
 
-Plotly.newPlot('plot_3', data, layout)
-});
-</script>
+<!--   var layout = { -->
+<!--     xaxis: {range: [0.25, 0.5], tickformat: ',.1%', -->
+<!--             title: {text: 'Female Graduate Share in STEM Fields <br> (2005-2015 Average)'}, -->
+<!--             showgrid: false}, -->
+<!--     yaxis: {range: [0, 0.35], tickformat: ',.1%', -->
+<!--             title: {text: 'Female Inventor Share <br> (2005-2015 Average)'}, -->
+<!--             showgrid: false, showline: true}, -->
+<!--     shapes: [ -->
+<!--     { -->
+<!--       type: 'line', -->
+<!--       x0: 0.355, -->
+<!--       y0: 0, -->
+<!--       x1: 0.355, -->
+<!--       y1: 0.35, -->
+<!--       line: {dash: 'dot'} -->
+<!--     }, -->
+<!--     { -->
+<!--       type: 'line', -->
+<!--       x0: 0.25, -->
+<!--       y0: 0.104, -->
+<!--       x1: 0.5, -->
+<!--       y1: 0.104, -->
+<!--       line: {dash: 'dot'} -->
+<!--     } -->
+<!--     ] -->
+<!-- }; -->
 
+<!-- Plotly.newPlot('plot_3', data, layout) -->
+<!-- }); -->
+<!-- </script> -->
 
 <div class="container-fluid main-container">
 
@@ -146,13 +146,14 @@ Plotly.newPlot('plot_3', data, layout)
 	<div id='plot_2'></div>
 </body>
 
-<hr class="hr_red">
-#### **Female inventor shares and female graduate shares in natural sciences**
-<body>
-	<div id='plot_3'></div>
-</body>
 
 <br>
+
+<hr class="hr_red">
+#### **Female inventor shares and female graduate shares in natural sciences**
+<iframe width="100%" height="554" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/graph_gender_techgroup/" id="share_tech_plot">
+<p>Your browser does not support iframes</p>
+</iframe>
 
 
 **Interested in a comparison** of <a href =XXX target = “_blank”>XXX</a>.
