@@ -123,16 +123,15 @@ paste("Female inventor share is:", round(female_inv / total_inv, 4) * 100, "%")
 female_inv_shares <- gender %>% distinct(id, p_year, .keep_all = TRUE) %>%
   group_by(inv_ctry, p_year) %>%
   summarise(total_inventors = n(),
-            female_inventors = sum(gender == 0, na.rm = TRUE),
-            female_share_inventors = female_inventors / total_inventors)%>%
-  filter(total_inventors > 30)
+            female_inventors = sum(gender == 0, na.rm = TRUE))
+
+female_inv_shares$Country <- countrycode(female_inv_shares$inv_ctry, "iso2c", "country.name.en")
 
 # add female graduate data
-female_inv_shares$inv_ctry <- trimws(female_inv_shares$inv_ctry)
-female_inv_shares <- merge(female_inv_shares, grad_dat, 
-                           by = c("inv_ctry", "p_year"), all = TRUE)
-female_inv_shares$Country <- countrycode(female_inv_shares$inv_ctry,
-                                         "iso2c", "country.name.en")
+# female_inv_shares$inv_ctry <- trimws(female_inv_shares$inv_ctry)
+# female_inv_shares <- merge(female_inv_shares, grad_dat, 
+#                            by = c("inv_ctry", "p_year"), all = TRUE)
+
 
 plot_dat_1 <- female_inv_shares
 plot_dat_1 <- setDT(plot_dat_1)[order(p_year), .SD, by = .(inv_ctry)]
@@ -143,8 +142,8 @@ plot_dat_1 <- mutate(plot_dat_1, female_share_inventors_5 = female_inventors_5 /
 
 plot_dat_1 <- plot_dat_1 %>%
   filter(p_year >= 1980, p_year <= 2019,
-         total_inventors_5 > 30) %>% 
-  dplyr::select(p_year, Country, inv_ctry, female_share_inventors_5, total_inventors) %>%
+         total_inventors_5 > 60) %>% 
+  dplyr::select(p_year, Country, inv_ctry, female_share_inventors_5, total_inventors_5) %>%
   distinct(p_year, inv_ctry, .keep_all = TRUE)
 
 # Create observation for missings and set them to zero / important for dynamic plot
@@ -231,10 +230,12 @@ plot_dat <- merge(plot_dat, grad_shares, by = "inv_ctry", all = TRUE)
 # (4) calculate female inventor shares for the overall economies:
 tmp <- gender %>% distinct(id, p_year, .keep_all = TRUE) %>%
   group_by(inv_ctry) %>%
+  filter(p_year >= 2005 & p_year <= 2015) %>% 
   summarise(total_inventors = n(),
             female_inventors = sum(gender == 0, na.rm = TRUE)) %>%
   mutate(female_share_inventors = female_inventors / total_inventors,
          tech_group = "Overall")
+
 
 # (5) add graduates information to female shares in the overall economy
 MERGE_VARS <- c("inv_ctry", names(plot_dat)[!names(plot_dat) %in% names(tmp)])
