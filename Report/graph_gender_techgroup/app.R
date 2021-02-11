@@ -70,16 +70,20 @@ server <- function(input, output, session) {
     x = ~female_share_graduates, 
     y = ~female_share_inventors,
     type = 'scatter',
-    mode = 'markers+text',
-    text = ~inv_ctry,
+    mode = 'markers',
+    text = ~country,
     hoverinfo = "markers",
-    hovertemplate = paste0('Female Inventor Share: %{y}\n',
+    hovertemplate = paste0('Country: %{text}\n',
+                         'Female Inventor Share: %{y}\n',
                          'Female Graduate Share: %{x}<extra></extra>'),
     textposition = "top center",
     marker =  list(color= c('blue', 'blue', 'blue', 'blue', 'blue', 
                                  'red',
                                  'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue',
                                  'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue'))) %>% 
+    add_annotations(text = ~inv_ctry,
+                    showarrow = F,
+                    yanchor = "bottom") %>%
     config(displayModeBar = F) %>% layout(yaxis = list(range = c(min(dat_set_tech()$female_share_inventors) - 0.01, max(dat_set_tech()$female_share_inventors) + 0.015), title = "<b>Female Inventor Share\n(2005-2015 Average)</b>", fixedrange = TRUE, tickformat = ',.1%'), 
                                           xaxis = list(range = c(min(dat_set_tech()$female_share_graduates) - 0.01, max(dat_set_tech()$female_share_graduates) + 0.015), title = "<b>Female Graduate Share in STEM Fields\n(2005-2015 Average)</b>", fixedrange = TRUE, tickformat = ',.1%'), showlegend = F) %>%
     add_segments(x = mean(dat_set_tech()$female_share_graduates), xend = mean(dat_set_tech()$female_share_graduates), y = min(dat_set_tech()$female_share_inventors) - 0.02, yend = max(dat_set_tech()$female_share_inventors) + 0.02, color = I("black"), line = list(dash = "dash", width = 0.1)) %>%

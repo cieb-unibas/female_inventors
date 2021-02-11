@@ -165,8 +165,10 @@ plot_dat_1 <- mutate(plot_dat_1, country = ifelse(is.na(country), countrycode(in
 # Keep only countries having the most inventors
 sum_inv <- aggregate(total_inventors ~ inv_ctry, data =  female_inv_shares, FUN = sum, na.rm = T) %>% arrange(-total_inventors)
 plot_dat_1 <- filter(plot_dat_1, inv_ctry %in% sum_inv[1:40, "inv_ctry"])
+plot_dat_1 <- filter(plot_dat_1, !(inv_ctry %in% c("HU")))
+plot_dat_1 <- dplyr::select(plot_dat_1, -X)
 
-write.csv(plot_dat_1, "Report/graph_gender_time/female_inventor_share_USPTO.csv")
+write.csv(plot_dat_1, "/scicore/home/weder/rutzer/innoscape/female_inventors/Report/graph_gender_time/female_inventor_share_USPTO.csv", row.names = FALSE)
 print("Data for animated plot saved")
 
 
@@ -245,13 +247,14 @@ tmp <- merge(tmp, plot_dat[!duplicated(plot_dat$inv_ctry), MERGE_VARS], by = "in
 tmp <- tmp[, names(plot_dat)]
 plot_dat <- rbind(plot_dat, tmp)
 plot_dat <- plot_dat[complete.cases(plot_dat), ]
+plot_dat <- mutate(plot_dat, country = countrycode(inv_ctry, "iso2c", "country.name.en"))
 
 # (7) save datasets
-write.csv(plot_dat, "Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO.csv", row.names = FALSE)
+write.csv(plot_dat, "/scicore/home/weder/rutzer/innoscape/female_inventors/Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO.csv", row.names = FALSE)
 print("Data for dynamic plot saved.")
 
 write.csv(plot_dat[plot_dat$tech_group == "Overall", ], 
-          "Report/female_inventors_graduates_USPTO.csv", row.names = FALSE)
+          "/scicore/home/weder/rutzer/innoscape/female_inventors/Report/female_inventors_graduates_USPTO.csv", row.names = FALSE)
 print("Data for static plot saved.")
 
 
