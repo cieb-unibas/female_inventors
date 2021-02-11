@@ -60,7 +60,7 @@ Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/ma
     }]
 };
 
-Plotly.newPlot('plot_2', data, layout)
+Plotly.newPlot('plot_2', data, layout,  {displayModeBar: false})
 });
 </script>
 
