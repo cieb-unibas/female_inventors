@@ -1,23 +1,19 @@
 ---
-title: ''
 output:
   html_document:
     self_contained: false
     theme: null
-    css: null
+    css: "https://innoscape.de/female_share/style.css"
     highlight: null
     mathjax: null
 ---
-
 <head>
-	<!-- Load plotly.js into the DOM -->
-	<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 </head>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="style.css" type="text/css" />
 
-
-<!-- FIGURE 2: SCATTERPOLOT WITH 45 DEGREE LINE -->
+<!-- Create FIGURE 2: SCATTERPOLOT WITH 45 DEGREE LINE -->
 <script>
 Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv", function(err, rows){
 
@@ -64,128 +60,125 @@ Plotly.newPlot('plot_2', data, layout,  {displayModeBar: false})
 });
 </script>
 
-<!-- FIGURE 3: SCATTERPOLOT FOR COUNTRY COMPARISON -->
-<!-- <script> -->
-<!-- Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv", function(err, rows){ -->
-
-<!--   function unpack(rows, key) { -->
-<!--   return rows.map(function(row) { return row[key]; }); -->
-<!-- } -->
-
-<!--   var data = [{ -->
-<!--       type: 'scatter', -->
-<!--       mode: 'markers+text', -->
-<!--       <!-- @MN: Das Problem war ein fehlendes Komma :) --> -->
-<!--       marker: { color:  ['blue', 'blue', 'blue', 'blue', 'blue',  -->
-<!--                          'red', -->
-<!--                          'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', -->
-<!--                          'blue', 'blue', 'blue']}, -->
-<!--       x: unpack(rows, 'female_share_graduates'), -->
-<!--       y: unpack(rows, 'female_share_inventors'), -->
-<!--       text: unpack(rows, 'inv_ctry'), -->
-<!--       textposition: 'bottom center' -->
-<!--     }] -->
-
-<!--   var layout = { -->
-<!--     xaxis: {range: [0.25, 0.5], tickformat: ',.1%', -->
-<!--             title: {text: 'Female Graduate Share in STEM Fields <br> (2005-2015 Average)'}, -->
-<!--             showgrid: false}, -->
-<!--     yaxis: {range: [0, 0.35], tickformat: ',.1%', -->
-<!--             title: {text: 'Female Inventor Share <br> (2005-2015 Average)'}, -->
-<!--             showgrid: false, showline: true}, -->
-<!--     shapes: [ -->
-<!--     { -->
-<!--       type: 'line', -->
-<!--       x0: 0.355, -->
-<!--       y0: 0, -->
-<!--       x1: 0.355, -->
-<!--       y1: 0.35, -->
-<!--       line: {dash: 'dot'} -->
-<!--     }, -->
-<!--     { -->
-<!--       type: 'line', -->
-<!--       x0: 0.25, -->
-<!--       y0: 0.104, -->
-<!--       x1: 0.5, -->
-<!--       y1: 0.104, -->
-<!--       line: {dash: 'dot'} -->
-<!--     } -->
-<!--     ] -->
-<!-- }; -->
-
-<!-- Plotly.newPlot('plot_3', data, layout) -->
-<!-- }); -->
-<!-- </script> -->
 
 <div class="container-fluid main-container">
 
-## **Female inventors**
+<!-- START with text -->
 
+## **Female inventors**
 <br>
 
 *February 2021* by <a href="https://wwz.unibas.ch/de/personen/matthias-niggli/" target = "_blank">Matthias Niggli</a> and <a href="https://wwz.unibas.ch/de/personen/christian-rutzer/" target = "_blank">Christian Rutzer</a> 
+<br>
 
+![](XXXXXXX.jpg){width=100%}
+
+Picture: <a href="XXXXXXXXX" target = "_blank">XXXXX | XXXX</a>
 
 <br>
 
+**ABSTRACT **
 
-![](ADD.jpg){width=100%}
+<br>
+
+It was only 50 years ago when Switzerland finally introduced the legal right for women to vote. Since then, women have continued fighting for gender equality and equal representation in politics, the civil society, and the economy. Progress has been made but has generally taken a long time and women remain underrepresented in many fields. This is especially the case in the labor market. For example, according to the <a href = https://www.nzz.ch/wirtschaft/bei-den-100-groessten-schweizer-arbeitgebern-gibt-es-vier-weibliche-ceo-und-genauso-viele-maennliche-die-urs-heissen-ld.1395202?reduced=true target = “_blank”>NZZ, 2018</a>, only 4 of the 100 largest Swiss employers had a female CEO in 2018, and a <a href = https://business-monitor.ch/de/reports/gender-equality-2019 target = “_blank”>Business Monitor</a> survey found that the female share in management positions of Swiss companies was only 23.9 percent in 2019. 
+
+
+Another domain where women tend to be still underrepresented is in companies’ innovative activities. For example, the <a href = https://www.uspto.gov/sites/default/files/documents/OCE-DH-Progress-Potential-2020.pdf target = “_blank”> United States Patent and Trademark Office (USPTO)</a> recently reported that the share of patents with at least one female inventor was 21.9 percent in 2019. Although this share has constantly increased since the 1980s, women are still clearly underrepresented in R&D. 
+
+This is obviously problematic regarding equal gender representation as such, but can it also be of concern beyond such considerations? As innovations and technical inventions are the main drivers for growth and prosperity in the long run, there might be several economic reasons, too. First, if there are much more potential female scientists and engineers than currently involved in innovative activities, the economy is most probably not able to employ the skills of its domestic workforce in an optimal way. Stated differently, if more women could be attracted for R&D careers, this could result in more innovation and growth (<a href = https://papers.ssrn.com/sol3/papers.cfm?abstract_id=1964782 target = “_blank”>Bedee et al., 2011</a>). Second, mixed teams simply tend to perform better. This has been shown for more diverse management (<a href = https://onlinelibrary.wiley.com/doi/pdf/10.1002/smj.1955?casa_token=yOShOsPuKLAAAAAA%3ALy83ED8GcfSsa6l6gguIlO4d0z53f17_iP72EV4Izv0NdeBcAsmAFnXRlkvTZ7UPQ-S3IOJn4QZqaSaFTg target = “_blank”>Dezsoe & Gaddis Ross, 2012</a>) and research teams (<a href = https://www.worldscientific.com/doi/abs/10.1142/S1363919620500619 target = “_blank”>Wikhamn & Wikhamn, 2020</a>) alike. Hence, the potential economic advantages of increasing the share of female inventors are straightforward: More female inventors may not only increase the *quantity* of innovations, but also improve their overall *quality*. 
+
+Interestingly, some countries have been more successful than others in achieving higher levels of female participation in R&D, as Figure 1 shows. The graph is based on data from the <a href = https://www.uspto.gov/ target = “_blank”> United States Patent and Trademark Office (USPTO)</a> that allows to compare countries over a long period of time and states the shares of female patent inventors across the most important patenting countries. At the beginning of the 1980s the rate of female inventors has been very low in almost all countries. But it was especially low for Switzerland where less than two out of 100 inventors of Swiss patents published at the USPTO were women. Female representation in Switzerland has improved somewhat over the last 40 years, but still in 2019 only 9 out of 100 inventors of Swiss patents were female. 
+
+<div class=bloc_div>
+<blockquote>***In 2019 only 9 out of 100 inventors of Swiss patents were female***</blockquote>
+</div>
+
+
+This puts Switzerland somewhere in the lower midfield in a country-comparison. Over time, the female share of inventors increased steadily in most countries but it never got close to an equal representation of men and women in any country. At the same time, there are a lot of differences among countries: For example, in 2019 still less than 7 out of 100 inventors were women in Germany. In turn, Asian countries and territories such as Hong-Kong, South Korea and Taiwan had rather high rates of around 20 women per 100 inventors. 
+
 <br>
 
 <hr class="hr_red">
-#### **Proportion of women among all inventors over time**
-<iframe width="100%" height="554" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/graph_gender_time" id="emp_plot">
+#### **Figure 1: Proportion of women among all inventors over time**
+<iframe width="100%" height="400" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/graph_gender_time" id="emp_plot">
 <p>Your browser does not support iframes</p>
 </iframe>
 
 <br>
 
+What could be reasons for these low female shares? One reason could simply be that not so many women graduate in fields like Science, Technology, Engineering or Mathematics (so-called STEM fields) which is generally a precondition to become an inventor. This would suggest that the overall supply of potential female inventors is rather low. Another point could be that among the female graduates in STEM fields, not so many become inventors. This, in turn, would imply that inventor careers are less attractive for women compared to men. Figure 2 allows to investigate both of these channels. We use the same USPTO data as before to calculate female inventor shares (stated on the vertical y-axis states) and put it in relation to data from the <a href="https://stats.oecd.org/index.aspx?queryid=79486#" target="_blank">OECD</a> on female STEM graduate shares (stated on the horizontal x-axis) for the period 2005-2015. Data is available for all countries within this period. Moreover, we use aggregate data of this 10-year period to smooth out yearly fluctuations. Every point in Figure 2 represents a country and we plotted the point for Switzerland red for better visibility.
+
+<br>
+
 <hr class="hr_red">
-#### **Female inventor shares and female graduate shares in natural sciences**
+#### **Figure 2: Female inventor shares and female graduate shares in natural sciences**
 <body>
-	<div id='plot_2'></div>
+<div id='plot_2'></div>
 </body>
 
+<br>
+
+The average share of female STEM graduates across all countries is xx percent, which confirms the well-known underrepresentation of women in these fields. However, it is interesting to note that the shares vary considerably across countries. For example, Eastern and Southern European countries tend to have higher female graduate shares (e.g. Poland, Estonia, Italy, or Greece). Therefore, it might well be possible to increase female graduate shares in STEM. 
+Even more striking is that every country in our sample is below the dashed diagonal line (see the blue dots in the graph). This diagonal line shows the female inventor shares that could be achieved if countries would exactly employ the same proportion of women in R&D as they train through their education systems. Take Switzerland for example: 28.5 percent of all students who graduated in STEM fields between 2005 and 2015 were women. However, Switzerland’s female inventor share was only 8.6 percent for the same period. Hence, only a very disproportional share of Swiss female STEM graduates pursues inventor careers. Now, since all countries are located below the diagonal line, the share of female patent inventors is *lower* than the share of female STEM graduates in *every* country. Spoken differently, not only are there relatively few female STEM graduates in many countries, but those women who chose to study a STEM field are less likely to end up in a R&D career compared to their male peers. And the farther away a country is positioned from the diagonal line, the more apparent is this problem. 
+
+<br>
+
+## **Female shares differ substantially among countries**
+
+<br>
+
+That said, there are notable differences between countries. Figure 3 zooms in to examine such differences between countries more closely. The zoomed plot shows the same relationship as the graph before, but additionally depicts the average female inventor share (the dashed horizontal line) and the average female STEM graduate share (the dashed vertical line) across countries. 
 
 <br>
 
 <hr class="hr_red">
-#### **Female inventor shares and female graduate shares in natural sciences**
-<iframe width="100%" height="554" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/graph_gender_techgroup/" id="share_tech_plot">
+#### **Figure 3: Female inventor shares and female graduate shares in natural sciences**
+<iframe width="100%" height="400" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/graph_gender_techgroup/" id="share_tech_plot">
 <p>Your browser does not support iframes</p>
 </iframe>
 
+<br>
 
-**Interested in a comparison** of <a href =XXX target = “_blank”>XXX</a>.
+Noticeable, Japan and Korea are relatively close to the diagonal line, suggesting that these countries are relatively more successful in motivating female STEM graduates to become inventors. However, there are some caveats to this argument. As you can see, both countries have rather low female inventor shares in the first place. This could mean that among their female graduates there are more who want to become inventors than in other countries. Another argument might be that the observed advantage of these countries could be driven by country-specific industry specialization. Think about it this way: If there are some technology areas where women inventors are more adequately represented (for example Chemistry compared to Mechanical Engineering), a country that specializes in such technology areas might have a higher overall female share. But this higher overall share would not be due to some successful policy framework in this country, but rather to industry specialization. 
+
+Figure 3 allows us to examine the latter caveat by selecting a technology area in the slider panel. After selecting a given technology area, the graph states female inventor shares of patents exclusively from this technology area across countries. What can be seen is that country-level differences in female inventor shares are generally less pronounced within the same technology area. For example, countries are more closely positioned to each other along the y-axis in the fields “Mechanical Engineering” or “Electrical Engineering”. Accordingly, technological specialization seems to play a role for differences across countries. However, substantial gaps remain between countries (e.g. in “Chemistry”) and Korea and Japan are always the countries that are most closely located towards the 45-degree line. This suggests that beyond industry characteristics, policies and cultural norms are also important. 
+
+Let us now switch back to the female inventor shares in the overall economy. Note that countries located in the upper right of Figure 3 are the best performing ones, as they have both a relatively high share of female STEM graduates and female inventors. This is the case for Latvia, Lithuania, Portugal, or Spain. Countries in the upper left don’t have a high share of female STEM graduates but at least make good use of their potential towards new inventions and innovations. In this regard, South Korea is successful, but also France and Belgium are doing better relative to other countries. 
+
+<div class=bloc_div>
+<blockquote>***Switzerland and all other German-speaking countries perform most poorly. 
+***</blockquote>
+</div>
+
+In contrast, countries in the lower left perform most poorly. Remarkably, Switzerland and all other German-speaking countries are located in this area. There can be several possible reasons for this, ranging from cultural peculiarities to less family-friendly work environments or more attractive outside options for female STEM graduates (for example more decent salaries in more family friendly occupations such as teachers or public servants).
 
 <br>
 
-<!-- **Share this article** -->
-<!-- <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="https://innoscape.ch/en/publications/cross-border-commuting-and-inventions-made-in-switzerland" data-a2a-title="Analysis within Innoscape: Cross-border commuting and inventions Made in Switzerland"> -->
-<!-- <a class="a2a_button_twitter"></a> -->
-<!-- <a class="a2a_button_linkedin"></a> -->
-<!-- <a class="a2a_button_xing"></a> -->
-<!-- <a class="a2a_button_facebook"></a> -->
-<!-- <a class="a2a_button_email"></a> -->
-<!-- </div> -->
-<!-- <script async src="https://static.addtoany.com/menu/page.js"></script> -->
+## **What can be done?**
 
-<!-- <br> -->
+<br>
 
-<span style="font-size:0.8em">*This report was written using <a href = https://rmarkdown.rstudio.com/ target = “_blank”>R Markdown</a> and <a href = https://shiny.rstudio.com/ target = “_blank”>R shiny</a>. Calculations were performed at <a href = http://scicore.unibas.ch/ target = “_blank”> sciCORE </a> scientific computing center at the University of Basel. Data and code to reproduce the figures presented in this article are available on <a href= "XXX" target="_blank">GitHub</a>.*</span>
+In short, Switzerland does not perform well compared to other countries and there seems to be room for improvement. On the one hand, the female graduate share in STEM fields is low. Given that women in better performing countries do not somehow have innate different preferences for STEM, this should be changeable. With this regard, female role models (<a href = https://www.aeaweb.org/articles?id=10.1257/app.20180426 target = “_blank”>Porter & Serra, 2020</a>; <a href = https://www.journals.uchicago.edu/doi/abs/10.1086/677391 target = “_blank”>Antecol et al., 2015</a>; <a href = https://www.sciencedirect.com/science/article/abs/pii/S0272775715000035 target = “_blank”>Bottia et al., 2015</a> ), gender norms (<a href = https://www.nber.org/papers/w23525 target = “_blank”>Kahn & Ginther, 2017</a>; <a href = https://scholar.harvard.edu/nunn/publications/origins-gender-roles-women-and-plough target = “_blank”>Alesina & Nunn, 2013</a>; <a href = https://srcd.onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8624.2010.01529.x target = “_blank”> Cvencek et al., 2011</a>) and the overall education system (<a href = http://jhr.uwpress.org/content/55/3/809.short target = “_blank”>Lim & Meer, 2018</a>; <a href = https://www.clutejournals.com/index.php/CIER/article/view/4116 target = “_blank”>Kulturel-Konak et al., 2011</a>; <a href = https://www.sciencedirect.com/science/article/abs/pii/S0272775710000750 target = “_blank”>Griffith, 2010</a>) are important factors to consider. Achieving lasting changes within these frameworks takes time. Swiss politics, academia and the business world should thus foster existing projects (for example <a href = https://www.tecladies.ch/de/blog/ target = “_blank”>Swiss TecLadies</a> and <a href = https://girlscancode.ch target = “_blank”>Girls Can Code</a>, or initiatives from <a href = https://ictswitzerland.ch/publikationen/positionspapier-mehr-frauen-in-die-informatik// target = “_blank”>ICT Switzerland</a>, <a href = https://www.epfl.ch/education/education-and-science-outreach/de/jugendliche/mint-workshops/internet-code-fur-madchen/ target = “_blank”>EPFL</a> or <a herf=https://www.nationalerzukunftstag.ch/de/maedchen/spezialprojekte/maedchen-technik-los/ target = “_blank”>Zukunftstag</a>) and tackle ongoing challenges more intensively.
 
+On the other hand, Switzerland’s conversion rate from STEM graduates to inventors is also relatively low. Increasing this rate could likely be adressed more easily by policymakers. One important aspect could be the compatibility of family and career (<a href = https://www.pnas.org/content/pnas/116/10/4182.full.pdf target = “_blank”>Cech & Blair-Loy, 2019</a>). In R&D related occupations, this might be particularly challenging today, for example because long lab times are often the order of the day. Therefore, investments and more flexible models in child day care could be an important channel. From an industry perspective, a shift towards enabling more part-time work could be promising to increase the attractiveness of R&D careers for female STEM graduates (<a href = https://scielo.conicyt.cl/scielo.php?pid=S0718-27242010000100011&script=sci_arttext&tlng=n target = “_blank”>Mavriplis et al., 2010</a>). More generally, adaptions in the Swiss tax system could be important as well (<a href = https://www.ecoplan.ch/download/aib_sb_de.pdf target = “_blank”>Ecoplan, 2019</a>).
+
+
+<div class=bloc_div>
+<blockquote>***More gender-friendly policies in different areas are important channels to raise women participation in inventive activities***</blockquote>
+</div>
+
+
+To sum up, more gender-friendly policies in different areas are important channels to raise women participation in inventive activities. Switzerland is one of the top innovators in the world and to maintain this position it requires constantly new technical innovations, new ideas and improved processes. With this regard, making good use of the skill potential of its workforce is key for the country’s future prosperity. Hence, there is a strong case to push policies aimed at increasing the attractiveness of R&D careers for women.
+
+<br>
+
+**Are you interested in** how important cross-border commuters are for Swiss’ innovativeness? Then check out our article <a href = https://innoscape.ch/en/publications/cross-border-commuting-and-inventions-made-in-switzerland target=”_blank”> Cross-border commuting and inventions Made in Switzerland</a>.
+
+<br>
+
+<span style="font-size:0.8em">*This report was written using <a href = https://rmarkdown.rstudio.com/ target = “_blank”>R Markdown</a> and <a href = https://shiny.rstudio.com/ target = “_blank”>R shiny</a>. Data and code to reproduce the figures presented in this article are available on <a href=https://github.com/cieb-unibas/female_inventors target="_blank">GitHub</a>.*</span>
 <br>
 <br>
 <br>
 <br>
-
-<!-- </div> -->
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71167447-1"></script> -->
-<!-- <script> -->
-<!--   window.dataLayer = window.dataLayer || []; -->
-<!--   function gtag(){dataLayer.push(arguments);} -->
-<!--   gtag('js', new Date()); -->
-<!--   gtag('config', 'UA-71167447-1'); -->
-<!-- </script> -->

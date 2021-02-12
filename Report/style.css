@@ -61,8 +61,8 @@ hr {
   margin-left: 0;
   width: 30%;
   height: 10px;
-  color: #0062FF;
-  background-color:#0062FF;
+  color: #2ca25f;
+  background-color:#2ca25f;
 }
 
 html, body {
@@ -90,7 +90,7 @@ h2 {
 
 /*infos on links*/
 a {
-  color: #0062FF;
+  color: #2ca25f;
 }
 
 blockquote {
