@@ -12,13 +12,12 @@ fem_share$info <- ifelse(fem_share$female_share_inventors == 0, "not enough\nobs
 
 # Define UI 
 ui <- fluidPage(
-    # htmltools::htmlDependency("jquery", "3.5.1",
-    #                           src = c(href = "https://code.jquery.com/"),
-    #                           script = "jquery-3.5.1.min.js"),
-    # tags$style(type="text/css",
-    #            ".shiny-output-error { visibility: hidden; }",
-    #            ".shiny-output-error:before { visibility: hidden; }"),
-
+    htmltools::htmlDependency("jquery", "3.5.1",
+                              src = c(href = "https://code.jquery.com/"),
+                              script = "jquery-3.5.1.min.js"),
+    tags$style(type="text/css",
+               ".shiny-output-error { visibility: hidden; }",
+               ".shiny-output-error:before { visibility: hidden; }"),
     
    # Choose organization and model
    fluidRow(
@@ -71,12 +70,17 @@ server <- function(input, output, session) {
     frame = ~p_year,
     hoverinfo = 'y',
     type = 'bar',
-    text = ~info) %>% 
+    text = ~info,
+    color = ~female_share_inventors,
+    colors = colorRampPalette(c("#e5f5f9", "#2ca25f"))(length(unique(dat_set()$female_share_inventors)))
+    ) %>% 
     add_text(textposition = "top") %>%
-    config(displayModeBar = F) %>% layout(yaxis = list(title = "<b>Female Inventor Share</b>", fixedrange = TRUE, tickformat = ',.1%'), xaxis = list(title = "", fixedrange = TRUE), showlegend = F) %>%
+    config(displayModeBar = F) %>% 
+    layout(yaxis = list(title = "<b>Female Inventor Share</b>", fixedrange = TRUE, tickformat = ',.1%'), xaxis = list(title = "", fixedrange = TRUE), showlegend = F) %>%
     animation_opts(frame = 500, redraw = F) %>%
-    animation_slider(currentvalue = list(prefix = "Year ", font = list(color = "#7f7f7f")), bgcolor = "white", x =  ifelse(session$clientData$pixelratio > 2, -0.1, 0), y = -0.06, font = list(color = "#7f7f7f"), 
+    animation_slider(currentvalue = list(prefix = "Year ", font = list(color = "#7f7f7f")), bgcolor = "white", x =  ifelse(session$clientData$pixelratio > 2, -0.1, 0), y = -0.06,  
                      tickcolor = list(color = "#7f7f7f")) %>%
+    hide_colorbar() %>%
     animation_button(label = "<b>Start</b>", x =  ifelse(session$clientData$pixelratio > 2, -0.25, 0.0), y = 0.1)
     p  
 } else {} 

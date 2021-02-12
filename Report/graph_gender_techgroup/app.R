@@ -77,10 +77,10 @@ server <- function(input, output, session) {
                          'Female Inventor Share: %{y}\n',
                          'Female Graduate Share: %{x}<extra></extra>'),
     textposition = "top center",
-    marker =  list(color= c('blue', 'blue', 'blue', 'blue', 'blue', 
+    marker =  list(color= c('#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
                                  'red',
-                                 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue',
-                                 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue', 'blue'))) %>% 
+                                 '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                                 '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f'))) %>% 
     add_annotations(text = ~inv_ctry,
                     showarrow = F,
                     yanchor = "bottom") %>%
