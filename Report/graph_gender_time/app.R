@@ -27,7 +27,7 @@ ui <- fluidPage(
                    inputId = "fem_share", 
                    # label = "Choose a country", 
                    choices = sort(unique(fem_share$country)), 
-                   selected = c("Germany", "Switzerland", "United States", "South Korea", "Japan", "France"), 
+                   selected = c("Germany", "Switzerland", "United States", "Japan", "France"), 
                    options = list(
                        `max-options` = 8,
                        `actions-box` = TRUE, 
@@ -77,11 +77,11 @@ server <- function(input, output, session) {
     add_text(textposition = "top") %>%
     config(displayModeBar = F) %>% 
     layout(yaxis = list(title = "<b>Female Inventor Share</b>", fixedrange = TRUE, tickformat = ',.1%'), xaxis = list(title = "", fixedrange = TRUE), showlegend = F) %>%
-    animation_opts(frame = 500, redraw = F) %>%
+    animation_opts(frame = 800, redraw = F) %>%
     animation_slider(currentvalue = list(prefix = "Year ", font = list(color = "#7f7f7f")), bgcolor = "white", x =  ifelse(session$clientData$pixelratio > 2, -0.1, 0), y = -0.06,  
                      tickcolor = list(color = "#7f7f7f")) %>%
     hide_colorbar() %>%
-    animation_button(label = "<b>Start</b>", x =  ifelse(session$clientData$pixelratio > 2, -0.25, 0.0), y = 0.1)
+    animation_button(label = "<b>Start</b>", x =  ifelse(session$clientData$pixelratio > 2, 0, 0.0), y = 0.05)
     p  
 } else {} 
 })  
