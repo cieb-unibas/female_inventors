@@ -27,7 +27,7 @@ ui <- fluidPage(
                    inputId = "fem_share", 
                    # label = "Choose a country", 
                    choices = sort(unique(fem_share$country)), 
-                   selected = c("Germany", "Switzerland", "United States", "Japan", "France"), 
+                   selected = c("Germany", "Austria", "Switzerland", "United States", "Japan", "France"), 
                    options = list(
                        `max-options` = 8,
                        `actions-box` = TRUE, 
@@ -58,7 +58,7 @@ ui <- fluidPage(
 # Define server 
 server <- function(input, output, session) {
   
-  dat_set <-  reactive({filter(fem_share, country %in% input$fem_share)})
+  dat_set <-  reactive({subset(fem_share, country %in% input$fem_share & p_year < 2019)})
   
   output$fem_share_plot <- renderPlotly({
   if(nrow(dat_set()) != 0){
