@@ -1,0 +1,151 @@
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
+</head>
+
+
+<script>
+
+Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO.csv", function(err, rows){
+function unpack(rows, key) {
+        return rows.map(function(row) { return row[key]; });
+    }
+
+var     allCountryNames = unpack(rows, 'tech_group'),
+        allYear = unpack(rows, 'female_share_graduates'),
+        allGdp = unpack(rows, 'female_share_inventors'),
+        allInv = unpack(rows, 'inv_ctry'),
+        listofCountries = [],
+        currentCountry,
+        currentGdp = [],
+        currentYear = []
+        currentInv = [];
+
+    for (var i = 0; i < allCountryNames.length; i++ ){
+        if (listofCountries.indexOf(allCountryNames[i]) === -1 ){
+            listofCountries.push(allCountryNames[i]);
+        }
+    }
+
+    function getCountryData(chosenCountry) {
+        currentGdp = [];
+        currentYear = [];
+        currentInv = [];
+        for (var i = 0 ; i < allCountryNames.length ; i++){
+            if ( allCountryNames[i] === chosenCountry ) {
+                currentGdp.push(allGdp[i]);
+                currentYear.push(allYear[i]);
+                currentInv.push(allInv[i]);
+                }
+        }
+    };
+
+    // Default Country Data
+    setBubblePlot('Overall');
+
+    function setBubblePlot(chosenCountry) {
+        getCountryData(chosenCountry);
+
+        var trace1 = {
+            x: currentYear,
+            y: currentGdp,
+            type: 'scatter',
+            mode: 'markers+text',
+            marker: { color:  ['#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         'red',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f']},
+            text: currentInv,
+            textposition: 'bottom center'
+        };
+
+        var data = [trace1];
+
+        var layout = {
+    xaxis: {autorange: true,
+            zeroline: false,
+            tickformat: ',.1%', 
+            title: {text: '<b>Female Graduate Share in STEM Fields</b>'}},
+    yaxis: {autorange: true,
+            zeroline: false,
+            tickformat: ',.1%',
+            title: {text: '<b>Female Inventor Share</b>'}},
+    shapes: [
+{
+      type: 'line',
+      x0: math.mean([currentYear]),
+      x1: math.mean([currentYear]),
+      y0: math.min([currentGdp]),
+      y1: math.max([currentGdp]),
+      line: {dash: 'dot'}
+    },
+    {
+      type: 'line',
+      x0: math.min([currentYear]),
+      y0: math.mean([currentGdp]),
+      x1: math.max([currentYear]),
+      y1: math.mean([currentGdp]),
+      line: {dash: 'dot'}
+    }
+    ]
+};
+
+        Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
+    };
+
+    var innerContainer = document.querySelector('[data-num="0"'),
+        plotEl = innerContainer.querySelector('.plot'),
+        countrySelector = innerContainer.querySelector('.countrydata');
+
+    function assignOptions(textArray, selector) {
+        for (var i = 0; i < textArray.length;  i++) {
+            var currentOption = document.createElement('option');
+            currentOption.text = textArray[i];
+            selector.appendChild(currentOption);
+        }
+    }
+
+    assignOptions(listofCountries, countrySelector);
+
+    function updateCountry(){
+        setBubblePlot(countrySelector.value);
+    }
+
+    countrySelector.addEventListener('change', updateCountry, false);
+});    
+
+</script>
+
+<select id="choice" multiple="multiple">
+  <option value="1">One</option>
+  <option value="2">two</option>
+  <option value="3">three</option>
+</select>
+
+
+
+    <body>
+<div class="showcase__section" id="bubble">
+  <div class="spacer --small"></div>
+  <div id="bubbleplots">
+    <div class="bubbleplot" data-num="0">
+      <div class="plot" id="plotdiv"></div>
+      <div class="control-row">
+        <select class="countrydata">
+          <option value="Overall">Overall</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+</body>      
+
+<body>
+<div id='myDiv'></div>
+</body>
+    

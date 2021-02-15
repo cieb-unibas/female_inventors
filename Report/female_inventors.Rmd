@@ -8,8 +8,10 @@ output:
     mathjax: null
 ---
 <head>
-<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
 </head>
+
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -58,6 +60,7 @@ Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/ma
 
 Plotly.newPlot('plot_2', data, layout,  {displayModeBar: false})
 });
+
 </script>
 
 
@@ -129,18 +132,29 @@ Even more striking is that every country in our sample is below the dashed diago
 
 ### **Female shares differ substantially among countries**
 
-
 That said, there are notable differences between countries. Figure 3 zooms in to examine such differences between countries more closely. The zoomed plot shows the same relationship as the graph before, but additionally depicts the average female inventor share (the dashed horizontal line) and the average female STEM graduate share (the dashed vertical line) across countries. 
 
+
+    
 <br>
+
+
 
 <hr class="hr_red">
 #### **Figure 3: Female inventor shares and female graduate shares in natural sciences**
-<iframe width="100%" height="430" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/graph_gender_techgroup/" id="share_tech_plot">
-<p>Your browser does not support iframes</p>
-</iframe>
+```{r, echo=FALSE}
+htmltools::includeHTML("tech_group.html")
+```
+
+<!-- <iframe width="100%" height="430" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/graph_gender_techgroup/" id="share_tech_plot"> -->
+<!-- <p>Your browser does not support iframes</p> -->
+<!-- </iframe> -->
 
 <br>
+
+
+
+
 
 Noticeable, Japan and Korea are relatively close to the diagonal line, suggesting that these countries are relatively more successful in motivating female STEM graduates to become inventors. However, there are some caveats to this argument. As you can see, both countries have rather low shares of female STEM graduates in the first place. This could mean that among their female graduates there are more who want to become inventors than in other countries. Another argument might be that the observed advantage of these countries could be driven by country-specific industry specialization. Think of it this way: If there are some technology areas where women inventors are more adequately represented (for example Chemistry compared to Mechanical Engineering), a country that specializes in such technology areas might have a higher overall female share. But this higher overall share would not be due to some successful policy framework in this country, but rather to industry specialization. 
 

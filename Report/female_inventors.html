@@ -46,6 +46,7 @@
 
 <head>
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
 </head>
 <p><link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet"> <link rel="stylesheet" href="style.css" type="text/css" /></p>
 <!-- Create FIGURE 2: SCATTERPOLOT WITH 45 DEGREE LINE -->
@@ -93,6 +94,7 @@ Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/ma
 
 Plotly.newPlot('plot_2', data, layout,  {displayModeBar: false})
 });
+
 </script>
 <div class="container-fluid main-container">
 
@@ -149,11 +151,152 @@ Your browser does not support iframes
 <hr class="hr_red">
 <div id="figure-3-female-inventor-shares-and-female-graduate-shares-in-natural-sciences" class="section level4">
 <h4><strong>Figure 3: Female inventor shares and female graduate shares in natural sciences</strong></h4>
-<iframe width="100%" height="430" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/graph_gender_techgroup/" id="share_tech_plot">
-<p>
-Your browser does not support iframes
-</p>
-</iframe>
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
+</head>
+
+
+<script>
+
+Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO.csv", function(err, rows){
+function unpack(rows, key) {
+        return rows.map(function(row) { return row[key]; });
+    }
+
+var     allCountryNames = unpack(rows, 'tech_group'),
+        allYear = unpack(rows, 'female_share_graduates'),
+        allGdp = unpack(rows, 'female_share_inventors'),
+        allInv = unpack(rows, 'inv_ctry'),
+        listofCountries = [],
+        currentCountry,
+        currentGdp = [],
+        currentYear = []
+        currentInv = [];
+
+    for (var i = 0; i < allCountryNames.length; i++ ){
+        if (listofCountries.indexOf(allCountryNames[i]) === -1 ){
+            listofCountries.push(allCountryNames[i]);
+        }
+    }
+
+    function getCountryData(chosenCountry) {
+        currentGdp = [];
+        currentYear = [];
+        currentInv = [];
+        for (var i = 0 ; i < allCountryNames.length ; i++){
+            if ( allCountryNames[i] === chosenCountry ) {
+                currentGdp.push(allGdp[i]);
+                currentYear.push(allYear[i]);
+                currentInv.push(allInv[i]);
+                }
+        }
+    };
+
+    // Default Country Data
+    setBubblePlot('Overall');
+
+    function setBubblePlot(chosenCountry) {
+        getCountryData(chosenCountry);
+
+        var trace1 = {
+            x: currentYear,
+            y: currentGdp,
+            type: 'scatter',
+            mode: 'markers+text',
+            marker: { color:  ['#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         'red',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f']},
+            text: currentInv,
+            textposition: 'bottom center'
+        };
+
+        var data = [trace1];
+
+        var layout = {
+    xaxis: {autorange: true,
+            zeroline: false,
+            tickformat: ',.1%', 
+            title: {text: '<b>Female Graduate Share in STEM Fields <br> (2005-2015 Average)</b>'}},
+    yaxis: {autorange: true,
+            zeroline: false,
+            tickformat: ',.1%',
+            title: {text: '<b>Female Inventor Share <br> (2005-2015 Average)</b>'}},
+    shapes: [
+{
+      type: 'line',
+      x0: math.mean([currentYear]),
+      x1: math.mean([currentYear]),
+      y0: math.min([currentGdp]),
+      y1: math.max([currentGdp]),
+      line: {dash: 'dot'}
+    },
+    {
+      type: 'line',
+      x0: math.min([currentYear]),
+      y0: math.mean([currentGdp]),
+      x1: math.max([currentYear]),
+      y1: math.mean([currentGdp]),
+      line: {dash: 'dot'}
+    }
+    ]
+};
+
+        Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
+    };
+
+    var innerContainer = document.querySelector('[data-num="0"'),
+        plotEl = innerContainer.querySelector('.plot'),
+        countrySelector = innerContainer.querySelector('.countrydata');
+
+    function assignOptions(textArray, selector) {
+        for (var i = 0; i < textArray.length;  i++) {
+            var currentOption = document.createElement('option');
+            currentOption.text = textArray[i];
+            selector.appendChild(currentOption);
+        }
+    }
+
+    assignOptions(listofCountries, countrySelector);
+
+    function updateCountry(){
+        setBubblePlot(countrySelector.value);
+    }
+
+    countrySelector.addEventListener('change', updateCountry, false);
+});    
+
+</script>
+
+    <body>
+<div class="showcase__section" id="bubble">
+  <div class="spacer --small"></div>
+  <div id="bubbleplots">
+    <div class="bubbleplot" data-num="0">
+      <div class="plot" id="plotdiv"></div>
+      <div class="control-row">
+        <select class="countrydata">
+          <option value="Overall">Overall</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</div>
+</body>      
+
+<body>
+<div id='myDiv'></div>
+</body>
+    
+<!-- <iframe width="100%" height="430" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/graph_gender_techgroup/" id="share_tech_plot"> -->
+<!-- <p>Your browser does not support iframes</p> -->
+<!-- </iframe> -->
 <p><br></p>
 <p>Noticeable, Japan and Korea are relatively close to the diagonal line, suggesting that these countries are relatively more successful in motivating female STEM graduates to become inventors. However, there are some caveats to this argument. As you can see, both countries have rather low shares of female STEM graduates in the first place. This could mean that among their female graduates there are more who want to become inventors than in other countries. Another argument might be that the observed advantage of these countries could be driven by country-specific industry specialization. Think of it this way: If there are some technology areas where women inventors are more adequately represented (for example Chemistry compared to Mechanical Engineering), a country that specializes in such technology areas might have a higher overall female share. But this higher overall share would not be due to some successful policy framework in this country, but rather to industry specialization.</p>
 <p>Figure 3 allows us to examine the latter caveat by selecting a technology area in the slider panel. After selecting a given technology area, the graph states female inventor shares of patents exclusively from this technology area across countries. What can be seen is that country-level differences in female inventor shares are generally less pronounced within the same technology area. For example, countries are more closely positioned to each other along the y-axis in the fields “Mechanical Engineering” or “Electrical Engineering”. Accordingly, technological specialization seems to play a role for differences across countries. However, substantial gaps remain between countries (e.g. in “Chemistry”) and Korea and Japan are always the countries that are most closely located towards the 45-degree line. This suggests that beyond industry characteristics, policies and cultural norms are also important.</p>

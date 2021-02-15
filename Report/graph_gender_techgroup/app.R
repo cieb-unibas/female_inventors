@@ -7,8 +7,11 @@ library(viridis)
 
 # Load data 
 fem_share_tech <- read.csv2("female_inventors_graduates_techgroup_USPTO.csv", sep = ",") 
-fem_share_tech$female_share_inventors <- round(as.numeric(as.character(fem_share_tech$female_share_inventors)), 4)
-fem_share_tech$female_share_graduates <- round(as.numeric(as.character(fem_share_tech$female_share_graduates)), 4)
+fem_share_tech$female_share_inventors <- as.numeric(as.character(fem_share_tech$female_share_inventors))
+fem_share_tech$female_share_graduates <- as.numeric(as.character(fem_share_tech$female_share_graduates))
+
+fem_share_tech %>% write.csv("female_inventors_graduates_techgroup_USPTO.csv") 
+
 
 
 # Define UI 
