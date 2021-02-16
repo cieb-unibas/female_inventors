@@ -66,7 +66,7 @@ Plotly.newPlot('plot_2', data, layout,  {displayModeBar: false})
 
 <!-- START with text -->
 
-## **Female inventors in Switzerland--still a lot of unused potential left**
+## **Female inventors in Switzerland--still a lot of unused potential left** 
 <br>
 
 *February 2021* by <a href="https://wwz.unibas.ch/de/personen/matthias-niggli/" target = "_blank">Matthias Niggli</a> and <a href="https://wwz.unibas.ch/de/personen/christian-rutzer/" target = "_blank">Christian Rutzer</a> 
@@ -93,11 +93,10 @@ Interestingly, some countries have been more successful than others in achieving
 <iframe width="100%" height="480" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://cieb.shinyapps.io/graph_gender_time" id="emp_plot">
 <p>Your browser does not support iframes</p>
 </iframe>
-Source: CIEBs’ own estimations based on data from the <a href=https://www.patentsview.org/download/  target = “_blank”>USPTO</a>. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors/tree/main/Data target = “_blank”>GitHub</a>. 
+<span style="font-size:0.8em">*Source: CIEBs’ own estimations based on data from the <a href= https://www.patentsview.org/download/ target = “_blank”>USPTO</a>. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors/tree/main/Data target = “_blank”>GitHub</a>.*</span>
 
 
 <br>
-
 At the beginning of the 1980s the rate of female inventors has been very low in almost all countries. But it was especially low for Switzerland where less than two out of 100 inventors of Swiss patents published at the USPTO were women. Female representation in Switzerland has improved somewhat over the last 40 years, but in 2018 still only 9 out of 100 Swiss patent inventors are women. 
 
 <div class=bloc_div>
@@ -105,7 +104,7 @@ At the beginning of the 1980s the rate of female inventors has been very low in 
 </div>
 
 
-This puts Switzerland somewhere in the lower midfield in a country-comparison. Over time, the female share of inventors increased steadily in most countries but it never got close to an equal representation of men and women in any country. At the same time, there are a lot of differences among countries: For example, in 2018 still less than 7 out of 100 German inventors were women. In turn, Asian countries and territories such as Hong-Kong, South Korea and Taiwan had rather high rates of around 20 women per 100 inventors. 
+This puts Switzerland somewhere in the lower midfield in a country-comparison. Over time, the female shares of inventors increased steadily in most countries, but it never got close to an equal representation of men and women in any country. At the same time, there are a lot of differences among countries: For example, in 2018 still less than 7 out of 100 German inventors were women. In turn, Asian countries and territories such as Hong-Kong, South Korea and Taiwan had rather high rates of around 20 women per 100 inventors. 
 
 What could be possible reasons for these low female shares? One reason simply is that not so many women graduate in fields like Science, Technology, Engineering or Mathematics (so-called STEM fields) which is generally a precondition to become an inventor. Accordingly, the overall supply of potential female inventors is rather low. Another point could be that among female graduates in STEM fields, not so many become inventors. This, in turn, would imply that inventor careers are less attractive for women compared to men. Figure 2 allows to investigate both of these channels. We use the same USPTO data as before to calculate female inventor shares (stated on the vertical y-axis states) and put it in relation to data from the <a href="https://stats.oecd.org/index.aspx?queryid=79486#" target="_blank">OECD</a> on female STEM graduate shares (stated on the horizontal x-axis). Due to data availability, we use information for the period 2005-2015 and aggregate the data of this 10-year period to smooth out yearly fluctuations. Every point in Figure 2 represents a country and we plotted the point for Switzerland red for better visibility.
 
@@ -116,19 +115,15 @@ What could be possible reasons for these low female shares? One reason simply is
 <body>
 <div id='plot_2'></div>
 </body>
-Source: CIEBs’ own estimations based on data from the <a href=https://www.patentsview.org/download/  target = “_blank”>USPTO</a> and the <a href=https://stats.oecd.org/index.aspx?queryid=79486# target = “_blank”>OECD</a>. We use information for the period 2005-2015 and aggregate the data of this 10-year period to smooth out yearly fluctuations. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors/tree/main/Data target = “_blank”>GitHub</a>. 
-
+<span style="font-size:0.8em">*Source: CIEBs’ own estimations based on data from the <a href=https://www.patentsview.org/download/ target = “_blank”>USPTO</a> and the <a href=https://stats.oecd.org/index.aspx?queryid=79486# target = “_blank”>OECD</a>. We use information for the period 2005-2015 and aggregate the data of this 10-year period to smooth out yearly fluctuations. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors/tree/main/Data target = “_blank”>GitHub</a>.*</span>
 
 <br>
 
 The average share of female STEM graduates across all considered countries is 36 percent, which confirms the well-known underrepresentation of women in these fields. However, it is interesting to note that the shares vary considerably across countries. For example, Eastern and Southern European countries tend to have higher female graduate shares (e.g. Poland, Estonia, Italy, or Greece). Therefore, it might well be possible for other countries to increase their female graduate shares in STEM. 
 Even more striking is that every country in our sample is below the dashed diagonal line (see the green dots in the graph). This diagonal line shows the female inventor shares that could be achieved if countries would exactly employ the same proportion of women in R&D as they train through their education systems. Take Switzerland for example: 28.5 percent of all students who graduated in STEM fields between 2005 and 2015 were women. However, Switzerland’s female inventor share was only 8.6 percent for the same period. Hence, only a very disproportional share of Swiss female STEM graduates pursues inventor careers. Now, since all countries are located below the diagonal line, the share of female patent inventors is *lower* than the share of female STEM graduates in *every* country. Spoken differently, not only are there relatively few female STEM graduates in many countries, but those women who chose to study a STEM field are less likely to end up in an R&D career compared to their male peers in general. And the farther away a country is positioned from the diagonal line, the more pronounced is this imbalance. 
-
 <br>
 
 ### **Female shares differ substantially among countries**
-
-
 That said, there are notable differences across countries. Figure 3 zooms in to examine these differences more closely. The zoomed plot shows the same relationship as the graph before, but additionally depicts the average female inventor share (the dashed horizontal line) and the average female STEM graduate share (the dashed vertical line) across countries. 
 
 <br>
@@ -138,12 +133,11 @@ That said, there are notable differences across countries. Figure 3 zooms in to 
 ```{r, echo=FALSE}
 htmltools::includeHTML("tech_group.html")
 ```
-Source: CIEBs’ own estimations based on data from the <a href=https://www.patentsview.org/download/  target = “_blank”>USPTO</a> and the <a href=https://stats.oecd.org/index.aspx?queryid=79486# target = “_blank”>OECD</a>. We use information for the period 2005-2015 and aggregate the data of this 10-year period to smooth out yearly fluctuations. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors/tree/main/Data target = “_blank”>GitHub</a>. 
-
+<span style="font-size:0.8em">*Source: CIEBs’ own estimations based on data from the <a href=https://www.patentsview.org/download/ target = “_blank”>USPTO</a> and the <a href=https://stats.oecd.org/index.aspx?queryid=79486# target = “_blank”>OECD</a>. We use information for the period 2005-2015 and aggregate the data of this 10-year period to smooth out yearly fluctuations. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors/tree/main/Data target = “_blank”>GitHub</a>.*</span>
 
 <br>
 
-Noticeable, Japan and Korea are relatively far to the left, that is closer to the diagonal line, suggesting that these countries are relatively more successful in motivating female STEM graduates to become inventors. However, there are some caveats to this argument. As you can see, both countries have rather low female inventor shares in the first place. This could mean that there is just stronger self-selection. This means among their lower number of female graduates there are more who absolutely want to become inventors than in other countries. Another argument might be that the observed advantage of these countries could be driven by country-specific industry specialization. Think of it this way: If there are some technology areas where women inventors are more adequately represented (for example Chemistry compared to Mechanical Engineering), a country that specializes in such technology areas might have a higher overall female share. But this higher overall share would not be due to some successful policy framework in this country, but rather to industry specialization. 
+Noticeable, Japan and Korea are relatively far to the left, that is closer to the diagonal line, suggesting that these countries are relatively more successful in motivating female STEM graduates to become inventors. However, there are some caveats to this argument. As you can see, both countries have rather low female inventor shares in the first place. This could mean that there is just stronger self-selection. That is to say,  among their lower numbers of female graduates there are more who absolutely want to become inventors than in other countries. Another argument might be that the observed advantage of these countries could be driven by country-specific industry specialization. Think of it this way: If there are some technology areas where women inventors are more adequately represented (for example Chemistry compared to Mechanical Engineering), a country that specializes in such technology areas might have a higher overall female share. But this higher overall share would not be due to some successful policy framework in this country, but rather to industry specialization. 
 
 Figure 3 allows us to examine the latter caveat by selecting a technology area in the slider panel. After selecting a given technology area, the graph states female inventor shares of patents exclusively from this technology area across countries. Observing these country-level differences in female inventor shares are generally less pronounced within the same technology area. For example, countries are more closely positioned to each other along the y-axis in the fields “Mechanical Engineering” or “Electrical Engineering”. Accordingly, technological specialization seems to be one good explanation of differences across countries. However, substantial gaps remain between these countries (e.g. in “Chemistry”) and Korea and Japan are always the countries that are most closely located to the left, that is towards the diagonal 45-degree line. This suggests that beyond industry characteristics, policies and cultural norms are also important. 
 
