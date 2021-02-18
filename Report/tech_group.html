@@ -16,10 +16,10 @@ var     allCountryNames = unpack(rows, 'tech_group'),
         allGdp = unpack(rows, 'female_share_inventors'),
         allInv = unpack(rows, 'inv_ctry'),
         listofCountries = [],
-        currentCountry,
+        currentCountry = [],
         currentGdp = [],
         currentYear = []
-        currentInv = [];
+        currentInv = ['Overall'];
 
     for (var i = 0; i < allCountryNames.length; i++ ){
         if (listofCountries.indexOf(allCountryNames[i]) === -1 ){
@@ -30,7 +30,7 @@ var     allCountryNames = unpack(rows, 'tech_group'),
     function getCountryData(chosenCountry) {
         currentGdp = [];
         currentYear = [];
-        currentInv = [];
+        currentInv = ['Overall'];
         for (var i = 0 ; i < allCountryNames.length ; i++){
             if ( allCountryNames[i] === chosenCountry ) {
                 currentGdp.push(allGdp[i]);
@@ -103,7 +103,7 @@ var     allCountryNames = unpack(rows, 'tech_group'),
         countrySelector = innerContainer.querySelector('.countrydata');
 
     function assignOptions(textArray, selector) {
-        for (var i = 0; i < textArray.length;  i++) {
+        for (var i = 0; i < textArray.length-1;  i++) {
             var currentOption = document.createElement('option');
             currentOption.text = textArray[i];
             selector.appendChild(currentOption);
@@ -129,7 +129,7 @@ var     allCountryNames = unpack(rows, 'tech_group'),
       <div class="plot" id="plotdiv"></div>
       <div class="control-row">
         <select class="countrydata">
-          <option value="Overall">Overall</option>
+        <option selected >Overall</option>  
         </select>
       </div>
     </div>
