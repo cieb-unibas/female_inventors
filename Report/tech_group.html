@@ -19,7 +19,7 @@ var     allCountryNames = unpack(rows, 'tech_group'),
         currentCountry = [],
         currentGdp = [],
         currentYear = []
-        currentInv = ['Overall'];
+        currentInv = [];
 
     for (var i = 0; i < allCountryNames.length; i++ ){
         if (listofCountries.indexOf(allCountryNames[i]) === -1 ){
@@ -30,7 +30,7 @@ var     allCountryNames = unpack(rows, 'tech_group'),
     function getCountryData(chosenCountry) {
         currentGdp = [];
         currentYear = [];
-        currentInv = ['Overall'];
+        currentInv = [];
         for (var i = 0 ; i < allCountryNames.length ; i++){
             if ( allCountryNames[i] === chosenCountry ) {
                 currentGdp.push(allGdp[i]);
