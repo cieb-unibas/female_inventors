@@ -212,6 +212,7 @@ paste("Overall mean conversion rate is:", round(100 * mean(plot_dat_3$conv_rate)
 
 # only keep 20 largest inventor countries for plotting:
 plot_dat_3 <- plot_dat_3[1:20, ] %>% select(-total_inventors)
+plot_dat_3 <- plot_dat_3 %>% arrange(-conv_rate)
 paste("Top20 country mean conversion rate is:", round(100 * mean(plot_dat_3$conv_rate), 2), "%") # 32.43%
 
 # (2) save for plotting:
