@@ -4,7 +4,7 @@
 #                 across countries and over time.                     #
 # Authors:        Matthias Niggli/CIEB UniBasel                       #
 #                 Christian Rutzer/CIEB UniBasel                      #
-# Last Revised:   09.02.2021                                          #
+# Last Revised:   22.02.2021                                          #
 #######################################################################
 
 #######################################
@@ -30,28 +30,7 @@ if(substr(getwd(), nchar(getwd())-15, nchar(getwd())) != "female_inventors"){
 ##################################
 
 #### Load OECD data on gender shares of university graduates
-
-# # (a) Natural Sciences only:
-# grad_dat <- read.csv("Data/oecd_graduates.csv") 
-# total_year <- grad_dat %>% filter(SEX == "T") %>% 
-#   select(COUNTRY, FIELD, Field, ISC11_LEVEL, YEAR, Value) %>%
-#   rename(total_graduates = Value)
-# grad_dat <- grad_dat %>% filter(SEX == "F") %>% 
-#   select(COUNTRY, SEX, FIELD, ISC11_LEVEL, YEAR, Value)
-# grad_dat <- merge(grad_dat, total_year, 
-#                   by = c("COUNTRY", "FIELD", "ISC11_LEVEL", "YEAR"),
-#                   all.x = TRUE)
-# total_year <- NULL
-# grad_dat <- mutate(grad_dat, female_share_graduates = Value / total_graduates)
-# grad_dat <- grad_dat[is.nan(grad_dat$female_share_graduates) == FALSE &
-#                        is.na(grad_dat$female_share_graduates) == FALSE, ]
-# grad_dat$COUNTRY <- countrycode(grad_dat$COUNTRY, "iso3c", "iso2c")
-# grad_dat <- rename(grad_dat, inv_ctry = COUNTRY, p_year = YEAR, 
-#                    female_graduates = Value)
-# grad_dat <- select(grad_dat, - SEX)
-
-# (b) Natural Sciences, ICT and Engineering fields
-grad_dat <- read.csv("Data/oecd_graduates_allFields.csv")
+grad_dat <- read.csv("Data/oecd_graduates_STEMFields.csv")
 names(grad_dat)[1] <- "COUNTRY"
 grad_dat <- grad_dat %>% #select(-SEX, -Country.of.origin, -COUNTRY_ORIGIN, -Level.of.education,
                                 # -YEAR, -Unit.Code, -Unit, -PowerCode, -PowerCode.Code, -Flag.Codes,
@@ -90,36 +69,12 @@ gender <- gender %>%
          gender = male)
 gender <- left_join(pat_dat, gender, by = "id")
 
-#### PCT inventor data with gender information
-pct_dat <- read.csv("Data/female_pct.csv")
-names(pct_dat) <- c("Country", as.character(seq(2000, 2019)))
-pct_dat<- pct_dat %>% gather("p_year","female_share_inventors", -Country)
-pct_dat$inv_ctry <- countrycode(pct_dat$Country, origin = "country.name.en", "iso2c")
-write.csv(pct_dat, "Report/female_inventor_share_PCT.csv")
-print("All data ready for analysis")
+###########################################
+######## CREATE DATA FOR PLOTTING #########
+###########################################
 
-################################
-######## INSEPCT DATA  #########
-################################
-
-# "female patenting share"
-female_pat <- nrow(gender %>% filter(gender == "0"))
-total_pat <- nrow(gender)
-paste("Overall female share is:", round(female_pat / total_pat, 4) * 100, "%")
-
-# female inventor share
-female_inv <- nrow(gender %>% distinct(id, .keep_all = TRUE) %>% filter(gender == "0"))
-total_inv <- nrow(gender %>% distinct(id))
-paste("Female inventor share is:", round(female_inv / total_inv, 4) * 100, "%")
-
-
-####################################
-######## CREATE PLOT DATA  #########
-####################################
-
-#### DATA FIGURE 1: FEMALE INVENTOR SHARES ACROSS COUNTRIES ----------------------
-
-# calculate the number and share of female inventors on patents per country and p_year:
+#### DATA FIGURE 1: FEMALE INVENTOR SHARES ACROSS COUNTRIES
+# (1) calculate the number and share of female inventors on patents per country and p_year:
 female_inv_shares <- gender %>% distinct(id, p_year, .keep_all = TRUE) %>%
   group_by(inv_ctry, p_year) %>%
   summarise(total_inventors = n(),
@@ -127,16 +82,10 @@ female_inv_shares <- gender %>% distinct(id, p_year, .keep_all = TRUE) %>%
 
 female_inv_shares$Country <- countrycode(female_inv_shares$inv_ctry, "iso2c", "country.name.en")
 
-# add female graduate data
-# female_inv_shares$inv_ctry <- trimws(female_inv_shares$inv_ctry)
-# female_inv_shares <- merge(female_inv_shares, grad_dat, 
-#                            by = c("inv_ctry", "p_year"), all = TRUE)
-
-
 plot_dat_1 <- female_inv_shares
 plot_dat_1 <- setDT(plot_dat_1)[order(p_year), .SD, by = .(inv_ctry)]
 
-# Create 5 year averages
+# (2) Create 5 year averages
 plot_dat_1 <- setDT(plot_dat_1)[, c("total_inventors_5", "female_inventors_5") := list(rollsum(total_inventors, 5, fill = NA, align = "right"), rollsum(female_inventors, 5, fill = NA, align = "right")), by = .(inv_ctry)]
 plot_dat_1 <- mutate(plot_dat_1, female_share_inventors_5 = female_inventors_5 / total_inventors_5)
 
@@ -146,7 +95,7 @@ plot_dat_1 <- plot_dat_1 %>%
   dplyr::select(p_year, Country, inv_ctry, female_share_inventors_5, total_inventors_5) %>%
   distinct(p_year, inv_ctry, .keep_all = TRUE)
 
-# Create observation for missings and set them to zero / important for dynamic plot
+# (3) Create observation for missings and set them to zero / important for dynamic plot
 temp <- data.table::dcast(plot_dat_1, p_year ~ inv_ctry, value.var = c("female_share_inventors_5"))
 temp <- melt(temp, id.vars = c("p_year"))
 temp <- dplyr::mutate(temp, inv_ctry = variable) 
@@ -162,21 +111,22 @@ plot_dat_1 <- data.frame(plot_dat_1[, colnames(plot_dat_1) %in% c("inv_ctry", "C
 colnames(plot_dat_1) <- c("p_year", "inv_ctry", "country", "female_share_inventors", "total_inventors")
 plot_dat_1 <- mutate(plot_dat_1, country = ifelse(is.na(country), countrycode(inv_ctry, "iso2c", "country.name.en"), country))
 
-# Keep only countries having the most inventors
+# (4) Keep only countries having the most inventors
 sum_inv <- aggregate(total_inventors ~ inv_ctry, data =  female_inv_shares, FUN = sum, na.rm = T) %>% arrange(-total_inventors)
 plot_dat_1 <- filter(plot_dat_1, inv_ctry %in% sum_inv[1:40, "inv_ctry"])
 plot_dat_1 <- filter(plot_dat_1, !(inv_ctry %in% c("HU")))
 plot_dat_1 <- dplyr::select(plot_dat_1, -X)
 
+# (5) Save the data for plotting
 write.csv(plot_dat_1, "/scicore/home/weder/rutzer/innoscape/female_inventors/Report/graph_gender_time/female_inventor_share_USPTO.csv", row.names = FALSE)
 print("Data for animated plot saved")
 
 
-#### FIGURE 2 & 3: FEMALE INVENTOR SHARES AND FEMALE UNIVERSITY GRADUATES IN STEM FIELDS
 
-# assign ipc classes to technology groups as in Schmoch (2008):
+
+#### FIGURE 2 & 4: FEMALE INVENTOR SHARES AND FEMALE UNIVERSITY GRADUATES IN STEM FIELDS
+# (1) assign ipc classes to technology groups as in Schmoch (2008):
 # https://www.wipo.int/export/sites/www/ipstats/en/statistics/patents/pdf/wipo_ipc_technology.pdf
-
 ELECTRICAL_ENGINEERING <- seq(1, 8)
 INSTRUMENTS <- seq(9, 13)
 CHEMISTRY <- seq(14, 24)
@@ -191,7 +141,7 @@ gender <- gender %>% mutate(
                          tech_field %in% OTHER_FIELDS ~ "Other Fields")
   )
 
-# (1) calculate female inventor shares per tech_group:
+# (2) calculate female inventor shares per tech_group:
 female_inv_shares <- gender %>%
   filter(inv_ctry %in% unique(grad_dat$inv_ctry) & 
            p_year >= 2005 & p_year <= 2015) %>% 
@@ -202,11 +152,8 @@ female_inv_shares <- gender %>%
             female_share_inventors = female_inventors / total_inventors) %>%
   filter(total_inventors >= 60)
 
-# (2) calculate graduate shares for a given selection of STEM fields
+# (3) calculate female graduate shares in STEM fields
 STEM_FIELDS <- c("F05", "F06", "F07") # all STEM
-# STEM_FIELDS <- "F05" # natural sciences % math only
-# STEM_FIELDS <- "F06" # ICT
-# STEM_FIELDS <- "F07" # Engineering
 
 grad_shares_STEM <- function(stem_field){
   grad_shares <- grad_dat %>%
@@ -222,14 +169,10 @@ grad_shares_STEM <- function(stem_field){
 }
 grad_shares <- grad_shares_STEM(stem_field = STEM_FIELDS)
 
-# (3) select tech_groups for evaluation and combine graduates and inventor shares:
-#TECH_SELECTION <- c("Electrical Engineering", "Mechanical Engineering")
-TECH_SELECTION <- FALSE
-if(TECH_SELECTION[1] == FALSE){plot_dat <- female_inv_shares}else{
-  plot_dat <- filter(female_inv_shares, tech_group %in% TECH_SELECTION)}
-plot_dat <- merge(plot_dat, grad_shares, by = "inv_ctry", all = TRUE)
+# (4) combine female inventor and STEM graduate shares:
+plot_dat <- merge(female_inv_shares, grad_shares, by = "inv_ctry", all = TRUE)
 
-# (4) calculate female inventor shares for the overall economies:
+# (5) calculate country-level female inventor shares for the overall economy:
 tmp <- gender %>% distinct(id, p_year, .keep_all = TRUE) %>%
   group_by(inv_ctry) %>%
   filter(p_year >= 2005 & p_year <= 2015) %>% 
@@ -238,64 +181,61 @@ tmp <- gender %>% distinct(id, p_year, .keep_all = TRUE) %>%
   mutate(female_share_inventors = female_inventors / total_inventors,
          tech_group = "Overall")
 
-
-# (5) add graduates information to female shares in the overall economy
+# (6) add graduates information to female shares in the overall economy
 MERGE_VARS <- c("inv_ctry", names(plot_dat)[!names(plot_dat) %in% names(tmp)])
 tmp <- merge(tmp, plot_dat[!duplicated(plot_dat$inv_ctry), MERGE_VARS], by = "inv_ctry", all.x = TRUE)
 
-# (6) create the same column structure and combine datasets
+# (7) create the same column structure and combine datasets
 tmp <- tmp[, names(plot_dat)]
 plot_dat <- rbind(plot_dat, tmp)
 plot_dat <- plot_dat[complete.cases(plot_dat), ]
 plot_dat <- mutate(plot_dat, country = countrycode(inv_ctry, "iso2c", "country.name.en"))
 
-# (7) save datasets
-write.csv(plot_dat, "/scicore/home/weder/rutzer/innoscape/female_inventors/Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO.csv", row.names = FALSE)
-print("Data for dynamic plot saved.")
-
+# (8) save data for plotting
+write.csv(plot_dat, "Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO.csv", 
+          row.names = FALSE)
+print("Data for tech_group plot saved.")
 write.csv(plot_dat[plot_dat$tech_group == "Overall", ], 
-          "/scicore/home/weder/rutzer/innoscape/female_inventors/Report/female_inventors_graduates_USPTO.csv", row.names = FALSE)
-print("Data for static plot saved.")
+          "Report/female_inventors_graduates_USPTO.csv", row.names = FALSE)
+print("Data for overall-economy plot saved.")
 
 
 
 
+#### FIGURE 3: CONVERSION RATE OF FEMALE GRADUATES TO PATENT INVENTORS
+# (1) calculate conversion rate at the country-level:
+plot_dat_3 <- plot_dat[plot_dat$tech_group == "Overall", ]
+plot_dat_3 <- plot_dat_3 %>% 
+  mutate(conv_rate = female_share_inventors / female_share_graduates) %>%
+  select(country, conv_rate, total_inventors) %>% arrange(-total_inventors)
+paste("Overall mean conversion rate is:", round(100 * mean(plot_dat_3$conv_rate), 2), "%") # 32.08%
+
+# only keep 20 largest inventor countries for plotting:
+plot_dat_3 <- plot_dat_3[1:20, ] %>% select(-total_inventors)
+paste("Top20 country mean conversion rate is:", round(100 * mean(plot_dat_3$conv_rate), 2), "%") # 32.43%
+
+# (2) save for plotting:
+write.csv(plot_dat_3, "Report/converstion_rate_plot.csv", row.names = FALSE)
+print("Data for conversion-rate plot saved.")
 
 
 
-### EXAMPLE PLOTS:-------------------------------------------
-# plot with 45degree line (= all countries are bad)
-ggplot(plot_dat, aes(x = female_share_graduates, 
-                      y = female_share_inventors))+
-  facet_wrap(.~tech_group)+
-  geom_point(aes(size = total_graduates), alpha = 0.5, color = "steelblue")+
-  geom_text(aes(label = inv_ctry), size = 3, nudge_y = 0.005, nudge_x = -0.003)+
-  xlim(0, 0.75)+
-  ylim(0, 0.6)+
-  geom_abline(intercept = 0, slope = 1, color = "black", linetype = "dotted")+
-  labs(x = paste("Female Graduate Share in", unique(plot_dat$stem_field)), y = "Female Inventor Share")+
-  theme(panel.background = element_blank(),
-        legend.position = "none",
-        axis.line = element_line(),
-        axis.title = element_text(face="bold",size=10))
 
-## with comparison to the average (= some countries are even worse)
-ggplot(plot_dat, aes(x = female_share_graduates, 
-                      y = female_share_inventors))+
-  facet_wrap(.~tech_group)+
-  geom_point(aes(size = total_graduates), alpha = 0.5, color = "steelblue")+
-  geom_text(aes(label = inv_ctry), size = 3, nudge_y = 0.005, nudge_x = -0.003)+
-  xlim(0, 0.75)+
-  ylim(0, 0.4)+
-  labs(x = "Female Graduate Share in Natural Sciences", y = "Female Inventor Share")+
-  geom_vline(xintercept = mean(plot_dat$female_share_graduates), 
-             linetype = "dotted")+
-  geom_hline(yintercept = mean(plot_dat$female_share_inventors), 
-             linetype = "dotted")+
-  theme(panel.background = element_blank(),
-        legend.position = "none",
-        axis.line = element_line(),
-        axis.title = element_text(face="bold",size=10))
+#### GROWTH RATES OF FEMALE STEM GRADUATES IN SWITZERLAND
+COUNTRY <- "CH"
+female_stem <- grad_dat %>% 
+  filter(inv_ctry == COUNTRY & FIELD %in% c("F05", "F06", "F07") & p_year != "2005") %>%
+  group_by(p_year) %>% summarise(female_graduates = sum(female_graduates),
+                              total_graduates = sum(total_graduates),
+                              female_share_graduates = female_graduates / total_graduates)
+share_2010 <- round(100 * female_stem[female_stem$p_year == "2010", "female_share_graduates"], digits = 2)
+share_2018 <- round(100 * female_stem[female_stem$p_year == "2018", "female_share_graduates"], digits = 2)
 
+# summarize:
+paste0("Female STEM graduate share in ", COUNTRY, " in 2010: ", share_2010, "%")# 28.05%
+paste0("Female STEM graduate share in ", COUNTRY, " in 2018: ", share_2018, "%") # 29.44%
+paste0("Female STEM graduate share has increased in ", COUNTRY, " by: ", share_2018 - share_2010, " percentage points") # 1.39pp
+paste0("Female STEM graduate share has increased in ", COUNTRY, " by: ", 
+       round(((share_2018 / share_2010) -1) * 100, 2), "%") # 4.96%
 
 

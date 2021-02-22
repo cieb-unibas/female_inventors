@@ -61,6 +61,53 @@ Plotly.newPlot('plot_2', data, layout,  {displayModeBar: false})
 });
 </script>
 
+<!-- Create FIGURE 3: CONVERSION RATE BETWEEN FEMALE STEM GRADUATES AND INVENORS -->
+<!-- work in progress -->
+
+<!-- <script> -->
+<!-- Plotly.d3.csv("XXXXXXX", function(err, rows){ -->
+
+<!--   function unpack(rows, key) { -->
+<!--   return rows.map(function(row) { return row[key]; }); -->
+<!-- } -->
+
+<!--   var data = [{ -->
+<!--       type: 'bar', -->
+<!--       marker: { color:  ['#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', -->
+<!--                          'red', -->
+<!--                          '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', -->
+<!--                          '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', -->
+<!--                          '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', -->
+<!--                          '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', -->
+<!--                          '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', -->
+<!--                          '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', -->
+<!--                          '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f']}, -->
+<!--       x: unpack(rows, 'conv_rate'), -->
+<!--       y: unpack(rows, 'country'), -->
+<!--       orientation: 'h') -->
+<!--       <!-- hoverinfo: 'markers', --> -->
+<!--       <!-- text: unpack(rows, 'conv_rate') --> -->
+<!--     }] -->
+
+<!--   var layout = { -->
+<!--     xaxis: {range: [0, 1], tickformat: ',.1%', -->
+<!--             title: {text: '<b>Graduates-to-Inventor Ratio</b>'}, -->
+<!--             showgrid: false}, -->
+<!--     yaxis: {showgrid: false}, -->
+<!--     shapes: [{ -->
+<!--       type: 'line', -->
+<!--       x0: 0.3208, -->
+<!--       y0: 0, -->
+<!--       x1: 0.3208, -->
+<!--       y1: 1, -->
+<!--       line: {dash: 'dot'} -->
+<!--     }] -->
+<!-- }; -->
+
+<!-- Plotly.newPlot('plot_3', data, layout,  {displayModeBar: false}) -->
+<!-- }); -->
+<!-- </script> -->
+
 
 <div class="container-fluid main-container">
 
