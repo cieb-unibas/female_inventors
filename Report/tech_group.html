@@ -1,41 +1,43 @@
 <head>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
-</head>
-
 
 <script>
-
 Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO.csv", function(err, rows){
 function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });
     }
 
-var     allCountryNames = unpack(rows, 'tech_group'),
-        allYear = unpack(rows, 'female_share_graduates'),
-        allGdp = unpack(rows, 'female_share_inventors'),
-        allInv = unpack(rows, 'inv_ctry'),
+var     allTech = unpack(rows, 'tech_group'),
+        femGrad = unpack(rows, 'female_share_graduates'),
+        femInv = unpack(rows, 'female_share_inventors'),
+        invCtry = unpack(rows, 'inv_ctry'),
+        allcountryName = unpack(rows, 'country'),
         listofCountries = [],
         currentCountry = [],
-        currentGdp = [],
-        currentYear = []
-        currentInv = [];
+        currentFemInv = [],
+        currentFemGrad = [],
+        currentInv = [],
+        currentcountryName = [];
 
-    for (var i = 0; i < allCountryNames.length; i++ ){
-        if (listofCountries.indexOf(allCountryNames[i]) === -1 ){
-            listofCountries.push(allCountryNames[i]);
+
+    for (var i = 0; i < allTech.length; i++ ){
+        if (listofCountries.indexOf(allTech[i]) === -1 ){
+            listofCountries.push(allTech[i]);
         }
     }
 
     function getCountryData(chosenCountry) {
-        currentGdp = [];
-        currentYear = [];
+        currentFemInv = [];
+        currentFemGrad = [];
         currentInv = [];
-        for (var i = 0 ; i < allCountryNames.length ; i++){
-            if ( allCountryNames[i] === chosenCountry ) {
-                currentGdp.push(allGdp[i]);
-                currentYear.push(allYear[i]);
-                currentInv.push(allInv[i]);
+        currentcountryName = [];
+        for (var i = 0 ; i < allTech.length ; i++){
+            if ( allTech[i] === chosenCountry ) {
+                currentFemInv.push(femInv[i]);
+                currentFemGrad.push(femGrad[i]);
+                currentInv.push(invCtry[i]);
+                currentcountryName.push(allcountryName[i]);
                 }
         }
     };
@@ -47,10 +49,11 @@ var     allCountryNames = unpack(rows, 'tech_group'),
         getCountryData(chosenCountry);
 
         var trace1 = {
-            x: currentYear,
-            y: currentGdp,
+            x: currentFemGrad,
+            y: currentFemInv,
             type: 'scatter',
             mode: 'markers+text',
+            hovertemplate:  '%{y}' + '<extra></extra>',
             marker: { color:  ['#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
                          'red',
                          '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
@@ -63,10 +66,30 @@ var     allCountryNames = unpack(rows, 'tech_group'),
             text: currentInv,
             textposition: 'bottom center'
         };
+        
+        var trace2 = {
+            x: currentFemGrad,
+            y: currentFemInv,
+            mode: 'markers',
+            hovertemplate: '<i>Country</i>: %{text}' + '<extra></extra>',
+            marker: { color:  ['#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         'red',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f']},
+                         text: currentcountryName,
+            textposition: 'bottom center',
+            type: 'scatter'
+        };
 
-        var data = [trace1];
+        var data = [trace1, trace2];
 
         var layout = {
+          showlegend: false,
     xaxis: {autorange: true,
             zeroline: false,
             tickformat: ',.1%', 
@@ -78,24 +101,25 @@ var     allCountryNames = unpack(rows, 'tech_group'),
     shapes: [
 {
       type: 'line',
-      x0: math.mean([currentYear]),
-      x1: math.mean([currentYear]),
-      y0: math.min([currentGdp]),
-      y1: math.max([currentGdp]),
+      x0: math.mean([currentFemGrad]),
+      x1: math.mean([currentFemGrad]),
+      y0: math.min([currentFemInv]),
+      y1: math.max([currentFemInv]),
       line: {dash: 'dot'}
     },
     {
       type: 'line',
-      x0: math.min([currentYear]),
-      y0: math.mean([currentGdp]),
-      x1: math.max([currentYear]),
-      y1: math.mean([currentGdp]),
+      x0: math.min([currentFemGrad]),
+      y0: math.mean([currentFemInv]),
+      x1: math.max([currentFemGrad]),
+      y1: math.mean([currentFemInv]),
       line: {dash: 'dot'}
     }
     ]
 };
 
-        Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
+
+Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
     };
 
     var innerContainer = document.querySelector('[data-num="0"'),
@@ -120,6 +144,8 @@ var     allCountryNames = unpack(rows, 'tech_group'),
 });    
 
 </script>
+</head>
+
 
 <body>
 <div class="showcase__section" id="bubble">
@@ -135,9 +161,7 @@ var     allCountryNames = unpack(rows, 'tech_group'),
     </div>
   </div>
 </div>
-</body>      
 
-<body>
 <div id='myDiv'></div>
 </body>
     
