@@ -1,10 +1,9 @@
 
 library(shiny)
-library(ggplot2)
 library(RColorBrewer)
 library(shinyWidgets)
 library(plotly)
-library(viridis)
+
 
 # Load data 
 fem_share <- read.csv2("female_inventor_share_USPTO.csv", sep = ",") 
