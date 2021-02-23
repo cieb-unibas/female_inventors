@@ -61,6 +61,47 @@ Plotly.newPlot('plot_2', data, layout,  {displayModeBar: false})
 });
 </script>
 
+<!-- Create FIGURE 3: CONVERSION RATE BETWEEN FEMALE STEM GRADUATES AND INVENORS -->
+<!-- work in progress -->
+
+<script>
+Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/converstion_rate_plot.csv", function(err, rows){
+
+  function unpack(rows, key) {
+  return rows.map(function(row) { return row[key]; });
+}
+
+  var data = [{
+      type: 'bar',
+      marker: {color: ['#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                       '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                       'red',
+                       '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                       '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f']},
+      x: unpack(rows, 'conv_rate'),
+      y: unpack(rows, 'country'),
+      orientation: 'h'}]
+
+  var layout = {
+    xaxis: {range: [0.1, 0.85], tickformat: ',.1%',
+            title: {text: '<b>Female Inventor Share to Female STEM Graduate Share Ratio</b>'},
+            showgrid: false},
+    yaxis: {showgrid: false, 
+            <!-- tickangle: -20, -->
+            dtick: 1},
+    shapes: [{
+      type: 'line',
+      x0: 0.3208,
+      y0: 0,
+      x1: 0.3208,
+      y1: 1,
+      line: {dash: 'dot'}
+    }]
+};
+
+Plotly.newPlot('plot_3', data, layout,  {displayModeBar: false})
+});
+</script>
 
 <div class="container-fluid main-container">
 
@@ -122,6 +163,16 @@ What could be possible reasons for these low female shares? One reason simply is
 The average share of female STEM graduates across all considered countries is 36 percent, which confirms the well-known underrepresentation of women in these fields. However, it is interesting to note that the shares vary considerably across countries. For example, Eastern and Southern European countries tend to have higher female graduate shares (e.g. Poland, Estonia, Italy, or Greece). Therefore, it might well be possible for other countries to increase their female graduate shares in STEM. 
 Even more striking is that every country in our sample is below the dashed diagonal line (see the green dots in the graph). This diagonal line shows the female inventor shares that could be achieved if countries would exactly employ the same proportion of women in R&D as they train through their education systems. Take Switzerland for example: 28.5 percent of all students who graduated in STEM fields between 2005 and 2015 were women. However, Switzerland’s female inventor share was only 8.7 percent for the same period. Hence, only a very disproportional share of Swiss female STEM graduates pursues inventor careers. Now, since all countries are located below the diagonal line, the share of female patent inventors is *lower* than the share of female STEM graduates in *every* country. Spoken differently, not only are there relatively few female STEM graduates in many countries, but those women who chose to study a STEM field are less likely to end up in an R&D career compared to their male peers in general. And the farther away a country is positioned from the diagonal line, the more pronounced is this imbalance. 
 <br>
+
+<hr class="hr_red">
+#### **Figure 3: Conversion Rate between female STEM graduate and inventor shares**
+<body>
+<div id='plot_3'></div>
+</body>
+<span style="font-size:0.8em">*Source: CIEBs’ own estimations based on data from the <a href=https://www.patentsview.org/download/ target = “_blank”>USPTO</a> and the <a href=https://stats.oecd.org/index.aspx?queryid=79486# target = “_blank”>OECD</a>. We use information for the period 2005-2015 and aggregate the data of this 10-year period to smooth out yearly fluctuations. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors/tree/main/Data target = “_blank”>GitHub</a>.*</span>
+
+<br>
+
 
 ### **Female shares differ substantially among countries**
 That said, there are notable differences across countries. Figure 3 zooms in to examine these differences more closely. The zoomed plot shows the same relationship as the graph before, but additionally depicts the average female inventor share (the dashed horizontal line) and the average female STEM graduate share (the dashed vertical line) across countries. 
