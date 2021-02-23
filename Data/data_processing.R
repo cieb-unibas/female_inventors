@@ -4,7 +4,7 @@
 #                 across countries and over time.                     #
 # Authors:        Matthias Niggli/CIEB UniBasel                       #
 #                 Christian Rutzer/CIEB UniBasel                      #
-# Last Revised:   22.02.2021                                          #
+# Last Revised:   23.02.2021                                          #
 #######################################################################
 
 #######################################
@@ -144,7 +144,7 @@ gender <- gender %>% mutate(
 # (2) calculate female inventor shares per tech_group:
 female_inv_shares <- gender %>%
   filter(inv_ctry %in% unique(grad_dat$inv_ctry) & 
-           p_year >= 2005 & p_year <= 2015) %>% 
+           p_year >= 2010 & p_year <= 2015) %>% 
   group_by(inv_ctry, tech_group) %>% 
   distinct(id, p_year, .keep_all = TRUE) %>% # only unique inventors per tech_group
   summarise(total_inventors = n(),
@@ -158,7 +158,7 @@ STEM_FIELDS <- c("F05", "F06", "F07") # all STEM
 grad_shares_STEM <- function(stem_field){
   grad_shares <- grad_dat %>%
     filter(FIELD %in% stem_field,
-           p_year >= 2005, p_year <= 2015) %>%
+           p_year >= 2010, p_year <= 2015) %>%
     group_by(inv_ctry) %>% summarize(total_graduates = sum(total_graduates, na.rm = TRUE),
                                    female_graduates = sum(female_graduates, na.rm = TRUE)) %>%
     mutate(female_share_graduates = female_graduates / total_graduates) %>% 
@@ -175,7 +175,7 @@ plot_dat <- merge(female_inv_shares, grad_shares, by = "inv_ctry", all = TRUE)
 # (5) calculate country-level female inventor shares for the overall economy:
 tmp <- gender %>% distinct(id, p_year, .keep_all = TRUE) %>%
   group_by(inv_ctry) %>%
-  filter(p_year >= 2005 & p_year <= 2015) %>% 
+  filter(p_year >= 2010 & p_year <= 2015) %>% 
   summarise(total_inventors = n(),
             female_inventors = sum(gender == 0, na.rm = TRUE)) %>%
   mutate(female_share_inventors = female_inventors / total_inventors,
@@ -190,6 +190,7 @@ tmp <- tmp[, names(plot_dat)]
 plot_dat <- rbind(plot_dat, tmp)
 plot_dat <- plot_dat[complete.cases(plot_dat), ]
 plot_dat <- mutate(plot_dat, country = countrycode(inv_ctry, "iso2c", "country.name.en"))
+plot_dat <- filter(plot_dat, inv_ctry != "JP") # exclude Japan because of missing information
 
 # (8) save data for plotting
 write.csv(plot_dat, "Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO.csv", 
@@ -208,12 +209,12 @@ plot_dat_3 <- plot_dat[plot_dat$tech_group == "Overall", ]
 plot_dat_3 <- plot_dat_3 %>% 
   mutate(conv_rate = female_share_inventors / female_share_graduates) %>%
   select(country, conv_rate, total_inventors) %>% arrange(-total_inventors)
-paste("Overall mean conversion rate is:", round(100 * mean(plot_dat_3$conv_rate), 2), "%") # 32.08%
+paste("Overall mean conversion rate is:", round(100 * mean(plot_dat_3$conv_rate), 2), "%") # 30.67%
 
 # only keep 20 largest inventor countries for plotting:
 plot_dat_3 <- plot_dat_3[1:20, ] %>% select(-total_inventors)
 plot_dat_3 <- plot_dat_3 %>% arrange(-conv_rate)
-paste("Top20 country mean conversion rate is:", round(100 * mean(plot_dat_3$conv_rate), 2), "%") # 32.43%
+paste("Top20 country mean conversion rate is:", round(100 * mean(plot_dat_3$conv_rate), 2), "%") # 31.84%
 
 # (2) save for plotting:
 write.csv(plot_dat_3, "Report/converstion_rate_plot.csv", row.names = FALSE)
