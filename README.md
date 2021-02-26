@@ -14,7 +14,7 @@ This folder contains the file `data_processing.R`, the script to generate the da
 This folder features several scrips that jointly produce the interactive graphs presented in this analysis. The main file to generate the full report of this analysis is `female_inventors.Rmd`, which builds on packages and libraries such as `knitr`, `rmarkdown`, `ggplot2`, `shiny`, `shinyWidgets` and `plotly.js`.
 
 ### Example
-![example_plot](xxxxxx.png)
+![example_plot](https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Data/example_plot.png)
 
 
 
