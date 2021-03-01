@@ -4,7 +4,6 @@ library(RColorBrewer)
 library(shinyWidgets)
 library(plotly)
 
-
 # Load data 
 fem_share <- read.csv2("female_inventor_share_USPTO.csv", sep = ",") 
 fem_share$female_share_inventors <- round(as.numeric(as.character(fem_share$female_share_inventors)), 4)
@@ -57,16 +56,16 @@ ui <- fluidPage(
 
 # Define server 
 server <- function(input, output, session) {
-  
+
   dat_set <-  bindCache(
-              x = reactive({subset(fem_share, country %in% input$fem_share & p_year < 2019)}),
-              input$x)
+              reactive({subset(fem_share, country %in% input$fem_share & p_year < 2019)}),
+              input$fem_share)
   
-  output$fem_share_plot <- renderPlotly({
+  output$fem_share_plot <- bindCache(renderPlotly({
     if(nrow(dat_set()) != 0){
       
-      p <-   dat_set() %>% 
-        plot_ly(
+      p <-   
+        plot_ly(dat_set(),
           x = ~country, 
           y = ~female_share_inventors,
           frame = ~p_year,
@@ -84,9 +83,10 @@ server <- function(input, output, session) {
                          tickcolor = list(color = "#7f7f7f")) %>%
         hide_colorbar() %>%
         animation_button(label = "<b>Start</b>", x =  ifelse(session$clientData$pixelratio > 2, 0, 0.0), y = 0.05)
-      p  
-    } else {} 
-  })  
+      p
+    } else {}  
+  }), input$fem_share)   
+
 }    
 
 
