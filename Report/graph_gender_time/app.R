@@ -58,7 +58,9 @@ ui <- fluidPage(
 # Define server 
 server <- function(input, output, session) {
   
-  dat_set <-  reactive({subset(fem_share, country %in% input$fem_share & p_year < 2019)})
+  dat_set <-  bindCache(
+              x = reactive({subset(fem_share, country %in% input$fem_share & p_year < 2019)}),
+              input$x)
   
   output$fem_share_plot <- renderPlotly({
     if(nrow(dat_set()) != 0){
@@ -77,7 +79,7 @@ server <- function(input, output, session) {
         add_text(textposition = "top") %>%
         config(displayModeBar = F) %>% 
         layout(yaxis = list(title = "<b>Female Inventor Share</b>", fixedrange = TRUE, tickformat = ',.1%'), xaxis = list(title = "", fixedrange = TRUE), showlegend = F) %>%
-        animation_opts(frame = 800, redraw = F) %>%
+        animation_opts(frame = 400, redraw = F) %>%
         animation_slider(currentvalue = list(prefix = "Year ", font = list(color = "#7f7f7f")), bgcolor = "white", x =  ifelse(session$clientData$pixelratio > 2, -0.1, 0), y = -0.06,  
                          tickcolor = list(color = "#7f7f7f")) %>%
         hide_colorbar() %>%
