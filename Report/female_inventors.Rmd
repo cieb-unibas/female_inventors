@@ -115,7 +115,7 @@ Plotly.newPlot('plot_3', data, layout, {displayModeBar: false})
 
 <br>
 
-*February 2021* by <a href="https://wwz.unibas.ch/de/personen/matthias-niggli/" target = "_blank">Matthias Niggli</a> and <a href="https://wwz.unibas.ch/de/personen/christian-rutzer/" target = "_blank">Christian Rutzer</a> 
+*March 2021* by <a href="https://wwz.unibas.ch/de/personen/matthias-niggli/" target = "_blank">Matthias Niggli</a> and <a href="https://wwz.unibas.ch/de/personen/christian-rutzer/" target = "_blank">Christian Rutzer</a> 
 <br>
 
 ![](scientist_from_back.jpg){width=100%} 
@@ -193,7 +193,7 @@ That said, there are notable differences across countries. Figure 4 zooms in to 
 ```{r, echo=FALSE}
 htmltools::includeHTML("tech_group.html")
 ```
-<span style="font-size:0.8em">*Source: CIEB`s own estimations based on data from the <a href=https://www.patentsview.org/download/ target = “_blank”>USPTO</a> and the <a href=https://stats.oecd.org/index.aspx?queryid=79486# target = “_blank”>OECD</a>. We use information for the period 2010-2015 and aggregate the data of this 10-year period to smooth out yearly fluctuations. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors/tree/main/Data target = “_blank”>GitHub</a>.*</span>
+<span style="font-size:0.8em">*Source: CIEB`s own estimations based on data from the <a href=https://www.patentsview.org/download/ target = “_blank”>USPTO</a> and the <a href=https://stats.oecd.org/index.aspx?queryid=79486# target = “_blank”>OECD</a>. We use information for the period 2010-2015 and aggregate the data of this 10-year period to smooth out yearly fluctuations. The dashed lines indicate the respective median among these 39 countries. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors/tree/main/Data target = “_blank”>GitHub</a>.*</span>
 
 <br>
 
@@ -237,3 +237,4 @@ To sum up, policies in different areas are important channels to raise the parti
 <br>
 <br>
 <br>
+

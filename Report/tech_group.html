@@ -109,8 +109,8 @@ var     allTech = unpack(rows, 'tech_group'),
     shapes: [
 {
       type: 'line',
-      x0: math.mean([currentFemGrad]),
-      x1: math.mean([currentFemGrad]),
+      x0: math.median([currentFemGrad]),
+      x1: math.median([currentFemGrad]),
       y0: math.min([currentFemInv]),
       y1: math.max([currentFemInv]),
       line: {dash: 'dot'}
@@ -118,9 +118,9 @@ var     allTech = unpack(rows, 'tech_group'),
     {
       type: 'line',
       x0: math.min([currentFemGrad]),
-      y0: math.mean([currentFemInv]),
+      y0: math.median([currentFemInv]),
       x1: math.max([currentFemGrad]),
-      y1: math.mean([currentFemInv]),
+      y1: math.median([currentFemInv]),
       line: {dash: 'dot'}
     }
     ]
@@ -131,8 +131,7 @@ $("select").selectpicker();
 Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
     };
 
-    var innerContainer = document.querySelector('[data-num="0"'), 
-        countrySelector = innerContainer.querySelector('.selectpicker');
+    var countrySelector = document.querySelector('.selectpicker');
 
     function assignOptions(textArray, selector) {
         for (var i = 0; i < textArray.length-1;  i++) {
