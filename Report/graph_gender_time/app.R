@@ -16,7 +16,10 @@ ui <- fluidPage(
                             script = "jquery-3.5.1.min.js"),
   tags$style(type="text/css",
              ".shiny-output-error { visibility: hidden; }",
-             ".shiny-output-error:before { visibility: hidden; }"),
+             ".shiny-output-error:before { visibility: hidden; }",
+             ".bs-select-all {
+               display: none;}",
+            ".bs-deselect-all {width: 100%;}"),
   
   # Choose organization and model
   fluidRow(
@@ -34,7 +37,7 @@ ui <- fluidPage(
         `selected-text-format` = "count > 3",
         `count-selected-text` = "Country",
         `deselect-all-text` = "Deselect all",
-        `select-all-text` = "Select all",
+        # `select-all-text` = "Select all",
         `none-selected-text` = 'No country selected'), 
       multiple = TRUE),
     # create plot
