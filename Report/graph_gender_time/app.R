@@ -8,6 +8,7 @@ library(plotly)
 fem_share <- read.csv2("female_inventor_share_USPTO.csv", sep = ",") 
 fem_share$female_share_inventors <- round(as.numeric(as.character(fem_share$female_share_inventors)), 4)
 fem_share$info <- ifelse(fem_share$female_share_inventors == 0, "not enough\nobservations", " ")
+fem_share <- subset(fem_share, p_year < 2019)
 
 # Define UI 
 ui <- fluidPage(
@@ -15,8 +16,8 @@ ui <- fluidPage(
                             src = c(href = "https://code.jquery.com/"),
                             script = "jquery-3.5.1.min.js"),
   tags$style(type="text/css",
-             ".shiny-output-error { visibility: hidden; }",
-             ".shiny-output-error:before { visibility: hidden; }",
+             # ".shiny-output-error { visibility: hidden; }",
+             # ".shiny-output-error:before { visibility: hidden; }",
              ".bs-select-all {
                display: none;}",
             ".bs-deselect-all {width: 100%;}"),
@@ -34,7 +35,7 @@ ui <- fluidPage(
         `max-options` = 6,
         `actions-box` = TRUE, 
         `size` = 10,
-        `selected-text-format` = "count > 3",
+        # `selected-text-format` = "count > 3",
         `count-selected-text` = "Country",
         `deselect-all-text` = "Deselect all",
         # `select-all-text` = "Select all",
@@ -64,7 +65,9 @@ server <- function(input, output, session) {
               reactive({subset(fem_share, country %in% input$fem_share & p_year < 2019)}),
               input$fem_share)
   
-  output$fem_share_plot <- bindCache(renderPlotly({
+  # dat_set <-  reactive({subset(fem_share, country %in% input$fem_share)})
+  
+  output$fem_share_plot <- renderPlotly({
     if(nrow(dat_set()) != 0){
       
       p <-   
@@ -88,7 +91,7 @@ server <- function(input, output, session) {
         animation_button(label = "<b>Start</b>", x =  ifelse(session$clientData$pixelratio > 2, 0, 0.0), y = 0.05)
       p
     } else {}  
-  }), input$fem_share)   
+  }) 
 
 }    
 
