@@ -1,13 +1,6 @@
 <head>
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
 
 <script>
 Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO.csv", function(err, rows){
@@ -97,20 +90,19 @@ var     allTech = unpack(rows, 'tech_group'),
 
         var layout = {
           showlegend: false,
-          scrollZoom: false,
-    xaxis: {fixedrange: true,
+    xaxis: {autorange: true,
             zeroline: false,
             tickformat: ',.1%', 
             title: {text: '<b>Female Graduate Share in STEM Fields</b>'}},
-    yaxis: {fixedrange: true,
+    yaxis: {autorange: true,
             zeroline: false,
             tickformat: ',.1%',
             title: {text: '<b>Female Inventor Share</b>'}},
     shapes: [
 {
       type: 'line',
-      x0: math.median([currentFemGrad]),
-      x1: math.median([currentFemGrad]),
+      x0: math.mean([currentFemGrad]),
+      x1: math.mean([currentFemGrad]),
       y0: math.min([currentFemInv]),
       y1: math.max([currentFemInv]),
       line: {dash: 'dot'}
@@ -118,20 +110,21 @@ var     allTech = unpack(rows, 'tech_group'),
     {
       type: 'line',
       x0: math.min([currentFemGrad]),
-      y0: math.median([currentFemInv]),
+      y0: math.mean([currentFemInv]),
       x1: math.max([currentFemGrad]),
-      y1: math.median([currentFemInv]),
+      y1: math.mean([currentFemInv]),
       line: {dash: 'dot'}
     }
     ]
 };
 
-$("select").selectpicker();
 
 Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
     };
 
-    var countrySelector = document.querySelector('.selectpicker');
+    var innerContainer = document.querySelector('[data-num="0"'),
+        plotEl = innerContainer.querySelector('.plot'),
+        countrySelector = innerContainer.querySelector('.countrydata');
 
     function assignOptions(textArray, selector) {
         for (var i = 0; i < textArray.length-1;  i++) {
@@ -161,7 +154,7 @@ Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
     <div class="bubbleplot" data-num="0">
       <div class="plot" id="plotdiv"></div>
       <div class="control-row">
-        <select class="selectpicker">
+        <select class="countrydata">
         <option selected >Overall</option>  
         </select>
       </div>
