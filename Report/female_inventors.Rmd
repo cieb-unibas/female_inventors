@@ -1,17 +1,21 @@
-
 ---
 output:
   html_document:
     self_contained: false
     theme: null
-    css: "https://innoscape.de/female_share/style.css"
+    css: "https://innoscape.de/female_share/en/style.css"
     highlight: null
     mathjax: null
 ---
+
 <head>
-<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" href="style.css" type="text/css" />
 <div class="container-fluid main-container">
+
+
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
 
 <!-- Create FIGURE 2: SCATTERPOLOT WITH 45 DEGREE LINE -->
 <script>
