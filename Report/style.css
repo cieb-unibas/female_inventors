@@ -203,3 +203,32 @@ summary {
 .webshareapi .webshare {
   display: block;
 }
+
+
+.bootstrap-select {
+  max-width: 200px;
+}
+.bootstrap-select .btn {
+  background-color: #141414;
+  border-style: solid;
+  border-left-width: 3px;
+  border-left-color: #00DDDD;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  color: white;
+  font-weight: 200;
+  padding: 12px 12px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.bootstrap-select .dropdown-menu {
+  margin: 15px 0 0;
+}
+select::-ms-expand {
+  /* for IE 11 */
+  display: none;
+}
