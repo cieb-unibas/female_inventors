@@ -11,9 +11,8 @@ output:
 <head>
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
-</head>
+
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-<link rel="stylesheet" href="style.css" type="text/css" />
 <div class="container-fluid main-container">
 
 <!-- Create FIGURE 2: SCATTERPOLOT WITH 45 DEGREE LINE -->
@@ -107,7 +106,7 @@ Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/ma
 Plotly.newPlot('plot_3', data, layout, {displayModeBar: false})
 });
 </script>
-
+</head>
 
 <!-- START with text -->
 
