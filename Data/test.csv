@@ -1,7 +1,4 @@
 "size","sektor","var_pairs","mean_qual","mean_wichtig","median_qual","median_wichtig"
-"","Architektur/Werbung/Grafik/Design/PR","v10_1",NA,5,NA,5
-"","Architektur/Werbung/Grafik/Design/PR","v10_2",NA,1,NA,1
-"","Architektur/Werbung/Grafik/Design/PR","v10_3",NA,1,NA,1
 "","Architektur/Werbung/Grafik/Design/PR","v11_11v11_12",3,3,3,3
 "","Architektur/Werbung/Grafik/Design/PR","v11_13v11_14",3,1,3,1
 "","Architektur/Werbung/Grafik/Design/PR","v11_15v11_16",3,3,3,3
@@ -12,26 +9,18 @@
 "","Architektur/Werbung/Grafik/Design/PR","v11_5v11_6",4,4,4,4
 "","Architektur/Werbung/Grafik/Design/PR","v11_7v11_8",5,3,5,3
 "","Architektur/Werbung/Grafik/Design/PR","v11_9v11_10",3,3,3,3
-"","Architektur/Werbung/Grafik/Design/PR","v2_11",NA,3,NA,3
 "","Architektur/Werbung/Grafik/Design/PR","v2_12v2_13",4,3,4,3
 "","Architektur/Werbung/Grafik/Design/PR","v2_14v2_16",5,3,5,3
 "","Architektur/Werbung/Grafik/Design/PR","v2_5v2_6",4,4,4,4
 "","Architektur/Werbung/Grafik/Design/PR","v2_7v2_8",4,4,4,4
 "","Architektur/Werbung/Grafik/Design/PR","v2_9v2_10",2,2,2,2
-"","Architektur/Werbung/Grafik/Design/PR","v4_1",NA,4,NA,4
-"","Architektur/Werbung/Grafik/Design/PR","v4_2",NA,1,NA,1
 "","Architektur/Werbung/Grafik/Design/PR","v4_3v4_4",4,2,4,2
-"","Architektur/Werbung/Grafik/Design/PR","v5_1v5_2",NA,4,NA,4
 "","Architektur/Werbung/Grafik/Design/PR","v6_11v6_12",3,3,3,3
 "","Architektur/Werbung/Grafik/Design/PR","v6_1v6_2",3,3,3,3
 "","Architektur/Werbung/Grafik/Design/PR","v6_3v6_4",4,4,4,4
 "","Architektur/Werbung/Grafik/Design/PR","v6_5v6_6",3,3,3,3
 "","Architektur/Werbung/Grafik/Design/PR","v6_7v6_8",3,1,3,1
 "","Architektur/Werbung/Grafik/Design/PR","v6_9v6_10",3,3,3,3
-"","Architektur/Werbung/Grafik/Design/PR","v7_2",0,NA,0,NA
-"","Architektur/Werbung/Grafik/Design/PR","v7_3",2,NA,2,NA
-"","Architektur/Werbung/Grafik/Design/PR","v7_4",5,NA,5,NA
-"","Architektur/Werbung/Grafik/Design/PR","v7_5",NA,1,NA,1
 "","Architektur/Werbung/Grafik/Design/PR","v7_6v7_7",1,5,1,5
 "","Architektur/Werbung/Grafik/Design/PR","v8_11v8_12",1,2,1,2
 "","Architektur/Werbung/Grafik/Design/PR","v8_13v8_14",1,1,1,1
@@ -41,12 +30,7 @@
 "","Architektur/Werbung/Grafik/Design/PR","v8_5v8_6",5,4,5,4
 "","Architektur/Werbung/Grafik/Design/PR","v8_7v8_8",3,3,3,3
 "","Architektur/Werbung/Grafik/Design/PR","v8_9v8_10",4,4,4,4
-"","Architektur/Werbung/Grafik/Design/PR","v9_1",NA,3,NA,3
 "","Architektur/Werbung/Grafik/Design/PR","v9_2v9_3",1,1,1,1
-"","Architektur/Werbung/Grafik/Design/PR","v9_4",NA,NA,NA,NA
-"","Gesundheitssektor","v10_1",NA,4,NA,4
-"","Gesundheitssektor","v10_2",NA,1,NA,1
-"","Gesundheitssektor","v10_3",NA,2,NA,2
 "","Gesundheitssektor","v11_11v11_12",3,2,3,2
 "","Gesundheitssektor","v11_13v11_14",2,1,2,1
 "","Gesundheitssektor","v11_15v11_16",3.5,3.5,3.5,3.5
@@ -57,26 +41,18 @@
 "","Gesundheitssektor","v11_5v11_6",3,2,3,2
 "","Gesundheitssektor","v11_7v11_8",1,3,1,3
 "","Gesundheitssektor","v11_9v11_10",3,2,3,2
-"","Gesundheitssektor","v2_11",NA,2,NA,2
 "","Gesundheitssektor","v2_12v2_13",2,2.5,2,2.5
 "","Gesundheitssektor","v2_14v2_16",1,2,1,2
 "","Gesundheitssektor","v2_5v2_6",3,5,3,5
 "","Gesundheitssektor","v2_7v2_8",3,3,3,3
 "","Gesundheitssektor","v2_9v2_10",1.5,2,1.5,2
-"","Gesundheitssektor","v4_1",NA,3,NA,3
-"","Gesundheitssektor","v4_2",NA,4,NA,4
 "","Gesundheitssektor","v4_3v4_4",3,3,3,3
-"","Gesundheitssektor","v5_1v5_2",NA,4,NA,4
 "","Gesundheitssektor","v6_11v6_12",3.5,2.5,3.5,2.5
 "","Gesundheitssektor","v6_1v6_2",3.5,3,3.5,3
 "","Gesundheitssektor","v6_3v6_4",2.5,3,2.5,3
 "","Gesundheitssektor","v6_5v6_6",3.5,2,3.5,2
 "","Gesundheitssektor","v6_7v6_8",2.5,2.5,2.5,2.5
 "","Gesundheitssektor","v6_9v6_10",3,3,3,3
-"","Gesundheitssektor","v7_2",2,NA,2,NA
-"","Gesundheitssektor","v7_3",2,NA,2,NA
-"","Gesundheitssektor","v7_4",1.5,NA,1.5,NA
-"","Gesundheitssektor","v7_5",NA,4.5,NA,4.5
 "","Gesundheitssektor","v7_6v7_7",4,3,4,3
 "","Gesundheitssektor","v8_11v8_12",3,4,3,4
 "","Gesundheitssektor","v8_13v8_14",2,2,2,2
@@ -86,57 +62,36 @@
 "","Gesundheitssektor","v8_5v8_6",2,3.5,2,3.5
 "","Gesundheitssektor","v8_7v8_8",2.5,2,2.5,2
 "","Gesundheitssektor","v8_9v8_10",5,4.5,5,4.5
-"","Gesundheitssektor","v9_1",NA,3,NA,3
 "","Gesundheitssektor","v9_2v9_3",1,1,1,1
-"","Gesundheitssektor","v9_4",NA,4,NA,4
-"","Gross- und Einzelhandel","v10_1",NA,3,NA,3
-"","Gross- und Einzelhandel","v10_2",NA,3,NA,3
-"","Gross- und Einzelhandel","v10_3",NA,3,NA,3
 "","Gross- und Einzelhandel","v11_11v11_12",3,2,3,2
 "","Gross- und Einzelhandel","v11_13v11_14",2,2,2,2
 "","Gross- und Einzelhandel","v11_15v11_16",3,3,3,3
 "","Gross- und Einzelhandel","v11_17v11_18",2,2,2,2
-"","Gross- und Einzelhandel","v11_19v11_20",NA,4,NA,4
 "","Gross- und Einzelhandel","v11_1v11_2",3,3,3,3
 "","Gross- und Einzelhandel","v11_3v11_4",3,3,3,3
 "","Gross- und Einzelhandel","v11_5v11_6",4,3,4,3
 "","Gross- und Einzelhandel","v11_7v11_8",4,3,4,3
 "","Gross- und Einzelhandel","v11_9v11_10",3,2,3,2
-"","Gross- und Einzelhandel","v2_11",NA,3,NA,3
 "","Gross- und Einzelhandel","v2_12v2_13",2,1,2,1
 "","Gross- und Einzelhandel","v2_14v2_16",2,1,2,1
 "","Gross- und Einzelhandel","v2_5v2_6",2,4,2,4
 "","Gross- und Einzelhandel","v2_7v2_8",2,4,2,4
 "","Gross- und Einzelhandel","v2_9v2_10",1,1,1,1
-"","Gross- und Einzelhandel","v4_1",NA,3,NA,3
-"","Gross- und Einzelhandel","v4_2",NA,3,NA,3
 "","Gross- und Einzelhandel","v4_3v4_4",2,3,2,3
-"","Gross- und Einzelhandel","v5_1v5_2",NA,3,NA,3
 "","Gross- und Einzelhandel","v6_11v6_12",4,4,4,4
 "","Gross- und Einzelhandel","v6_1v6_2",4,4,4,4
 "","Gross- und Einzelhandel","v6_3v6_4",5,4,5,4
 "","Gross- und Einzelhandel","v6_5v6_6",2,2,2,2
 "","Gross- und Einzelhandel","v6_7v6_8",3,2,3,2
 "","Gross- und Einzelhandel","v6_9v6_10",3,4,3,4
-"","Gross- und Einzelhandel","v7_2",1,NA,1,NA
-"","Gross- und Einzelhandel","v7_3",3,NA,3,NA
-"","Gross- und Einzelhandel","v7_4",3,NA,3,NA
-"","Gross- und Einzelhandel","v7_5",NA,3,NA,3
 "","Gross- und Einzelhandel","v7_6v7_7",4,3,4,3
 "","Gross- und Einzelhandel","v8_11v8_12",4,2,4,2
-"","Gross- und Einzelhandel","v8_13v8_14",NA,3,NA,3
-"","Gross- und Einzelhandel","v8_15v8_16",NA,4,NA,4
 "","Gross- und Einzelhandel","v8_1v8_2",5,4,5,4
 "","Gross- und Einzelhandel","v8_3v8_4",4,2,4,2
 "","Gross- und Einzelhandel","v8_5v8_6",2,4,2,4
 "","Gross- und Einzelhandel","v8_7v8_8",4,3,4,3
 "","Gross- und Einzelhandel","v8_9v8_10",4,4,4,4
-"","Gross- und Einzelhandel","v9_1",NA,2,NA,2
 "","Gross- und Einzelhandel","v9_2v9_3",4,5,4,5
-"","Gross- und Einzelhandel","v9_4",NA,4,NA,4
-"","Maschinen-, Elektro- und Metallindustrie","v10_1",NA,5,NA,5
-"","Maschinen-, Elektro- und Metallindustrie","v10_2",NA,1,NA,1
-"","Maschinen-, Elektro- und Metallindustrie","v10_3",NA,3,NA,3
 "","Maschinen-, Elektro- und Metallindustrie","v11_11v11_12",1,1,1,1
 "","Maschinen-, Elektro- und Metallindustrie","v11_13v11_14",1,1,1,1
 "","Maschinen-, Elektro- und Metallindustrie","v11_15v11_16",5,5,5,5
@@ -147,26 +102,18 @@
 "","Maschinen-, Elektro- und Metallindustrie","v11_5v11_6",1,1,1,1
 "","Maschinen-, Elektro- und Metallindustrie","v11_7v11_8",1,5,1,5
 "","Maschinen-, Elektro- und Metallindustrie","v11_9v11_10",1,1,1,1
-"","Maschinen-, Elektro- und Metallindustrie","v2_11",NA,3,NA,3
 "","Maschinen-, Elektro- und Metallindustrie","v2_12v2_13",3,5,3,5
 "","Maschinen-, Elektro- und Metallindustrie","v2_14v2_16",1,1,1,1
 "","Maschinen-, Elektro- und Metallindustrie","v2_5v2_6",1,3,1,3
 "","Maschinen-, Elektro- und Metallindustrie","v2_7v2_8",1,1,1,1
 "","Maschinen-, Elektro- und Metallindustrie","v2_9v2_10",1,1,1,1
-"","Maschinen-, Elektro- und Metallindustrie","v4_1",NA,2,NA,2
-"","Maschinen-, Elektro- und Metallindustrie","v4_2",NA,1,NA,1
 "","Maschinen-, Elektro- und Metallindustrie","v4_3v4_4",5,3,5,3
-"","Maschinen-, Elektro- und Metallindustrie","v5_1v5_2",NA,3,NA,3
 "","Maschinen-, Elektro- und Metallindustrie","v6_11v6_12",3,3,3,3
 "","Maschinen-, Elektro- und Metallindustrie","v6_1v6_2",3,1,3,1
 "","Maschinen-, Elektro- und Metallindustrie","v6_3v6_4",1,1,1,1
 "","Maschinen-, Elektro- und Metallindustrie","v6_5v6_6",1,1,1,1
 "","Maschinen-, Elektro- und Metallindustrie","v6_7v6_8",3,3,3,3
 "","Maschinen-, Elektro- und Metallindustrie","v6_9v6_10",1,1,1,1
-"","Maschinen-, Elektro- und Metallindustrie","v7_2",0,NA,0,NA
-"","Maschinen-, Elektro- und Metallindustrie","v7_3",0,NA,0,NA
-"","Maschinen-, Elektro- und Metallindustrie","v7_4",0,NA,0,NA
-"","Maschinen-, Elektro- und Metallindustrie","v7_5",NA,4,NA,4
 "","Maschinen-, Elektro- und Metallindustrie","v7_6v7_7",5,1,5,1
 "","Maschinen-, Elektro- und Metallindustrie","v8_11v8_12",5,5,5,5
 "","Maschinen-, Elektro- und Metallindustrie","v8_13v8_14",1,1,1,1
@@ -176,12 +123,7 @@
 "","Maschinen-, Elektro- und Metallindustrie","v8_5v8_6",1,3,1,3
 "","Maschinen-, Elektro- und Metallindustrie","v8_7v8_8",3,1,3,1
 "","Maschinen-, Elektro- und Metallindustrie","v8_9v8_10",5,1,5,1
-"","Maschinen-, Elektro- und Metallindustrie","v9_1",NA,1,NA,1
 "","Maschinen-, Elektro- und Metallindustrie","v9_2v9_3",1,3,1,3
-"","Maschinen-, Elektro- und Metallindustrie","v9_4",NA,5,NA,5
-"10-50","Finanzen und Versicherung","v10_1",NA,3,NA,3
-"10-50","Finanzen und Versicherung","v10_2",NA,1.33333333333333,NA,1
-"10-50","Finanzen und Versicherung","v10_3",NA,3,NA,4
 "10-50","Finanzen und Versicherung","v11_11v11_12",3.66666666666667,2.66666666666667,4,3
 "10-50","Finanzen und Versicherung","v11_13v11_14",3,1.66666666666667,3,1
 "10-50","Finanzen und Versicherung","v11_15v11_16",4,3.66666666666667,4,4
@@ -192,26 +134,18 @@
 "10-50","Finanzen und Versicherung","v11_5v11_6",4.33333333333333,4,4,4
 "10-50","Finanzen und Versicherung","v11_7v11_8",4,2.66666666666667,4,3
 "10-50","Finanzen und Versicherung","v11_9v11_10",4,2,4,2
-"10-50","Finanzen und Versicherung","v2_11",NA,3,NA,3
 "10-50","Finanzen und Versicherung","v2_12v2_13",3.33333333333333,2,3,2
 "10-50","Finanzen und Versicherung","v2_14v2_16",2.66666666666667,2,3,2
 "10-50","Finanzen und Versicherung","v2_5v2_6",3.66666666666667,3.66666666666667,4,4
 "10-50","Finanzen und Versicherung","v2_7v2_8",1.33333333333333,2,1,2
 "10-50","Finanzen und Versicherung","v2_9v2_10",2.66666666666667,2.66666666666667,3,3
-"10-50","Finanzen und Versicherung","v4_1",NA,3,NA,4
-"10-50","Finanzen und Versicherung","v4_2",NA,1.33333333333333,NA,1
 "10-50","Finanzen und Versicherung","v4_3v4_4",4,3,4,3
-"10-50","Finanzen und Versicherung","v5_1v5_2",NA,4,NA,4
 "10-50","Finanzen und Versicherung","v6_11v6_12",3.66666666666667,4,4,4
 "10-50","Finanzen und Versicherung","v6_1v6_2",3.33333333333333,3.66666666666667,3,4
 "10-50","Finanzen und Versicherung","v6_3v6_4",4,4,4,4
 "10-50","Finanzen und Versicherung","v6_5v6_6",3,1.66666666666667,3,1
 "10-50","Finanzen und Versicherung","v6_7v6_8",3,2,3,2
 "10-50","Finanzen und Versicherung","v6_9v6_10",3.66666666666667,3.66666666666667,4,4
-"10-50","Finanzen und Versicherung","v7_2",4,NA,4,NA
-"10-50","Finanzen und Versicherung","v7_3",3.33333333333333,NA,3,NA
-"10-50","Finanzen und Versicherung","v7_4",3.66666666666667,NA,4,NA
-"10-50","Finanzen und Versicherung","v7_5",NA,3.66666666666667,NA,4
 "10-50","Finanzen und Versicherung","v7_6v7_7",3,2.66666666666667,3,2
 "10-50","Finanzen und Versicherung","v8_11v8_12",4.66666666666667,4.33333333333333,5,5
 "10-50","Finanzen und Versicherung","v8_13v8_14",2.33333333333333,1,3,1
@@ -221,12 +155,7 @@
 "10-50","Finanzen und Versicherung","v8_5v8_6",1.66666666666667,2.66666666666667,2,3
 "10-50","Finanzen und Versicherung","v8_7v8_8",1.33333333333333,3.33333333333333,1,4
 "10-50","Finanzen und Versicherung","v8_9v8_10",5,4.66666666666667,5,5
-"10-50","Finanzen und Versicherung","v9_1",NA,4.33333333333333,NA,4
 "10-50","Finanzen und Versicherung","v9_2v9_3",2.33333333333333,1.33333333333333,3,1
-"10-50","Finanzen und Versicherung","v9_4",NA,3.66666666666667,NA,5
-"10-50","Gross- und Einzelhandel","v10_1",NA,2.66666666666667,NA,3
-"10-50","Gross- und Einzelhandel","v10_2",NA,4,NA,5
-"10-50","Gross- und Einzelhandel","v10_3",NA,3.33333333333333,NA,3
 "10-50","Gross- und Einzelhandel","v11_11v11_12",4,3,4,3
 "10-50","Gross- und Einzelhandel","v11_13v11_14",3.33333333333333,2.33333333333333,3,3
 "10-50","Gross- und Einzelhandel","v11_15v11_16",4.33333333333333,4.33333333333333,4,4
@@ -237,26 +166,18 @@
 "10-50","Gross- und Einzelhandel","v11_5v11_6",3.5,3,3.5,3
 "10-50","Gross- und Einzelhandel","v11_7v11_8",4.66666666666667,2.66666666666667,5,2
 "10-50","Gross- und Einzelhandel","v11_9v11_10",4,3.33333333333333,4,3
-"10-50","Gross- und Einzelhandel","v2_11",NA,2.33333333333333,NA,3
 "10-50","Gross- und Einzelhandel","v2_12v2_13",4,4,4,4
 "10-50","Gross- und Einzelhandel","v2_14v2_16",2,2.33333333333333,2,3
 "10-50","Gross- und Einzelhandel","v2_5v2_6",2.33333333333333,3.33333333333333,1,4
 "10-50","Gross- und Einzelhandel","v2_7v2_8",1.33333333333333,1.33333333333333,1,1
 "10-50","Gross- und Einzelhandel","v2_9v2_10",1.33333333333333,1.33333333333333,1,1
-"10-50","Gross- und Einzelhandel","v4_1",NA,2.66666666666667,NA,3
-"10-50","Gross- und Einzelhandel","v4_2",NA,4,NA,4
 "10-50","Gross- und Einzelhandel","v4_3v4_4",3.66666666666667,2.66666666666667,3,3
-"10-50","Gross- und Einzelhandel","v5_1v5_2",NA,4.33333333333333,NA,4
 "10-50","Gross- und Einzelhandel","v6_11v6_12",3.33333333333333,3.33333333333333,3,3
 "10-50","Gross- und Einzelhandel","v6_1v6_2",4,4,4,4
 "10-50","Gross- und Einzelhandel","v6_3v6_4",3.33333333333333,3.33333333333333,3,3
 "10-50","Gross- und Einzelhandel","v6_5v6_6",1.33333333333333,1.66666666666667,1,1
 "10-50","Gross- und Einzelhandel","v6_7v6_8",2.33333333333333,2,1,1
 "10-50","Gross- und Einzelhandel","v6_9v6_10",4.5,4,4.5,4
-"10-50","Gross- und Einzelhandel","v7_2",2,NA,1,NA
-"10-50","Gross- und Einzelhandel","v7_3",2,NA,2,NA
-"10-50","Gross- und Einzelhandel","v7_4",3.33333333333333,NA,3,NA
-"10-50","Gross- und Einzelhandel","v7_5",NA,2.33333333333333,NA,2
 "10-50","Gross- und Einzelhandel","v7_6v7_7",2.66666666666667,2.33333333333333,3,3
 "10-50","Gross- und Einzelhandel","v8_11v8_12",4,4,4,5
 "10-50","Gross- und Einzelhandel","v8_13v8_14",2.33333333333333,2.33333333333333,3,3
@@ -266,42 +187,24 @@
 "10-50","Gross- und Einzelhandel","v8_5v8_6",3,3,3,3
 "10-50","Gross- und Einzelhandel","v8_7v8_8",2.66666666666667,4,3,4
 "10-50","Gross- und Einzelhandel","v8_9v8_10",3.66666666666667,2.33333333333333,3,2
-"10-50","Gross- und Einzelhandel","v9_1",NA,2.66666666666667,NA,3
 "10-50","Gross- und Einzelhandel","v9_2v9_3",3.33333333333333,4.33333333333333,3,5
-"10-50","Gross- und Einzelhandel","v9_4",NA,2.33333333333333,NA,3
-"10-50","Herstellung von Nahrungsmitteln","v10_1",NA,1,NA,1
-"10-50","Herstellung von Nahrungsmitteln","v10_2",NA,1,NA,1
-"10-50","Herstellung von Nahrungsmitteln","v10_3",NA,1,NA,1
-"10-50","Herstellung von Nahrungsmitteln","v11_11v11_12",NA,NA,NA,NA
-"10-50","Herstellung von Nahrungsmitteln","v11_13v11_14",NA,NA,NA,NA
 "10-50","Herstellung von Nahrungsmitteln","v11_15v11_16",5,3,5,3
 "10-50","Herstellung von Nahrungsmitteln","v11_17v11_18",5,5,5,5
 "10-50","Herstellung von Nahrungsmitteln","v11_19v11_20",5,5,5,5
 "10-50","Herstellung von Nahrungsmitteln","v11_1v11_2",5,3,5,3
 "10-50","Herstellung von Nahrungsmitteln","v11_3v11_4",5,5,5,5
-"10-50","Herstellung von Nahrungsmitteln","v11_5v11_6",NA,4,NA,4
-"10-50","Herstellung von Nahrungsmitteln","v11_7v11_8",1,NA,1,NA
 "10-50","Herstellung von Nahrungsmitteln","v11_9v11_10",5,3,5,3
-"10-50","Herstellung von Nahrungsmitteln","v2_11",NA,3,NA,3
 "10-50","Herstellung von Nahrungsmitteln","v2_12v2_13",4,4,4,4
 "10-50","Herstellung von Nahrungsmitteln","v2_14v2_16",3,2,3,2
 "10-50","Herstellung von Nahrungsmitteln","v2_5v2_6",4,4,4,4
 "10-50","Herstellung von Nahrungsmitteln","v2_7v2_8",2,2,2,2
-"10-50","Herstellung von Nahrungsmitteln","v2_9v2_10",2,NA,2,NA
-"10-50","Herstellung von Nahrungsmitteln","v4_1",NA,4,NA,4
-"10-50","Herstellung von Nahrungsmitteln","v4_2",NA,1,NA,1
 "10-50","Herstellung von Nahrungsmitteln","v4_3v4_4",4,4,4,4
-"10-50","Herstellung von Nahrungsmitteln","v5_1v5_2",NA,5,NA,5
 "10-50","Herstellung von Nahrungsmitteln","v6_11v6_12",4,2,4,2
 "10-50","Herstellung von Nahrungsmitteln","v6_1v6_2",3,2,3,2
 "10-50","Herstellung von Nahrungsmitteln","v6_3v6_4",3,3,3,3
 "10-50","Herstellung von Nahrungsmitteln","v6_5v6_6",5,5,5,5
 "10-50","Herstellung von Nahrungsmitteln","v6_7v6_8",5,5,5,5
 "10-50","Herstellung von Nahrungsmitteln","v6_9v6_10",5,5,5,5
-"10-50","Herstellung von Nahrungsmitteln","v7_2",1,NA,1,NA
-"10-50","Herstellung von Nahrungsmitteln","v7_3",3,NA,3,NA
-"10-50","Herstellung von Nahrungsmitteln","v7_4",4,NA,4,NA
-"10-50","Herstellung von Nahrungsmitteln","v7_5",NA,4,NA,4
 "10-50","Herstellung von Nahrungsmitteln","v7_6v7_7",3,5,3,5
 "10-50","Herstellung von Nahrungsmitteln","v8_11v8_12",1,5,1,5
 "10-50","Herstellung von Nahrungsmitteln","v8_13v8_14",1,3,1,3
@@ -309,14 +212,8 @@
 "10-50","Herstellung von Nahrungsmitteln","v8_1v8_2",3,3,3,3
 "10-50","Herstellung von Nahrungsmitteln","v8_3v8_4",2,5,2,5
 "10-50","Herstellung von Nahrungsmitteln","v8_5v8_6",5,5,5,5
-"10-50","Herstellung von Nahrungsmitteln","v8_7v8_8",NA,5,NA,5
 "10-50","Herstellung von Nahrungsmitteln","v8_9v8_10",3,3,3,3
-"10-50","Herstellung von Nahrungsmitteln","v9_1",NA,1,NA,1
 "10-50","Herstellung von Nahrungsmitteln","v9_2v9_3",1,5,1,5
-"10-50","Herstellung von Nahrungsmitteln","v9_4",NA,1,NA,1
-"10-50","Maschinen-, Elektro- und Metallindustrie","v10_1",NA,2.75,NA,2.5
-"10-50","Maschinen-, Elektro- und Metallindustrie","v10_2",NA,3.25,NA,3.5
-"10-50","Maschinen-, Elektro- und Metallindustrie","v10_3",NA,3,NA,3
 "10-50","Maschinen-, Elektro- und Metallindustrie","v11_11v11_12",4,3.75,4,4
 "10-50","Maschinen-, Elektro- und Metallindustrie","v11_13v11_14",3.25,2.75,3,2.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v11_15v11_16",4,3.75,4,3.5
@@ -327,26 +224,18 @@
 "10-50","Maschinen-, Elektro- und Metallindustrie","v11_5v11_6",3.75,3.75,4,4
 "10-50","Maschinen-, Elektro- und Metallindustrie","v11_7v11_8",3.75,3.5,4,3.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v11_9v11_10",3.75,3.25,3.5,3
-"10-50","Maschinen-, Elektro- und Metallindustrie","v2_11",NA,2.25,NA,2.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v2_12v2_13",3,3.25,3,3
 "10-50","Maschinen-, Elektro- und Metallindustrie","v2_14v2_16",1.75,3.25,2,3.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v2_5v2_6",3.75,4.75,3.5,5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v2_7v2_8",2.5,2.5,2,2
 "10-50","Maschinen-, Elektro- und Metallindustrie","v2_9v2_10",1.5,2,1,1
-"10-50","Maschinen-, Elektro- und Metallindustrie","v4_1",NA,3,NA,3
-"10-50","Maschinen-, Elektro- und Metallindustrie","v4_2",NA,3.25,NA,3
 "10-50","Maschinen-, Elektro- und Metallindustrie","v4_3v4_4",3,3.25,3.5,3
-"10-50","Maschinen-, Elektro- und Metallindustrie","v5_1v5_2",NA,4.5,NA,5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v6_11v6_12",2.66666666666667,3.25,3,3
 "10-50","Maschinen-, Elektro- und Metallindustrie","v6_1v6_2",3,3,3,3
 "10-50","Maschinen-, Elektro- und Metallindustrie","v6_3v6_4",3.25,3.75,3,3.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v6_5v6_6",1.75,1.75,2,1.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v6_7v6_8",2.25,2.75,2,3
 "10-50","Maschinen-, Elektro- und Metallindustrie","v6_9v6_10",3,3.5,3,3.5
-"10-50","Maschinen-, Elektro- und Metallindustrie","v7_2",1.25,NA,0,NA
-"10-50","Maschinen-, Elektro- und Metallindustrie","v7_3",1.5,NA,1.5,NA
-"10-50","Maschinen-, Elektro- und Metallindustrie","v7_4",2,NA,2,NA
-"10-50","Maschinen-, Elektro- und Metallindustrie","v7_5",NA,3.5,NA,3.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v7_6v7_7",3.25,3.75,3.5,4.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v8_11v8_12",3.5,4.25,3.5,4.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v8_13v8_14",3.25,3.25,3,3.5
@@ -356,12 +245,7 @@
 "10-50","Maschinen-, Elektro- und Metallindustrie","v8_5v8_6",2.5,3.75,3,3.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v8_7v8_8",3.25,1.75,3,1.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v8_9v8_10",5,4.25,5,4
-"10-50","Maschinen-, Elektro- und Metallindustrie","v9_1",NA,3.5,NA,3.5
 "10-50","Maschinen-, Elektro- und Metallindustrie","v9_2v9_3",3,4,3,4
-"10-50","Maschinen-, Elektro- und Metallindustrie","v9_4",NA,1.75,NA,1
-"10-50","Sonstige Dienstleistungen","v10_1",NA,3,NA,3
-"10-50","Sonstige Dienstleistungen","v10_2",NA,2.5,NA,2.5
-"10-50","Sonstige Dienstleistungen","v10_3",NA,2,NA,2
 "10-50","Sonstige Dienstleistungen","v11_11v11_12",2.5,2.5,2.5,2.5
 "10-50","Sonstige Dienstleistungen","v11_13v11_14",4,4,4,4
 "10-50","Sonstige Dienstleistungen","v11_15v11_16",4,4,4,4
@@ -372,26 +256,18 @@
 "10-50","Sonstige Dienstleistungen","v11_5v11_6",2,2,2,2
 "10-50","Sonstige Dienstleistungen","v11_7v11_8",4,2,4,2
 "10-50","Sonstige Dienstleistungen","v11_9v11_10",2.5,2,2.5,2
-"10-50","Sonstige Dienstleistungen","v2_11",NA,3,NA,3
 "10-50","Sonstige Dienstleistungen","v2_12v2_13",3,3.5,3,3.5
 "10-50","Sonstige Dienstleistungen","v2_14v2_16",3,2,3,2
 "10-50","Sonstige Dienstleistungen","v2_5v2_6",2.5,4.5,2.5,4.5
 "10-50","Sonstige Dienstleistungen","v2_7v2_8",3.5,3.5,3.5,3.5
 "10-50","Sonstige Dienstleistungen","v2_9v2_10",4,2,4,2
-"10-50","Sonstige Dienstleistungen","v4_1",NA,3.5,NA,3.5
-"10-50","Sonstige Dienstleistungen","v4_2",NA,2.5,NA,2.5
 "10-50","Sonstige Dienstleistungen","v4_3v4_4",4,3.5,4,3.5
-"10-50","Sonstige Dienstleistungen","v5_1v5_2",NA,4.5,NA,4.5
 "10-50","Sonstige Dienstleistungen","v6_11v6_12",4,4,4,4
 "10-50","Sonstige Dienstleistungen","v6_1v6_2",4,3.5,4,3.5
 "10-50","Sonstige Dienstleistungen","v6_3v6_4",2.5,2,2.5,2
 "10-50","Sonstige Dienstleistungen","v6_5v6_6",2,1.5,2,1.5
 "10-50","Sonstige Dienstleistungen","v6_7v6_8",2,2,2,2
 "10-50","Sonstige Dienstleistungen","v6_9v6_10",3,2.5,3,2.5
-"10-50","Sonstige Dienstleistungen","v7_2",0.5,NA,0.5,NA
-"10-50","Sonstige Dienstleistungen","v7_3",2,NA,2,NA
-"10-50","Sonstige Dienstleistungen","v7_4",3.5,NA,3.5,NA
-"10-50","Sonstige Dienstleistungen","v7_5",NA,2,NA,2
 "10-50","Sonstige Dienstleistungen","v7_6v7_7",2.5,3.5,2.5,3.5
 "10-50","Sonstige Dienstleistungen","v8_11v8_12",3,5,3,5
 "10-50","Sonstige Dienstleistungen","v8_13v8_14",3.5,4,3.5,4
@@ -401,12 +277,7 @@
 "10-50","Sonstige Dienstleistungen","v8_5v8_6",4,4,4,4
 "10-50","Sonstige Dienstleistungen","v8_7v8_8",3.5,2,3.5,2
 "10-50","Sonstige Dienstleistungen","v8_9v8_10",4.5,2,4.5,2
-"10-50","Sonstige Dienstleistungen","v9_1",NA,3.5,NA,3.5
 "10-50","Sonstige Dienstleistungen","v9_2v9_3",2,3.5,2,3.5
-"10-50","Sonstige Dienstleistungen","v9_4",NA,2,NA,2
-"10-50","Treuhand/Consulting","v10_1",NA,3,NA,3
-"10-50","Treuhand/Consulting","v10_2",NA,3,NA,3
-"10-50","Treuhand/Consulting","v10_3",NA,3,NA,3
 "10-50","Treuhand/Consulting","v11_11v11_12",3,3,3,3
 "10-50","Treuhand/Consulting","v11_13v11_14",3,3,3,3
 "10-50","Treuhand/Consulting","v11_15v11_16",3,3,3,3
@@ -417,26 +288,18 @@
 "10-50","Treuhand/Consulting","v11_5v11_6",3,3,3,3
 "10-50","Treuhand/Consulting","v11_7v11_8",3,3,3,3
 "10-50","Treuhand/Consulting","v11_9v11_10",3,3,3,3
-"10-50","Treuhand/Consulting","v2_11",NA,3,NA,3
 "10-50","Treuhand/Consulting","v2_12v2_13",3,3,3,3
 "10-50","Treuhand/Consulting","v2_14v2_16",3,2,3,2
 "10-50","Treuhand/Consulting","v2_5v2_6",4,5,4,5
 "10-50","Treuhand/Consulting","v2_7v2_8",2,3,2,3
 "10-50","Treuhand/Consulting","v2_9v2_10",3,4,3,4
-"10-50","Treuhand/Consulting","v4_1",NA,4,NA,4
-"10-50","Treuhand/Consulting","v4_2",NA,2,NA,2
 "10-50","Treuhand/Consulting","v4_3v4_4",3,4,3,4
-"10-50","Treuhand/Consulting","v5_1v5_2",NA,4,NA,4
 "10-50","Treuhand/Consulting","v6_11v6_12",4,4,4,4
 "10-50","Treuhand/Consulting","v6_1v6_2",4,4,4,4
 "10-50","Treuhand/Consulting","v6_3v6_4",4,4,4,4
 "10-50","Treuhand/Consulting","v6_5v6_6",4,3,4,3
 "10-50","Treuhand/Consulting","v6_7v6_8",4,3,4,3
 "10-50","Treuhand/Consulting","v6_9v6_10",4,4,4,4
-"10-50","Treuhand/Consulting","v7_2",2,NA,2,NA
-"10-50","Treuhand/Consulting","v7_3",2,NA,2,NA
-"10-50","Treuhand/Consulting","v7_4",4,NA,4,NA
-"10-50","Treuhand/Consulting","v7_5",NA,3,NA,3
 "10-50","Treuhand/Consulting","v7_6v7_7",3,3,3,3
 "10-50","Treuhand/Consulting","v8_11v8_12",3,5,3,5
 "10-50","Treuhand/Consulting","v8_13v8_14",3,3,3,3
@@ -446,12 +309,7 @@
 "10-50","Treuhand/Consulting","v8_5v8_6",4,4,4,4
 "10-50","Treuhand/Consulting","v8_7v8_8",3,3,3,3
 "10-50","Treuhand/Consulting","v8_9v8_10",4,3,4,3
-"10-50","Treuhand/Consulting","v9_1",NA,3,NA,3
 "10-50","Treuhand/Consulting","v9_2v9_3",3,4,3,4
-"10-50","Treuhand/Consulting","v9_4",NA,3,NA,3
-"10-50","Verkehr und Gastgewerbe","v10_1",NA,1,NA,1
-"10-50","Verkehr und Gastgewerbe","v10_2",NA,3,NA,3
-"10-50","Verkehr und Gastgewerbe","v10_3",NA,3,NA,3
 "10-50","Verkehr und Gastgewerbe","v11_11v11_12",2,2,2,2
 "10-50","Verkehr und Gastgewerbe","v11_13v11_14",2,2,2,2
 "10-50","Verkehr und Gastgewerbe","v11_15v11_16",2,2,2,2
@@ -462,26 +320,18 @@
 "10-50","Verkehr und Gastgewerbe","v11_5v11_6",2,2,2,2
 "10-50","Verkehr und Gastgewerbe","v11_7v11_8",2,2,2,2
 "10-50","Verkehr und Gastgewerbe","v11_9v11_10",2,2,2,2
-"10-50","Verkehr und Gastgewerbe","v2_11",NA,1,NA,1
 "10-50","Verkehr und Gastgewerbe","v2_12v2_13",4,5,4,5
 "10-50","Verkehr und Gastgewerbe","v2_14v2_16",1,1,1,1
 "10-50","Verkehr und Gastgewerbe","v2_5v2_6",1,1,1,1
 "10-50","Verkehr und Gastgewerbe","v2_7v2_8",1,1,1,1
 "10-50","Verkehr und Gastgewerbe","v2_9v2_10",1,1,1,1
-"10-50","Verkehr und Gastgewerbe","v4_1",NA,1,NA,1
-"10-50","Verkehr und Gastgewerbe","v4_2",NA,3,NA,3
 "10-50","Verkehr und Gastgewerbe","v4_3v4_4",5,1,5,1
-"10-50","Verkehr und Gastgewerbe","v5_1v5_2",NA,1,NA,1
 "10-50","Verkehr und Gastgewerbe","v6_11v6_12",1,1,1,1
 "10-50","Verkehr und Gastgewerbe","v6_1v6_2",1,1,1,1
 "10-50","Verkehr und Gastgewerbe","v6_3v6_4",1,2,1,2
 "10-50","Verkehr und Gastgewerbe","v6_5v6_6",1,1,1,1
 "10-50","Verkehr und Gastgewerbe","v6_7v6_8",1,1,1,1
 "10-50","Verkehr und Gastgewerbe","v6_9v6_10",3,1,3,1
-"10-50","Verkehr und Gastgewerbe","v7_2",0,NA,0,NA
-"10-50","Verkehr und Gastgewerbe","v7_3",0,NA,0,NA
-"10-50","Verkehr und Gastgewerbe","v7_4",0,NA,0,NA
-"10-50","Verkehr und Gastgewerbe","v7_5",NA,1,NA,1
 "10-50","Verkehr und Gastgewerbe","v7_6v7_7",1,1,1,1
 "10-50","Verkehr und Gastgewerbe","v8_11v8_12",3,3,3,3
 "10-50","Verkehr und Gastgewerbe","v8_13v8_14",1,1,1,1
@@ -491,12 +341,7 @@
 "10-50","Verkehr und Gastgewerbe","v8_5v8_6",3,5,3,5
 "10-50","Verkehr und Gastgewerbe","v8_7v8_8",5,1,5,1
 "10-50","Verkehr und Gastgewerbe","v8_9v8_10",1,1,1,1
-"10-50","Verkehr und Gastgewerbe","v9_1",NA,1,NA,1
 "10-50","Verkehr und Gastgewerbe","v9_2v9_3",1,1,1,1
-"10-50","Verkehr und Gastgewerbe","v9_4",NA,1,NA,1
-"51-250","Bau, Energie- und Wasserversorgung","v10_1",NA,1,NA,1
-"51-250","Bau, Energie- und Wasserversorgung","v10_2",NA,2,NA,2
-"51-250","Bau, Energie- und Wasserversorgung","v10_3",NA,2.5,NA,2.5
 "51-250","Bau, Energie- und Wasserversorgung","v11_11v11_12",4,4.5,4,4.5
 "51-250","Bau, Energie- und Wasserversorgung","v11_13v11_14",3,3,3,3
 "51-250","Bau, Energie- und Wasserversorgung","v11_15v11_16",4,4,4,4
@@ -507,26 +352,18 @@
 "51-250","Bau, Energie- und Wasserversorgung","v11_5v11_6",2.5,2.5,2.5,2.5
 "51-250","Bau, Energie- und Wasserversorgung","v11_7v11_8",5,4,5,4
 "51-250","Bau, Energie- und Wasserversorgung","v11_9v11_10",3.5,3.5,3.5,3.5
-"51-250","Bau, Energie- und Wasserversorgung","v2_11",NA,3,NA,3
 "51-250","Bau, Energie- und Wasserversorgung","v2_12v2_13",4.5,4,4.5,4
 "51-250","Bau, Energie- und Wasserversorgung","v2_14v2_16",3.5,3.5,3.5,3.5
 "51-250","Bau, Energie- und Wasserversorgung","v2_5v2_6",4,5,4,5
 "51-250","Bau, Energie- und Wasserversorgung","v2_7v2_8",2,2,2,2
 "51-250","Bau, Energie- und Wasserversorgung","v2_9v2_10",1.5,4.5,1.5,4.5
-"51-250","Bau, Energie- und Wasserversorgung","v4_1",NA,3.5,NA,3.5
-"51-250","Bau, Energie- und Wasserversorgung","v4_2",NA,3,NA,3
 "51-250","Bau, Energie- und Wasserversorgung","v4_3v4_4",4.5,2.5,4.5,2.5
-"51-250","Bau, Energie- und Wasserversorgung","v5_1v5_2",NA,3.5,NA,3.5
 "51-250","Bau, Energie- und Wasserversorgung","v6_11v6_12",3.5,4,3.5,4
 "51-250","Bau, Energie- und Wasserversorgung","v6_1v6_2",3,4,3,4
 "51-250","Bau, Energie- und Wasserversorgung","v6_3v6_4",3.5,3,3.5,3
 "51-250","Bau, Energie- und Wasserversorgung","v6_5v6_6",2.5,2,2.5,2
 "51-250","Bau, Energie- und Wasserversorgung","v6_7v6_8",3.5,2.5,3.5,2.5
 "51-250","Bau, Energie- und Wasserversorgung","v6_9v6_10",3,3,3,3
-"51-250","Bau, Energie- und Wasserversorgung","v7_2",0.5,NA,0.5,NA
-"51-250","Bau, Energie- und Wasserversorgung","v7_3",2,NA,2,NA
-"51-250","Bau, Energie- und Wasserversorgung","v7_4",4,NA,4,NA
-"51-250","Bau, Energie- und Wasserversorgung","v7_5",NA,1.5,NA,1.5
 "51-250","Bau, Energie- und Wasserversorgung","v7_6v7_7",3,2,3,2
 "51-250","Bau, Energie- und Wasserversorgung","v8_11v8_12",3.5,4.5,3.5,4.5
 "51-250","Bau, Energie- und Wasserversorgung","v8_13v8_14",2,3.5,2,3.5
@@ -536,12 +373,7 @@
 "51-250","Bau, Energie- und Wasserversorgung","v8_5v8_6",4.5,4,4.5,4
 "51-250","Bau, Energie- und Wasserversorgung","v8_7v8_8",2,3.5,2,3.5
 "51-250","Bau, Energie- und Wasserversorgung","v8_9v8_10",2.5,3,2.5,3
-"51-250","Bau, Energie- und Wasserversorgung","v9_1",NA,3.5,NA,3.5
 "51-250","Bau, Energie- und Wasserversorgung","v9_2v9_3",3,2,3,2
-"51-250","Bau, Energie- und Wasserversorgung","v9_4",NA,3,NA,3
-"51-250","Gesundheitssektor","v10_1",NA,1,NA,1
-"51-250","Gesundheitssektor","v10_2",NA,3,NA,3
-"51-250","Gesundheitssektor","v10_3",NA,2,NA,2
 "51-250","Gesundheitssektor","v11_11v11_12",3,3,3,3
 "51-250","Gesundheitssektor","v11_13v11_14",3,4,3,4
 "51-250","Gesundheitssektor","v11_15v11_16",3,3,3,3
@@ -552,27 +384,18 @@
 "51-250","Gesundheitssektor","v11_5v11_6",4,3,4,3
 "51-250","Gesundheitssektor","v11_7v11_8",5,4,5,4
 "51-250","Gesundheitssektor","v11_9v11_10",4,4,4,4
-"51-250","Gesundheitssektor","v2_11",NA,3,NA,3
 "51-250","Gesundheitssektor","v2_12v2_13",3,3,3,3
 "51-250","Gesundheitssektor","v2_14v2_16",3,5,3,5
 "51-250","Gesundheitssektor","v2_5v2_6",3,4,3,4
 "51-250","Gesundheitssektor","v2_7v2_8",2,2,2,2
 "51-250","Gesundheitssektor","v2_9v2_10",1,4,1,4
-"51-250","Gesundheitssektor","v4_1",NA,5,NA,5
-"51-250","Gesundheitssektor","v4_2",NA,3,NA,3
 "51-250","Gesundheitssektor","v4_3v4_4",3,1,3,1
-"51-250","Gesundheitssektor","v5_1v5_2",NA,4,NA,4
 "51-250","Gesundheitssektor","v6_11v6_12",5,5,5,5
 "51-250","Gesundheitssektor","v6_1v6_2",4,4,4,4
 "51-250","Gesundheitssektor","v6_3v6_4",5,4,5,4
 "51-250","Gesundheitssektor","v6_5v6_6",3,4,3,4
 "51-250","Gesundheitssektor","v6_7v6_8",4,4,4,4
 "51-250","Gesundheitssektor","v6_9v6_10",3,3,3,3
-"51-250","Gesundheitssektor","v7_2",0,NA,0,NA
-"51-250","Gesundheitssektor","v7_3",0,NA,0,NA
-"51-250","Gesundheitssektor","v7_4",0,NA,0,NA
-"51-250","Gesundheitssektor","v7_5",NA,3,NA,3
-"51-250","Gesundheitssektor","v7_6v7_7",NA,3,NA,3
 "51-250","Gesundheitssektor","v8_11v8_12",4,4,4,4
 "51-250","Gesundheitssektor","v8_13v8_14",2,2,2,2
 "51-250","Gesundheitssektor","v8_15v8_16",3,4,3,4
@@ -580,13 +403,7 @@
 "51-250","Gesundheitssektor","v8_3v8_4",3,1,3,1
 "51-250","Gesundheitssektor","v8_5v8_6",3,4,3,4
 "51-250","Gesundheitssektor","v8_7v8_8",3,1,3,1
-"51-250","Gesundheitssektor","v8_9v8_10",5,NA,5,NA
-"51-250","Gesundheitssektor","v9_1",NA,2,NA,2
 "51-250","Gesundheitssektor","v9_2v9_3",1,1,1,1
-"51-250","Gesundheitssektor","v9_4",NA,3,NA,3
-"51-250","Maschinen-, Elektro- und Metallindustrie","v10_1",NA,2,NA,2
-"51-250","Maschinen-, Elektro- und Metallindustrie","v10_2",NA,4,NA,4
-"51-250","Maschinen-, Elektro- und Metallindustrie","v10_3",NA,3.5,NA,3.5
 "51-250","Maschinen-, Elektro- und Metallindustrie","v11_11v11_12",4,4,4,4
 "51-250","Maschinen-, Elektro- und Metallindustrie","v11_13v11_14",3,1,3,1
 "51-250","Maschinen-, Elektro- und Metallindustrie","v11_15v11_16",4,3.5,4,3.5
@@ -597,26 +414,18 @@
 "51-250","Maschinen-, Elektro- und Metallindustrie","v11_5v11_6",4,4,4,4
 "51-250","Maschinen-, Elektro- und Metallindustrie","v11_7v11_8",3,4.5,3,4.5
 "51-250","Maschinen-, Elektro- und Metallindustrie","v11_9v11_10",4,4.5,4,4.5
-"51-250","Maschinen-, Elektro- und Metallindustrie","v2_11",NA,3,NA,3
 "51-250","Maschinen-, Elektro- und Metallindustrie","v2_12v2_13",4.5,4,4.5,4
 "51-250","Maschinen-, Elektro- und Metallindustrie","v2_14v2_16",2.5,3,2.5,3
 "51-250","Maschinen-, Elektro- und Metallindustrie","v2_5v2_6",4,5,4,5
 "51-250","Maschinen-, Elektro- und Metallindustrie","v2_7v2_8",2.5,3.5,2.5,3.5
 "51-250","Maschinen-, Elektro- und Metallindustrie","v2_9v2_10",2,2,2,2
-"51-250","Maschinen-, Elektro- und Metallindustrie","v4_1",NA,4.5,NA,4.5
-"51-250","Maschinen-, Elektro- und Metallindustrie","v4_2",NA,4,NA,4
 "51-250","Maschinen-, Elektro- und Metallindustrie","v4_3v4_4",3,3.5,3,3.5
-"51-250","Maschinen-, Elektro- und Metallindustrie","v5_1v5_2",NA,4.5,NA,4.5
 "51-250","Maschinen-, Elektro- und Metallindustrie","v6_11v6_12",4.5,4,4.5,4
 "51-250","Maschinen-, Elektro- und Metallindustrie","v6_1v6_2",2,2.5,2,2.5
 "51-250","Maschinen-, Elektro- und Metallindustrie","v6_3v6_4",3.5,4,3.5,4
 "51-250","Maschinen-, Elektro- und Metallindustrie","v6_5v6_6",3,2,3,2
 "51-250","Maschinen-, Elektro- und Metallindustrie","v6_7v6_8",2.5,3,2.5,3
 "51-250","Maschinen-, Elektro- und Metallindustrie","v6_9v6_10",3.5,4,3.5,4
-"51-250","Maschinen-, Elektro- und Metallindustrie","v7_2",5,NA,5,NA
-"51-250","Maschinen-, Elektro- und Metallindustrie","v7_3",2.5,NA,2.5,NA
-"51-250","Maschinen-, Elektro- und Metallindustrie","v7_4",3.5,NA,3.5,NA
-"51-250","Maschinen-, Elektro- und Metallindustrie","v7_5",NA,3.5,NA,3.5
 "51-250","Maschinen-, Elektro- und Metallindustrie","v7_6v7_7",2.5,4,2.5,4
 "51-250","Maschinen-, Elektro- und Metallindustrie","v8_11v8_12",4.5,5,4.5,5
 "51-250","Maschinen-, Elektro- und Metallindustrie","v8_13v8_14",1.5,1.5,1.5,1.5
@@ -626,12 +435,7 @@
 "51-250","Maschinen-, Elektro- und Metallindustrie","v8_5v8_6",4,4.5,4,4.5
 "51-250","Maschinen-, Elektro- und Metallindustrie","v8_7v8_8",4,2.5,4,2.5
 "51-250","Maschinen-, Elektro- und Metallindustrie","v8_9v8_10",4.5,4.5,4.5,4.5
-"51-250","Maschinen-, Elektro- und Metallindustrie","v9_1",NA,4,NA,4
 "51-250","Maschinen-, Elektro- und Metallindustrie","v9_2v9_3",2.5,5,2.5,5
-"51-250","Maschinen-, Elektro- und Metallindustrie","v9_4",NA,3,NA,3
-"51-250","Sonstige Dienstleistungen","v10_1",NA,2.33333333333333,NA,2
-"51-250","Sonstige Dienstleistungen","v10_2",NA,2,NA,2
-"51-250","Sonstige Dienstleistungen","v10_3",NA,3.33333333333333,NA,4
 "51-250","Sonstige Dienstleistungen","v11_11v11_12",3.33333333333333,4,3,4
 "51-250","Sonstige Dienstleistungen","v11_13v11_14",3.66666666666667,3.33333333333333,4,4
 "51-250","Sonstige Dienstleistungen","v11_15v11_16",4.66666666666667,5,5,5
@@ -642,26 +446,18 @@
 "51-250","Sonstige Dienstleistungen","v11_5v11_6",4,3.33333333333333,4,4
 "51-250","Sonstige Dienstleistungen","v11_7v11_8",4,4,4,4
 "51-250","Sonstige Dienstleistungen","v11_9v11_10",4,1.66666666666667,4,2
-"51-250","Sonstige Dienstleistungen","v2_11",NA,2,NA,2
 "51-250","Sonstige Dienstleistungen","v2_12v2_13",3.66666666666667,3.33333333333333,4,3
 "51-250","Sonstige Dienstleistungen","v2_14v2_16",2.33333333333333,2.33333333333333,1,3
 "51-250","Sonstige Dienstleistungen","v2_5v2_6",3,4,3,5
 "51-250","Sonstige Dienstleistungen","v2_7v2_8",2,2,2,2
 "51-250","Sonstige Dienstleistungen","v2_9v2_10",3,2.66666666666667,4,3
-"51-250","Sonstige Dienstleistungen","v4_1",NA,3,NA,3
-"51-250","Sonstige Dienstleistungen","v4_2",NA,3.66666666666667,NA,5
 "51-250","Sonstige Dienstleistungen","v4_3v4_4",4.33333333333333,2,4,2
-"51-250","Sonstige Dienstleistungen","v5_1v5_2",NA,4.33333333333333,NA,5
 "51-250","Sonstige Dienstleistungen","v6_11v6_12",3.66666666666667,3.66666666666667,4,4
 "51-250","Sonstige Dienstleistungen","v6_1v6_2",4,3.33333333333333,4,3
 "51-250","Sonstige Dienstleistungen","v6_3v6_4",3.33333333333333,3.66666666666667,3,3
 "51-250","Sonstige Dienstleistungen","v6_5v6_6",3,2.66666666666667,3,3
 "51-250","Sonstige Dienstleistungen","v6_7v6_8",3,2.66666666666667,3,3
 "51-250","Sonstige Dienstleistungen","v6_9v6_10",4,4,4,4
-"51-250","Sonstige Dienstleistungen","v7_2",1.66666666666667,NA,2,NA
-"51-250","Sonstige Dienstleistungen","v7_3",2,NA,3,NA
-"51-250","Sonstige Dienstleistungen","v7_4",2.66666666666667,NA,4,NA
-"51-250","Sonstige Dienstleistungen","v7_5",NA,3.66666666666667,NA,4
 "51-250","Sonstige Dienstleistungen","v7_6v7_7",2.33333333333333,4.33333333333333,2,5
 "51-250","Sonstige Dienstleistungen","v8_11v8_12",4,2.66666666666667,4,3
 "51-250","Sonstige Dienstleistungen","v8_13v8_14",3.33333333333333,3.66666666666667,4,4
@@ -671,12 +467,7 @@
 "51-250","Sonstige Dienstleistungen","v8_5v8_6",3.66666666666667,3.33333333333333,3,4
 "51-250","Sonstige Dienstleistungen","v8_7v8_8",1.66666666666667,2.66666666666667,1,2
 "51-250","Sonstige Dienstleistungen","v8_9v8_10",3.66666666666667,2.33333333333333,3,2
-"51-250","Sonstige Dienstleistungen","v9_1",NA,2.66666666666667,NA,3
 "51-250","Sonstige Dienstleistungen","v9_2v9_3",2.66666666666667,3,3,3
-"51-250","Sonstige Dienstleistungen","v9_4",NA,3.33333333333333,NA,3
-"51-250","Verkehr und Gastgewerbe","v10_1",NA,1,NA,1
-"51-250","Verkehr und Gastgewerbe","v10_2",NA,3.5,NA,3.5
-"51-250","Verkehr und Gastgewerbe","v10_3",NA,4,NA,4
 "51-250","Verkehr und Gastgewerbe","v11_11v11_12",3,2.5,3,2.5
 "51-250","Verkehr und Gastgewerbe","v11_13v11_14",4,2.5,4,2.5
 "51-250","Verkehr und Gastgewerbe","v11_15v11_16",4.5,4,4.5,4
@@ -687,26 +478,18 @@
 "51-250","Verkehr und Gastgewerbe","v11_5v11_6",3,2,3,2
 "51-250","Verkehr und Gastgewerbe","v11_7v11_8",3.5,2.5,3.5,2.5
 "51-250","Verkehr und Gastgewerbe","v11_9v11_10",4,3.5,4,3.5
-"51-250","Verkehr und Gastgewerbe","v2_11",NA,3,NA,3
 "51-250","Verkehr und Gastgewerbe","v2_12v2_13",4,3,4,3
 "51-250","Verkehr und Gastgewerbe","v2_14v2_16",2,2.5,2,2.5
 "51-250","Verkehr und Gastgewerbe","v2_5v2_6",2,3.5,2,3.5
 "51-250","Verkehr und Gastgewerbe","v2_7v2_8",1,1,1,1
 "51-250","Verkehr und Gastgewerbe","v2_9v2_10",2.5,3,2.5,3
-"51-250","Verkehr und Gastgewerbe","v4_1",NA,3.5,NA,3.5
-"51-250","Verkehr und Gastgewerbe","v4_2",NA,1.5,NA,1.5
 "51-250","Verkehr und Gastgewerbe","v4_3v4_4",4,3,4,3
-"51-250","Verkehr und Gastgewerbe","v5_1v5_2",NA,4,NA,4
 "51-250","Verkehr und Gastgewerbe","v6_11v6_12",4,3.5,4,3.5
 "51-250","Verkehr und Gastgewerbe","v6_1v6_2",3,2.5,3,2.5
 "51-250","Verkehr und Gastgewerbe","v6_3v6_4",3.5,3.5,3.5,3.5
 "51-250","Verkehr und Gastgewerbe","v6_5v6_6",3.5,3,3.5,3
 "51-250","Verkehr und Gastgewerbe","v6_7v6_8",2.5,2,2.5,2
 "51-250","Verkehr und Gastgewerbe","v6_9v6_10",3,2.5,3,2.5
-"51-250","Verkehr und Gastgewerbe","v7_2",1.5,NA,1.5,NA
-"51-250","Verkehr und Gastgewerbe","v7_3",2,NA,2,NA
-"51-250","Verkehr und Gastgewerbe","v7_4",4,NA,4,NA
-"51-250","Verkehr und Gastgewerbe","v7_5",NA,2,NA,2
 "51-250","Verkehr und Gastgewerbe","v7_6v7_7",3.5,2.5,3.5,2.5
 "51-250","Verkehr und Gastgewerbe","v8_11v8_12",3,4.5,3,4.5
 "51-250","Verkehr und Gastgewerbe","v8_13v8_14",4,3.5,4,3.5
@@ -716,12 +499,7 @@
 "51-250","Verkehr und Gastgewerbe","v8_5v8_6",5,4.5,5,4.5
 "51-250","Verkehr und Gastgewerbe","v8_7v8_8",2,3.5,2,3.5
 "51-250","Verkehr und Gastgewerbe","v8_9v8_10",4,2.5,4,2.5
-"51-250","Verkehr und Gastgewerbe","v9_1",NA,4,NA,4
 "51-250","Verkehr und Gastgewerbe","v9_2v9_3",2.5,3,2.5,3
-"51-250","Verkehr und Gastgewerbe","v9_4",NA,2.5,NA,2.5
-"<10","Architektur/Werbung/Grafik/Design/PR","v10_1",NA,3,NA,3
-"<10","Architektur/Werbung/Grafik/Design/PR","v10_2",NA,2.25,NA,2.5
-"<10","Architektur/Werbung/Grafik/Design/PR","v10_3",NA,3.25,NA,3
 "<10","Architektur/Werbung/Grafik/Design/PR","v11_11v11_12",3.75,3.5,3.5,3.5
 "<10","Architektur/Werbung/Grafik/Design/PR","v11_13v11_14",3.33333333333333,2.5,3,3
 "<10","Architektur/Werbung/Grafik/Design/PR","v11_15v11_16",3.75,3.5,3.5,3.5
@@ -732,26 +510,18 @@
 "<10","Architektur/Werbung/Grafik/Design/PR","v11_5v11_6",4,3.5,4,3.5
 "<10","Architektur/Werbung/Grafik/Design/PR","v11_7v11_8",3.5,3.25,3,3
 "<10","Architektur/Werbung/Grafik/Design/PR","v11_9v11_10",4,3.75,4,3.5
-"<10","Architektur/Werbung/Grafik/Design/PR","v2_11",NA,2.33333333333333,NA,3
 "<10","Architektur/Werbung/Grafik/Design/PR","v2_12v2_13",4,4,4,4
 "<10","Architektur/Werbung/Grafik/Design/PR","v2_14v2_16",2.33333333333333,2.33333333333333,2,2
 "<10","Architektur/Werbung/Grafik/Design/PR","v2_5v2_6",3.25,3.75,3.5,4
 "<10","Architektur/Werbung/Grafik/Design/PR","v2_7v2_8",3,3.75,3.5,3.5
 "<10","Architektur/Werbung/Grafik/Design/PR","v2_9v2_10",1.25,1.5,1,1
-"<10","Architektur/Werbung/Grafik/Design/PR","v4_1",NA,3.25,NA,3
-"<10","Architektur/Werbung/Grafik/Design/PR","v4_2",NA,2,NA,2
 "<10","Architektur/Werbung/Grafik/Design/PR","v4_3v4_4",3.66666666666667,2.75,4,3
-"<10","Architektur/Werbung/Grafik/Design/PR","v5_1v5_2",NA,3,NA,3
 "<10","Architektur/Werbung/Grafik/Design/PR","v6_11v6_12",3.66666666666667,3.66666666666667,4,4
 "<10","Architektur/Werbung/Grafik/Design/PR","v6_1v6_2",3.25,2.5,3,2.5
 "<10","Architektur/Werbung/Grafik/Design/PR","v6_3v6_4",3.25,3.5,3.5,4
 "<10","Architektur/Werbung/Grafik/Design/PR","v6_5v6_6",2.33333333333333,2.66666666666667,2,2
 "<10","Architektur/Werbung/Grafik/Design/PR","v6_7v6_8",3.33333333333333,2.66666666666667,4,2
 "<10","Architektur/Werbung/Grafik/Design/PR","v6_9v6_10",3.33333333333333,3,4,3
-"<10","Architektur/Werbung/Grafik/Design/PR","v7_2",2,NA,2,NA
-"<10","Architektur/Werbung/Grafik/Design/PR","v7_3",2,NA,2.5,NA
-"<10","Architektur/Werbung/Grafik/Design/PR","v7_4",2,NA,1.5,NA
-"<10","Architektur/Werbung/Grafik/Design/PR","v7_5",NA,3,NA,3
 "<10","Architektur/Werbung/Grafik/Design/PR","v7_6v7_7",2.25,3.5,2.5,3.5
 "<10","Architektur/Werbung/Grafik/Design/PR","v8_11v8_12",3.5,4.25,3.5,4.5
 "<10","Architektur/Werbung/Grafik/Design/PR","v8_13v8_14",3.33333333333333,2.5,3,2.5
@@ -761,12 +531,7 @@
 "<10","Architektur/Werbung/Grafik/Design/PR","v8_5v8_6",4,4,4,4
 "<10","Architektur/Werbung/Grafik/Design/PR","v8_7v8_8",3,2.75,3,3
 "<10","Architektur/Werbung/Grafik/Design/PR","v8_9v8_10",4.25,4.25,4,4
-"<10","Architektur/Werbung/Grafik/Design/PR","v9_1",NA,3,NA,3.5
 "<10","Architektur/Werbung/Grafik/Design/PR","v9_2v9_3",2,2.25,2,2
-"<10","Architektur/Werbung/Grafik/Design/PR","v9_4",NA,4,NA,4
-"<10","Chemisch-Pharmazeutische Industrie","v10_1",NA,3,NA,3
-"<10","Chemisch-Pharmazeutische Industrie","v10_2",NA,4,NA,4
-"<10","Chemisch-Pharmazeutische Industrie","v10_3",NA,5,NA,5
 "<10","Chemisch-Pharmazeutische Industrie","v11_11v11_12",3,3,3,3
 "<10","Chemisch-Pharmazeutische Industrie","v11_13v11_14",3,3,3,3
 "<10","Chemisch-Pharmazeutische Industrie","v11_15v11_16",3,3,3,3
@@ -777,26 +542,18 @@
 "<10","Chemisch-Pharmazeutische Industrie","v11_5v11_6",3,3,3,3
 "<10","Chemisch-Pharmazeutische Industrie","v11_7v11_8",3,3,3,3
 "<10","Chemisch-Pharmazeutische Industrie","v11_9v11_10",3,3,3,3
-"<10","Chemisch-Pharmazeutische Industrie","v2_11",NA,3,NA,3
 "<10","Chemisch-Pharmazeutische Industrie","v2_12v2_13",4,4,4,4
 "<10","Chemisch-Pharmazeutische Industrie","v2_14v2_16",3,4,3,4
 "<10","Chemisch-Pharmazeutische Industrie","v2_5v2_6",3,3,3,3
 "<10","Chemisch-Pharmazeutische Industrie","v2_7v2_8",3,5,3,5
 "<10","Chemisch-Pharmazeutische Industrie","v2_9v2_10",3,3,3,3
-"<10","Chemisch-Pharmazeutische Industrie","v4_1",NA,3,NA,3
-"<10","Chemisch-Pharmazeutische Industrie","v4_2",NA,3,NA,3
 "<10","Chemisch-Pharmazeutische Industrie","v4_3v4_4",5,4,5,4
-"<10","Chemisch-Pharmazeutische Industrie","v5_1v5_2",NA,4,NA,4
 "<10","Chemisch-Pharmazeutische Industrie","v6_11v6_12",4,4,4,4
 "<10","Chemisch-Pharmazeutische Industrie","v6_1v6_2",4,3,4,3
 "<10","Chemisch-Pharmazeutische Industrie","v6_3v6_4",4,3,4,3
 "<10","Chemisch-Pharmazeutische Industrie","v6_5v6_6",3,3,3,3
 "<10","Chemisch-Pharmazeutische Industrie","v6_7v6_8",5,3,5,3
 "<10","Chemisch-Pharmazeutische Industrie","v6_9v6_10",3,3,3,3
-"<10","Chemisch-Pharmazeutische Industrie","v7_2",3,NA,3,NA
-"<10","Chemisch-Pharmazeutische Industrie","v7_3",2,NA,2,NA
-"<10","Chemisch-Pharmazeutische Industrie","v7_4",4,NA,4,NA
-"<10","Chemisch-Pharmazeutische Industrie","v7_5",NA,2,NA,2
 "<10","Chemisch-Pharmazeutische Industrie","v7_6v7_7",3,2,3,2
 "<10","Chemisch-Pharmazeutische Industrie","v8_11v8_12",4,4,4,4
 "<10","Chemisch-Pharmazeutische Industrie","v8_13v8_14",1,1,1,1
@@ -806,12 +563,7 @@
 "<10","Chemisch-Pharmazeutische Industrie","v8_5v8_6",3,5,3,5
 "<10","Chemisch-Pharmazeutische Industrie","v8_7v8_8",2,3,2,3
 "<10","Chemisch-Pharmazeutische Industrie","v8_9v8_10",4,3,4,3
-"<10","Chemisch-Pharmazeutische Industrie","v9_1",NA,3,NA,3
 "<10","Chemisch-Pharmazeutische Industrie","v9_2v9_3",5,5,5,5
-"<10","Chemisch-Pharmazeutische Industrie","v9_4",NA,3,NA,3
-"<10","Finanzen und Versicherung","v10_1",NA,3,NA,3
-"<10","Finanzen und Versicherung","v10_2",NA,2.5,NA,2.5
-"<10","Finanzen und Versicherung","v10_3",NA,3,NA,3
 "<10","Finanzen und Versicherung","v11_11v11_12",3.5,2.5,3.5,2.5
 "<10","Finanzen und Versicherung","v11_13v11_14",3,2,3,2
 "<10","Finanzen und Versicherung","v11_15v11_16",3.5,2,3.5,2
@@ -822,26 +574,18 @@
 "<10","Finanzen und Versicherung","v11_5v11_6",3.5,2,3.5,2
 "<10","Finanzen und Versicherung","v11_7v11_8",4,2,4,2
 "<10","Finanzen und Versicherung","v11_9v11_10",3.5,2.5,3.5,2.5
-"<10","Finanzen und Versicherung","v2_11",NA,3,NA,3
 "<10","Finanzen und Versicherung","v2_12v2_13",3,3.5,3,3.5
 "<10","Finanzen und Versicherung","v2_14v2_16",2.5,1,2.5,1
 "<10","Finanzen und Versicherung","v2_5v2_6",3,5,3,5
 "<10","Finanzen und Versicherung","v2_7v2_8",3,2.5,3,2.5
 "<10","Finanzen und Versicherung","v2_9v2_10",1,1,1,1
-"<10","Finanzen und Versicherung","v4_1",NA,2.5,NA,2.5
-"<10","Finanzen und Versicherung","v4_2",NA,1.5,NA,1.5
 "<10","Finanzen und Versicherung","v4_3v4_4",3,2.5,3,2.5
-"<10","Finanzen und Versicherung","v5_1v5_2",NA,3.5,NA,3.5
 "<10","Finanzen und Versicherung","v6_11v6_12",3.5,2.5,3.5,2.5
 "<10","Finanzen und Versicherung","v6_1v6_2",4,3.5,4,3.5
 "<10","Finanzen und Versicherung","v6_3v6_4",4.5,3.5,4.5,3.5
 "<10","Finanzen und Versicherung","v6_5v6_6",2.5,1.5,2.5,1.5
 "<10","Finanzen und Versicherung","v6_7v6_8",3.5,3.5,3.5,3.5
 "<10","Finanzen und Versicherung","v6_9v6_10",4,2.5,4,2.5
-"<10","Finanzen und Versicherung","v7_2",2,NA,2,NA
-"<10","Finanzen und Versicherung","v7_3",2.5,NA,2.5,NA
-"<10","Finanzen und Versicherung","v7_4",4,NA,4,NA
-"<10","Finanzen und Versicherung","v7_5",NA,3,NA,3
 "<10","Finanzen und Versicherung","v7_6v7_7",2,2,2,2
 "<10","Finanzen und Versicherung","v8_11v8_12",3.5,4,3.5,4
 "<10","Finanzen und Versicherung","v8_13v8_14",3,1.5,3,1.5
@@ -851,12 +595,7 @@
 "<10","Finanzen und Versicherung","v8_5v8_6",4,3,4,3
 "<10","Finanzen und Versicherung","v8_7v8_8",3,4,3,4
 "<10","Finanzen und Versicherung","v8_9v8_10",4.5,3,4.5,3
-"<10","Finanzen und Versicherung","v9_1",NA,2,NA,2
 "<10","Finanzen und Versicherung","v9_2v9_3",3,2.5,3,2.5
-"<10","Finanzen und Versicherung","v9_4",NA,1,NA,1
-"<10","Gesundheitssektor","v10_1",NA,3,NA,3
-"<10","Gesundheitssektor","v10_2",NA,2,NA,2
-"<10","Gesundheitssektor","v10_3",NA,2,NA,2
 "<10","Gesundheitssektor","v11_11v11_12",3,1,3,1
 "<10","Gesundheitssektor","v11_13v11_14",3,1,3,1
 "<10","Gesundheitssektor","v11_15v11_16",3,1,3,1
@@ -867,26 +606,18 @@
 "<10","Gesundheitssektor","v11_5v11_6",3,1,3,1
 "<10","Gesundheitssektor","v11_7v11_8",3,1,3,1
 "<10","Gesundheitssektor","v11_9v11_10",1,1,1,1
-"<10","Gesundheitssektor","v2_11",NA,2,NA,2
 "<10","Gesundheitssektor","v2_12v2_13",3.5,2.5,3.5,2.5
 "<10","Gesundheitssektor","v2_14v2_16",2,1,2,1
 "<10","Gesundheitssektor","v2_5v2_6",4,5,4,5
 "<10","Gesundheitssektor","v2_7v2_8",3,4.5,3,4.5
 "<10","Gesundheitssektor","v2_9v2_10",1,3,1,3
-"<10","Gesundheitssektor","v4_1",NA,2,NA,2
-"<10","Gesundheitssektor","v4_2",NA,5,NA,5
 "<10","Gesundheitssektor","v4_3v4_4",4.5,2.5,4.5,2.5
-"<10","Gesundheitssektor","v5_1v5_2",NA,3,NA,3
 "<10","Gesundheitssektor","v6_11v6_12",2.5,3,2.5,3
 "<10","Gesundheitssektor","v6_1v6_2",1.5,2,1.5,2
 "<10","Gesundheitssektor","v6_3v6_4",3.5,3.5,3.5,3.5
 "<10","Gesundheitssektor","v6_5v6_6",4,3.5,4,3.5
 "<10","Gesundheitssektor","v6_7v6_8",3,2,3,2
 "<10","Gesundheitssektor","v6_9v6_10",5,4.5,5,4.5
-"<10","Gesundheitssektor","v7_2",0.5,NA,0.5,NA
-"<10","Gesundheitssektor","v7_3",1.5,NA,1.5,NA
-"<10","Gesundheitssektor","v7_4",1.5,NA,1.5,NA
-"<10","Gesundheitssektor","v7_5",NA,3,NA,3
 "<10","Gesundheitssektor","v7_6v7_7",2,3.5,2,3.5
 "<10","Gesundheitssektor","v8_11v8_12",5,5,5,5
 "<10","Gesundheitssektor","v8_13v8_14",2,2,2,2
@@ -896,12 +627,7 @@
 "<10","Gesundheitssektor","v8_5v8_6",4.5,3.5,4.5,3.5
 "<10","Gesundheitssektor","v8_7v8_8",1.5,3,1.5,3
 "<10","Gesundheitssektor","v8_9v8_10",4.5,4,4.5,4
-"<10","Gesundheitssektor","v9_1",NA,4,NA,4
 "<10","Gesundheitssektor","v9_2v9_3",3,3.5,3,3.5
-"<10","Gesundheitssektor","v9_4",NA,5,NA,5
-"<10","Gross- und Einzelhandel","v10_1",NA,2.66666666666667,NA,3
-"<10","Gross- und Einzelhandel","v10_2",NA,4.66666666666667,NA,5
-"<10","Gross- und Einzelhandel","v10_3",NA,3.66666666666667,NA,3
 "<10","Gross- und Einzelhandel","v11_11v11_12",3.66666666666667,4.33333333333333,4,4
 "<10","Gross- und Einzelhandel","v11_13v11_14",3.5,2,3.5,2
 "<10","Gross- und Einzelhandel","v11_15v11_16",4,4,4,4
@@ -912,26 +638,18 @@
 "<10","Gross- und Einzelhandel","v11_5v11_6",3.66666666666667,4,4,4
 "<10","Gross- und Einzelhandel","v11_7v11_8",4.66666666666667,2.66666666666667,5,2
 "<10","Gross- und Einzelhandel","v11_9v11_10",3.66666666666667,4.33333333333333,4,4
-"<10","Gross- und Einzelhandel","v2_11",NA,1.66666666666667,NA,1
 "<10","Gross- und Einzelhandel","v2_12v2_13",2.33333333333333,3,3,3
 "<10","Gross- und Einzelhandel","v2_14v2_16",1.66666666666667,2,2,2
 "<10","Gross- und Einzelhandel","v2_5v2_6",3,4.66666666666667,3,5
 "<10","Gross- und Einzelhandel","v2_7v2_8",1,1,1,1
 "<10","Gross- und Einzelhandel","v2_9v2_10",1.33333333333333,1.33333333333333,1,1
-"<10","Gross- und Einzelhandel","v4_1",NA,3.33333333333333,NA,3
-"<10","Gross- und Einzelhandel","v4_2",NA,3,NA,4
 "<10","Gross- und Einzelhandel","v4_3v4_4",3.66666666666667,2.66666666666667,4,3
-"<10","Gross- und Einzelhandel","v5_1v5_2",NA,3.33333333333333,NA,3
 "<10","Gross- und Einzelhandel","v6_11v6_12",3,4,3,4
 "<10","Gross- und Einzelhandel","v6_1v6_2",2.33333333333333,2.33333333333333,3,3
 "<10","Gross- und Einzelhandel","v6_3v6_4",2.66666666666667,1.66666666666667,3,1
 "<10","Gross- und Einzelhandel","v6_5v6_6",2,2.66666666666667,2,3
 "<10","Gross- und Einzelhandel","v6_7v6_8",1.33333333333333,2,1,2
 "<10","Gross- und Einzelhandel","v6_9v6_10",3.66666666666667,4,4,4
-"<10","Gross- und Einzelhandel","v7_2",2,NA,2,NA
-"<10","Gross- und Einzelhandel","v7_3",3,NA,3,NA
-"<10","Gross- und Einzelhandel","v7_4",3.33333333333333,NA,3,NA
-"<10","Gross- und Einzelhandel","v7_5",NA,3,NA,4
 "<10","Gross- und Einzelhandel","v7_6v7_7",2.66666666666667,2,3,2
 "<10","Gross- und Einzelhandel","v8_11v8_12",3.66666666666667,4.66666666666667,3,5
 "<10","Gross- und Einzelhandel","v8_13v8_14",1.66666666666667,2.33333333333333,1,3
@@ -941,12 +659,7 @@
 "<10","Gross- und Einzelhandel","v8_5v8_6",2.66666666666667,3.33333333333333,3,4
 "<10","Gross- und Einzelhandel","v8_7v8_8",2.66666666666667,2.66666666666667,3,2
 "<10","Gross- und Einzelhandel","v8_9v8_10",2.66666666666667,1.66666666666667,3,2
-"<10","Gross- und Einzelhandel","v9_1",NA,2.33333333333333,NA,2
 "<10","Gross- und Einzelhandel","v9_2v9_3",2,3.33333333333333,2,4
-"<10","Gross- und Einzelhandel","v9_4",NA,1,NA,1
-"<10","Information und Kommunikation","v10_1",NA,3,NA,3
-"<10","Information und Kommunikation","v10_2",NA,3,NA,3
-"<10","Information und Kommunikation","v10_3",NA,3,NA,3
 "<10","Information und Kommunikation","v11_11v11_12",3,3,3,3
 "<10","Information und Kommunikation","v11_13v11_14",2,2,2,2
 "<10","Information und Kommunikation","v11_15v11_16",3,3,3,3
@@ -957,26 +670,18 @@
 "<10","Information und Kommunikation","v11_5v11_6",3,3,3,3
 "<10","Information und Kommunikation","v11_7v11_8",3,3,3,3
 "<10","Information und Kommunikation","v11_9v11_10",2,2,2,2
-"<10","Information und Kommunikation","v2_11",NA,3,NA,3
 "<10","Information und Kommunikation","v2_12v2_13",4,4,4,4
 "<10","Information und Kommunikation","v2_14v2_16",3,3,3,3
 "<10","Information und Kommunikation","v2_5v2_6",5,5,5,5
 "<10","Information und Kommunikation","v2_7v2_8",4,4,4,4
 "<10","Information und Kommunikation","v2_9v2_10",1,1,1,1
-"<10","Information und Kommunikation","v4_1",NA,1,NA,1
-"<10","Information und Kommunikation","v4_2",NA,2,NA,2
 "<10","Information und Kommunikation","v4_3v4_4",5,1,5,1
-"<10","Information und Kommunikation","v5_1v5_2",NA,2,NA,2
 "<10","Information und Kommunikation","v6_11v6_12",4,4,4,4
 "<10","Information und Kommunikation","v6_1v6_2",4,1,4,1
 "<10","Information und Kommunikation","v6_3v6_4",3,3,3,3
 "<10","Information und Kommunikation","v6_5v6_6",3,3,3,3
 "<10","Information und Kommunikation","v6_7v6_8",3,3,3,3
 "<10","Information und Kommunikation","v6_9v6_10",4,4,4,4
-"<10","Information und Kommunikation","v7_2",1,NA,1,NA
-"<10","Information und Kommunikation","v7_3",3,NA,3,NA
-"<10","Information und Kommunikation","v7_4",2,NA,2,NA
-"<10","Information und Kommunikation","v7_5",NA,4,NA,4
 "<10","Information und Kommunikation","v7_6v7_7",1,2,1,2
 "<10","Information und Kommunikation","v8_11v8_12",1,5,1,5
 "<10","Information und Kommunikation","v8_13v8_14",2,2,2,2
@@ -986,12 +691,7 @@
 "<10","Information und Kommunikation","v8_5v8_6",5,5,5,5
 "<10","Information und Kommunikation","v8_7v8_8",3,5,3,5
 "<10","Information und Kommunikation","v8_9v8_10",1,1,1,1
-"<10","Information und Kommunikation","v9_1",NA,5,NA,5
 "<10","Information und Kommunikation","v9_2v9_3",4,4,4,4
-"<10","Information und Kommunikation","v9_4",NA,3,NA,3
-"<10","Sonstige Dienstleistungen","v10_1",NA,3,NA,3
-"<10","Sonstige Dienstleistungen","v10_2",NA,3,NA,3
-"<10","Sonstige Dienstleistungen","v10_3",NA,3.33333333333333,NA,3
 "<10","Sonstige Dienstleistungen","v11_11v11_12",3,2.33333333333333,3,2
 "<10","Sonstige Dienstleistungen","v11_13v11_14",2.66666666666667,2.66666666666667,3,3
 "<10","Sonstige Dienstleistungen","v11_15v11_16",3,2.66666666666667,3,3
@@ -1002,26 +702,18 @@
 "<10","Sonstige Dienstleistungen","v11_5v11_6",3,2.33333333333333,3,2
 "<10","Sonstige Dienstleistungen","v11_7v11_8",3,2.33333333333333,3,3
 "<10","Sonstige Dienstleistungen","v11_9v11_10",3,2.66666666666667,3,3
-"<10","Sonstige Dienstleistungen","v2_11",NA,2,NA,2
 "<10","Sonstige Dienstleistungen","v2_12v2_13",4,3.66666666666667,4,3
 "<10","Sonstige Dienstleistungen","v2_14v2_16",2.66666666666667,2.66666666666667,3,2
 "<10","Sonstige Dienstleistungen","v2_5v2_6",2.33333333333333,3.66666666666667,2,3
 "<10","Sonstige Dienstleistungen","v2_7v2_8",1.33333333333333,2.66666666666667,1,2
 "<10","Sonstige Dienstleistungen","v2_9v2_10",1,3,1,3
-"<10","Sonstige Dienstleistungen","v4_1",NA,2.66666666666667,NA,3
-"<10","Sonstige Dienstleistungen","v4_2",NA,2,NA,2
 "<10","Sonstige Dienstleistungen","v4_3v4_4",3.33333333333333,4,4,4
-"<10","Sonstige Dienstleistungen","v5_1v5_2",NA,3.33333333333333,NA,3
 "<10","Sonstige Dienstleistungen","v6_11v6_12",2.66666666666667,2.33333333333333,3,2
 "<10","Sonstige Dienstleistungen","v6_1v6_2",3.33333333333333,3.33333333333333,3,3
 "<10","Sonstige Dienstleistungen","v6_3v6_4",2.66666666666667,3.66666666666667,3,4
 "<10","Sonstige Dienstleistungen","v6_5v6_6",2.33333333333333,3,3,3
 "<10","Sonstige Dienstleistungen","v6_7v6_8",2,1.66666666666667,2,2
 "<10","Sonstige Dienstleistungen","v6_9v6_10",2,1,2,1
-"<10","Sonstige Dienstleistungen","v7_2",1,NA,0,NA
-"<10","Sonstige Dienstleistungen","v7_3",1,NA,0,NA
-"<10","Sonstige Dienstleistungen","v7_4",1,NA,0,NA
-"<10","Sonstige Dienstleistungen","v7_5",NA,3,NA,3
 "<10","Sonstige Dienstleistungen","v7_6v7_7",2.33333333333333,2.33333333333333,2,3
 "<10","Sonstige Dienstleistungen","v8_11v8_12",3.66666666666667,3.66666666666667,4,5
 "<10","Sonstige Dienstleistungen","v8_13v8_14",2.33333333333333,3.66666666666667,3,3
@@ -1031,12 +723,7 @@
 "<10","Sonstige Dienstleistungen","v8_5v8_6",2.33333333333333,2.33333333333333,3,1
 "<10","Sonstige Dienstleistungen","v8_7v8_8",3.33333333333333,1.66666666666667,3,1
 "<10","Sonstige Dienstleistungen","v8_9v8_10",3.33333333333333,4.66666666666667,3,5
-"<10","Sonstige Dienstleistungen","v9_1",NA,4.33333333333333,NA,5
 "<10","Sonstige Dienstleistungen","v9_2v9_3",2,2,2,2
-"<10","Sonstige Dienstleistungen","v9_4",NA,2.33333333333333,NA,1
-"<10","Treuhand/Consulting","v10_1",NA,2.66666666666667,NA,3
-"<10","Treuhand/Consulting","v10_2",NA,1,NA,1
-"<10","Treuhand/Consulting","v10_3",NA,2.33333333333333,NA,3
 "<10","Treuhand/Consulting","v11_11v11_12",4,4,4,4
 "<10","Treuhand/Consulting","v11_13v11_14",3,2,3,2
 "<10","Treuhand/Consulting","v11_15v11_16",3.66666666666667,3.66666666666667,4,4
@@ -1047,26 +734,18 @@
 "<10","Treuhand/Consulting","v11_5v11_6",4.33333333333333,4.33333333333333,4,4
 "<10","Treuhand/Consulting","v11_7v11_8",4.33333333333333,3,5,3
 "<10","Treuhand/Consulting","v11_9v11_10",3,3.33333333333333,3,4
-"<10","Treuhand/Consulting","v2_11",NA,1.66666666666667,NA,1
 "<10","Treuhand/Consulting","v2_12v2_13",2.33333333333333,2,3,1
 "<10","Treuhand/Consulting","v2_14v2_16",1.33333333333333,1,1,1
 "<10","Treuhand/Consulting","v2_5v2_6",1,3,1,3
 "<10","Treuhand/Consulting","v2_7v2_8",1,2.66666666666667,1,2
 "<10","Treuhand/Consulting","v2_9v2_10",1,1,1,1
-"<10","Treuhand/Consulting","v4_1",NA,2.66666666666667,NA,3
-"<10","Treuhand/Consulting","v4_2",NA,1,NA,1
 "<10","Treuhand/Consulting","v4_3v4_4",3.33333333333333,2.33333333333333,4,2
-"<10","Treuhand/Consulting","v5_1v5_2",NA,1.66666666666667,NA,1
 "<10","Treuhand/Consulting","v6_11v6_12",4,3.33333333333333,4,3
 "<10","Treuhand/Consulting","v6_1v6_2",1.66666666666667,1.66666666666667,1,1
 "<10","Treuhand/Consulting","v6_3v6_4",3,1.66666666666667,3,1
 "<10","Treuhand/Consulting","v6_5v6_6",1.66666666666667,1.66666666666667,1,1
 "<10","Treuhand/Consulting","v6_7v6_8",3.66666666666667,3.66666666666667,3,3
 "<10","Treuhand/Consulting","v6_9v6_10",4.33333333333333,3,5,3
-"<10","Treuhand/Consulting","v7_2",1,NA,0,NA
-"<10","Treuhand/Consulting","v7_3",1,NA,0,NA
-"<10","Treuhand/Consulting","v7_4",1,NA,0,NA
-"<10","Treuhand/Consulting","v7_5",NA,3,NA,3
 "<10","Treuhand/Consulting","v7_6v7_7",2,1.33333333333333,2,1
 "<10","Treuhand/Consulting","v8_11v8_12",2.66666666666667,3.33333333333333,2,3
 "<10","Treuhand/Consulting","v8_13v8_14",1,1,1,1
@@ -1076,42 +755,25 @@
 "<10","Treuhand/Consulting","v8_5v8_6",3,3.33333333333333,3,3
 "<10","Treuhand/Consulting","v8_7v8_8",3.33333333333333,3,3,3
 "<10","Treuhand/Consulting","v8_9v8_10",3.33333333333333,3.66666666666667,4,5
-"<10","Treuhand/Consulting","v9_1",NA,3.33333333333333,NA,3
 "<10","Treuhand/Consulting","v9_2v9_3",2.66666666666667,2.33333333333333,3,2
-"<10","Treuhand/Consulting","v9_4",NA,3,NA,3
-"<10","Verkehr und Gastgewerbe","v10_1",NA,1,NA,1
-"<10","Verkehr und Gastgewerbe","v10_2",NA,4,NA,4
-"<10","Verkehr und Gastgewerbe","v10_3",NA,5,NA,5
 "<10","Verkehr und Gastgewerbe","v11_11v11_12",5,2,5,2
-"<10","Verkehr und Gastgewerbe","v11_13v11_14",NA,1,NA,1
 "<10","Verkehr und Gastgewerbe","v11_15v11_16",5,4,5,4
 "<10","Verkehr und Gastgewerbe","v11_17v11_18",4,3,4,3
 "<10","Verkehr und Gastgewerbe","v11_19v11_20",5,5,5,5
 "<10","Verkehr und Gastgewerbe","v11_1v11_2",3,2,3,2
-"<10","Verkehr und Gastgewerbe","v11_3v11_4",NA,3,NA,3
-"<10","Verkehr und Gastgewerbe","v11_5v11_6",NA,2,NA,2
-"<10","Verkehr und Gastgewerbe","v11_7v11_8",5,NA,5,NA
 "<10","Verkehr und Gastgewerbe","v11_9v11_10",5,2,5,2
-"<10","Verkehr und Gastgewerbe","v2_11",NA,3,NA,3
 "<10","Verkehr und Gastgewerbe","v2_12v2_13",5,3,5,3
 "<10","Verkehr und Gastgewerbe","v2_14v2_16",3,1,3,1
 "<10","Verkehr und Gastgewerbe","v2_5v2_6",1,1,1,1
 "<10","Verkehr und Gastgewerbe","v2_7v2_8",1,1,1,1
 "<10","Verkehr und Gastgewerbe","v2_9v2_10",1,1,1,1
-"<10","Verkehr und Gastgewerbe","v4_1",NA,1,NA,1
-"<10","Verkehr und Gastgewerbe","v4_2",NA,1,NA,1
 "<10","Verkehr und Gastgewerbe","v4_3v4_4",4,1,4,1
-"<10","Verkehr und Gastgewerbe","v5_1v5_2",NA,1,NA,1
 "<10","Verkehr und Gastgewerbe","v6_11v6_12",1,1,1,1
 "<10","Verkehr und Gastgewerbe","v6_1v6_2",1,1,1,1
 "<10","Verkehr und Gastgewerbe","v6_3v6_4",5,3,5,3
 "<10","Verkehr und Gastgewerbe","v6_5v6_6",1,1,1,1
 "<10","Verkehr und Gastgewerbe","v6_7v6_8",2,2,2,2
 "<10","Verkehr und Gastgewerbe","v6_9v6_10",4,2,4,2
-"<10","Verkehr und Gastgewerbe","v7_2",0,NA,0,NA
-"<10","Verkehr und Gastgewerbe","v7_3",0,NA,0,NA
-"<10","Verkehr und Gastgewerbe","v7_4",0,NA,0,NA
-"<10","Verkehr und Gastgewerbe","v7_5",NA,4,NA,4
 "<10","Verkehr und Gastgewerbe","v7_6v7_7",2,1,2,1
 "<10","Verkehr und Gastgewerbe","v8_11v8_12",2,3,2,3
 "<10","Verkehr und Gastgewerbe","v8_13v8_14",1,1,1,1
@@ -1121,12 +783,7 @@
 "<10","Verkehr und Gastgewerbe","v8_5v8_6",1,1,1,1
 "<10","Verkehr und Gastgewerbe","v8_7v8_8",2,1,2,1
 "<10","Verkehr und Gastgewerbe","v8_9v8_10",1,1,1,1
-"<10","Verkehr und Gastgewerbe","v9_1",NA,3,NA,3
 "<10","Verkehr und Gastgewerbe","v9_2v9_3",2,1,2,1
-"<10","Verkehr und Gastgewerbe","v9_4",NA,2,NA,2
-">250","Architektur/Werbung/Grafik/Design/PR","v10_1",NA,2,NA,2
-">250","Architektur/Werbung/Grafik/Design/PR","v10_2",NA,2,NA,2
-">250","Architektur/Werbung/Grafik/Design/PR","v10_3",NA,4,NA,4
 ">250","Architektur/Werbung/Grafik/Design/PR","v11_11v11_12",3.5,3.5,3.5,3.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v11_13v11_14",3,2,3,2
 ">250","Architektur/Werbung/Grafik/Design/PR","v11_15v11_16",3,2,3,2
@@ -1137,26 +794,18 @@
 ">250","Architektur/Werbung/Grafik/Design/PR","v11_5v11_6",3,2.5,3,2.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v11_7v11_8",3,2.5,3,2.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v11_9v11_10",3,3,3,3
-">250","Architektur/Werbung/Grafik/Design/PR","v2_11",NA,3,NA,3
 ">250","Architektur/Werbung/Grafik/Design/PR","v2_12v2_13",3,3,3,3
 ">250","Architektur/Werbung/Grafik/Design/PR","v2_14v2_16",2,3,2,3
 ">250","Architektur/Werbung/Grafik/Design/PR","v2_5v2_6",4,5,4,5
 ">250","Architektur/Werbung/Grafik/Design/PR","v2_7v2_8",4,4.5,4,4.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v2_9v2_10",3,3,3,3
-">250","Architektur/Werbung/Grafik/Design/PR","v4_1",NA,4,NA,4
-">250","Architektur/Werbung/Grafik/Design/PR","v4_2",NA,2,NA,2
 ">250","Architektur/Werbung/Grafik/Design/PR","v4_3v4_4",4,3,4,3
-">250","Architektur/Werbung/Grafik/Design/PR","v5_1v5_2",NA,4,NA,4
 ">250","Architektur/Werbung/Grafik/Design/PR","v6_11v6_12",3.5,4.5,3.5,4.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v6_1v6_2",4,4,4,4
 ">250","Architektur/Werbung/Grafik/Design/PR","v6_3v6_4",4,4.5,4,4.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v6_5v6_6",3,3,3,3
 ">250","Architektur/Werbung/Grafik/Design/PR","v6_7v6_8",2.5,2.5,2.5,2.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v6_9v6_10",2.5,4,2.5,4
-">250","Architektur/Werbung/Grafik/Design/PR","v7_2",3.5,NA,3.5,NA
-">250","Architektur/Werbung/Grafik/Design/PR","v7_3",2,NA,2,NA
-">250","Architektur/Werbung/Grafik/Design/PR","v7_4",4,NA,4,NA
-">250","Architektur/Werbung/Grafik/Design/PR","v7_5",NA,3.5,NA,3.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v7_6v7_7",2,4.5,2,4.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v8_11v8_12",4.5,3,4.5,3
 ">250","Architektur/Werbung/Grafik/Design/PR","v8_13v8_14",3,2,3,2
@@ -1166,6 +815,4 @@
 ">250","Architektur/Werbung/Grafik/Design/PR","v8_5v8_6",3,2.5,3,2.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v8_7v8_8",3,2.5,3,2.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v8_9v8_10",3.5,4.5,3.5,4.5
-">250","Architektur/Werbung/Grafik/Design/PR","v9_1",NA,3,NA,3
 ">250","Architektur/Werbung/Grafik/Design/PR","v9_2v9_3",2,4,2,4
-">250","Architektur/Werbung/Grafik/Design/PR","v9_4",NA,2,NA,2
