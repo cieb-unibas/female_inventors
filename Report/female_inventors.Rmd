@@ -102,13 +102,17 @@ Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/ma
             dtick: 1,
             fixedrange: true},
     <!-- margin: {l: 150}, -->
-    shapes: [{
-      type: 'line',
-      x0: 0.289, 
-      y0: 0,
-      x1: 0.289,
-      y1: 20,
-      line: {dash: 'dot'}
+ shapes: [{
+    type: 'line',
+    x0: '2000-01-11',
+    y0: 0,
+    x1: '2000-01-11',
+    yref: 'paper',
+    y1: 1,
+    line: {
+      color: 'grey',
+      width: 1.5,
+      dash: 'dot'
     }],
     margin: {
     l: 70,
