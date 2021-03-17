@@ -4,13 +4,14 @@ library(RColorBrewer)
 library(shinyWidgets)
 library(plotly)
 library(viridis)
+library(ggrepel)
 
 # Load data 
 fem_share_tech <- read.csv2("female_inventors_graduates_techgroup_USPTO.csv", sep = ",") 
 fem_share_tech$female_share_inventors <- as.numeric(as.character(fem_share_tech$female_share_inventors))
 fem_share_tech$female_share_graduates <- as.numeric(as.character(fem_share_tech$female_share_graduates))
-
-fem_share_tech %>% write.csv("female_inventors_graduates_techgroup_USPTO.csv") 
+fem_share_tech <- subset(fem_share_tech, inv_ctry %in% c("NO", "DE", "AU", "GB", "CA", "NL", "SE", "US", "FI", "IS",
+                                                         "RU", "DK", "IT", "AT", "IR", "CH", "FR", "ES", "BE", "KO"))
 
 
 
@@ -67,31 +68,20 @@ server <- function(input, output, session) {
   
   output$fem_share_tech_plot <- renderPlotly({
   if(nrow(dat_set_tech()) != 0){
-
-  p <-   dat_set_tech() %>% 
-    plot_ly(
-    x = ~female_share_graduates, 
-    y = ~female_share_inventors,
-    type = 'scatter',
-    mode = 'markers',
-    text = ~country,
-    hoverinfo = "markers",
-    hovertemplate = paste0('Country: %{text}\n',
-                         'Female Inventor Share: %{y}\n',
-                         'Female Graduate Share: %{x}<extra></extra>'),
-    textposition = "top center",
-    marker =  list(color= c('#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
-                                 'red',
-                                 '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
-                                 '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f'))) %>% 
-    add_annotations(text = ~inv_ctry,
-                    showarrow = F,
-                    yanchor = "bottom") %>%
-    config(displayModeBar = F) %>% layout(yaxis = list(range = c(min(dat_set_tech()$female_share_inventors) - 0.01, max(dat_set_tech()$female_share_inventors) + 0.015), title = "<b>Female Inventor Share\n(2005-2015 Average)</b>", fixedrange = TRUE, tickformat = ',.1%'), 
-                                          xaxis = list(range = c(min(dat_set_tech()$female_share_graduates) - 0.01, max(dat_set_tech()$female_share_graduates) + 0.015), title = "<b>Female Graduate Share in STEM Fields\n(2005-2015 Average)</b>", fixedrange = TRUE, tickformat = ',.1%'), showlegend = F) %>%
-    add_segments(x = mean(dat_set_tech()$female_share_graduates), xend = mean(dat_set_tech()$female_share_graduates), y = min(dat_set_tech()$female_share_inventors) - 0.02, yend = max(dat_set_tech()$female_share_inventors) + 0.02, color = I("black"), line = list(dash = "dash", width = 0.1)) %>%
-    add_segments(y = mean(dat_set_tech()$female_share_inventors), yend = mean(dat_set_tech()$female_share_inventors), x = min(dat_set_tech()$female_share_graduates) - 0.02, xend = max(dat_set_tech()$female_share_graduates) + 0.02, color = I("black"), line = list(dash = "dash", width = 0.1)) 
+  fit <- lm(female_share_inventors ~ female_share_graduates, data = dat_set_tech())
     
+  p <-   ggplotly(
+      ggplot(data = filter(dat_set_tech()), aes(x = female_share_graduates, y = female_share_inventors)) +
+        geom_point() +
+        geom_text(aes(x = female_share_graduates, y = female_share_inventors, label = inv_ctry, colour = 
+                        ifelse(inv_ctry == "CH", "red", "black")),  position = position_nudge(y = -0.005)) +
+        geom_smooth(method="lm",fullrange = TRUE,formula =y~x,colour="black",se = FALSE)  +
+        xlab("Frauenanteil MINT-Absolventen") +
+        ylab("Frauenanteil Patenterfindern") +
+        # geom_vline(xintercept = 2015, linetype="dotted") +
+        theme(axis.title = element_text(face="bold",size = 10),
+              legend.title = element_blank()))
+  
 
     p  
 } else {} 
