@@ -1,4 +1,36 @@
 "size","sektor","var_pairs","var_names","mean_qual","mean_wichtig","median_qual","median_wichtig"
+"10-50","Alle","v11_11v11_12","v11_11v11_12",3.47619047619048,3.17391304347826,3,3
+"10-50","Alle","v11_13v11_14","v11_13v11_14",3.17391304347826,2.69565217391304,3,3
+"10-50","Alle","v11_15v11_16","v11_15v11_16",3.8,3.48,4,3
+"10-50","Alle","v11_17v11_18","v11_17v11_18",3.59090909090909,3.95652173913043,3,4
+"10-50","Alle","v11_19v11_20","v11_19v11_20",4.24,4.24,5,5
+"10-50","Alle","v11_1v11_2","v11_1v11_2",3.75,3.4,4,3
+"10-50","Alle","v11_3v11_4","v11_3v11_4",3.91666666666667,3.8,4,4
+"10-50","Alle","v11_5v11_6","v11_5v11_6",3.33333333333333,3.125,3,3
+"10-50","Alle","v11_7v11_8","v11_7v11_8",3.92,2.79166666666667,4,3
+"10-50","Alle","v11_9v11_10","v11_9v11_10",3.5,3.04166666666667,3,3
+"10-50","Alle","v2_12v2_13","v2_12v2_13",3.36,3.44,3,4
+"10-50","Alle","v2_14v2_16","v2_14v2_16",2.1304347826087,2.33333333333333,2,2.5
+"10-50","Alle","v2_5v2_6","Arbeitskräfte mit Berufslehre",2.92,3.96,3,4
+"10-50","Alle","v2_7v2_8","Akademiker",2.28,2.52,2,2
+"10-50","Alle","v2_9v2_10","Lehrlinge",1.95652173913043,2.45833333333333,2,2
+"10-50","Alle","v4_3v4_4","v4_3v4_4",3.32,3.16,3,3
+"10-50","Alle","v6_11v6_12","v6_11v6_12",3.41666666666667,3.68,3.5,4
+"10-50","Alle","v6_1v6_2","v6_1v6_2",3.29166666666667,3.12,3,3
+"10-50","Alle","v6_3v6_4","v6_3v6_4",3.44,3.48,4,3
+"10-50","Alle","v6_5v6_6","v6_5v6_6",2.28,1.96,2,1
+"10-50","Alle","v6_7v6_8","v6_7v6_8",2.75,2.6,3,3
+"10-50","Alle","v6_9v6_10","v6_9v6_10",3.5,3.36,3,4
+"10-50","Alle","v7_6v7_7","v7_6v7_7",2.82608695652174,2.72,3,3
+"10-50","Alle","v8_11v8_12","v8_11v8_12",3.36,4.04,4,4
+"10-50","Alle","v8_13v8_14","v8_13v8_14",2.70833333333333,2.76,3,3
+"10-50","Alle","v8_15v8_16","v8_15v8_16",2.79166666666667,2.44,3,2
+"10-50","Alle","v8_1v8_2","v8_1v8_2",3.68,3.2,4,3
+"10-50","Alle","v8_3v8_4","v8_3v8_4",2.79166666666667,3.36,3,4
+"10-50","Alle","v8_5v8_6","v8_5v8_6",2.91666666666667,3.24,3,3
+"10-50","Alle","v8_7v8_8","v8_7v8_8",2.78260869565217,2.66666666666667,3,3
+"10-50","Alle","v8_9v8_10","v8_9v8_10",4.32,3.4,5,4
+"10-50","Alle","v9_2v9_3","v9_2v9_3",2.30434782608696,3.08,2,3
 "10-50","Architektur/Werbung/Grafik/Design/PR","v11_11v11_12","v11_11v11_12",3,4,3,4
 "10-50","Architektur/Werbung/Grafik/Design/PR","v11_13v11_14","v11_13v11_14",3,3,3,3
 "10-50","Architektur/Werbung/Grafik/Design/PR","v11_15v11_16","v11_15v11_16",4,4,4,4
@@ -313,38 +345,38 @@
 "10-50","Verkehr und Gastgewerbe","v8_7v8_8","v8_7v8_8",4,2,4,2
 "10-50","Verkehr und Gastgewerbe","v8_9v8_10","v8_9v8_10",2.5,2.5,2.5,2.5
 "10-50","Verkehr und Gastgewerbe","v9_2v9_3","v9_2v9_3",1,3,1,3
-"10-50","alle","v11_11v11_12","v11_11v11_12",3.47619047619048,3.17391304347826,3,3
-"10-50","alle","v11_13v11_14","v11_13v11_14",3.17391304347826,2.69565217391304,3,3
-"10-50","alle","v11_15v11_16","v11_15v11_16",3.8,3.48,4,3
-"10-50","alle","v11_17v11_18","v11_17v11_18",3.59090909090909,3.95652173913043,3,4
-"10-50","alle","v11_19v11_20","v11_19v11_20",4.24,4.24,5,5
-"10-50","alle","v11_1v11_2","v11_1v11_2",3.75,3.4,4,3
-"10-50","alle","v11_3v11_4","v11_3v11_4",3.91666666666667,3.8,4,4
-"10-50","alle","v11_5v11_6","v11_5v11_6",3.33333333333333,3.125,3,3
-"10-50","alle","v11_7v11_8","v11_7v11_8",3.92,2.79166666666667,4,3
-"10-50","alle","v11_9v11_10","v11_9v11_10",3.5,3.04166666666667,3,3
-"10-50","alle","v2_12v2_13","v2_12v2_13",3.36,3.44,3,4
-"10-50","alle","v2_14v2_16","v2_14v2_16",2.1304347826087,2.33333333333333,2,2.5
-"10-50","alle","v2_5v2_6","Arbeitskräfte mit Berufslehre",2.92,3.96,3,4
-"10-50","alle","v2_7v2_8","Akademiker",2.28,2.52,2,2
-"10-50","alle","v2_9v2_10","Lehrlinge",1.95652173913043,2.45833333333333,2,2
-"10-50","alle","v4_3v4_4","v4_3v4_4",3.32,3.16,3,3
-"10-50","alle","v6_11v6_12","v6_11v6_12",3.41666666666667,3.68,3.5,4
-"10-50","alle","v6_1v6_2","v6_1v6_2",3.29166666666667,3.12,3,3
-"10-50","alle","v6_3v6_4","v6_3v6_4",3.44,3.48,4,3
-"10-50","alle","v6_5v6_6","v6_5v6_6",2.28,1.96,2,1
-"10-50","alle","v6_7v6_8","v6_7v6_8",2.75,2.6,3,3
-"10-50","alle","v6_9v6_10","v6_9v6_10",3.5,3.36,3,4
-"10-50","alle","v7_6v7_7","v7_6v7_7",2.82608695652174,2.72,3,3
-"10-50","alle","v8_11v8_12","v8_11v8_12",3.36,4.04,4,4
-"10-50","alle","v8_13v8_14","v8_13v8_14",2.70833333333333,2.76,3,3
-"10-50","alle","v8_15v8_16","v8_15v8_16",2.79166666666667,2.44,3,2
-"10-50","alle","v8_1v8_2","v8_1v8_2",3.68,3.2,4,3
-"10-50","alle","v8_3v8_4","v8_3v8_4",2.79166666666667,3.36,3,4
-"10-50","alle","v8_5v8_6","v8_5v8_6",2.91666666666667,3.24,3,3
-"10-50","alle","v8_7v8_8","v8_7v8_8",2.78260869565217,2.66666666666667,3,3
-"10-50","alle","v8_9v8_10","v8_9v8_10",4.32,3.4,5,4
-"10-50","alle","v9_2v9_3","v9_2v9_3",2.30434782608696,3.08,2,3
+"51-250","Alle","v11_11v11_12","v11_11v11_12",3.75,3.76923076923077,4,4
+"51-250","Alle","v11_13v11_14","v11_13v11_14",3.5,2.69230769230769,3,3
+"51-250","Alle","v11_15v11_16","v11_15v11_16",4.23076923076923,3.91666666666667,4,4
+"51-250","Alle","v11_17v11_18","v11_17v11_18",3.83333333333333,4.07692307692308,4,4
+"51-250","Alle","v11_19v11_20","v11_19v11_20",4.08333333333333,3.84615384615385,4.5,5
+"51-250","Alle","v11_1v11_2","v11_1v11_2",3.83333333333333,3.84615384615385,4,4
+"51-250","Alle","v11_3v11_4","v11_3v11_4",4.2,3.76923076923077,4,4
+"51-250","Alle","v11_5v11_6","v11_5v11_6",3.72727272727273,3.23076923076923,4,3
+"51-250","Alle","v11_7v11_8","v11_7v11_8",4,3.58333333333333,4,4
+"51-250","Alle","v11_9v11_10","v11_9v11_10",4,3.38461538461538,4,4
+"51-250","Alle","v2_12v2_13","v2_12v2_13",4,3.76923076923077,4,4
+"51-250","Alle","v2_14v2_16","v2_14v2_16",2.41666666666667,3.15384615384615,2.5,3
+"51-250","Alle","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.33333333333333,4.07692307692308,3.5,5
+"51-250","Alle","v2_7v2_8","Akademiker",2.33333333333333,2.30769230769231,2,2
+"51-250","Alle","v2_9v2_10","Lehrlinge",2.16666666666667,3.15384615384615,2,4
+"51-250","Alle","v4_3v4_4","v4_3v4_4",4,2.30769230769231,4,2
+"51-250","Alle","v6_11v6_12","v6_11v6_12",4.07692307692308,4.15384615384615,4,4
+"51-250","Alle","v6_1v6_2","v6_1v6_2",3.30769230769231,3.46153846153846,3,3
+"51-250","Alle","v6_3v6_4","v6_3v6_4",3.61538461538462,3.92307692307692,4,4
+"51-250","Alle","v6_5v6_6","v6_5v6_6",3.23076923076923,2.69230769230769,3,3
+"51-250","Alle","v6_7v6_8","v6_7v6_8",2.92307692307692,2.92307692307692,3,3
+"51-250","Alle","v6_9v6_10","v6_9v6_10",3.46153846153846,3.61538461538462,3,4
+"51-250","Alle","v7_6v7_7","v7_6v7_7",2.66666666666667,3.23076923076923,3,3
+"51-250","Alle","v8_11v8_12","v8_11v8_12",3.69230769230769,4.15384615384615,4,4
+"51-250","Alle","v8_13v8_14","v8_13v8_14",2.92307692307692,3.07692307692308,2,3
+"51-250","Alle","v8_15v8_16","v8_15v8_16",2.30769230769231,2.84615384615385,2,3
+"51-250","Alle","v8_1v8_2","v8_1v8_2",3.53846153846154,3.46153846153846,4,4
+"51-250","Alle","v8_3v8_4","v8_3v8_4",3.07692307692308,3.66666666666667,3,4
+"51-250","Alle","v8_5v8_6","v8_5v8_6",3.76923076923077,4,4,4
+"51-250","Alle","v8_7v8_8","v8_7v8_8",2.53846153846154,2.61538461538462,3,3
+"51-250","Alle","v8_9v8_10","v8_9v8_10",4.07692307692308,3.5,4,3.5
+"51-250","Alle","v9_2v9_3","v9_2v9_3",2.46153846153846,2.84615384615385,3,3
 "51-250","Bau, Energie- und Wasserversorgung","v11_11v11_12","v11_11v11_12",4,4.5,4,4.5
 "51-250","Bau, Energie- und Wasserversorgung","v11_13v11_14","v11_13v11_14",3,3,3,3
 "51-250","Bau, Energie- und Wasserversorgung","v11_15v11_16","v11_15v11_16",4,4,4,4
@@ -505,480 +537,38 @@
 "51-250","Verkehr und Gastgewerbe","v8_7v8_8","v8_7v8_8",2,3.5,2,3.5
 "51-250","Verkehr und Gastgewerbe","v8_9v8_10","v8_9v8_10",4,2.5,4,2.5
 "51-250","Verkehr und Gastgewerbe","v9_2v9_3","v9_2v9_3",2.5,3,2.5,3
-"51-250","alle","v11_11v11_12","v11_11v11_12",3.75,3.76923076923077,4,4
-"51-250","alle","v11_13v11_14","v11_13v11_14",3.5,2.69230769230769,3,3
-"51-250","alle","v11_15v11_16","v11_15v11_16",4.23076923076923,3.91666666666667,4,4
-"51-250","alle","v11_17v11_18","v11_17v11_18",3.83333333333333,4.07692307692308,4,4
-"51-250","alle","v11_19v11_20","v11_19v11_20",4.08333333333333,3.84615384615385,4.5,5
-"51-250","alle","v11_1v11_2","v11_1v11_2",3.83333333333333,3.84615384615385,4,4
-"51-250","alle","v11_3v11_4","v11_3v11_4",4.2,3.76923076923077,4,4
-"51-250","alle","v11_5v11_6","v11_5v11_6",3.72727272727273,3.23076923076923,4,3
-"51-250","alle","v11_7v11_8","v11_7v11_8",4,3.58333333333333,4,4
-"51-250","alle","v11_9v11_10","v11_9v11_10",4,3.38461538461538,4,4
-"51-250","alle","v2_12v2_13","v2_12v2_13",4,3.76923076923077,4,4
-"51-250","alle","v2_14v2_16","v2_14v2_16",2.41666666666667,3.15384615384615,2.5,3
-"51-250","alle","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.33333333333333,4.07692307692308,3.5,5
-"51-250","alle","v2_7v2_8","Akademiker",2.33333333333333,2.30769230769231,2,2
-"51-250","alle","v2_9v2_10","Lehrlinge",2.16666666666667,3.15384615384615,2,4
-"51-250","alle","v4_3v4_4","v4_3v4_4",4,2.30769230769231,4,2
-"51-250","alle","v6_11v6_12","v6_11v6_12",4.07692307692308,4.15384615384615,4,4
-"51-250","alle","v6_1v6_2","v6_1v6_2",3.30769230769231,3.46153846153846,3,3
-"51-250","alle","v6_3v6_4","v6_3v6_4",3.61538461538462,3.92307692307692,4,4
-"51-250","alle","v6_5v6_6","v6_5v6_6",3.23076923076923,2.69230769230769,3,3
-"51-250","alle","v6_7v6_8","v6_7v6_8",2.92307692307692,2.92307692307692,3,3
-"51-250","alle","v6_9v6_10","v6_9v6_10",3.46153846153846,3.61538461538462,3,4
-"51-250","alle","v7_6v7_7","v7_6v7_7",2.66666666666667,3.23076923076923,3,3
-"51-250","alle","v8_11v8_12","v8_11v8_12",3.69230769230769,4.15384615384615,4,4
-"51-250","alle","v8_13v8_14","v8_13v8_14",2.92307692307692,3.07692307692308,2,3
-"51-250","alle","v8_15v8_16","v8_15v8_16",2.30769230769231,2.84615384615385,2,3
-"51-250","alle","v8_1v8_2","v8_1v8_2",3.53846153846154,3.46153846153846,4,4
-"51-250","alle","v8_3v8_4","v8_3v8_4",3.07692307692308,3.66666666666667,3,4
-"51-250","alle","v8_5v8_6","v8_5v8_6",3.76923076923077,4,4,4
-"51-250","alle","v8_7v8_8","v8_7v8_8",2.53846153846154,2.61538461538462,3,3
-"51-250","alle","v8_9v8_10","v8_9v8_10",4.07692307692308,3.5,4,3.5
-"51-250","alle","v9_2v9_3","v9_2v9_3",2.46153846153846,2.84615384615385,3,3
-"<1","Architektur/Werbung/Grafik/Design/PR","v11_11v11_12","v11_11v11_12",3.55555555555556,3.55555555555556,3,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v11_13v11_14","v11_13v11_14",3.14285714285714,2.125,3,2.5
-"<1","Architektur/Werbung/Grafik/Design/PR","v11_15v11_16","v11_15v11_16",3.625,3.25,3.5,3
-"<1","Architektur/Werbung/Grafik/Design/PR","v11_17v11_18","v11_17v11_18",3.125,3.375,3,3.5
-"<1","Architektur/Werbung/Grafik/Design/PR","v11_19v11_20","v11_19v11_20",3.77777777777778,3.875,4,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v11_1v11_2","v11_1v11_2",4,3.44444444444444,4,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v11_3v11_4","v11_3v11_4",3.77777777777778,3.66666666666667,4,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v11_5v11_6","v11_5v11_6",3.875,3.22222222222222,4,3
-"<1","Architektur/Werbung/Grafik/Design/PR","v11_7v11_8","v11_7v11_8",3.66666666666667,3.11111111111111,4,3
-"<1","Architektur/Werbung/Grafik/Design/PR","v11_9v11_10","v11_9v11_10",3.625,3.44444444444444,3.5,3
-"<1","Architektur/Werbung/Grafik/Design/PR","v2_12v2_13","v2_12v2_13",3.75,3.66666666666667,4,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v2_14v2_16","v2_14v2_16",2.71428571428571,2.71428571428571,2,3
-"<1","Architektur/Werbung/Grafik/Design/PR","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.44444444444444,4.22222222222222,3,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v2_7v2_8","Akademiker",3.11111111111111,4,3,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v2_9v2_10","Lehrlinge",1.77777777777778,2.33333333333333,2,2
-"<1","Architektur/Werbung/Grafik/Design/PR","v4_3v4_4","v4_3v4_4",3.625,2.88888888888889,4,3
-"<1","Architektur/Werbung/Grafik/Design/PR","v6_11v6_12","v6_11v6_12",3.5,3.875,3.5,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v6_1v6_2","v6_1v6_2",3.33333333333333,3,3,3
-"<1","Architektur/Werbung/Grafik/Design/PR","v6_3v6_4","v6_3v6_4",3.66666666666667,4,4,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v6_5v6_6","v6_5v6_6",2.625,2.75,2.5,2.5
-"<1","Architektur/Werbung/Grafik/Design/PR","v6_7v6_8","v6_7v6_8",2.75,2.25,3,2
-"<1","Architektur/Werbung/Grafik/Design/PR","v6_9v6_10","v6_9v6_10",3,3.33333333333333,3,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v7_6v7_7","v7_6v7_7",2.22222222222222,3.77777777777778,3,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v8_11v8_12","v8_11v8_12",3.55555555555556,3.44444444444444,4,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v8_13v8_14","v8_13v8_14",2.57142857142857,2.22222222222222,3,2
-"<1","Architektur/Werbung/Grafik/Design/PR","v8_15v8_16","v8_15v8_16",3,2.5,3,2.5
-"<1","Architektur/Werbung/Grafik/Design/PR","v8_1v8_2","v8_1v8_2",3.55555555555556,3.75,4,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v8_3v8_4","v8_3v8_4",2.875,3.11111111111111,3,3
-"<1","Architektur/Werbung/Grafik/Design/PR","v8_5v8_6","v8_5v8_6",3.71428571428571,3.375,3,3
-"<1","Architektur/Werbung/Grafik/Design/PR","v8_7v8_8","v8_7v8_8",3,2.77777777777778,3,3
-"<1","Architektur/Werbung/Grafik/Design/PR","v8_9v8_10","v8_9v8_10",4.11111111111111,4,4,4
-"<1","Architektur/Werbung/Grafik/Design/PR","v9_2v9_3","v9_2v9_3",2.25,2.66666666666667,2,2
-"<1","Bau, Energie- und Wasserversorgung","v11_11v11_12","v11_11v11_12",3.8,4,4,4
-"<1","Bau, Energie- und Wasserversorgung","v11_13v11_14","v11_13v11_14",2.8,2.6,3,3
-"<1","Bau, Energie- und Wasserversorgung","v11_15v11_16","v11_15v11_16",3.8,3.2,3,3
-"<1","Bau, Energie- und Wasserversorgung","v11_17v11_18","v11_17v11_18",4.2,4.2,4,5
-"<1","Bau, Energie- und Wasserversorgung","v11_19v11_20","v11_19v11_20",4,3.4,4,4
-"<1","Bau, Energie- und Wasserversorgung","v11_1v11_2","v11_1v11_2",3.4,2.8,3,3
-"<1","Bau, Energie- und Wasserversorgung","v11_3v11_4","v11_3v11_4",4,3.4,4,3
-"<1","Bau, Energie- und Wasserversorgung","v11_5v11_6","v11_5v11_6",3.2,2.6,3,3
-"<1","Bau, Energie- und Wasserversorgung","v11_7v11_8","v11_7v11_8",5,3,5,3
-"<1","Bau, Energie- und Wasserversorgung","v11_9v11_10","v11_9v11_10",4,4,4,4
-"<1","Bau, Energie- und Wasserversorgung","v2_12v2_13","v2_12v2_13",3.6,3.4,3,3
-"<1","Bau, Energie- und Wasserversorgung","v2_14v2_16","v2_14v2_16",2.8,3,3,3
-"<1","Bau, Energie- und Wasserversorgung","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.2,4,4,5
-"<1","Bau, Energie- und Wasserversorgung","v2_7v2_8","Akademiker",2.75,3,2.5,3
-"<1","Bau, Energie- und Wasserversorgung","v2_9v2_10","Lehrlinge",2.2,3.6,2,4
-"<1","Bau, Energie- und Wasserversorgung","v4_3v4_4","v4_3v4_4",3.4,3,3,3
-"<1","Bau, Energie- und Wasserversorgung","v6_11v6_12","v6_11v6_12",3,3.8,3,4
-"<1","Bau, Energie- und Wasserversorgung","v6_1v6_2","v6_1v6_2",3.4,3.4,3,3
-"<1","Bau, Energie- und Wasserversorgung","v6_3v6_4","v6_3v6_4",3.4,3,3,3
-"<1","Bau, Energie- und Wasserversorgung","v6_5v6_6","v6_5v6_6",2.4,1.4,2,1
-"<1","Bau, Energie- und Wasserversorgung","v6_7v6_8","v6_7v6_8",3.4,3,3,3
-"<1","Bau, Energie- und Wasserversorgung","v6_9v6_10","v6_9v6_10",3.2,3,3,3
-"<1","Bau, Energie- und Wasserversorgung","v7_6v7_7","v7_6v7_7",3.2,1.8,3,1
-"<1","Bau, Energie- und Wasserversorgung","v8_11v8_12","v8_11v8_12",3,4.2,3,4
-"<1","Bau, Energie- und Wasserversorgung","v8_13v8_14","v8_13v8_14",2.4,3.2,2,3
-"<1","Bau, Energie- und Wasserversorgung","v8_15v8_16","v8_15v8_16",2.8,2.2,3,2
-"<1","Bau, Energie- und Wasserversorgung","v8_1v8_2","v8_1v8_2",3.8,3,4,3
-"<1","Bau, Energie- und Wasserversorgung","v8_3v8_4","v8_3v8_4",2.8,4,2,4
-"<1","Bau, Energie- und Wasserversorgung","v8_5v8_6","v8_5v8_6",3.8,3.6,4,4
-"<1","Bau, Energie- und Wasserversorgung","v8_7v8_8","v8_7v8_8",2,2.6,2,3
-"<1","Bau, Energie- und Wasserversorgung","v8_9v8_10","v8_9v8_10",3.8,2.8,4,3
-"<1","Bau, Energie- und Wasserversorgung","v9_2v9_3","v9_2v9_3",2.4,2.4,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v11_11v11_12","v11_11v11_12",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v11_13v11_14","v11_13v11_14",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v11_15v11_16","v11_15v11_16",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v11_17v11_18","v11_17v11_18",4,4,4,4
-"<1","Chemisch-Pharmazeutische Industrie","v11_19v11_20","v11_19v11_20",4,4,4,4
-"<1","Chemisch-Pharmazeutische Industrie","v11_1v11_2","v11_1v11_2",4,4,4,4
-"<1","Chemisch-Pharmazeutische Industrie","v11_3v11_4","v11_3v11_4",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v11_5v11_6","v11_5v11_6",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v11_7v11_8","v11_7v11_8",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v11_9v11_10","v11_9v11_10",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v2_12v2_13","v2_12v2_13",4,4,4,4
-"<1","Chemisch-Pharmazeutische Industrie","v2_14v2_16","v2_14v2_16",3,4,3,4
-"<1","Chemisch-Pharmazeutische Industrie","v2_5v2_6","Arbeitskräfte mit Berufslehre",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v2_7v2_8","Akademiker",3,5,3,5
-"<1","Chemisch-Pharmazeutische Industrie","v2_9v2_10","Lehrlinge",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v4_3v4_4","v4_3v4_4",5,4,5,4
-"<1","Chemisch-Pharmazeutische Industrie","v6_11v6_12","v6_11v6_12",4,4,4,4
-"<1","Chemisch-Pharmazeutische Industrie","v6_1v6_2","v6_1v6_2",4,3,4,3
-"<1","Chemisch-Pharmazeutische Industrie","v6_3v6_4","v6_3v6_4",4,3,4,3
-"<1","Chemisch-Pharmazeutische Industrie","v6_5v6_6","v6_5v6_6",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v6_7v6_8","v6_7v6_8",5,3,5,3
-"<1","Chemisch-Pharmazeutische Industrie","v6_9v6_10","v6_9v6_10",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v7_6v7_7","v7_6v7_7",3,2,3,2
-"<1","Chemisch-Pharmazeutische Industrie","v8_11v8_12","v8_11v8_12",4,4,4,4
-"<1","Chemisch-Pharmazeutische Industrie","v8_13v8_14","v8_13v8_14",1,1,1,1
-"<1","Chemisch-Pharmazeutische Industrie","v8_15v8_16","v8_15v8_16",4,3,4,3
-"<1","Chemisch-Pharmazeutische Industrie","v8_1v8_2","v8_1v8_2",4,5,4,5
-"<1","Chemisch-Pharmazeutische Industrie","v8_3v8_4","v8_3v8_4",3,3,3,3
-"<1","Chemisch-Pharmazeutische Industrie","v8_5v8_6","v8_5v8_6",3,5,3,5
-"<1","Chemisch-Pharmazeutische Industrie","v8_7v8_8","v8_7v8_8",2,3,2,3
-"<1","Chemisch-Pharmazeutische Industrie","v8_9v8_10","v8_9v8_10",4,3,4,3
-"<1","Chemisch-Pharmazeutische Industrie","v9_2v9_3","v9_2v9_3",5,5,5,5
-"<1","Finanzen und Versicherung","v11_11v11_12","v11_11v11_12",3.33333333333333,2.5,3.5,2.5
-"<1","Finanzen und Versicherung","v11_13v11_14","v11_13v11_14",3,2,3,2
-"<1","Finanzen und Versicherung","v11_15v11_16","v11_15v11_16",3.83333333333333,3.16666666666667,4,3.5
-"<1","Finanzen und Versicherung","v11_17v11_18","v11_17v11_18",3.4,3.83333333333333,3,4
-"<1","Finanzen und Versicherung","v11_19v11_20","v11_19v11_20",4.16666666666667,4.5,4.5,4.5
-"<1","Finanzen und Versicherung","v11_1v11_2","v11_1v11_2",4,3,4,3
-"<1","Finanzen und Versicherung","v11_3v11_4","v11_3v11_4",3.6,3.16666666666667,3,3
-"<1","Finanzen und Versicherung","v11_5v11_6","v11_5v11_6",4,3.33333333333333,4,4
-"<1","Finanzen und Versicherung","v11_7v11_8","v11_7v11_8",3.66666666666667,2.83333333333333,3.5,3
-"<1","Finanzen und Versicherung","v11_9v11_10","v11_9v11_10",4,2.5,4,2.5
-"<1","Finanzen und Versicherung","v2_12v2_13","v2_12v2_13",3,2.5,3,2
-"<1","Finanzen und Versicherung","v2_14v2_16","v2_14v2_16",2.5,1.66666666666667,2.5,1.5
-"<1","Finanzen und Versicherung","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.5,4.33333333333333,4,4.5
-"<1","Finanzen und Versicherung","v2_7v2_8","Akademiker",2.2,2.66666666666667,2,2
-"<1","Finanzen und Versicherung","v2_9v2_10","Lehrlinge",2.6,2.5,3,2
-"<1","Finanzen und Versicherung","v4_3v4_4","v4_3v4_4",3.5,2.83333333333333,3.5,3
-"<1","Finanzen und Versicherung","v6_11v6_12","v6_11v6_12",3.83333333333333,3.66666666666667,4,3.5
-"<1","Finanzen und Versicherung","v6_1v6_2","v6_1v6_2",3.8,3.83333333333333,4,4
-"<1","Finanzen und Versicherung","v6_3v6_4","v6_3v6_4",4.16666666666667,4,4,4
-"<1","Finanzen und Versicherung","v6_5v6_6","v6_5v6_6",3,2,3,1.5
-"<1","Finanzen und Versicherung","v6_7v6_8","v6_7v6_8",3.5,2.83333333333333,3.5,2.5
-"<1","Finanzen und Versicherung","v6_9v6_10","v6_9v6_10",3.83333333333333,3.5,4,4
-"<1","Finanzen und Versicherung","v7_6v7_7","v7_6v7_7",2.83333333333333,2.83333333333333,3,2.5
-"<1","Finanzen und Versicherung","v8_11v8_12","v8_11v8_12",3.83333333333333,3.83333333333333,4,4
-"<1","Finanzen und Versicherung","v8_13v8_14","v8_13v8_14",2.6,1.5,3,1
-"<1","Finanzen und Versicherung","v8_15v8_16","v8_15v8_16",3.2,1.83333333333333,3,1.5
-"<1","Finanzen und Versicherung","v8_1v8_2","v8_1v8_2",4.5,3.83333333333333,5,4.5
-"<1","Finanzen und Versicherung","v8_3v8_4","v8_3v8_4",2.4,3.83333333333333,2,4
-"<1","Finanzen und Versicherung","v8_5v8_6","v8_5v8_6",2.4,2.8,2,3
-"<1","Finanzen und Versicherung","v8_7v8_8","v8_7v8_8",2,3.4,2,4
-"<1","Finanzen und Versicherung","v8_9v8_10","v8_9v8_10",4.83333333333333,4,5,4
-"<1","Finanzen und Versicherung","v9_2v9_3","v9_2v9_3",2.6,2,3,1.5
-"<1","Gesundheitssektor","v11_11v11_12","v11_11v11_12",3.33333333333333,2.5,3,3
-"<1","Gesundheitssektor","v11_13v11_14","v11_13v11_14",3,2.33333333333333,3,2
-"<1","Gesundheitssektor","v11_15v11_16","v11_15v11_16",3.66666666666667,3.16666666666667,3.5,3.5
-"<1","Gesundheitssektor","v11_17v11_18","v11_17v11_18",3,2.85714285714286,3,3
-"<1","Gesundheitssektor","v11_19v11_20","v11_19v11_20",4,3.28571428571429,4,4
-"<1","Gesundheitssektor","v11_1v11_2","v11_1v11_2",3.33333333333333,2.57142857142857,3,3
-"<1","Gesundheitssektor","v11_3v11_4","v11_3v11_4",3.83333333333333,3,3.5,3
-"<1","Gesundheitssektor","v11_5v11_6","v11_5v11_6",3.5,2.5,3,3
-"<1","Gesundheitssektor","v11_7v11_8","v11_7v11_8",3.16666666666667,2.5,3.5,2
-"<1","Gesundheitssektor","v11_9v11_10","v11_9v11_10",3.16666666666667,2.66666666666667,3,3
-"<1","Gesundheitssektor","v2_12v2_13","v2_12v2_13",3.14285714285714,3.14285714285714,3,3
-"<1","Gesundheitssektor","v2_14v2_16","v2_14v2_16",1.66666666666667,2.57142857142857,1,2
-"<1","Gesundheitssektor","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.57142857142857,4.71428571428571,3,5
-"<1","Gesundheitssektor","v2_7v2_8","Akademiker",3,3,2,2
-"<1","Gesundheitssektor","v2_9v2_10","Lehrlinge",1.42857142857143,3.28571428571429,1,4
-"<1","Gesundheitssektor","v4_3v4_4","v4_3v4_4",3.85714285714286,2.14285714285714,4,2
-"<1","Gesundheitssektor","v6_11v6_12","v6_11v6_12",3.57142857142857,3.71428571428571,4,5
-"<1","Gesundheitssektor","v6_1v6_2","v6_1v6_2",2.85714285714286,3.14285714285714,3,3
-"<1","Gesundheitssektor","v6_3v6_4","v6_3v6_4",3.42857142857143,3.85714285714286,3,5
-"<1","Gesundheitssektor","v6_5v6_6","v6_5v6_6",3.71428571428571,3.5,4,3.5
-"<1","Gesundheitssektor","v6_7v6_8","v6_7v6_8",2.85714285714286,3.14285714285714,4,4
-"<1","Gesundheitssektor","v6_9v6_10","v6_9v6_10",3.71428571428571,3.71428571428571,4,4
-"<1","Gesundheitssektor","v7_6v7_7","v7_6v7_7",2.83333333333333,3.42857142857143,3,3
-"<1","Gesundheitssektor","v8_11v8_12","v8_11v8_12",3.71428571428571,4.57142857142857,5,5
-"<1","Gesundheitssektor","v8_13v8_14","v8_13v8_14",2.71428571428571,2.71428571428571,3,3
-"<1","Gesundheitssektor","v8_15v8_16","v8_15v8_16",2,3,2,3
-"<1","Gesundheitssektor","v8_1v8_2","v8_1v8_2",3.57142857142857,4.42857142857143,4,5
-"<1","Gesundheitssektor","v8_3v8_4","v8_3v8_4",3.14285714285714,3.16666666666667,3,3.5
-"<1","Gesundheitssektor","v8_5v8_6","v8_5v8_6",3.14285714285714,3.57142857142857,3,4
-"<1","Gesundheitssektor","v8_7v8_8","v8_7v8_8",2.57142857142857,1.85714285714286,3,1
-"<1","Gesundheitssektor","v8_9v8_10","v8_9v8_10",4.85714285714286,4.5,5,5
-"<1","Gesundheitssektor","v9_2v9_3","v9_2v9_3",1.85714285714286,1.83333333333333,1,1
-"<1","Gross- und Einzelhandel","v11_11v11_12","v11_11v11_12",3.66666666666667,3.42857142857143,4,4
-"<1","Gross- und Einzelhandel","v11_13v11_14","v11_13v11_14",3.16666666666667,2.14285714285714,3,2
-"<1","Gross- und Einzelhandel","v11_15v11_16","v11_15v11_16",4,4,4,4
-"<1","Gross- und Einzelhandel","v11_17v11_18","v11_17v11_18",3.16666666666667,3.83333333333333,3,4.5
-"<1","Gross- und Einzelhandel","v11_19v11_20","v11_19v11_20",4.66666666666667,4.57142857142857,5,5
-"<1","Gross- und Einzelhandel","v11_1v11_2","v11_1v11_2",4,3.42857142857143,4,4
-"<1","Gross- und Einzelhandel","v11_3v11_4","v11_3v11_4",4,4.14285714285714,4,5
-"<1","Gross- und Einzelhandel","v11_5v11_6","v11_5v11_6",3.66666666666667,3.42857142857143,4,3
-"<1","Gross- und Einzelhandel","v11_7v11_8","v11_7v11_8",4.57142857142857,2.71428571428571,5,2
-"<1","Gross- und Einzelhandel","v11_9v11_10","v11_9v11_10",3.66666666666667,3.57142857142857,4,4
-"<1","Gross- und Einzelhandel","v2_12v2_13","v2_12v2_13",3,3.14285714285714,3,4
-"<1","Gross- und Einzelhandel","v2_14v2_16","v2_14v2_16",1.85714285714286,2,2,2
-"<1","Gross- und Einzelhandel","v2_5v2_6","Arbeitskräfte mit Berufslehre",2.57142857142857,4,2,4
-"<1","Gross- und Einzelhandel","v2_7v2_8","Akademiker",1.28571428571429,1.57142857142857,1,1
-"<1","Gross- und Einzelhandel","v2_9v2_10","Lehrlinge",1.28571428571429,1.28571428571429,1,1
-"<1","Gross- und Einzelhandel","v4_3v4_4","v4_3v4_4",3.42857142857143,2.71428571428571,3,3
-"<1","Gross- und Einzelhandel","v6_11v6_12","v6_11v6_12",3.28571428571429,3.71428571428571,3,4
-"<1","Gross- und Einzelhandel","v6_1v6_2","v6_1v6_2",3.28571428571429,3.28571428571429,3,4
-"<1","Gross- und Einzelhandel","v6_3v6_4","v6_3v6_4",3.28571428571429,2.71428571428571,3,3
-"<1","Gross- und Einzelhandel","v6_5v6_6","v6_5v6_6",1.71428571428571,2.14285714285714,2,2
-"<1","Gross- und Einzelhandel","v6_7v6_8","v6_7v6_8",2,2,1,2
-"<1","Gross- und Einzelhandel","v6_9v6_10","v6_9v6_10",3.83333333333333,4,4,4
-"<1","Gross- und Einzelhandel","v7_6v7_7","v7_6v7_7",2.85714285714286,2.28571428571429,3,3
-"<1","Gross- und Einzelhandel","v8_11v8_12","v8_11v8_12",3.85714285714286,4,4,5
-"<1","Gross- und Einzelhandel","v8_13v8_14","v8_13v8_14",2,2.42857142857143,2,3
-"<1","Gross- und Einzelhandel","v8_15v8_16","v8_15v8_16",2.66666666666667,1.85714285714286,3,2
-"<1","Gross- und Einzelhandel","v8_1v8_2","v8_1v8_2",3.57142857142857,2.57142857142857,3,3
-"<1","Gross- und Einzelhandel","v8_3v8_4","v8_3v8_4",3,3.14285714285714,3,3
-"<1","Gross- und Einzelhandel","v8_5v8_6","v8_5v8_6",2.71428571428571,3.28571428571429,3,3
-"<1","Gross- und Einzelhandel","v8_7v8_8","v8_7v8_8",2.85714285714286,3.28571428571429,3,3
-"<1","Gross- und Einzelhandel","v8_9v8_10","v8_9v8_10",3.28571428571429,2.28571428571429,3,2
-"<1","Gross- und Einzelhandel","v9_2v9_3","v9_2v9_3",2.85714285714286,4,3,5
-"<1","Herstellung von Nahrungsmitteln","v11_15v11_16","v11_15v11_16",5,3,5,3
-"<1","Herstellung von Nahrungsmitteln","v11_17v11_18","v11_17v11_18",5,5,5,5
-"<1","Herstellung von Nahrungsmitteln","v11_19v11_20","v11_19v11_20",5,5,5,5
-"<1","Herstellung von Nahrungsmitteln","v11_1v11_2","v11_1v11_2",5,3,5,3
-"<1","Herstellung von Nahrungsmitteln","v11_3v11_4","v11_3v11_4",5,5,5,5
-"<1","Herstellung von Nahrungsmitteln","v11_9v11_10","v11_9v11_10",5,3,5,3
-"<1","Herstellung von Nahrungsmitteln","v2_12v2_13","v2_12v2_13",4,4,4,4
-"<1","Herstellung von Nahrungsmitteln","v2_14v2_16","v2_14v2_16",3,2,3,2
-"<1","Herstellung von Nahrungsmitteln","v2_5v2_6","Arbeitskräfte mit Berufslehre",4,4,4,4
-"<1","Herstellung von Nahrungsmitteln","v2_7v2_8","Akademiker",2,2,2,2
-"<1","Herstellung von Nahrungsmitteln","v4_3v4_4","v4_3v4_4",4,4,4,4
-"<1","Herstellung von Nahrungsmitteln","v6_11v6_12","v6_11v6_12",4,2,4,2
-"<1","Herstellung von Nahrungsmitteln","v6_1v6_2","v6_1v6_2",3,2,3,2
-"<1","Herstellung von Nahrungsmitteln","v6_3v6_4","v6_3v6_4",3,3,3,3
-"<1","Herstellung von Nahrungsmitteln","v6_5v6_6","v6_5v6_6",5,5,5,5
-"<1","Herstellung von Nahrungsmitteln","v6_7v6_8","v6_7v6_8",5,5,5,5
-"<1","Herstellung von Nahrungsmitteln","v6_9v6_10","v6_9v6_10",5,5,5,5
-"<1","Herstellung von Nahrungsmitteln","v7_6v7_7","v7_6v7_7",3,5,3,5
-"<1","Herstellung von Nahrungsmitteln","v8_11v8_12","v8_11v8_12",1,5,1,5
-"<1","Herstellung von Nahrungsmitteln","v8_13v8_14","v8_13v8_14",1,3,1,3
-"<1","Herstellung von Nahrungsmitteln","v8_15v8_16","v8_15v8_16",5,1,5,1
-"<1","Herstellung von Nahrungsmitteln","v8_1v8_2","v8_1v8_2",3,3,3,3
-"<1","Herstellung von Nahrungsmitteln","v8_3v8_4","v8_3v8_4",2,5,2,5
-"<1","Herstellung von Nahrungsmitteln","v8_5v8_6","v8_5v8_6",5,5,5,5
-"<1","Herstellung von Nahrungsmitteln","v8_9v8_10","v8_9v8_10",3,3,3,3
-"<1","Herstellung von Nahrungsmitteln","v9_2v9_3","v9_2v9_3",1,5,1,5
-"<1","Information und Kommunikation","v11_11v11_12","v11_11v11_12",3.66666666666667,3.33333333333333,3,3
-"<1","Information und Kommunikation","v11_13v11_14","v11_13v11_14",3,2.66666666666667,3,2
-"<1","Information und Kommunikation","v11_15v11_16","v11_15v11_16",3.66666666666667,3,3,3
-"<1","Information und Kommunikation","v11_17v11_18","v11_17v11_18",3.66666666666667,3,3,3
-"<1","Information und Kommunikation","v11_19v11_20","v11_19v11_20",4,4,4,4
-"<1","Information und Kommunikation","v11_1v11_2","v11_1v11_2",3.66666666666667,2.66666666666667,3,3
-"<1","Information und Kommunikation","v11_3v11_4","v11_3v11_4",3.66666666666667,3.66666666666667,3,3
-"<1","Information und Kommunikation","v11_5v11_6","v11_5v11_6",3.66666666666667,3,3,3
-"<1","Information und Kommunikation","v11_7v11_8","v11_7v11_8",3,2.66666666666667,3,3
-"<1","Information und Kommunikation","v11_9v11_10","v11_9v11_10",3.33333333333333,2.66666666666667,3,2
-"<1","Information und Kommunikation","v2_12v2_13","v2_12v2_13",3.66666666666667,3,4,3
-"<1","Information und Kommunikation","v2_14v2_16","v2_14v2_16",2.33333333333333,3,3,3
-"<1","Information und Kommunikation","v2_5v2_6","Arbeitskräfte mit Berufslehre",4.33333333333333,5,5,5
-"<1","Information und Kommunikation","v2_7v2_8","Akademiker",3.66666666666667,4,4,4
-"<1","Information und Kommunikation","v2_9v2_10","Lehrlinge",1,1,1,1
-"<1","Information und Kommunikation","v4_3v4_4","v4_3v4_4",3.33333333333333,2.33333333333333,4,3
-"<1","Information und Kommunikation","v6_11v6_12","v6_11v6_12",4,4.66666666666667,4,5
-"<1","Information und Kommunikation","v6_1v6_2","v6_1v6_2",4.66666666666667,3.66666666666667,5,5
-"<1","Information und Kommunikation","v6_3v6_4","v6_3v6_4",3,4.33333333333333,3,5
-"<1","Information und Kommunikation","v6_5v6_6","v6_5v6_6",2.66666666666667,3.5,3,3.5
-"<1","Information und Kommunikation","v6_7v6_8","v6_7v6_8",3,3.66666666666667,3,3
-"<1","Information und Kommunikation","v6_9v6_10","v6_9v6_10",3.33333333333333,3.66666666666667,3,4
-"<1","Information und Kommunikation","v7_6v7_7","v7_6v7_7",3,3.66666666666667,3,4
-"<1","Information und Kommunikation","v8_11v8_12","v8_11v8_12",2.33333333333333,3,1,3
-"<1","Information und Kommunikation","v8_13v8_14","v8_13v8_14",2.66666666666667,2.33333333333333,2,2
-"<1","Information und Kommunikation","v8_15v8_16","v8_15v8_16",3,2.66666666666667,3,3
-"<1","Information und Kommunikation","v8_1v8_2","v8_1v8_2",3.33333333333333,3.33333333333333,3,3
-"<1","Information und Kommunikation","v8_3v8_4","v8_3v8_4",2.33333333333333,3.33333333333333,2,3
-"<1","Information und Kommunikation","v8_5v8_6","v8_5v8_6",3,2.33333333333333,3,1
-"<1","Information und Kommunikation","v8_7v8_8","v8_7v8_8",3,4,3,4
-"<1","Information und Kommunikation","v8_9v8_10","v8_9v8_10",2.33333333333333,2.33333333333333,1,1
-"<1","Information und Kommunikation","v9_2v9_3","v9_2v9_3",3,3.33333333333333,3,4
-"<1","Maschinen-, Elektro- und Metallindustrie","v11_11v11_12","v11_11v11_12",3.75,3.625,4,4
-"<1","Maschinen-, Elektro- und Metallindustrie","v11_13v11_14","v11_13v11_14",3,1.875,3,1
-"<1","Maschinen-, Elektro- und Metallindustrie","v11_15v11_16","v11_15v11_16",4.25,4,4,4
-"<1","Maschinen-, Elektro- und Metallindustrie","v11_17v11_18","v11_17v11_18",3.5,3.5,4,4
-"<1","Maschinen-, Elektro- und Metallindustrie","v11_19v11_20","v11_19v11_20",4.125,3.875,5,5
-"<1","Maschinen-, Elektro- und Metallindustrie","v11_1v11_2","v11_1v11_2",4.28571428571429,4.25,4,4.5
-"<1","Maschinen-, Elektro- und Metallindustrie","v11_3v11_4","v11_3v11_4",4.71428571428571,4.375,5,5
-"<1","Maschinen-, Elektro- und Metallindustrie","v11_5v11_6","v11_5v11_6",3.625,3.5,4,4
-"<1","Maschinen-, Elektro- und Metallindustrie","v11_7v11_8","v11_7v11_8",3.375,4,4,4
-"<1","Maschinen-, Elektro- und Metallindustrie","v11_9v11_10","v11_9v11_10",3.625,3.25,4,3
-"<1","Maschinen-, Elektro- und Metallindustrie","v2_12v2_13","v2_12v2_13",3.375,3.5,3,3
-"<1","Maschinen-, Elektro- und Metallindustrie","v2_14v2_16","v2_14v2_16",1.75,2.875,1.5,3
-"<1","Maschinen-, Elektro- und Metallindustrie","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.625,4.625,4,5
-"<1","Maschinen-, Elektro- und Metallindustrie","v2_7v2_8","Akademiker",2.125,2.5,1.5,2
-"<1","Maschinen-, Elektro- und Metallindustrie","v2_9v2_10","Lehrlinge",1.5,1.75,1,1
-"<1","Maschinen-, Elektro- und Metallindustrie","v4_3v4_4","v4_3v4_4",3.375,3.25,3.5,3
-"<1","Maschinen-, Elektro- und Metallindustrie","v6_11v6_12","v6_11v6_12",3.42857142857143,3.5,3,3.5
-"<1","Maschinen-, Elektro- und Metallindustrie","v6_1v6_2","v6_1v6_2",2.75,2.75,3,3
-"<1","Maschinen-, Elektro- und Metallindustrie","v6_3v6_4","v6_3v6_4",3.125,3.5,3,3.5
-"<1","Maschinen-, Elektro- und Metallindustrie","v6_5v6_6","v6_5v6_6",1.875,1.875,2,1.5
-"<1","Maschinen-, Elektro- und Metallindustrie","v6_7v6_8","v6_7v6_8",2.375,2.875,2,3
-"<1","Maschinen-, Elektro- und Metallindustrie","v6_9v6_10","v6_9v6_10",2.875,3.375,3,4
-"<1","Maschinen-, Elektro- und Metallindustrie","v7_6v7_7","v7_6v7_7",3.25,3.5,3.5,4
-"<1","Maschinen-, Elektro- und Metallindustrie","v8_11v8_12","v8_11v8_12",3.875,4.5,4.5,5
-"<1","Maschinen-, Elektro- und Metallindustrie","v8_13v8_14","v8_13v8_14",2.25,2.5,2,2.5
-"<1","Maschinen-, Elektro- und Metallindustrie","v8_15v8_16","v8_15v8_16",2.125,2.5,2,2.5
-"<1","Maschinen-, Elektro- und Metallindustrie","v8_1v8_2","v8_1v8_2",3.5,3.375,4,3.5
-"<1","Maschinen-, Elektro- und Metallindustrie","v8_3v8_4","v8_3v8_4",3,3.625,3,3.5
-"<1","Maschinen-, Elektro- und Metallindustrie","v8_5v8_6","v8_5v8_6",2.875,4,3,4
-"<1","Maschinen-, Elektro- und Metallindustrie","v8_7v8_8","v8_7v8_8",3.375,1.875,3,1.5
-"<1","Maschinen-, Elektro- und Metallindustrie","v8_9v8_10","v8_9v8_10",4.75,3.625,5,4
-"<1","Maschinen-, Elektro- und Metallindustrie","v9_2v9_3","v9_2v9_3",2.375,3.875,2.5,4
-"<1","Sonstige Dienstleistungen","v11_11v11_12","v11_11v11_12",3.33333333333333,3.30769230769231,3,3
-"<1","Sonstige Dienstleistungen","v11_13v11_14","v11_13v11_14",3.16666666666667,2.69230769230769,3,3
-"<1","Sonstige Dienstleistungen","v11_15v11_16","v11_15v11_16",3.78571428571429,3.53846153846154,4,3
-"<1","Sonstige Dienstleistungen","v11_17v11_18","v11_17v11_18",3.15384615384615,3.30769230769231,3,3
-"<1","Sonstige Dienstleistungen","v11_19v11_20","v11_19v11_20",4.07142857142857,4.14285714285714,4,5
-"<1","Sonstige Dienstleistungen","v11_1v11_2","v11_1v11_2",3.53846153846154,3.57142857142857,3,3
-"<1","Sonstige Dienstleistungen","v11_3v11_4","v11_3v11_4",3.85714285714286,3.42857142857143,4,3
-"<1","Sonstige Dienstleistungen","v11_5v11_6","v11_5v11_6",3.18181818181818,3.07692307692308,3,3
-"<1","Sonstige Dienstleistungen","v11_7v11_8","v11_7v11_8",3.57142857142857,3.14285714285714,4,3
-"<1","Sonstige Dienstleistungen","v11_9v11_10","v11_9v11_10",3.38461538461538,2.92307692307692,3,2
-"<1","Sonstige Dienstleistungen","v2_12v2_13","v2_12v2_13",3.71428571428571,3.71428571428571,4,4
-"<1","Sonstige Dienstleistungen","v2_14v2_16","v2_14v2_16",2.15384615384615,2.71428571428571,2,3
-"<1","Sonstige Dienstleistungen","v2_5v2_6","Arbeitskräfte mit Berufslehre",2.69230769230769,3.57142857142857,3,4
-"<1","Sonstige Dienstleistungen","v2_7v2_8","Akademiker",2.28571428571429,2.78571428571429,2,2
-"<1","Sonstige Dienstleistungen","v2_9v2_10","Lehrlinge",2,2.42857142857143,1,2.5
-"<1","Sonstige Dienstleistungen","v4_3v4_4","v4_3v4_4",3.5,3,4,3
-"<1","Sonstige Dienstleistungen","v6_11v6_12","v6_11v6_12",3.71428571428571,3.42857142857143,4,3.5
-"<1","Sonstige Dienstleistungen","v6_1v6_2","v6_1v6_2",3.5,3.14285714285714,4,3
-"<1","Sonstige Dienstleistungen","v6_3v6_4","v6_3v6_4",3.28571428571429,3.57142857142857,3,4
-"<1","Sonstige Dienstleistungen","v6_5v6_6","v6_5v6_6",2.71428571428571,2.21428571428571,3,2
-"<1","Sonstige Dienstleistungen","v6_7v6_8","v6_7v6_8",2.61538461538462,2.07142857142857,3,2
-"<1","Sonstige Dienstleistungen","v6_9v6_10","v6_9v6_10",3.14285714285714,2.78571428571429,3,3
-"<1","Sonstige Dienstleistungen","v7_6v7_7","v7_6v7_7",2.46153846153846,2.5,2,2.5
-"<1","Sonstige Dienstleistungen","v8_11v8_12","v8_11v8_12",3.35714285714286,3.5,4,4
-"<1","Sonstige Dienstleistungen","v8_13v8_14","v8_13v8_14",2.84615384615385,3.42857142857143,3,3
-"<1","Sonstige Dienstleistungen","v8_15v8_16","v8_15v8_16",2.69230769230769,3.21428571428571,3,3.5
-"<1","Sonstige Dienstleistungen","v8_1v8_2","v8_1v8_2",3.57142857142857,2.57142857142857,4,2
-"<1","Sonstige Dienstleistungen","v8_3v8_4","v8_3v8_4",3,3.28571428571429,3,3
-"<1","Sonstige Dienstleistungen","v8_5v8_6","v8_5v8_6",3.15384615384615,3.07142857142857,3,3
-"<1","Sonstige Dienstleistungen","v8_7v8_8","v8_7v8_8",2.69230769230769,2.38461538461538,3,2
-"<1","Sonstige Dienstleistungen","v8_9v8_10","v8_9v8_10",4,3.57142857142857,4.5,4
-"<1","Sonstige Dienstleistungen","v9_2v9_3","v9_2v9_3",2.30769230769231,2.35714285714286,2,2
-"<1","Sonstiges Gewerbe","v11_11v11_12","v11_11v11_12",3,2.66666666666667,3,3
-"<1","Sonstiges Gewerbe","v11_13v11_14","v11_13v11_14",2.66666666666667,1,3,1
-"<1","Sonstiges Gewerbe","v11_15v11_16","v11_15v11_16",4,3.66666666666667,4,4
-"<1","Sonstiges Gewerbe","v11_17v11_18","v11_17v11_18",3,3,3,3
-"<1","Sonstiges Gewerbe","v11_19v11_20","v11_19v11_20",4.33333333333333,4.33333333333333,4,4
-"<1","Sonstiges Gewerbe","v11_1v11_2","v11_1v11_2",2.33333333333333,2.33333333333333,3,2
-"<1","Sonstiges Gewerbe","v11_3v11_4","v11_3v11_4",3.66666666666667,3.66666666666667,3,3
-"<1","Sonstiges Gewerbe","v11_5v11_6","v11_5v11_6",2.66666666666667,1.66666666666667,3,2
-"<1","Sonstiges Gewerbe","v11_7v11_8","v11_7v11_8",3.33333333333333,1.33333333333333,4,1
-"<1","Sonstiges Gewerbe","v11_9v11_10","v11_9v11_10",4,4,5,5
-"<1","Sonstiges Gewerbe","v2_12v2_13","v2_12v2_13",4.33333333333333,3.33333333333333,5,4
-"<1","Sonstiges Gewerbe","v2_14v2_16","v2_14v2_16",2,1,2,1
-"<1","Sonstiges Gewerbe","v2_5v2_6","Arbeitskräfte mit Berufslehre",3,3.33333333333333,3,4
-"<1","Sonstiges Gewerbe","v2_7v2_8","Akademiker",3,3.33333333333333,3,3
-"<1","Sonstiges Gewerbe","v2_9v2_10","Lehrlinge",2,1.66666666666667,1,1
-"<1","Sonstiges Gewerbe","v4_3v4_4","v4_3v4_4",3.66666666666667,3.66666666666667,3,3
-"<1","Sonstiges Gewerbe","v6_11v6_12","v6_11v6_12",3.66666666666667,4.66666666666667,4,5
-"<1","Sonstiges Gewerbe","v6_1v6_2","v6_1v6_2",3,2.33333333333333,3,3
-"<1","Sonstiges Gewerbe","v6_3v6_4","v6_3v6_4",4,3,4,3
-"<1","Sonstiges Gewerbe","v6_5v6_6","v6_5v6_6",1,1,1,1
-"<1","Sonstiges Gewerbe","v6_7v6_8","v6_7v6_8",2.66666666666667,3,2,3
-"<1","Sonstiges Gewerbe","v6_9v6_10","v6_9v6_10",3.33333333333333,3.33333333333333,3,3
-"<1","Sonstiges Gewerbe","v7_6v7_7","v7_6v7_7",2.33333333333333,1.66666666666667,2,1
-"<1","Sonstiges Gewerbe","v8_11v8_12","v8_11v8_12",3.33333333333333,4.66666666666667,4,5
-"<1","Sonstiges Gewerbe","v8_13v8_14","v8_13v8_14",1.66666666666667,1.66666666666667,2,2
-"<1","Sonstiges Gewerbe","v8_15v8_16","v8_15v8_16",3,1.33333333333333,3,1
-"<1","Sonstiges Gewerbe","v8_1v8_2","v8_1v8_2",4,4,4,4
-"<1","Sonstiges Gewerbe","v8_3v8_4","v8_3v8_4",2.66666666666667,3.33333333333333,3,3
-"<1","Sonstiges Gewerbe","v8_5v8_6","v8_5v8_6",3,1.66666666666667,3,1
-"<1","Sonstiges Gewerbe","v8_7v8_8","v8_7v8_8",2.33333333333333,2.66666666666667,3,2
-"<1","Sonstiges Gewerbe","v8_9v8_10","v8_9v8_10",4,2.33333333333333,4,2
-"<1","Sonstiges Gewerbe","v9_2v9_3","v9_2v9_3",2.66666666666667,3.66666666666667,2,5
-"<1","Treuhand/Consulting","v11_11v11_12","v11_11v11_12",3.75,3.6,3.5,3
-"<1","Treuhand/Consulting","v11_13v11_14","v11_13v11_14",3.4,2.8,3,3
-"<1","Treuhand/Consulting","v11_15v11_16","v11_15v11_16",3.4,3.4,3,3
-"<1","Treuhand/Consulting","v11_17v11_18","v11_17v11_18",3.25,4,3,4
-"<1","Treuhand/Consulting","v11_19v11_20","v11_19v11_20",4,3.4,4,4
-"<1","Treuhand/Consulting","v11_1v11_2","v11_1v11_2",3.66666666666667,2.8,3,3
-"<1","Treuhand/Consulting","v11_3v11_4","v11_3v11_4",4,3.6,4,4
-"<1","Treuhand/Consulting","v11_5v11_6","v11_5v11_6",4,3.8,4,4
-"<1","Treuhand/Consulting","v11_7v11_8","v11_7v11_8",4,3,4,3
-"<1","Treuhand/Consulting","v11_9v11_10","v11_9v11_10",3,3.4,3,4
-"<1","Treuhand/Consulting","v2_12v2_13","v2_12v2_13",2.6,2.4,3,3
-"<1","Treuhand/Consulting","v2_14v2_16","v2_14v2_16",1.75,1.25,1.5,1
-"<1","Treuhand/Consulting","v2_5v2_6","Arbeitskräfte mit Berufslehre",2,3.6,1,4
-"<1","Treuhand/Consulting","v2_7v2_8","Akademiker",1.6,2.4,1,2
-"<1","Treuhand/Consulting","v2_9v2_10","Lehrlinge",1.5,1.8,1,1
-"<1","Treuhand/Consulting","v4_3v4_4","v4_3v4_4",3.4,2.8,4,3
-"<1","Treuhand/Consulting","v6_11v6_12","v6_11v6_12",4,3.8,4,4
-"<1","Treuhand/Consulting","v6_1v6_2","v6_1v6_2",2.25,2.4,2,3
-"<1","Treuhand/Consulting","v6_3v6_4","v6_3v6_4",3.4,2.6,4,3
-"<1","Treuhand/Consulting","v6_5v6_6","v6_5v6_6",2.2,2.4,2,3
-"<1","Treuhand/Consulting","v6_7v6_8","v6_7v6_8",3.4,3.4,3,3
-"<1","Treuhand/Consulting","v6_9v6_10","v6_9v6_10",4,3.2,4,3
-"<1","Treuhand/Consulting","v7_6v7_7","v7_6v7_7",2.25,2,2.5,2
-"<1","Treuhand/Consulting","v8_11v8_12","v8_11v8_12",2.4,3.8,2,4
-"<1","Treuhand/Consulting","v8_13v8_14","v8_13v8_14",2,2,1,1
-"<1","Treuhand/Consulting","v8_15v8_16","v8_15v8_16",1.75,1.8,1.5,1
-"<1","Treuhand/Consulting","v8_1v8_2","v8_1v8_2",3.2,2.8,4,3
-"<1","Treuhand/Consulting","v8_3v8_4","v8_3v8_4",2.8,3.6,3,3
-"<1","Treuhand/Consulting","v8_5v8_6","v8_5v8_6",3,3.4,3,3
-"<1","Treuhand/Consulting","v8_7v8_8","v8_7v8_8",3.2,2.8,3,3
-"<1","Treuhand/Consulting","v8_9v8_10","v8_9v8_10",3.8,3.6,4,4
-"<1","Treuhand/Consulting","v9_2v9_3","v9_2v9_3",2.75,2.4,3,2
-"<1","Verkehr und Gastgewerbe","v11_11v11_12","v11_11v11_12",3.75,2.8,4,2
-"<1","Verkehr und Gastgewerbe","v11_13v11_14","v11_13v11_14",3.66666666666667,2.6,4,2
-"<1","Verkehr und Gastgewerbe","v11_15v11_16","v11_15v11_16",4,3.4,4,4
-"<1","Verkehr und Gastgewerbe","v11_17v11_18","v11_17v11_18",4,4.4,4,5
-"<1","Verkehr und Gastgewerbe","v11_19v11_20","v11_19v11_20",5,5,5,5
-"<1","Verkehr und Gastgewerbe","v11_1v11_2","v11_1v11_2",3.2,3,3,3
-"<1","Verkehr und Gastgewerbe","v11_3v11_4","v11_3v11_4",3,2.8,3,3
-"<1","Verkehr und Gastgewerbe","v11_5v11_6","v11_5v11_6",3,2.4,3,2
-"<1","Verkehr und Gastgewerbe","v11_7v11_8","v11_7v11_8",3.8,2.5,5,2.5
-"<1","Verkehr und Gastgewerbe","v11_9v11_10","v11_9v11_10",3.6,2.8,4,3
-"<1","Verkehr und Gastgewerbe","v2_12v2_13","v2_12v2_13",4.2,3.8,4,4
-"<1","Verkehr und Gastgewerbe","v2_14v2_16","v2_14v2_16",1.8,1.6,1,1
-"<1","Verkehr und Gastgewerbe","v2_5v2_6","Arbeitskräfte mit Berufslehre",1.4,2.8,1,3
-"<1","Verkehr und Gastgewerbe","v2_7v2_8","Akademiker",1,1,1,1
-"<1","Verkehr und Gastgewerbe","v2_9v2_10","Lehrlinge",1.6,2.6,1,2
-"<1","Verkehr und Gastgewerbe","v4_3v4_4","v4_3v4_4",4,2.2,4,3
-"<1","Verkehr und Gastgewerbe","v6_11v6_12","v6_11v6_12",2.8,2.6,3,3
-"<1","Verkehr und Gastgewerbe","v6_1v6_2","v6_1v6_2",2.2,2,3,2
-"<1","Verkehr und Gastgewerbe","v6_3v6_4","v6_3v6_4",3.4,3,4,3
-"<1","Verkehr und Gastgewerbe","v6_5v6_6","v6_5v6_6",2.4,2.2,3,2
-"<1","Verkehr und Gastgewerbe","v6_7v6_8","v6_7v6_8",2.2,2,2,2
-"<1","Verkehr und Gastgewerbe","v6_9v6_10","v6_9v6_10",3.4,2.4,3,2
-"<1","Verkehr und Gastgewerbe","v7_6v7_7","v7_6v7_7",2.6,2,3,1
-"<1","Verkehr und Gastgewerbe","v8_11v8_12","v8_11v8_12",3,3.8,3,4
-"<1","Verkehr und Gastgewerbe","v8_13v8_14","v8_13v8_14",2.6,2.4,3,3
-"<1","Verkehr und Gastgewerbe","v8_15v8_16","v8_15v8_16",2.2,1.8,2,2
-"<1","Verkehr und Gastgewerbe","v8_1v8_2","v8_1v8_2",3.6,2.2,4,2
-"<1","Verkehr und Gastgewerbe","v8_3v8_4","v8_3v8_4",3.2,3.6,3,4
-"<1","Verkehr und Gastgewerbe","v8_5v8_6","v8_5v8_6",3.2,3.4,3,4
-"<1","Verkehr und Gastgewerbe","v8_7v8_8","v8_7v8_8",2.8,2.4,3,3
-"<1","Verkehr und Gastgewerbe","v8_9v8_10","v8_9v8_10",2.8,2.2,4,2
-"<1","Verkehr und Gastgewerbe","v9_2v9_3","v9_2v9_3",1.8,2.6,1,1
-"<1","alle","v11_11v11_12","v11_11v11_12",3.52238805970149,3.25352112676056,3,3
-"<1","alle","v11_13v11_14","v11_13v11_14",3.0952380952381,2.31428571428571,3,2
-"<1","alle","v11_15v11_16","v11_15v11_16",3.83333333333333,3.46478873239437,4,3
-"<1","alle","v11_17v11_18","v11_17v11_18",3.40298507462687,3.57746478873239,3,4
-"<1","alle","v11_19v11_20","v11_19v11_20",4.17142857142857,4.04109589041096,4,5
-"<1","alle","v11_1v11_2","v11_1v11_2",3.69117647058824,3.24657534246575,3.5,3
-"<1","alle","v11_3v11_4","v11_3v11_4",3.89393939393939,3.56756756756757,4,3
-"<1","alle","v11_5v11_6","v11_5v11_6",3.50793650793651,3.06944444444444,3,3
-"<1","alle","v11_7v11_8","v11_7v11_8",3.6986301369863,2.95714285714286,4,3
-"<1","alle","v11_9v11_10","v11_9v11_10",3.57971014492754,3.16666666666667,3,3
-"<1","alle","v2_12v2_13","v2_12v2_13",3.47945205479452,3.33783783783784,3,3
-"<1","alle","v2_14v2_16","v2_14v2_16",2.14492753623188,2.36619718309859,2,2
-"<1","alle","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.02739726027397,4,3,4
-"<1","alle","v2_7v2_8","Akademiker",2.31944444444444,2.75675675675676,2,2
-"<1","alle","v2_9v2_10","Lehrlinge",1.7536231884058,2.28767123287671,1,2
-"<1","alle","v4_3v4_4","v4_3v4_4",3.57534246575342,2.85135135135135,4,3
-"<1","alle","v6_11v6_12","v6_11v6_12",3.54166666666667,3.64383561643836,4,4
-"<1","alle","v6_1v6_2","v6_1v6_2",3.19444444444444,3.01351351351351,3,3
-"<1","alle","v6_3v6_4","v6_3v6_4",3.44594594594595,3.44594594594595,4,4
-"<1","alle","v6_5v6_6","v6_5v6_6",2.52054794520548,2.30985915492958,3,2
-"<1","alle","v6_7v6_8","v6_7v6_8",2.80281690140845,2.64383561643836,3,3
-"<1","alle","v6_9v6_10","v6_9v6_10",3.38888888888889,3.28378378378378,3,4
-"<1","alle","v7_6v7_7","v7_6v7_7",2.70422535211268,2.78378378378378,3,3
-"<1","alle","v8_11v8_12","v8_11v8_12",3.37837837837838,3.91891891891892,4,4
-"<1","alle","v8_13v8_14","v8_13v8_14",2.42028985507246,2.52702702702703,2,3
-"<1","alle","v8_15v8_16","v8_15v8_16",2.61764705882353,2.3972602739726,3,2
-"<1","alle","v8_1v8_2","v8_1v8_2",3.63513513513514,3.21917808219178,4,3
-"<1","alle","v8_3v8_4","v8_3v8_4",2.88732394366197,3.43835616438356,3,3
-"<1","alle","v8_5v8_6","v8_5v8_6",3.1304347826087,3.30555555555556,3,3
-"<1","alle","v8_7v8_8","v8_7v8_8",2.73913043478261,2.63380281690141,3,3
-"<1","alle","v8_9v8_10","v8_9v8_10",3.98648648648649,3.35616438356164,4,4
-"<1","alle","v9_2v9_3","v9_2v9_3",2.39130434782609,2.83561643835616,2,3
+"<10","Alle","v11_11v11_12","v11_11v11_12",3.5,3.06451612903226,3,3
+"<10","Alle","v11_13v11_14","v11_13v11_14",2.88888888888889,1.90322580645161,3,2
+"<10","Alle","v11_15v11_16","v11_15v11_16",3.67741935483871,3.29032258064516,3,3
+"<10","Alle","v11_17v11_18","v11_17v11_18",3.1,3.09375,3,3
+"<10","Alle","v11_19v11_20","v11_19v11_20",4.24137931034483,4.15625,4,5
+"<10","Alle","v11_1v11_2","v11_1v11_2",3.57142857142857,2.93548387096774,3,3
+"<10","Alle","v11_3v11_4","v11_3v11_4",3.78571428571429,3.34375,4,3
+"<10","Alle","v11_5v11_6","v11_5v11_6",3.51724137931034,2.90322580645161,3,3
+"<10","Alle","v11_7v11_8","v11_7v11_8",3.48387096774194,2.8,3,3
+"<10","Alle","v11_9v11_10","v11_9v11_10",3.41935483870968,3.09677419354839,3,3
+"<10","Alle","v2_12v2_13","v2_12v2_13",3.375,3.125,3,3
+"<10","Alle","v2_14v2_16","v2_14v2_16",2.09677419354839,2.03225806451613,2,1
+"<10","Alle","v2_5v2_6","Arbeitskräfte mit Berufslehre",2.90625,4,3,4.5
+"<10","Alle","v2_7v2_8","Akademiker",2.19354838709677,3,1,3.5
+"<10","Alle","v2_9v2_10","Lehrlinge",1.3,1.6875,1,1
+"<10","Alle","v4_3v4_4","v4_3v4_4",3.58064516129032,2.8125,4,3
+"<10","Alle","v6_11v6_12","v6_11v6_12",3.35483870967742,3.38709677419355,3,3
+"<10","Alle","v6_1v6_2","v6_1v6_2",2.93548387096774,2.625,3,3
+"<10","Alle","v6_3v6_4","v6_3v6_4",3.34375,3.15625,3,3.5
+"<10","Alle","v6_5v6_6","v6_5v6_6",2.29032258064516,2.3448275862069,2,2
+"<10","Alle","v6_7v6_8","v6_7v6_8",2.73333333333333,2.58064516129032,3,2
+"<10","Alle","v6_9v6_10","v6_9v6_10",3.32258064516129,2.96875,3,3
+"<10","Alle","v7_6v7_7","v7_6v7_7",2.625,2.53125,3,2
+"<10","Alle","v8_11v8_12","v8_11v8_12",3.28125,3.8125,3.5,4
+"<10","Alle","v8_13v8_14","v8_13v8_14",1.93103448275862,2.125,1,2
+"<10","Alle","v8_15v8_16","v8_15v8_16",2.60714285714286,2.21875,3,2
+"<10","Alle","v8_1v8_2","v8_1v8_2",3.625,3.06451612903226,4,3
+"<10","Alle","v8_3v8_4","v8_3v8_4",2.90322580645161,3.46875,3,3
+"<10","Alle","v8_5v8_6","v8_5v8_6",3.03448275862069,3.16129032258065,3,3
+"<10","Alle","v8_7v8_8","v8_7v8_8",2.82758620689655,2.6,3,3
+"<10","Alle","v8_9v8_10","v8_9v8_10",3.75,3.21875,4,4
+"<10","Alle","v9_2v9_3","v9_2v9_3",2.4,2.61290322580645,2,2
 "<10","Architektur/Werbung/Grafik/Design/PR","v11_11v11_12","v11_11v11_12",3.66666666666667,3.5,3.5,3.5
 "<10","Architektur/Werbung/Grafik/Design/PR","v11_13v11_14","v11_13v11_14",3.2,2,3,2
 "<10","Architektur/Werbung/Grafik/Design/PR","v11_15v11_16","v11_15v11_16",3.66666666666667,3.33333333333333,3.5,3
@@ -1327,38 +917,38 @@
 "<10","Verkehr und Gastgewerbe","v8_7v8_8","v8_7v8_8",2,1,2,1
 "<10","Verkehr und Gastgewerbe","v8_9v8_10","v8_9v8_10",1,1,1,1
 "<10","Verkehr und Gastgewerbe","v9_2v9_3","v9_2v9_3",2,1,2,1
-"<10","alle","v11_11v11_12","v11_11v11_12",3.5,3.06451612903226,3,3
-"<10","alle","v11_13v11_14","v11_13v11_14",2.88888888888889,1.90322580645161,3,2
-"<10","alle","v11_15v11_16","v11_15v11_16",3.67741935483871,3.29032258064516,3,3
-"<10","alle","v11_17v11_18","v11_17v11_18",3.1,3.09375,3,3
-"<10","alle","v11_19v11_20","v11_19v11_20",4.24137931034483,4.15625,4,5
-"<10","alle","v11_1v11_2","v11_1v11_2",3.57142857142857,2.93548387096774,3,3
-"<10","alle","v11_3v11_4","v11_3v11_4",3.78571428571429,3.34375,4,3
-"<10","alle","v11_5v11_6","v11_5v11_6",3.51724137931034,2.90322580645161,3,3
-"<10","alle","v11_7v11_8","v11_7v11_8",3.48387096774194,2.8,3,3
-"<10","alle","v11_9v11_10","v11_9v11_10",3.41935483870968,3.09677419354839,3,3
-"<10","alle","v2_12v2_13","v2_12v2_13",3.375,3.125,3,3
-"<10","alle","v2_14v2_16","v2_14v2_16",2.09677419354839,2.03225806451613,2,1
-"<10","alle","v2_5v2_6","Arbeitskräfte mit Berufslehre",2.90625,4,3,4.5
-"<10","alle","v2_7v2_8","Akademiker",2.19354838709677,3,1,3.5
-"<10","alle","v2_9v2_10","Lehrlinge",1.3,1.6875,1,1
-"<10","alle","v4_3v4_4","v4_3v4_4",3.58064516129032,2.8125,4,3
-"<10","alle","v6_11v6_12","v6_11v6_12",3.35483870967742,3.38709677419355,3,3
-"<10","alle","v6_1v6_2","v6_1v6_2",2.93548387096774,2.625,3,3
-"<10","alle","v6_3v6_4","v6_3v6_4",3.34375,3.15625,3,3.5
-"<10","alle","v6_5v6_6","v6_5v6_6",2.29032258064516,2.3448275862069,2,2
-"<10","alle","v6_7v6_8","v6_7v6_8",2.73333333333333,2.58064516129032,3,2
-"<10","alle","v6_9v6_10","v6_9v6_10",3.32258064516129,2.96875,3,3
-"<10","alle","v7_6v7_7","v7_6v7_7",2.625,2.53125,3,2
-"<10","alle","v8_11v8_12","v8_11v8_12",3.28125,3.8125,3.5,4
-"<10","alle","v8_13v8_14","v8_13v8_14",1.93103448275862,2.125,1,2
-"<10","alle","v8_15v8_16","v8_15v8_16",2.60714285714286,2.21875,3,2
-"<10","alle","v8_1v8_2","v8_1v8_2",3.625,3.06451612903226,4,3
-"<10","alle","v8_3v8_4","v8_3v8_4",2.90322580645161,3.46875,3,3
-"<10","alle","v8_5v8_6","v8_5v8_6",3.03448275862069,3.16129032258065,3,3
-"<10","alle","v8_7v8_8","v8_7v8_8",2.82758620689655,2.6,3,3
-"<10","alle","v8_9v8_10","v8_9v8_10",3.75,3.21875,4,4
-"<10","alle","v9_2v9_3","v9_2v9_3",2.4,2.61290322580645,2,2
+">250","Alle","v11_11v11_12","v11_11v11_12",3.25,3.5,3.5,3.5
+">250","Alle","v11_13v11_14","v11_13v11_14",3,2,3,2
+">250","Alle","v11_15v11_16","v11_15v11_16",4,3.33333333333333,4,4
+">250","Alle","v11_17v11_18","v11_17v11_18",3.33333333333333,3.66666666666667,3,4
+">250","Alle","v11_19v11_20","v11_19v11_20",3.5,2,3.5,1
+">250","Alle","v11_1v11_2","v11_1v11_2",3.75,2.75,3.5,2.5
+">250","Alle","v11_3v11_4","v11_3v11_4",3.75,3.25,4,3.5
+">250","Alle","v11_5v11_6","v11_5v11_6",4,3.5,4,4
+">250","Alle","v11_7v11_8","v11_7v11_8",3,3.25,3,3.5
+">250","Alle","v11_9v11_10","v11_9v11_10",4,3.75,4,3.5
+">250","Alle","v2_12v2_13","v2_12v2_13",3.33333333333333,3,3,3
+">250","Alle","v2_14v2_16","v2_14v2_16",1.66666666666667,2.66666666666667,2,3
+">250","Alle","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.75,4,3.5,5
+">250","Alle","v2_7v2_8","Akademiker",3.5,3.75,3.5,4.5
+">250","Alle","v2_9v2_10","Lehrlinge",2.75,3.25,3,3
+">250","Alle","v4_3v4_4","v4_3v4_4",3.75,3,4,3
+">250","Alle","v6_11v6_12","v6_11v6_12",4,3.75,4.5,4.5
+">250","Alle","v6_1v6_2","v6_1v6_2",4.25,4,4.5,4
+">250","Alle","v6_3v6_4","v6_3v6_4",3.75,4,3.5,4.5
+">250","Alle","v6_5v6_6","v6_5v6_6",3.5,3,4,3
+">250","Alle","v6_7v6_8","v6_7v6_8",3.25,2.5,3,2.5
+">250","Alle","v6_9v6_10","v6_9v6_10",3,4.25,3,4
+">250","Alle","v7_6v7_7","v7_6v7_7",2.75,3.75,3,4.5
+">250","Alle","v8_11v8_12","v8_11v8_12",3.25,3.25,3,3
+">250","Alle","v8_13v8_14","v8_13v8_14",2.66666666666667,2.5,3,2.5
+">250","Alle","v8_15v8_16","v8_15v8_16",2.66666666666667,2,3,2
+">250","Alle","v8_1v8_2","v8_1v8_2",3.75,3.75,4,4.5
+">250","Alle","v8_3v8_4","v8_3v8_4",2.66666666666667,3,3,3
+">250","Alle","v8_5v8_6","v8_5v8_6",3,2.33333333333333,3,2
+">250","Alle","v8_7v8_8","v8_7v8_8",2.5,2.75,3,3
+">250","Alle","v8_9v8_10","v8_9v8_10",3.5,3.75,3.5,4
+">250","Alle","v9_2v9_3","v9_2v9_3",2.66666666666667,3,3,3.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v11_11v11_12","v11_11v11_12",3.5,3.5,3.5,3.5
 ">250","Architektur/Werbung/Grafik/Design/PR","v11_13v11_14","v11_13v11_14",3,2,3,2
 ">250","Architektur/Werbung/Grafik/Design/PR","v11_15v11_16","v11_15v11_16",3,2,3,2
@@ -1453,35 +1043,445 @@
 ">250","Sonstige Dienstleistungen","v8_7v8_8","v8_7v8_8",1,3,1,3
 ">250","Sonstige Dienstleistungen","v8_9v8_10","v8_9v8_10",2,2,2,2
 ">250","Sonstige Dienstleistungen","v9_2v9_3","v9_2v9_3",3,1,3,1
-">250","alle","v11_11v11_12","v11_11v11_12",3.25,3.5,3.5,3.5
-">250","alle","v11_13v11_14","v11_13v11_14",3,2,3,2
-">250","alle","v11_15v11_16","v11_15v11_16",4,3.33333333333333,4,4
-">250","alle","v11_17v11_18","v11_17v11_18",3.33333333333333,3.66666666666667,3,4
-">250","alle","v11_19v11_20","v11_19v11_20",3.5,2,3.5,1
-">250","alle","v11_1v11_2","v11_1v11_2",3.75,2.75,3.5,2.5
-">250","alle","v11_3v11_4","v11_3v11_4",3.75,3.25,4,3.5
-">250","alle","v11_5v11_6","v11_5v11_6",4,3.5,4,4
-">250","alle","v11_7v11_8","v11_7v11_8",3,3.25,3,3.5
-">250","alle","v11_9v11_10","v11_9v11_10",4,3.75,4,3.5
-">250","alle","v2_12v2_13","v2_12v2_13",3.33333333333333,3,3,3
-">250","alle","v2_14v2_16","v2_14v2_16",1.66666666666667,2.66666666666667,2,3
-">250","alle","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.75,4,3.5,5
-">250","alle","v2_7v2_8","Akademiker",3.5,3.75,3.5,4.5
-">250","alle","v2_9v2_10","Lehrlinge",2.75,3.25,3,3
-">250","alle","v4_3v4_4","v4_3v4_4",3.75,3,4,3
-">250","alle","v6_11v6_12","v6_11v6_12",4,3.75,4.5,4.5
-">250","alle","v6_1v6_2","v6_1v6_2",4.25,4,4.5,4
-">250","alle","v6_3v6_4","v6_3v6_4",3.75,4,3.5,4.5
-">250","alle","v6_5v6_6","v6_5v6_6",3.5,3,4,3
-">250","alle","v6_7v6_8","v6_7v6_8",3.25,2.5,3,2.5
-">250","alle","v6_9v6_10","v6_9v6_10",3,4.25,3,4
-">250","alle","v7_6v7_7","v7_6v7_7",2.75,3.75,3,4.5
-">250","alle","v8_11v8_12","v8_11v8_12",3.25,3.25,3,3
-">250","alle","v8_13v8_14","v8_13v8_14",2.66666666666667,2.5,3,2.5
-">250","alle","v8_15v8_16","v8_15v8_16",2.66666666666667,2,3,2
-">250","alle","v8_1v8_2","v8_1v8_2",3.75,3.75,4,4.5
-">250","alle","v8_3v8_4","v8_3v8_4",2.66666666666667,3,3,3
-">250","alle","v8_5v8_6","v8_5v8_6",3,2.33333333333333,3,2
-">250","alle","v8_7v8_8","v8_7v8_8",2.5,2.75,3,3
-">250","alle","v8_9v8_10","v8_9v8_10",3.5,3.75,3.5,4
-">250","alle","v9_2v9_3","v9_2v9_3",2.66666666666667,3,3,3.5
+"Alle","Alle","v11_11v11_12","v11_11v11_12",3.52238805970149,3.25352112676056,3,3
+"Alle","Alle","v11_13v11_14","v11_13v11_14",3.0952380952381,2.31428571428571,3,2
+"Alle","Alle","v11_15v11_16","v11_15v11_16",3.83333333333333,3.46478873239437,4,3
+"Alle","Alle","v11_17v11_18","v11_17v11_18",3.40298507462687,3.57746478873239,3,4
+"Alle","Alle","v11_19v11_20","v11_19v11_20",4.17142857142857,4.04109589041096,4,5
+"Alle","Alle","v11_1v11_2","v11_1v11_2",3.69117647058824,3.24657534246575,3.5,3
+"Alle","Alle","v11_3v11_4","v11_3v11_4",3.89393939393939,3.56756756756757,4,3
+"Alle","Alle","v11_5v11_6","v11_5v11_6",3.50793650793651,3.06944444444444,3,3
+"Alle","Alle","v11_7v11_8","v11_7v11_8",3.6986301369863,2.95714285714286,4,3
+"Alle","Alle","v11_9v11_10","v11_9v11_10",3.57971014492754,3.16666666666667,3,3
+"Alle","Alle","v2_12v2_13","v2_12v2_13",3.47945205479452,3.33783783783784,3,3
+"Alle","Alle","v2_14v2_16","v2_14v2_16",2.14492753623188,2.36619718309859,2,2
+"Alle","Alle","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.02739726027397,4,3,4
+"Alle","Alle","v2_7v2_8","Akademiker",2.31944444444444,2.75675675675676,2,2
+"Alle","Alle","v2_9v2_10","Lehrlinge",1.7536231884058,2.28767123287671,1,2
+"Alle","Alle","v4_3v4_4","v4_3v4_4",3.57534246575342,2.85135135135135,4,3
+"Alle","Alle","v6_11v6_12","v6_11v6_12",3.54166666666667,3.64383561643836,4,4
+"Alle","Alle","v6_1v6_2","v6_1v6_2",3.19444444444444,3.01351351351351,3,3
+"Alle","Alle","v6_3v6_4","v6_3v6_4",3.44594594594595,3.44594594594595,4,4
+"Alle","Alle","v6_5v6_6","v6_5v6_6",2.52054794520548,2.30985915492958,3,2
+"Alle","Alle","v6_7v6_8","v6_7v6_8",2.80281690140845,2.64383561643836,3,3
+"Alle","Alle","v6_9v6_10","v6_9v6_10",3.38888888888889,3.28378378378378,3,4
+"Alle","Alle","v7_6v7_7","v7_6v7_7",2.70422535211268,2.78378378378378,3,3
+"Alle","Alle","v8_11v8_12","v8_11v8_12",3.37837837837838,3.91891891891892,4,4
+"Alle","Alle","v8_13v8_14","v8_13v8_14",2.42028985507246,2.52702702702703,2,3
+"Alle","Alle","v8_15v8_16","v8_15v8_16",2.61764705882353,2.3972602739726,3,2
+"Alle","Alle","v8_1v8_2","v8_1v8_2",3.63513513513514,3.21917808219178,4,3
+"Alle","Alle","v8_3v8_4","v8_3v8_4",2.88732394366197,3.43835616438356,3,3
+"Alle","Alle","v8_5v8_6","v8_5v8_6",3.1304347826087,3.30555555555556,3,3
+"Alle","Alle","v8_7v8_8","v8_7v8_8",2.73913043478261,2.63380281690141,3,3
+"Alle","Alle","v8_9v8_10","v8_9v8_10",3.98648648648649,3.35616438356164,4,4
+"Alle","Alle","v9_2v9_3","v9_2v9_3",2.39130434782609,2.83561643835616,2,3
+"Alle","Architektur/Werbung/Grafik/Design/PR","v11_11v11_12","v11_11v11_12",3.55555555555556,3.55555555555556,3,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v11_13v11_14","v11_13v11_14",3.14285714285714,2.125,3,2.5
+"Alle","Architektur/Werbung/Grafik/Design/PR","v11_15v11_16","v11_15v11_16",3.625,3.25,3.5,3
+"Alle","Architektur/Werbung/Grafik/Design/PR","v11_17v11_18","v11_17v11_18",3.125,3.375,3,3.5
+"Alle","Architektur/Werbung/Grafik/Design/PR","v11_19v11_20","v11_19v11_20",3.77777777777778,3.875,4,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v11_1v11_2","v11_1v11_2",4,3.44444444444444,4,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v11_3v11_4","v11_3v11_4",3.77777777777778,3.66666666666667,4,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v11_5v11_6","v11_5v11_6",3.875,3.22222222222222,4,3
+"Alle","Architektur/Werbung/Grafik/Design/PR","v11_7v11_8","v11_7v11_8",3.66666666666667,3.11111111111111,4,3
+"Alle","Architektur/Werbung/Grafik/Design/PR","v11_9v11_10","v11_9v11_10",3.625,3.44444444444444,3.5,3
+"Alle","Architektur/Werbung/Grafik/Design/PR","v2_12v2_13","v2_12v2_13",3.75,3.66666666666667,4,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v2_14v2_16","v2_14v2_16",2.71428571428571,2.71428571428571,2,3
+"Alle","Architektur/Werbung/Grafik/Design/PR","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.44444444444444,4.22222222222222,3,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v2_7v2_8","Akademiker",3.11111111111111,4,3,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v2_9v2_10","Lehrlinge",1.77777777777778,2.33333333333333,2,2
+"Alle","Architektur/Werbung/Grafik/Design/PR","v4_3v4_4","v4_3v4_4",3.625,2.88888888888889,4,3
+"Alle","Architektur/Werbung/Grafik/Design/PR","v6_11v6_12","v6_11v6_12",3.5,3.875,3.5,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v6_1v6_2","v6_1v6_2",3.33333333333333,3,3,3
+"Alle","Architektur/Werbung/Grafik/Design/PR","v6_3v6_4","v6_3v6_4",3.66666666666667,4,4,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v6_5v6_6","v6_5v6_6",2.625,2.75,2.5,2.5
+"Alle","Architektur/Werbung/Grafik/Design/PR","v6_7v6_8","v6_7v6_8",2.75,2.25,3,2
+"Alle","Architektur/Werbung/Grafik/Design/PR","v6_9v6_10","v6_9v6_10",3,3.33333333333333,3,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v7_6v7_7","v7_6v7_7",2.22222222222222,3.77777777777778,3,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v8_11v8_12","v8_11v8_12",3.55555555555556,3.44444444444444,4,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v8_13v8_14","v8_13v8_14",2.57142857142857,2.22222222222222,3,2
+"Alle","Architektur/Werbung/Grafik/Design/PR","v8_15v8_16","v8_15v8_16",3,2.5,3,2.5
+"Alle","Architektur/Werbung/Grafik/Design/PR","v8_1v8_2","v8_1v8_2",3.55555555555556,3.75,4,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v8_3v8_4","v8_3v8_4",2.875,3.11111111111111,3,3
+"Alle","Architektur/Werbung/Grafik/Design/PR","v8_5v8_6","v8_5v8_6",3.71428571428571,3.375,3,3
+"Alle","Architektur/Werbung/Grafik/Design/PR","v8_7v8_8","v8_7v8_8",3,2.77777777777778,3,3
+"Alle","Architektur/Werbung/Grafik/Design/PR","v8_9v8_10","v8_9v8_10",4.11111111111111,4,4,4
+"Alle","Architektur/Werbung/Grafik/Design/PR","v9_2v9_3","v9_2v9_3",2.25,2.66666666666667,2,2
+"Alle","Bau, Energie- und Wasserversorgung","v11_11v11_12","v11_11v11_12",3.8,4,4,4
+"Alle","Bau, Energie- und Wasserversorgung","v11_13v11_14","v11_13v11_14",2.8,2.6,3,3
+"Alle","Bau, Energie- und Wasserversorgung","v11_15v11_16","v11_15v11_16",3.8,3.2,3,3
+"Alle","Bau, Energie- und Wasserversorgung","v11_17v11_18","v11_17v11_18",4.2,4.2,4,5
+"Alle","Bau, Energie- und Wasserversorgung","v11_19v11_20","v11_19v11_20",4,3.4,4,4
+"Alle","Bau, Energie- und Wasserversorgung","v11_1v11_2","v11_1v11_2",3.4,2.8,3,3
+"Alle","Bau, Energie- und Wasserversorgung","v11_3v11_4","v11_3v11_4",4,3.4,4,3
+"Alle","Bau, Energie- und Wasserversorgung","v11_5v11_6","v11_5v11_6",3.2,2.6,3,3
+"Alle","Bau, Energie- und Wasserversorgung","v11_7v11_8","v11_7v11_8",5,3,5,3
+"Alle","Bau, Energie- und Wasserversorgung","v11_9v11_10","v11_9v11_10",4,4,4,4
+"Alle","Bau, Energie- und Wasserversorgung","v2_12v2_13","v2_12v2_13",3.6,3.4,3,3
+"Alle","Bau, Energie- und Wasserversorgung","v2_14v2_16","v2_14v2_16",2.8,3,3,3
+"Alle","Bau, Energie- und Wasserversorgung","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.2,4,4,5
+"Alle","Bau, Energie- und Wasserversorgung","v2_7v2_8","Akademiker",2.75,3,2.5,3
+"Alle","Bau, Energie- und Wasserversorgung","v2_9v2_10","Lehrlinge",2.2,3.6,2,4
+"Alle","Bau, Energie- und Wasserversorgung","v4_3v4_4","v4_3v4_4",3.4,3,3,3
+"Alle","Bau, Energie- und Wasserversorgung","v6_11v6_12","v6_11v6_12",3,3.8,3,4
+"Alle","Bau, Energie- und Wasserversorgung","v6_1v6_2","v6_1v6_2",3.4,3.4,3,3
+"Alle","Bau, Energie- und Wasserversorgung","v6_3v6_4","v6_3v6_4",3.4,3,3,3
+"Alle","Bau, Energie- und Wasserversorgung","v6_5v6_6","v6_5v6_6",2.4,1.4,2,1
+"Alle","Bau, Energie- und Wasserversorgung","v6_7v6_8","v6_7v6_8",3.4,3,3,3
+"Alle","Bau, Energie- und Wasserversorgung","v6_9v6_10","v6_9v6_10",3.2,3,3,3
+"Alle","Bau, Energie- und Wasserversorgung","v7_6v7_7","v7_6v7_7",3.2,1.8,3,1
+"Alle","Bau, Energie- und Wasserversorgung","v8_11v8_12","v8_11v8_12",3,4.2,3,4
+"Alle","Bau, Energie- und Wasserversorgung","v8_13v8_14","v8_13v8_14",2.4,3.2,2,3
+"Alle","Bau, Energie- und Wasserversorgung","v8_15v8_16","v8_15v8_16",2.8,2.2,3,2
+"Alle","Bau, Energie- und Wasserversorgung","v8_1v8_2","v8_1v8_2",3.8,3,4,3
+"Alle","Bau, Energie- und Wasserversorgung","v8_3v8_4","v8_3v8_4",2.8,4,2,4
+"Alle","Bau, Energie- und Wasserversorgung","v8_5v8_6","v8_5v8_6",3.8,3.6,4,4
+"Alle","Bau, Energie- und Wasserversorgung","v8_7v8_8","v8_7v8_8",2,2.6,2,3
+"Alle","Bau, Energie- und Wasserversorgung","v8_9v8_10","v8_9v8_10",3.8,2.8,4,3
+"Alle","Bau, Energie- und Wasserversorgung","v9_2v9_3","v9_2v9_3",2.4,2.4,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v11_11v11_12","v11_11v11_12",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v11_13v11_14","v11_13v11_14",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v11_15v11_16","v11_15v11_16",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v11_17v11_18","v11_17v11_18",4,4,4,4
+"Alle","Chemisch-Pharmazeutische Industrie","v11_19v11_20","v11_19v11_20",4,4,4,4
+"Alle","Chemisch-Pharmazeutische Industrie","v11_1v11_2","v11_1v11_2",4,4,4,4
+"Alle","Chemisch-Pharmazeutische Industrie","v11_3v11_4","v11_3v11_4",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v11_5v11_6","v11_5v11_6",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v11_7v11_8","v11_7v11_8",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v11_9v11_10","v11_9v11_10",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v2_12v2_13","v2_12v2_13",4,4,4,4
+"Alle","Chemisch-Pharmazeutische Industrie","v2_14v2_16","v2_14v2_16",3,4,3,4
+"Alle","Chemisch-Pharmazeutische Industrie","v2_5v2_6","Arbeitskräfte mit Berufslehre",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v2_7v2_8","Akademiker",3,5,3,5
+"Alle","Chemisch-Pharmazeutische Industrie","v2_9v2_10","Lehrlinge",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v4_3v4_4","v4_3v4_4",5,4,5,4
+"Alle","Chemisch-Pharmazeutische Industrie","v6_11v6_12","v6_11v6_12",4,4,4,4
+"Alle","Chemisch-Pharmazeutische Industrie","v6_1v6_2","v6_1v6_2",4,3,4,3
+"Alle","Chemisch-Pharmazeutische Industrie","v6_3v6_4","v6_3v6_4",4,3,4,3
+"Alle","Chemisch-Pharmazeutische Industrie","v6_5v6_6","v6_5v6_6",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v6_7v6_8","v6_7v6_8",5,3,5,3
+"Alle","Chemisch-Pharmazeutische Industrie","v6_9v6_10","v6_9v6_10",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v7_6v7_7","v7_6v7_7",3,2,3,2
+"Alle","Chemisch-Pharmazeutische Industrie","v8_11v8_12","v8_11v8_12",4,4,4,4
+"Alle","Chemisch-Pharmazeutische Industrie","v8_13v8_14","v8_13v8_14",1,1,1,1
+"Alle","Chemisch-Pharmazeutische Industrie","v8_15v8_16","v8_15v8_16",4,3,4,3
+"Alle","Chemisch-Pharmazeutische Industrie","v8_1v8_2","v8_1v8_2",4,5,4,5
+"Alle","Chemisch-Pharmazeutische Industrie","v8_3v8_4","v8_3v8_4",3,3,3,3
+"Alle","Chemisch-Pharmazeutische Industrie","v8_5v8_6","v8_5v8_6",3,5,3,5
+"Alle","Chemisch-Pharmazeutische Industrie","v8_7v8_8","v8_7v8_8",2,3,2,3
+"Alle","Chemisch-Pharmazeutische Industrie","v8_9v8_10","v8_9v8_10",4,3,4,3
+"Alle","Chemisch-Pharmazeutische Industrie","v9_2v9_3","v9_2v9_3",5,5,5,5
+"Alle","Finanzen und Versicherung","v11_11v11_12","v11_11v11_12",3.33333333333333,2.5,3.5,2.5
+"Alle","Finanzen und Versicherung","v11_13v11_14","v11_13v11_14",3,2,3,2
+"Alle","Finanzen und Versicherung","v11_15v11_16","v11_15v11_16",3.83333333333333,3.16666666666667,4,3.5
+"Alle","Finanzen und Versicherung","v11_17v11_18","v11_17v11_18",3.4,3.83333333333333,3,4
+"Alle","Finanzen und Versicherung","v11_19v11_20","v11_19v11_20",4.16666666666667,4.5,4.5,4.5
+"Alle","Finanzen und Versicherung","v11_1v11_2","v11_1v11_2",4,3,4,3
+"Alle","Finanzen und Versicherung","v11_3v11_4","v11_3v11_4",3.6,3.16666666666667,3,3
+"Alle","Finanzen und Versicherung","v11_5v11_6","v11_5v11_6",4,3.33333333333333,4,4
+"Alle","Finanzen und Versicherung","v11_7v11_8","v11_7v11_8",3.66666666666667,2.83333333333333,3.5,3
+"Alle","Finanzen und Versicherung","v11_9v11_10","v11_9v11_10",4,2.5,4,2.5
+"Alle","Finanzen und Versicherung","v2_12v2_13","v2_12v2_13",3,2.5,3,2
+"Alle","Finanzen und Versicherung","v2_14v2_16","v2_14v2_16",2.5,1.66666666666667,2.5,1.5
+"Alle","Finanzen und Versicherung","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.5,4.33333333333333,4,4.5
+"Alle","Finanzen und Versicherung","v2_7v2_8","Akademiker",2.2,2.66666666666667,2,2
+"Alle","Finanzen und Versicherung","v2_9v2_10","Lehrlinge",2.6,2.5,3,2
+"Alle","Finanzen und Versicherung","v4_3v4_4","v4_3v4_4",3.5,2.83333333333333,3.5,3
+"Alle","Finanzen und Versicherung","v6_11v6_12","v6_11v6_12",3.83333333333333,3.66666666666667,4,3.5
+"Alle","Finanzen und Versicherung","v6_1v6_2","v6_1v6_2",3.8,3.83333333333333,4,4
+"Alle","Finanzen und Versicherung","v6_3v6_4","v6_3v6_4",4.16666666666667,4,4,4
+"Alle","Finanzen und Versicherung","v6_5v6_6","v6_5v6_6",3,2,3,1.5
+"Alle","Finanzen und Versicherung","v6_7v6_8","v6_7v6_8",3.5,2.83333333333333,3.5,2.5
+"Alle","Finanzen und Versicherung","v6_9v6_10","v6_9v6_10",3.83333333333333,3.5,4,4
+"Alle","Finanzen und Versicherung","v7_6v7_7","v7_6v7_7",2.83333333333333,2.83333333333333,3,2.5
+"Alle","Finanzen und Versicherung","v8_11v8_12","v8_11v8_12",3.83333333333333,3.83333333333333,4,4
+"Alle","Finanzen und Versicherung","v8_13v8_14","v8_13v8_14",2.6,1.5,3,1
+"Alle","Finanzen und Versicherung","v8_15v8_16","v8_15v8_16",3.2,1.83333333333333,3,1.5
+"Alle","Finanzen und Versicherung","v8_1v8_2","v8_1v8_2",4.5,3.83333333333333,5,4.5
+"Alle","Finanzen und Versicherung","v8_3v8_4","v8_3v8_4",2.4,3.83333333333333,2,4
+"Alle","Finanzen und Versicherung","v8_5v8_6","v8_5v8_6",2.4,2.8,2,3
+"Alle","Finanzen und Versicherung","v8_7v8_8","v8_7v8_8",2,3.4,2,4
+"Alle","Finanzen und Versicherung","v8_9v8_10","v8_9v8_10",4.83333333333333,4,5,4
+"Alle","Finanzen und Versicherung","v9_2v9_3","v9_2v9_3",2.6,2,3,1.5
+"Alle","Gesundheitssektor","v11_11v11_12","v11_11v11_12",3.33333333333333,2.5,3,3
+"Alle","Gesundheitssektor","v11_13v11_14","v11_13v11_14",3,2.33333333333333,3,2
+"Alle","Gesundheitssektor","v11_15v11_16","v11_15v11_16",3.66666666666667,3.16666666666667,3.5,3.5
+"Alle","Gesundheitssektor","v11_17v11_18","v11_17v11_18",3,2.85714285714286,3,3
+"Alle","Gesundheitssektor","v11_19v11_20","v11_19v11_20",4,3.28571428571429,4,4
+"Alle","Gesundheitssektor","v11_1v11_2","v11_1v11_2",3.33333333333333,2.57142857142857,3,3
+"Alle","Gesundheitssektor","v11_3v11_4","v11_3v11_4",3.83333333333333,3,3.5,3
+"Alle","Gesundheitssektor","v11_5v11_6","v11_5v11_6",3.5,2.5,3,3
+"Alle","Gesundheitssektor","v11_7v11_8","v11_7v11_8",3.16666666666667,2.5,3.5,2
+"Alle","Gesundheitssektor","v11_9v11_10","v11_9v11_10",3.16666666666667,2.66666666666667,3,3
+"Alle","Gesundheitssektor","v2_12v2_13","v2_12v2_13",3.14285714285714,3.14285714285714,3,3
+"Alle","Gesundheitssektor","v2_14v2_16","v2_14v2_16",1.66666666666667,2.57142857142857,1,2
+"Alle","Gesundheitssektor","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.57142857142857,4.71428571428571,3,5
+"Alle","Gesundheitssektor","v2_7v2_8","Akademiker",3,3,2,2
+"Alle","Gesundheitssektor","v2_9v2_10","Lehrlinge",1.42857142857143,3.28571428571429,1,4
+"Alle","Gesundheitssektor","v4_3v4_4","v4_3v4_4",3.85714285714286,2.14285714285714,4,2
+"Alle","Gesundheitssektor","v6_11v6_12","v6_11v6_12",3.57142857142857,3.71428571428571,4,5
+"Alle","Gesundheitssektor","v6_1v6_2","v6_1v6_2",2.85714285714286,3.14285714285714,3,3
+"Alle","Gesundheitssektor","v6_3v6_4","v6_3v6_4",3.42857142857143,3.85714285714286,3,5
+"Alle","Gesundheitssektor","v6_5v6_6","v6_5v6_6",3.71428571428571,3.5,4,3.5
+"Alle","Gesundheitssektor","v6_7v6_8","v6_7v6_8",2.85714285714286,3.14285714285714,4,4
+"Alle","Gesundheitssektor","v6_9v6_10","v6_9v6_10",3.71428571428571,3.71428571428571,4,4
+"Alle","Gesundheitssektor","v7_6v7_7","v7_6v7_7",2.83333333333333,3.42857142857143,3,3
+"Alle","Gesundheitssektor","v8_11v8_12","v8_11v8_12",3.71428571428571,4.57142857142857,5,5
+"Alle","Gesundheitssektor","v8_13v8_14","v8_13v8_14",2.71428571428571,2.71428571428571,3,3
+"Alle","Gesundheitssektor","v8_15v8_16","v8_15v8_16",2,3,2,3
+"Alle","Gesundheitssektor","v8_1v8_2","v8_1v8_2",3.57142857142857,4.42857142857143,4,5
+"Alle","Gesundheitssektor","v8_3v8_4","v8_3v8_4",3.14285714285714,3.16666666666667,3,3.5
+"Alle","Gesundheitssektor","v8_5v8_6","v8_5v8_6",3.14285714285714,3.57142857142857,3,4
+"Alle","Gesundheitssektor","v8_7v8_8","v8_7v8_8",2.57142857142857,1.85714285714286,3,1
+"Alle","Gesundheitssektor","v8_9v8_10","v8_9v8_10",4.85714285714286,4.5,5,5
+"Alle","Gesundheitssektor","v9_2v9_3","v9_2v9_3",1.85714285714286,1.83333333333333,1,1
+"Alle","Gross- und Einzelhandel","v11_11v11_12","v11_11v11_12",3.66666666666667,3.42857142857143,4,4
+"Alle","Gross- und Einzelhandel","v11_13v11_14","v11_13v11_14",3.16666666666667,2.14285714285714,3,2
+"Alle","Gross- und Einzelhandel","v11_15v11_16","v11_15v11_16",4,4,4,4
+"Alle","Gross- und Einzelhandel","v11_17v11_18","v11_17v11_18",3.16666666666667,3.83333333333333,3,4.5
+"Alle","Gross- und Einzelhandel","v11_19v11_20","v11_19v11_20",4.66666666666667,4.57142857142857,5,5
+"Alle","Gross- und Einzelhandel","v11_1v11_2","v11_1v11_2",4,3.42857142857143,4,4
+"Alle","Gross- und Einzelhandel","v11_3v11_4","v11_3v11_4",4,4.14285714285714,4,5
+"Alle","Gross- und Einzelhandel","v11_5v11_6","v11_5v11_6",3.66666666666667,3.42857142857143,4,3
+"Alle","Gross- und Einzelhandel","v11_7v11_8","v11_7v11_8",4.57142857142857,2.71428571428571,5,2
+"Alle","Gross- und Einzelhandel","v11_9v11_10","v11_9v11_10",3.66666666666667,3.57142857142857,4,4
+"Alle","Gross- und Einzelhandel","v2_12v2_13","v2_12v2_13",3,3.14285714285714,3,4
+"Alle","Gross- und Einzelhandel","v2_14v2_16","v2_14v2_16",1.85714285714286,2,2,2
+"Alle","Gross- und Einzelhandel","v2_5v2_6","Arbeitskräfte mit Berufslehre",2.57142857142857,4,2,4
+"Alle","Gross- und Einzelhandel","v2_7v2_8","Akademiker",1.28571428571429,1.57142857142857,1,1
+"Alle","Gross- und Einzelhandel","v2_9v2_10","Lehrlinge",1.28571428571429,1.28571428571429,1,1
+"Alle","Gross- und Einzelhandel","v4_3v4_4","v4_3v4_4",3.42857142857143,2.71428571428571,3,3
+"Alle","Gross- und Einzelhandel","v6_11v6_12","v6_11v6_12",3.28571428571429,3.71428571428571,3,4
+"Alle","Gross- und Einzelhandel","v6_1v6_2","v6_1v6_2",3.28571428571429,3.28571428571429,3,4
+"Alle","Gross- und Einzelhandel","v6_3v6_4","v6_3v6_4",3.28571428571429,2.71428571428571,3,3
+"Alle","Gross- und Einzelhandel","v6_5v6_6","v6_5v6_6",1.71428571428571,2.14285714285714,2,2
+"Alle","Gross- und Einzelhandel","v6_7v6_8","v6_7v6_8",2,2,1,2
+"Alle","Gross- und Einzelhandel","v6_9v6_10","v6_9v6_10",3.83333333333333,4,4,4
+"Alle","Gross- und Einzelhandel","v7_6v7_7","v7_6v7_7",2.85714285714286,2.28571428571429,3,3
+"Alle","Gross- und Einzelhandel","v8_11v8_12","v8_11v8_12",3.85714285714286,4,4,5
+"Alle","Gross- und Einzelhandel","v8_13v8_14","v8_13v8_14",2,2.42857142857143,2,3
+"Alle","Gross- und Einzelhandel","v8_15v8_16","v8_15v8_16",2.66666666666667,1.85714285714286,3,2
+"Alle","Gross- und Einzelhandel","v8_1v8_2","v8_1v8_2",3.57142857142857,2.57142857142857,3,3
+"Alle","Gross- und Einzelhandel","v8_3v8_4","v8_3v8_4",3,3.14285714285714,3,3
+"Alle","Gross- und Einzelhandel","v8_5v8_6","v8_5v8_6",2.71428571428571,3.28571428571429,3,3
+"Alle","Gross- und Einzelhandel","v8_7v8_8","v8_7v8_8",2.85714285714286,3.28571428571429,3,3
+"Alle","Gross- und Einzelhandel","v8_9v8_10","v8_9v8_10",3.28571428571429,2.28571428571429,3,2
+"Alle","Gross- und Einzelhandel","v9_2v9_3","v9_2v9_3",2.85714285714286,4,3,5
+"Alle","Herstellung von Nahrungsmitteln","v11_15v11_16","v11_15v11_16",5,3,5,3
+"Alle","Herstellung von Nahrungsmitteln","v11_17v11_18","v11_17v11_18",5,5,5,5
+"Alle","Herstellung von Nahrungsmitteln","v11_19v11_20","v11_19v11_20",5,5,5,5
+"Alle","Herstellung von Nahrungsmitteln","v11_1v11_2","v11_1v11_2",5,3,5,3
+"Alle","Herstellung von Nahrungsmitteln","v11_3v11_4","v11_3v11_4",5,5,5,5
+"Alle","Herstellung von Nahrungsmitteln","v11_9v11_10","v11_9v11_10",5,3,5,3
+"Alle","Herstellung von Nahrungsmitteln","v2_12v2_13","v2_12v2_13",4,4,4,4
+"Alle","Herstellung von Nahrungsmitteln","v2_14v2_16","v2_14v2_16",3,2,3,2
+"Alle","Herstellung von Nahrungsmitteln","v2_5v2_6","Arbeitskräfte mit Berufslehre",4,4,4,4
+"Alle","Herstellung von Nahrungsmitteln","v2_7v2_8","Akademiker",2,2,2,2
+"Alle","Herstellung von Nahrungsmitteln","v4_3v4_4","v4_3v4_4",4,4,4,4
+"Alle","Herstellung von Nahrungsmitteln","v6_11v6_12","v6_11v6_12",4,2,4,2
+"Alle","Herstellung von Nahrungsmitteln","v6_1v6_2","v6_1v6_2",3,2,3,2
+"Alle","Herstellung von Nahrungsmitteln","v6_3v6_4","v6_3v6_4",3,3,3,3
+"Alle","Herstellung von Nahrungsmitteln","v6_5v6_6","v6_5v6_6",5,5,5,5
+"Alle","Herstellung von Nahrungsmitteln","v6_7v6_8","v6_7v6_8",5,5,5,5
+"Alle","Herstellung von Nahrungsmitteln","v6_9v6_10","v6_9v6_10",5,5,5,5
+"Alle","Herstellung von Nahrungsmitteln","v7_6v7_7","v7_6v7_7",3,5,3,5
+"Alle","Herstellung von Nahrungsmitteln","v8_11v8_12","v8_11v8_12",1,5,1,5
+"Alle","Herstellung von Nahrungsmitteln","v8_13v8_14","v8_13v8_14",1,3,1,3
+"Alle","Herstellung von Nahrungsmitteln","v8_15v8_16","v8_15v8_16",5,1,5,1
+"Alle","Herstellung von Nahrungsmitteln","v8_1v8_2","v8_1v8_2",3,3,3,3
+"Alle","Herstellung von Nahrungsmitteln","v8_3v8_4","v8_3v8_4",2,5,2,5
+"Alle","Herstellung von Nahrungsmitteln","v8_5v8_6","v8_5v8_6",5,5,5,5
+"Alle","Herstellung von Nahrungsmitteln","v8_9v8_10","v8_9v8_10",3,3,3,3
+"Alle","Herstellung von Nahrungsmitteln","v9_2v9_3","v9_2v9_3",1,5,1,5
+"Alle","Information und Kommunikation","v11_11v11_12","v11_11v11_12",3.66666666666667,3.33333333333333,3,3
+"Alle","Information und Kommunikation","v11_13v11_14","v11_13v11_14",3,2.66666666666667,3,2
+"Alle","Information und Kommunikation","v11_15v11_16","v11_15v11_16",3.66666666666667,3,3,3
+"Alle","Information und Kommunikation","v11_17v11_18","v11_17v11_18",3.66666666666667,3,3,3
+"Alle","Information und Kommunikation","v11_19v11_20","v11_19v11_20",4,4,4,4
+"Alle","Information und Kommunikation","v11_1v11_2","v11_1v11_2",3.66666666666667,2.66666666666667,3,3
+"Alle","Information und Kommunikation","v11_3v11_4","v11_3v11_4",3.66666666666667,3.66666666666667,3,3
+"Alle","Information und Kommunikation","v11_5v11_6","v11_5v11_6",3.66666666666667,3,3,3
+"Alle","Information und Kommunikation","v11_7v11_8","v11_7v11_8",3,2.66666666666667,3,3
+"Alle","Information und Kommunikation","v11_9v11_10","v11_9v11_10",3.33333333333333,2.66666666666667,3,2
+"Alle","Information und Kommunikation","v2_12v2_13","v2_12v2_13",3.66666666666667,3,4,3
+"Alle","Information und Kommunikation","v2_14v2_16","v2_14v2_16",2.33333333333333,3,3,3
+"Alle","Information und Kommunikation","v2_5v2_6","Arbeitskräfte mit Berufslehre",4.33333333333333,5,5,5
+"Alle","Information und Kommunikation","v2_7v2_8","Akademiker",3.66666666666667,4,4,4
+"Alle","Information und Kommunikation","v2_9v2_10","Lehrlinge",1,1,1,1
+"Alle","Information und Kommunikation","v4_3v4_4","v4_3v4_4",3.33333333333333,2.33333333333333,4,3
+"Alle","Information und Kommunikation","v6_11v6_12","v6_11v6_12",4,4.66666666666667,4,5
+"Alle","Information und Kommunikation","v6_1v6_2","v6_1v6_2",4.66666666666667,3.66666666666667,5,5
+"Alle","Information und Kommunikation","v6_3v6_4","v6_3v6_4",3,4.33333333333333,3,5
+"Alle","Information und Kommunikation","v6_5v6_6","v6_5v6_6",2.66666666666667,3.5,3,3.5
+"Alle","Information und Kommunikation","v6_7v6_8","v6_7v6_8",3,3.66666666666667,3,3
+"Alle","Information und Kommunikation","v6_9v6_10","v6_9v6_10",3.33333333333333,3.66666666666667,3,4
+"Alle","Information und Kommunikation","v7_6v7_7","v7_6v7_7",3,3.66666666666667,3,4
+"Alle","Information und Kommunikation","v8_11v8_12","v8_11v8_12",2.33333333333333,3,1,3
+"Alle","Information und Kommunikation","v8_13v8_14","v8_13v8_14",2.66666666666667,2.33333333333333,2,2
+"Alle","Information und Kommunikation","v8_15v8_16","v8_15v8_16",3,2.66666666666667,3,3
+"Alle","Information und Kommunikation","v8_1v8_2","v8_1v8_2",3.33333333333333,3.33333333333333,3,3
+"Alle","Information und Kommunikation","v8_3v8_4","v8_3v8_4",2.33333333333333,3.33333333333333,2,3
+"Alle","Information und Kommunikation","v8_5v8_6","v8_5v8_6",3,2.33333333333333,3,1
+"Alle","Information und Kommunikation","v8_7v8_8","v8_7v8_8",3,4,3,4
+"Alle","Information und Kommunikation","v8_9v8_10","v8_9v8_10",2.33333333333333,2.33333333333333,1,1
+"Alle","Information und Kommunikation","v9_2v9_3","v9_2v9_3",3,3.33333333333333,3,4
+"Alle","Maschinen-, Elektro- und Metallindustrie","v11_11v11_12","v11_11v11_12",3.75,3.625,4,4
+"Alle","Maschinen-, Elektro- und Metallindustrie","v11_13v11_14","v11_13v11_14",3,1.875,3,1
+"Alle","Maschinen-, Elektro- und Metallindustrie","v11_15v11_16","v11_15v11_16",4.25,4,4,4
+"Alle","Maschinen-, Elektro- und Metallindustrie","v11_17v11_18","v11_17v11_18",3.5,3.5,4,4
+"Alle","Maschinen-, Elektro- und Metallindustrie","v11_19v11_20","v11_19v11_20",4.125,3.875,5,5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v11_1v11_2","v11_1v11_2",4.28571428571429,4.25,4,4.5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v11_3v11_4","v11_3v11_4",4.71428571428571,4.375,5,5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v11_5v11_6","v11_5v11_6",3.625,3.5,4,4
+"Alle","Maschinen-, Elektro- und Metallindustrie","v11_7v11_8","v11_7v11_8",3.375,4,4,4
+"Alle","Maschinen-, Elektro- und Metallindustrie","v11_9v11_10","v11_9v11_10",3.625,3.25,4,3
+"Alle","Maschinen-, Elektro- und Metallindustrie","v2_12v2_13","v2_12v2_13",3.375,3.5,3,3
+"Alle","Maschinen-, Elektro- und Metallindustrie","v2_14v2_16","v2_14v2_16",1.75,2.875,1.5,3
+"Alle","Maschinen-, Elektro- und Metallindustrie","v2_5v2_6","Arbeitskräfte mit Berufslehre",3.625,4.625,4,5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v2_7v2_8","Akademiker",2.125,2.5,1.5,2
+"Alle","Maschinen-, Elektro- und Metallindustrie","v2_9v2_10","Lehrlinge",1.5,1.75,1,1
+"Alle","Maschinen-, Elektro- und Metallindustrie","v4_3v4_4","v4_3v4_4",3.375,3.25,3.5,3
+"Alle","Maschinen-, Elektro- und Metallindustrie","v6_11v6_12","v6_11v6_12",3.42857142857143,3.5,3,3.5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v6_1v6_2","v6_1v6_2",2.75,2.75,3,3
+"Alle","Maschinen-, Elektro- und Metallindustrie","v6_3v6_4","v6_3v6_4",3.125,3.5,3,3.5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v6_5v6_6","v6_5v6_6",1.875,1.875,2,1.5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v6_7v6_8","v6_7v6_8",2.375,2.875,2,3
+"Alle","Maschinen-, Elektro- und Metallindustrie","v6_9v6_10","v6_9v6_10",2.875,3.375,3,4
+"Alle","Maschinen-, Elektro- und Metallindustrie","v7_6v7_7","v7_6v7_7",3.25,3.5,3.5,4
+"Alle","Maschinen-, Elektro- und Metallindustrie","v8_11v8_12","v8_11v8_12",3.875,4.5,4.5,5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v8_13v8_14","v8_13v8_14",2.25,2.5,2,2.5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v8_15v8_16","v8_15v8_16",2.125,2.5,2,2.5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v8_1v8_2","v8_1v8_2",3.5,3.375,4,3.5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v8_3v8_4","v8_3v8_4",3,3.625,3,3.5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v8_5v8_6","v8_5v8_6",2.875,4,3,4
+"Alle","Maschinen-, Elektro- und Metallindustrie","v8_7v8_8","v8_7v8_8",3.375,1.875,3,1.5
+"Alle","Maschinen-, Elektro- und Metallindustrie","v8_9v8_10","v8_9v8_10",4.75,3.625,5,4
+"Alle","Maschinen-, Elektro- und Metallindustrie","v9_2v9_3","v9_2v9_3",2.375,3.875,2.5,4
+"Alle","Sonstige Dienstleistungen","v11_11v11_12","v11_11v11_12",3.33333333333333,3.30769230769231,3,3
+"Alle","Sonstige Dienstleistungen","v11_13v11_14","v11_13v11_14",3.16666666666667,2.69230769230769,3,3
+"Alle","Sonstige Dienstleistungen","v11_15v11_16","v11_15v11_16",3.78571428571429,3.53846153846154,4,3
+"Alle","Sonstige Dienstleistungen","v11_17v11_18","v11_17v11_18",3.15384615384615,3.30769230769231,3,3
+"Alle","Sonstige Dienstleistungen","v11_19v11_20","v11_19v11_20",4.07142857142857,4.14285714285714,4,5
+"Alle","Sonstige Dienstleistungen","v11_1v11_2","v11_1v11_2",3.53846153846154,3.57142857142857,3,3
+"Alle","Sonstige Dienstleistungen","v11_3v11_4","v11_3v11_4",3.85714285714286,3.42857142857143,4,3
+"Alle","Sonstige Dienstleistungen","v11_5v11_6","v11_5v11_6",3.18181818181818,3.07692307692308,3,3
+"Alle","Sonstige Dienstleistungen","v11_7v11_8","v11_7v11_8",3.57142857142857,3.14285714285714,4,3
+"Alle","Sonstige Dienstleistungen","v11_9v11_10","v11_9v11_10",3.38461538461538,2.92307692307692,3,2
+"Alle","Sonstige Dienstleistungen","v2_12v2_13","v2_12v2_13",3.71428571428571,3.71428571428571,4,4
+"Alle","Sonstige Dienstleistungen","v2_14v2_16","v2_14v2_16",2.15384615384615,2.71428571428571,2,3
+"Alle","Sonstige Dienstleistungen","v2_5v2_6","Arbeitskräfte mit Berufslehre",2.69230769230769,3.57142857142857,3,4
+"Alle","Sonstige Dienstleistungen","v2_7v2_8","Akademiker",2.28571428571429,2.78571428571429,2,2
+"Alle","Sonstige Dienstleistungen","v2_9v2_10","Lehrlinge",2,2.42857142857143,1,2.5
+"Alle","Sonstige Dienstleistungen","v4_3v4_4","v4_3v4_4",3.5,3,4,3
+"Alle","Sonstige Dienstleistungen","v6_11v6_12","v6_11v6_12",3.71428571428571,3.42857142857143,4,3.5
+"Alle","Sonstige Dienstleistungen","v6_1v6_2","v6_1v6_2",3.5,3.14285714285714,4,3
+"Alle","Sonstige Dienstleistungen","v6_3v6_4","v6_3v6_4",3.28571428571429,3.57142857142857,3,4
+"Alle","Sonstige Dienstleistungen","v6_5v6_6","v6_5v6_6",2.71428571428571,2.21428571428571,3,2
+"Alle","Sonstige Dienstleistungen","v6_7v6_8","v6_7v6_8",2.61538461538462,2.07142857142857,3,2
+"Alle","Sonstige Dienstleistungen","v6_9v6_10","v6_9v6_10",3.14285714285714,2.78571428571429,3,3
+"Alle","Sonstige Dienstleistungen","v7_6v7_7","v7_6v7_7",2.46153846153846,2.5,2,2.5
+"Alle","Sonstige Dienstleistungen","v8_11v8_12","v8_11v8_12",3.35714285714286,3.5,4,4
+"Alle","Sonstige Dienstleistungen","v8_13v8_14","v8_13v8_14",2.84615384615385,3.42857142857143,3,3
+"Alle","Sonstige Dienstleistungen","v8_15v8_16","v8_15v8_16",2.69230769230769,3.21428571428571,3,3.5
+"Alle","Sonstige Dienstleistungen","v8_1v8_2","v8_1v8_2",3.57142857142857,2.57142857142857,4,2
+"Alle","Sonstige Dienstleistungen","v8_3v8_4","v8_3v8_4",3,3.28571428571429,3,3
+"Alle","Sonstige Dienstleistungen","v8_5v8_6","v8_5v8_6",3.15384615384615,3.07142857142857,3,3
+"Alle","Sonstige Dienstleistungen","v8_7v8_8","v8_7v8_8",2.69230769230769,2.38461538461538,3,2
+"Alle","Sonstige Dienstleistungen","v8_9v8_10","v8_9v8_10",4,3.57142857142857,4.5,4
+"Alle","Sonstige Dienstleistungen","v9_2v9_3","v9_2v9_3",2.30769230769231,2.35714285714286,2,2
+"Alle","Sonstiges Gewerbe","v11_11v11_12","v11_11v11_12",3,2.66666666666667,3,3
+"Alle","Sonstiges Gewerbe","v11_13v11_14","v11_13v11_14",2.66666666666667,1,3,1
+"Alle","Sonstiges Gewerbe","v11_15v11_16","v11_15v11_16",4,3.66666666666667,4,4
+"Alle","Sonstiges Gewerbe","v11_17v11_18","v11_17v11_18",3,3,3,3
+"Alle","Sonstiges Gewerbe","v11_19v11_20","v11_19v11_20",4.33333333333333,4.33333333333333,4,4
+"Alle","Sonstiges Gewerbe","v11_1v11_2","v11_1v11_2",2.33333333333333,2.33333333333333,3,2
+"Alle","Sonstiges Gewerbe","v11_3v11_4","v11_3v11_4",3.66666666666667,3.66666666666667,3,3
+"Alle","Sonstiges Gewerbe","v11_5v11_6","v11_5v11_6",2.66666666666667,1.66666666666667,3,2
+"Alle","Sonstiges Gewerbe","v11_7v11_8","v11_7v11_8",3.33333333333333,1.33333333333333,4,1
+"Alle","Sonstiges Gewerbe","v11_9v11_10","v11_9v11_10",4,4,5,5
+"Alle","Sonstiges Gewerbe","v2_12v2_13","v2_12v2_13",4.33333333333333,3.33333333333333,5,4
+"Alle","Sonstiges Gewerbe","v2_14v2_16","v2_14v2_16",2,1,2,1
+"Alle","Sonstiges Gewerbe","v2_5v2_6","Arbeitskräfte mit Berufslehre",3,3.33333333333333,3,4
+"Alle","Sonstiges Gewerbe","v2_7v2_8","Akademiker",3,3.33333333333333,3,3
+"Alle","Sonstiges Gewerbe","v2_9v2_10","Lehrlinge",2,1.66666666666667,1,1
+"Alle","Sonstiges Gewerbe","v4_3v4_4","v4_3v4_4",3.66666666666667,3.66666666666667,3,3
+"Alle","Sonstiges Gewerbe","v6_11v6_12","v6_11v6_12",3.66666666666667,4.66666666666667,4,5
+"Alle","Sonstiges Gewerbe","v6_1v6_2","v6_1v6_2",3,2.33333333333333,3,3
+"Alle","Sonstiges Gewerbe","v6_3v6_4","v6_3v6_4",4,3,4,3
+"Alle","Sonstiges Gewerbe","v6_5v6_6","v6_5v6_6",1,1,1,1
+"Alle","Sonstiges Gewerbe","v6_7v6_8","v6_7v6_8",2.66666666666667,3,2,3
+"Alle","Sonstiges Gewerbe","v6_9v6_10","v6_9v6_10",3.33333333333333,3.33333333333333,3,3
+"Alle","Sonstiges Gewerbe","v7_6v7_7","v7_6v7_7",2.33333333333333,1.66666666666667,2,1
+"Alle","Sonstiges Gewerbe","v8_11v8_12","v8_11v8_12",3.33333333333333,4.66666666666667,4,5
+"Alle","Sonstiges Gewerbe","v8_13v8_14","v8_13v8_14",1.66666666666667,1.66666666666667,2,2
+"Alle","Sonstiges Gewerbe","v8_15v8_16","v8_15v8_16",3,1.33333333333333,3,1
+"Alle","Sonstiges Gewerbe","v8_1v8_2","v8_1v8_2",4,4,4,4
+"Alle","Sonstiges Gewerbe","v8_3v8_4","v8_3v8_4",2.66666666666667,3.33333333333333,3,3
+"Alle","Sonstiges Gewerbe","v8_5v8_6","v8_5v8_6",3,1.66666666666667,3,1
+"Alle","Sonstiges Gewerbe","v8_7v8_8","v8_7v8_8",2.33333333333333,2.66666666666667,3,2
+"Alle","Sonstiges Gewerbe","v8_9v8_10","v8_9v8_10",4,2.33333333333333,4,2
+"Alle","Sonstiges Gewerbe","v9_2v9_3","v9_2v9_3",2.66666666666667,3.66666666666667,2,5
+"Alle","Treuhand/Consulting","v11_11v11_12","v11_11v11_12",3.75,3.6,3.5,3
+"Alle","Treuhand/Consulting","v11_13v11_14","v11_13v11_14",3.4,2.8,3,3
+"Alle","Treuhand/Consulting","v11_15v11_16","v11_15v11_16",3.4,3.4,3,3
+"Alle","Treuhand/Consulting","v11_17v11_18","v11_17v11_18",3.25,4,3,4
+"Alle","Treuhand/Consulting","v11_19v11_20","v11_19v11_20",4,3.4,4,4
+"Alle","Treuhand/Consulting","v11_1v11_2","v11_1v11_2",3.66666666666667,2.8,3,3
+"Alle","Treuhand/Consulting","v11_3v11_4","v11_3v11_4",4,3.6,4,4
+"Alle","Treuhand/Consulting","v11_5v11_6","v11_5v11_6",4,3.8,4,4
+"Alle","Treuhand/Consulting","v11_7v11_8","v11_7v11_8",4,3,4,3
+"Alle","Treuhand/Consulting","v11_9v11_10","v11_9v11_10",3,3.4,3,4
+"Alle","Treuhand/Consulting","v2_12v2_13","v2_12v2_13",2.6,2.4,3,3
+"Alle","Treuhand/Consulting","v2_14v2_16","v2_14v2_16",1.75,1.25,1.5,1
+"Alle","Treuhand/Consulting","v2_5v2_6","Arbeitskräfte mit Berufslehre",2,3.6,1,4
+"Alle","Treuhand/Consulting","v2_7v2_8","Akademiker",1.6,2.4,1,2
+"Alle","Treuhand/Consulting","v2_9v2_10","Lehrlinge",1.5,1.8,1,1
+"Alle","Treuhand/Consulting","v4_3v4_4","v4_3v4_4",3.4,2.8,4,3
+"Alle","Treuhand/Consulting","v6_11v6_12","v6_11v6_12",4,3.8,4,4
+"Alle","Treuhand/Consulting","v6_1v6_2","v6_1v6_2",2.25,2.4,2,3
+"Alle","Treuhand/Consulting","v6_3v6_4","v6_3v6_4",3.4,2.6,4,3
+"Alle","Treuhand/Consulting","v6_5v6_6","v6_5v6_6",2.2,2.4,2,3
+"Alle","Treuhand/Consulting","v6_7v6_8","v6_7v6_8",3.4,3.4,3,3
+"Alle","Treuhand/Consulting","v6_9v6_10","v6_9v6_10",4,3.2,4,3
+"Alle","Treuhand/Consulting","v7_6v7_7","v7_6v7_7",2.25,2,2.5,2
+"Alle","Treuhand/Consulting","v8_11v8_12","v8_11v8_12",2.4,3.8,2,4
+"Alle","Treuhand/Consulting","v8_13v8_14","v8_13v8_14",2,2,1,1
+"Alle","Treuhand/Consulting","v8_15v8_16","v8_15v8_16",1.75,1.8,1.5,1
+"Alle","Treuhand/Consulting","v8_1v8_2","v8_1v8_2",3.2,2.8,4,3
+"Alle","Treuhand/Consulting","v8_3v8_4","v8_3v8_4",2.8,3.6,3,3
+"Alle","Treuhand/Consulting","v8_5v8_6","v8_5v8_6",3,3.4,3,3
+"Alle","Treuhand/Consulting","v8_7v8_8","v8_7v8_8",3.2,2.8,3,3
+"Alle","Treuhand/Consulting","v8_9v8_10","v8_9v8_10",3.8,3.6,4,4
+"Alle","Treuhand/Consulting","v9_2v9_3","v9_2v9_3",2.75,2.4,3,2
+"Alle","Verkehr und Gastgewerbe","v11_11v11_12","v11_11v11_12",3.75,2.8,4,2
+"Alle","Verkehr und Gastgewerbe","v11_13v11_14","v11_13v11_14",3.66666666666667,2.6,4,2
+"Alle","Verkehr und Gastgewerbe","v11_15v11_16","v11_15v11_16",4,3.4,4,4
+"Alle","Verkehr und Gastgewerbe","v11_17v11_18","v11_17v11_18",4,4.4,4,5
+"Alle","Verkehr und Gastgewerbe","v11_19v11_20","v11_19v11_20",5,5,5,5
+"Alle","Verkehr und Gastgewerbe","v11_1v11_2","v11_1v11_2",3.2,3,3,3
+"Alle","Verkehr und Gastgewerbe","v11_3v11_4","v11_3v11_4",3,2.8,3,3
+"Alle","Verkehr und Gastgewerbe","v11_5v11_6","v11_5v11_6",3,2.4,3,2
+"Alle","Verkehr und Gastgewerbe","v11_7v11_8","v11_7v11_8",3.8,2.5,5,2.5
+"Alle","Verkehr und Gastgewerbe","v11_9v11_10","v11_9v11_10",3.6,2.8,4,3
+"Alle","Verkehr und Gastgewerbe","v2_12v2_13","v2_12v2_13",4.2,3.8,4,4
+"Alle","Verkehr und Gastgewerbe","v2_14v2_16","v2_14v2_16",1.8,1.6,1,1
+"Alle","Verkehr und Gastgewerbe","v2_5v2_6","Arbeitskräfte mit Berufslehre",1.4,2.8,1,3
+"Alle","Verkehr und Gastgewerbe","v2_7v2_8","Akademiker",1,1,1,1
+"Alle","Verkehr und Gastgewerbe","v2_9v2_10","Lehrlinge",1.6,2.6,1,2
+"Alle","Verkehr und Gastgewerbe","v4_3v4_4","v4_3v4_4",4,2.2,4,3
+"Alle","Verkehr und Gastgewerbe","v6_11v6_12","v6_11v6_12",2.8,2.6,3,3
+"Alle","Verkehr und Gastgewerbe","v6_1v6_2","v6_1v6_2",2.2,2,3,2
+"Alle","Verkehr und Gastgewerbe","v6_3v6_4","v6_3v6_4",3.4,3,4,3
+"Alle","Verkehr und Gastgewerbe","v6_5v6_6","v6_5v6_6",2.4,2.2,3,2
+"Alle","Verkehr und Gastgewerbe","v6_7v6_8","v6_7v6_8",2.2,2,2,2
+"Alle","Verkehr und Gastgewerbe","v6_9v6_10","v6_9v6_10",3.4,2.4,3,2
+"Alle","Verkehr und Gastgewerbe","v7_6v7_7","v7_6v7_7",2.6,2,3,1
+"Alle","Verkehr und Gastgewerbe","v8_11v8_12","v8_11v8_12",3,3.8,3,4
+"Alle","Verkehr und Gastgewerbe","v8_13v8_14","v8_13v8_14",2.6,2.4,3,3
+"Alle","Verkehr und Gastgewerbe","v8_15v8_16","v8_15v8_16",2.2,1.8,2,2
+"Alle","Verkehr und Gastgewerbe","v8_1v8_2","v8_1v8_2",3.6,2.2,4,2
+"Alle","Verkehr und Gastgewerbe","v8_3v8_4","v8_3v8_4",3.2,3.6,3,4
+"Alle","Verkehr und Gastgewerbe","v8_5v8_6","v8_5v8_6",3.2,3.4,3,4
+"Alle","Verkehr und Gastgewerbe","v8_7v8_8","v8_7v8_8",2.8,2.4,3,3
+"Alle","Verkehr und Gastgewerbe","v8_9v8_10","v8_9v8_10",2.8,2.2,4,2
+"Alle","Verkehr und Gastgewerbe","v9_2v9_3","v9_2v9_3",1.8,2.6,1,1
