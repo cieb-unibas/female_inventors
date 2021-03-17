@@ -192,8 +192,18 @@ plot_dat <- plot_dat[complete.cases(plot_dat), ]
 plot_dat <- mutate(plot_dat, country = countrycode(inv_ctry, "iso2c", "country.name.en"))
 plot_dat <- filter(plot_dat, inv_ctry != "JP") # exclude Japan because of missing information
 
+plot_dat_new <- mutate(plot_dat, tech_group = paste0(tech_group, "1"))
+plot_dat_new_1 <- mutate(plot_dat, tech_group = paste0(tech_group, "2"))
+plot_dat_new_2 <- mutate(plot_dat, tech_group = paste0(tech_group, "3"))
+plot_dat_new_3 <- mutate(plot_dat, tech_group = paste0(tech_group, "4"))
+plot_dat_new_4 <- mutate(plot_dat, tech_group = paste0(tech_group, "5"))
+
+
+
+plot_dat <- rbind(plot_dat, plot_dat_new)
+
 # (8) save data for plotting
-write.csv(plot_dat, "Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO.csv", 
+write.csv(plot_dat, "Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO_new.csv", 
           row.names = FALSE)
 print("Data for tech_group plot saved.")
 write.csv(plot_dat[plot_dat$tech_group == "Overall", ], 
