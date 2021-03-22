@@ -5,14 +5,20 @@ library(shinyWidgets)
 library(plotly)
 library(viridis)
 library(ggrepel)
-
+library(countrycode)
 # Load data 
 fem_share_tech <- read.csv2("female_inventors_graduates_techgroup_USPTO.csv", sep = ",") 
 fem_share_tech$female_share_inventors <- as.numeric(as.character(fem_share_tech$female_share_inventors))
 fem_share_tech$female_share_graduates <- as.numeric(as.character(fem_share_tech$female_share_graduates))
-fem_share_tech <- subset(fem_share_tech, inv_ctry %in% c("NO", "DE", "AU", "GB", "CA", "NL", "SE", "US", "FI", "IS",
-                                                         "RU", "DK", "IT", "AT", "IR", "CH", "FR", "ES", "BE", "KO"))
+# fem_share_tech <- subset(fem_share_tech, inv_ctry %in% c("NO", "DE", "AU", "GB", "CA", "NL", "SE", "US", "FI", "IS",
+                                                         # "RU", "DK", "IT", "AT", "IR", "CH", "FR", "ES", "BE", "KO"))
 
+## Daten für NZZ-Artikel
+fem_share_tech_overall <- filter(fem_share_tech, tech_group == "Overall")
+fem_share_tech_overall <- mutate(fem_share_tech_overall, Land = countrycode(inv_ctry, "iso2c", "country.name.de"))
+fem_share_tech_overall <- dplyr::select(fem_share_tech_overall, Land, female_share_graduates, female_share_inventors, inv_ctry)
+fem_share_tech_overall <- dplyr::rename(fem_share_tech_overall, Frauenanteil_MINT = female_share_graduates, Frauenanteil_Patenterfinder = female_share_inventors, ISO_Code = inv_ctry)
+fem_share_tech_overall %>% write.table("C:/Users/christian rutzer/Dropbox/CIEB/Projekte/Innovation/Analysis/Female_Inventors/Zeitungsartikel/Daten_plot.csv", dec = ".", sep = ";", row.names = FALSE)
 
 
 # Define UI 
