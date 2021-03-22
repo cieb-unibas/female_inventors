@@ -1,16 +1,3 @@
-<head>
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
-  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
-<link rel="stylesheet" href="style.css" type="text/css" />
-
-<script>
 Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/graph_gender_techgroup/female_inventors_graduates_techgroup_USPTO.csv", function(err, rows){
 function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });
@@ -149,27 +136,4 @@ Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
     }
 
     countrySelector.addEventListener('change', updateCountry, false);
-});    
-
-</script>
-</head>
-
-
-<body>
-<div class="showcase__section" id="bubble">
-  <div class="spacer --small"></div>
-  <div id="bubbleplots">
-    <div class="bubbleplot" data-num="0">
-      <div class="plot" id="plotdiv"></div>
-      <div class="control-row">
-        <select class="selectpicker">
-        <option selected >Overall</option>  
-        </select>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div id='myDiv'></div>
-</body>
-    
+});   
