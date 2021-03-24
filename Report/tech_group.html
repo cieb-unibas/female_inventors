@@ -124,7 +124,13 @@ var     allTech = unpack(rows, 'tech_group'),
       y1: math.median([currentFemInv]),
       line: {dash: 'dot'}
     }
-    ]
+    ],
+        margin: {
+    l: 70,
+    r: 50,
+    b: 60,
+    t: 10,
+  },
 };
 
 $("select").selectpicker();
