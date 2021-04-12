@@ -1,0 +1,283 @@
+"size","sektor","var_pairs","var_names","mean_qual","median_qual"
+"10-50","Alle","mean_qual","mean_qual",47,0
+"10-50","Alle","mean_wichtig","mean_wichtig",47,0
+"10-50","Alle","median_qual","median_qual",0,47
+"10-50","Alle","median_wichtig","median_wichtig",0,47
+"10-50","Alle","var_names","var_names",47,0
+"10-50","Alle","var_pairs","var_pairs",47,0
+"10-50","Architektur/Werbung/Grafik/Design/PR","mean_qual","mean_qual",47,0
+"10-50","Architektur/Werbung/Grafik/Design/PR","mean_wichtig","mean_wichtig",47,0
+"10-50","Architektur/Werbung/Grafik/Design/PR","median_qual","median_qual",0,47
+"10-50","Architektur/Werbung/Grafik/Design/PR","median_wichtig","median_wichtig",0,47
+"10-50","Architektur/Werbung/Grafik/Design/PR","var_names","var_names",47,0
+"10-50","Architektur/Werbung/Grafik/Design/PR","var_pairs","var_pairs",47,0
+"10-50","Bau, Energie- und Wasserversorgung","mean_qual","mean_qual",47,0
+"10-50","Bau, Energie- und Wasserversorgung","mean_wichtig","mean_wichtig",47,0
+"10-50","Bau, Energie- und Wasserversorgung","median_qual","median_qual",0,47
+"10-50","Bau, Energie- und Wasserversorgung","median_wichtig","median_wichtig",0,47
+"10-50","Bau, Energie- und Wasserversorgung","var_names","var_names",47,0
+"10-50","Bau, Energie- und Wasserversorgung","var_pairs","var_pairs",47,0
+"10-50","Finanzen und Versicherung","mean_qual","mean_qual",47,0
+"10-50","Finanzen und Versicherung","mean_wichtig","mean_wichtig",47,0
+"10-50","Finanzen und Versicherung","median_qual","median_qual",0,47
+"10-50","Finanzen und Versicherung","median_wichtig","median_wichtig",0,47
+"10-50","Finanzen und Versicherung","var_names","var_names",47,0
+"10-50","Finanzen und Versicherung","var_pairs","var_pairs",47,0
+"10-50","Gross- und Einzelhandel","mean_qual","mean_qual",47,0
+"10-50","Gross- und Einzelhandel","mean_wichtig","mean_wichtig",47,0
+"10-50","Gross- und Einzelhandel","median_qual","median_qual",0,47
+"10-50","Gross- und Einzelhandel","median_wichtig","median_wichtig",0,47
+"10-50","Gross- und Einzelhandel","var_names","var_names",47,0
+"10-50","Gross- und Einzelhandel","var_pairs","var_pairs",47,0
+"10-50","Herstellung von Nahrungsmitteln","mean_qual","mean_qual",47,0
+"10-50","Herstellung von Nahrungsmitteln","mean_wichtig","mean_wichtig",47,0
+"10-50","Herstellung von Nahrungsmitteln","median_qual","median_qual",0,47
+"10-50","Herstellung von Nahrungsmitteln","median_wichtig","median_wichtig",0,47
+"10-50","Herstellung von Nahrungsmitteln","var_names","var_names",47,0
+"10-50","Herstellung von Nahrungsmitteln","var_pairs","var_pairs",47,0
+"10-50","Maschinen-, Elektro- und Metallindustrie","mean_qual","mean_qual",47,0
+"10-50","Maschinen-, Elektro- und Metallindustrie","mean_wichtig","mean_wichtig",47,0
+"10-50","Maschinen-, Elektro- und Metallindustrie","median_qual","median_qual",0,47
+"10-50","Maschinen-, Elektro- und Metallindustrie","median_wichtig","median_wichtig",0,47
+"10-50","Maschinen-, Elektro- und Metallindustrie","var_names","var_names",47,0
+"10-50","Maschinen-, Elektro- und Metallindustrie","var_pairs","var_pairs",47,0
+"10-50","Sonstige Dienstleistungen","mean_qual","mean_qual",47,0
+"10-50","Sonstige Dienstleistungen","mean_wichtig","mean_wichtig",47,0
+"10-50","Sonstige Dienstleistungen","median_qual","median_qual",0,47
+"10-50","Sonstige Dienstleistungen","median_wichtig","median_wichtig",0,47
+"10-50","Sonstige Dienstleistungen","var_names","var_names",47,0
+"10-50","Sonstige Dienstleistungen","var_pairs","var_pairs",47,0
+"10-50","Sonstiges Gewerbe","mean_qual","mean_qual",47,0
+"10-50","Sonstiges Gewerbe","mean_wichtig","mean_wichtig",47,0
+"10-50","Sonstiges Gewerbe","median_qual","median_qual",0,47
+"10-50","Sonstiges Gewerbe","median_wichtig","median_wichtig",0,47
+"10-50","Sonstiges Gewerbe","var_names","var_names",47,0
+"10-50","Sonstiges Gewerbe","var_pairs","var_pairs",47,0
+"10-50","Treuhand/Consulting","mean_qual","mean_qual",47,0
+"10-50","Treuhand/Consulting","mean_wichtig","mean_wichtig",47,0
+"10-50","Treuhand/Consulting","median_qual","median_qual",0,47
+"10-50","Treuhand/Consulting","median_wichtig","median_wichtig",0,47
+"10-50","Treuhand/Consulting","var_names","var_names",47,0
+"10-50","Treuhand/Consulting","var_pairs","var_pairs",47,0
+"10-50","Verkehr und Gastgewerbe","mean_qual","mean_qual",47,0
+"10-50","Verkehr und Gastgewerbe","mean_wichtig","mean_wichtig",47,0
+"10-50","Verkehr und Gastgewerbe","median_qual","median_qual",0,47
+"10-50","Verkehr und Gastgewerbe","median_wichtig","median_wichtig",0,47
+"10-50","Verkehr und Gastgewerbe","var_names","var_names",47,0
+"10-50","Verkehr und Gastgewerbe","var_pairs","var_pairs",47,0
+"51-250","Alle","mean_qual","mean_qual",47,0
+"51-250","Alle","mean_wichtig","mean_wichtig",47,0
+"51-250","Alle","median_qual","median_qual",0,47
+"51-250","Alle","median_wichtig","median_wichtig",0,47
+"51-250","Alle","var_names","var_names",47,0
+"51-250","Alle","var_pairs","var_pairs",47,0
+"51-250","Bau, Energie- und Wasserversorgung","mean_qual","mean_qual",47,0
+"51-250","Bau, Energie- und Wasserversorgung","mean_wichtig","mean_wichtig",47,0
+"51-250","Bau, Energie- und Wasserversorgung","median_qual","median_qual",0,47
+"51-250","Bau, Energie- und Wasserversorgung","median_wichtig","median_wichtig",0,47
+"51-250","Bau, Energie- und Wasserversorgung","var_names","var_names",47,0
+"51-250","Bau, Energie- und Wasserversorgung","var_pairs","var_pairs",47,0
+"51-250","Gesundheitssektor","mean_qual","mean_qual",47,0
+"51-250","Gesundheitssektor","mean_wichtig","mean_wichtig",47,0
+"51-250","Gesundheitssektor","median_qual","median_qual",0,47
+"51-250","Gesundheitssektor","median_wichtig","median_wichtig",0,47
+"51-250","Gesundheitssektor","var_names","var_names",47,0
+"51-250","Gesundheitssektor","var_pairs","var_pairs",47,0
+"51-250","Maschinen-, Elektro- und Metallindustrie","mean_qual","mean_qual",47,0
+"51-250","Maschinen-, Elektro- und Metallindustrie","mean_wichtig","mean_wichtig",47,0
+"51-250","Maschinen-, Elektro- und Metallindustrie","median_qual","median_qual",0,47
+"51-250","Maschinen-, Elektro- und Metallindustrie","median_wichtig","median_wichtig",0,47
+"51-250","Maschinen-, Elektro- und Metallindustrie","var_names","var_names",47,0
+"51-250","Maschinen-, Elektro- und Metallindustrie","var_pairs","var_pairs",47,0
+"51-250","Sonstige Dienstleistungen","mean_qual","mean_qual",47,0
+"51-250","Sonstige Dienstleistungen","mean_wichtig","mean_wichtig",47,0
+"51-250","Sonstige Dienstleistungen","median_qual","median_qual",0,47
+"51-250","Sonstige Dienstleistungen","median_wichtig","median_wichtig",0,47
+"51-250","Sonstige Dienstleistungen","var_names","var_names",47,0
+"51-250","Sonstige Dienstleistungen","var_pairs","var_pairs",47,0
+"51-250","Verkehr und Gastgewerbe","mean_qual","mean_qual",47,0
+"51-250","Verkehr und Gastgewerbe","mean_wichtig","mean_wichtig",47,0
+"51-250","Verkehr und Gastgewerbe","median_qual","median_qual",0,47
+"51-250","Verkehr und Gastgewerbe","median_wichtig","median_wichtig",0,47
+"51-250","Verkehr und Gastgewerbe","var_names","var_names",47,0
+"51-250","Verkehr und Gastgewerbe","var_pairs","var_pairs",47,0
+"<10","Alle","mean_qual","mean_qual",47,0
+"<10","Alle","mean_wichtig","mean_wichtig",47,0
+"<10","Alle","median_qual","median_qual",0,47
+"<10","Alle","median_wichtig","median_wichtig",0,47
+"<10","Alle","var_names","var_names",47,0
+"<10","Alle","var_pairs","var_pairs",47,0
+"<10","Architektur/Werbung/Grafik/Design/PR","mean_qual","mean_qual",47,0
+"<10","Architektur/Werbung/Grafik/Design/PR","mean_wichtig","mean_wichtig",47,0
+"<10","Architektur/Werbung/Grafik/Design/PR","median_qual","median_qual",0,47
+"<10","Architektur/Werbung/Grafik/Design/PR","median_wichtig","median_wichtig",0,47
+"<10","Architektur/Werbung/Grafik/Design/PR","var_names","var_names",47,0
+"<10","Architektur/Werbung/Grafik/Design/PR","var_pairs","var_pairs",47,0
+"<10","Chemisch-Pharmazeutische Industrie","mean_qual","mean_qual",47,0
+"<10","Chemisch-Pharmazeutische Industrie","mean_wichtig","mean_wichtig",47,0
+"<10","Chemisch-Pharmazeutische Industrie","median_qual","median_qual",0,47
+"<10","Chemisch-Pharmazeutische Industrie","median_wichtig","median_wichtig",0,47
+"<10","Chemisch-Pharmazeutische Industrie","var_names","var_names",47,0
+"<10","Chemisch-Pharmazeutische Industrie","var_pairs","var_pairs",47,0
+"<10","Finanzen und Versicherung","mean_qual","mean_qual",47,0
+"<10","Finanzen und Versicherung","mean_wichtig","mean_wichtig",47,0
+"<10","Finanzen und Versicherung","median_qual","median_qual",0,47
+"<10","Finanzen und Versicherung","median_wichtig","median_wichtig",0,47
+"<10","Finanzen und Versicherung","var_names","var_names",47,0
+"<10","Finanzen und Versicherung","var_pairs","var_pairs",47,0
+"<10","Gesundheitssektor","mean_qual","mean_qual",47,0
+"<10","Gesundheitssektor","mean_wichtig","mean_wichtig",47,0
+"<10","Gesundheitssektor","median_qual","median_qual",0,47
+"<10","Gesundheitssektor","median_wichtig","median_wichtig",0,47
+"<10","Gesundheitssektor","var_names","var_names",47,0
+"<10","Gesundheitssektor","var_pairs","var_pairs",47,0
+"<10","Gross- und Einzelhandel","mean_qual","mean_qual",47,0
+"<10","Gross- und Einzelhandel","mean_wichtig","mean_wichtig",47,0
+"<10","Gross- und Einzelhandel","median_qual","median_qual",0,47
+"<10","Gross- und Einzelhandel","median_wichtig","median_wichtig",0,47
+"<10","Gross- und Einzelhandel","var_names","var_names",47,0
+"<10","Gross- und Einzelhandel","var_pairs","var_pairs",47,0
+"<10","Information und Kommunikation","mean_qual","mean_qual",47,0
+"<10","Information und Kommunikation","mean_wichtig","mean_wichtig",47,0
+"<10","Information und Kommunikation","median_qual","median_qual",0,47
+"<10","Information und Kommunikation","median_wichtig","median_wichtig",0,47
+"<10","Information und Kommunikation","var_names","var_names",47,0
+"<10","Information und Kommunikation","var_pairs","var_pairs",47,0
+"<10","Maschinen-, Elektro- und Metallindustrie","mean_qual","mean_qual",47,0
+"<10","Maschinen-, Elektro- und Metallindustrie","mean_wichtig","mean_wichtig",47,0
+"<10","Maschinen-, Elektro- und Metallindustrie","median_qual","median_qual",0,47
+"<10","Maschinen-, Elektro- und Metallindustrie","median_wichtig","median_wichtig",0,47
+"<10","Maschinen-, Elektro- und Metallindustrie","var_names","var_names",47,0
+"<10","Maschinen-, Elektro- und Metallindustrie","var_pairs","var_pairs",47,0
+"<10","Sonstige Dienstleistungen","mean_qual","mean_qual",47,0
+"<10","Sonstige Dienstleistungen","mean_wichtig","mean_wichtig",47,0
+"<10","Sonstige Dienstleistungen","median_qual","median_qual",0,47
+"<10","Sonstige Dienstleistungen","median_wichtig","median_wichtig",0,47
+"<10","Sonstige Dienstleistungen","var_names","var_names",47,0
+"<10","Sonstige Dienstleistungen","var_pairs","var_pairs",47,0
+"<10","Sonstiges Gewerbe","mean_qual","mean_qual",47,0
+"<10","Sonstiges Gewerbe","mean_wichtig","mean_wichtig",47,0
+"<10","Sonstiges Gewerbe","median_qual","median_qual",0,47
+"<10","Sonstiges Gewerbe","median_wichtig","median_wichtig",0,47
+"<10","Sonstiges Gewerbe","var_names","var_names",47,0
+"<10","Sonstiges Gewerbe","var_pairs","var_pairs",47,0
+"<10","Treuhand/Consulting","mean_qual","mean_qual",47,0
+"<10","Treuhand/Consulting","mean_wichtig","mean_wichtig",47,0
+"<10","Treuhand/Consulting","median_qual","median_qual",0,47
+"<10","Treuhand/Consulting","median_wichtig","median_wichtig",0,47
+"<10","Treuhand/Consulting","var_names","var_names",47,0
+"<10","Treuhand/Consulting","var_pairs","var_pairs",47,0
+"<10","Verkehr und Gastgewerbe","mean_qual","mean_qual",47,0
+"<10","Verkehr und Gastgewerbe","mean_wichtig","mean_wichtig",47,0
+"<10","Verkehr und Gastgewerbe","median_qual","median_qual",0,47
+"<10","Verkehr und Gastgewerbe","median_wichtig","median_wichtig",0,47
+"<10","Verkehr und Gastgewerbe","var_names","var_names",47,0
+"<10","Verkehr und Gastgewerbe","var_pairs","var_pairs",47,0
+">250","Alle","mean_qual","mean_qual",47,0
+">250","Alle","mean_wichtig","mean_wichtig",47,0
+">250","Alle","median_qual","median_qual",0,47
+">250","Alle","median_wichtig","median_wichtig",0,47
+">250","Alle","var_names","var_names",47,0
+">250","Alle","var_pairs","var_pairs",47,0
+">250","Architektur/Werbung/Grafik/Design/PR","mean_qual","mean_qual",47,0
+">250","Architektur/Werbung/Grafik/Design/PR","mean_wichtig","mean_wichtig",47,0
+">250","Architektur/Werbung/Grafik/Design/PR","median_qual","median_qual",0,47
+">250","Architektur/Werbung/Grafik/Design/PR","median_wichtig","median_wichtig",0,47
+">250","Architektur/Werbung/Grafik/Design/PR","var_names","var_names",47,0
+">250","Architektur/Werbung/Grafik/Design/PR","var_pairs","var_pairs",47,0
+">250","Finanzen und Versicherung","mean_qual","mean_qual",47,0
+">250","Finanzen und Versicherung","mean_wichtig","mean_wichtig",47,0
+">250","Finanzen und Versicherung","median_qual","median_qual",0,47
+">250","Finanzen und Versicherung","median_wichtig","median_wichtig",0,47
+">250","Finanzen und Versicherung","var_names","var_names",47,0
+">250","Finanzen und Versicherung","var_pairs","var_pairs",47,0
+">250","Sonstige Dienstleistungen","mean_qual","mean_qual",47,0
+">250","Sonstige Dienstleistungen","mean_wichtig","mean_wichtig",47,0
+">250","Sonstige Dienstleistungen","median_qual","median_qual",0,47
+">250","Sonstige Dienstleistungen","median_wichtig","median_wichtig",0,47
+">250","Sonstige Dienstleistungen","var_names","var_names",47,0
+">250","Sonstige Dienstleistungen","var_pairs","var_pairs",47,0
+"Alle","Alle","mean_qual","mean_qual",47,0
+"Alle","Alle","mean_wichtig","mean_wichtig",47,0
+"Alle","Alle","median_qual","median_qual",0,47
+"Alle","Alle","median_wichtig","median_wichtig",0,47
+"Alle","Alle","var_names","var_names",47,0
+"Alle","Alle","var_pairs","var_pairs",47,0
+"Alle","Architektur/Werbung/Grafik/Design/PR","mean_qual","mean_qual",47,0
+"Alle","Architektur/Werbung/Grafik/Design/PR","mean_wichtig","mean_wichtig",47,0
+"Alle","Architektur/Werbung/Grafik/Design/PR","median_qual","median_qual",0,47
+"Alle","Architektur/Werbung/Grafik/Design/PR","median_wichtig","median_wichtig",0,47
+"Alle","Architektur/Werbung/Grafik/Design/PR","var_names","var_names",47,0
+"Alle","Architektur/Werbung/Grafik/Design/PR","var_pairs","var_pairs",47,0
+"Alle","Bau, Energie- und Wasserversorgung","mean_qual","mean_qual",47,0
+"Alle","Bau, Energie- und Wasserversorgung","mean_wichtig","mean_wichtig",47,0
+"Alle","Bau, Energie- und Wasserversorgung","median_qual","median_qual",0,47
+"Alle","Bau, Energie- und Wasserversorgung","median_wichtig","median_wichtig",0,47
+"Alle","Bau, Energie- und Wasserversorgung","var_names","var_names",47,0
+"Alle","Bau, Energie- und Wasserversorgung","var_pairs","var_pairs",47,0
+"Alle","Chemisch-Pharmazeutische Industrie","mean_qual","mean_qual",47,0
+"Alle","Chemisch-Pharmazeutische Industrie","mean_wichtig","mean_wichtig",47,0
+"Alle","Chemisch-Pharmazeutische Industrie","median_qual","median_qual",0,47
+"Alle","Chemisch-Pharmazeutische Industrie","median_wichtig","median_wichtig",0,47
+"Alle","Chemisch-Pharmazeutische Industrie","var_names","var_names",47,0
+"Alle","Chemisch-Pharmazeutische Industrie","var_pairs","var_pairs",47,0
+"Alle","Finanzen und Versicherung","mean_qual","mean_qual",47,0
+"Alle","Finanzen und Versicherung","mean_wichtig","mean_wichtig",47,0
+"Alle","Finanzen und Versicherung","median_qual","median_qual",0,47
+"Alle","Finanzen und Versicherung","median_wichtig","median_wichtig",0,47
+"Alle","Finanzen und Versicherung","var_names","var_names",47,0
+"Alle","Finanzen und Versicherung","var_pairs","var_pairs",47,0
+"Alle","Gesundheitssektor","mean_qual","mean_qual",47,0
+"Alle","Gesundheitssektor","mean_wichtig","mean_wichtig",47,0
+"Alle","Gesundheitssektor","median_qual","median_qual",0,47
+"Alle","Gesundheitssektor","median_wichtig","median_wichtig",0,47
+"Alle","Gesundheitssektor","var_names","var_names",47,0
+"Alle","Gesundheitssektor","var_pairs","var_pairs",47,0
+"Alle","Gross- und Einzelhandel","mean_qual","mean_qual",47,0
+"Alle","Gross- und Einzelhandel","mean_wichtig","mean_wichtig",47,0
+"Alle","Gross- und Einzelhandel","median_qual","median_qual",0,47
+"Alle","Gross- und Einzelhandel","median_wichtig","median_wichtig",0,47
+"Alle","Gross- und Einzelhandel","var_names","var_names",47,0
+"Alle","Gross- und Einzelhandel","var_pairs","var_pairs",47,0
+"Alle","Herstellung von Nahrungsmitteln","mean_qual","mean_qual",47,0
+"Alle","Herstellung von Nahrungsmitteln","mean_wichtig","mean_wichtig",47,0
+"Alle","Herstellung von Nahrungsmitteln","median_qual","median_qual",0,47
+"Alle","Herstellung von Nahrungsmitteln","median_wichtig","median_wichtig",0,47
+"Alle","Herstellung von Nahrungsmitteln","var_names","var_names",47,0
+"Alle","Herstellung von Nahrungsmitteln","var_pairs","var_pairs",47,0
+"Alle","Information und Kommunikation","mean_qual","mean_qual",47,0
+"Alle","Information und Kommunikation","mean_wichtig","mean_wichtig",47,0
+"Alle","Information und Kommunikation","median_qual","median_qual",0,47
+"Alle","Information und Kommunikation","median_wichtig","median_wichtig",0,47
+"Alle","Information und Kommunikation","var_names","var_names",47,0
+"Alle","Information und Kommunikation","var_pairs","var_pairs",47,0
+"Alle","Maschinen-, Elektro- und Metallindustrie","mean_qual","mean_qual",47,0
+"Alle","Maschinen-, Elektro- und Metallindustrie","mean_wichtig","mean_wichtig",47,0
+"Alle","Maschinen-, Elektro- und Metallindustrie","median_qual","median_qual",0,47
+"Alle","Maschinen-, Elektro- und Metallindustrie","median_wichtig","median_wichtig",0,47
+"Alle","Maschinen-, Elektro- und Metallindustrie","var_names","var_names",47,0
+"Alle","Maschinen-, Elektro- und Metallindustrie","var_pairs","var_pairs",47,0
+"Alle","Sonstige Dienstleistungen","mean_qual","mean_qual",47,0
+"Alle","Sonstige Dienstleistungen","mean_wichtig","mean_wichtig",47,0
+"Alle","Sonstige Dienstleistungen","median_qual","median_qual",0,47
+"Alle","Sonstige Dienstleistungen","median_wichtig","median_wichtig",0,47
+"Alle","Sonstige Dienstleistungen","var_names","var_names",47,0
+"Alle","Sonstige Dienstleistungen","var_pairs","var_pairs",47,0
+"Alle","Sonstiges Gewerbe","mean_qual","mean_qual",47,0
+"Alle","Sonstiges Gewerbe","mean_wichtig","mean_wichtig",47,0
+"Alle","Sonstiges Gewerbe","median_qual","median_qual",0,47
+"Alle","Sonstiges Gewerbe","median_wichtig","median_wichtig",0,47
+"Alle","Sonstiges Gewerbe","var_names","var_names",47,0
+"Alle","Sonstiges Gewerbe","var_pairs","var_pairs",47,0
+"Alle","Treuhand/Consulting","mean_qual","mean_qual",47,0
+"Alle","Treuhand/Consulting","mean_wichtig","mean_wichtig",47,0
+"Alle","Treuhand/Consulting","median_qual","median_qual",0,47
+"Alle","Treuhand/Consulting","median_wichtig","median_wichtig",0,47
+"Alle","Treuhand/Consulting","var_names","var_names",47,0
+"Alle","Treuhand/Consulting","var_pairs","var_pairs",47,0
+"Alle","Verkehr und Gastgewerbe","mean_qual","mean_qual",47,0
+"Alle","Verkehr und Gastgewerbe","mean_wichtig","mean_wichtig",47,0
+"Alle","Verkehr und Gastgewerbe","median_qual","median_qual",0,47
+"Alle","Verkehr und Gastgewerbe","median_wichtig","median_wichtig",0,47
+"Alle","Verkehr und Gastgewerbe","var_names","var_names",47,0
+"Alle","Verkehr und Gastgewerbe","var_pairs","var_pairs",47,0

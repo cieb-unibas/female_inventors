@@ -10,8 +10,7 @@ library(countrycode)
 fem_share_tech <- read.csv2("female_inventors_graduates_techgroup_USPTO.csv", sep = ",") 
 fem_share_tech$female_share_inventors <- as.numeric(as.character(fem_share_tech$female_share_inventors))
 fem_share_tech$female_share_graduates <- as.numeric(as.character(fem_share_tech$female_share_graduates))
-# fem_share_tech <- subset(fem_share_tech, inv_ctry %in% c("NO", "DE", "AU", "GB", "CA", "NL", "SE", "US", "FI", "IS",
-                                                         # "RU", "DK", "IT", "AT", "IR", "CH", "FR", "ES", "BE", "KO"))
+fem_share_tech <- mutate(fem_share_tech, east = ifelse(inv_ctry %in% c("RU", "CZ", "EE", "HU", "PL", "SI", "SK", "LT", "LV"), "east", "west"))
 
 ## Daten für NZZ-Artikel
 fem_share_tech_overall <- filter(fem_share_tech, tech_group == "Overall")
@@ -74,14 +73,13 @@ server <- function(input, output, session) {
   
   output$fem_share_tech_plot <- renderPlotly({
   if(nrow(dat_set_tech()) != 0){
-  fit <- lm(female_share_inventors ~ female_share_graduates, data = dat_set_tech())
+  # fit <- lm(female_share_inventors ~ female_share_graduates, data = dat_set_tech())
     
   p <-   ggplotly(
-      ggplot(data = filter(dat_set_tech()), aes(x = female_share_graduates, y = female_share_inventors)) +
+      ggplot(data = filter(dat_set_tech()), aes(x = female_share_graduates, y = female_share_inventors, color = east)) +
         geom_point() +
-        geom_text(aes(x = female_share_graduates, y = female_share_inventors, label = inv_ctry, colour = 
-                        ifelse(inv_ctry == "CH", "red", "black")),  position = position_nudge(y = -0.005)) +
-        geom_smooth(method="lm",fullrange = TRUE,formula =y~x,colour="black",se = FALSE)  +
+        geom_text(aes(x = female_share_graduates, y = female_share_inventors, label = inv_ctry), position = position_nudge(y = -0.005)) +
+        geom_smooth(method="lm",fullrange = TRUE,formula =y~x, se = FALSE)  +
         xlab("Frauenanteil MINT-Absolventen") +
         ylab("Frauenanteil Patenterfindern") +
         # geom_vline(xintercept = 2015, linetype="dotted") +
