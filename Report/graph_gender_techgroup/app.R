@@ -10,7 +10,9 @@ library(countrycode)
 fem_share_tech <- read.csv2("female_inventors_graduates_techgroup_USPTO.csv", sep = ",") 
 fem_share_tech$female_share_inventors <- as.numeric(as.character(fem_share_tech$female_share_inventors))
 fem_share_tech$female_share_graduates <- as.numeric(as.character(fem_share_tech$female_share_graduates))
-fem_share_tech <- mutate(fem_share_tech, east = ifelse(inv_ctry %in% c("RU", "CZ", "EE", "HU", "PL", "SI", "SK", "LT", "LV"), "east", "west"))
+# fem_share_tech <- mutate(fem_share_tech, east = ifelse(inv_ctry %in% c("RU", "CZ", "EE", "HU", "PL", "SI", "SK", "LT", "LV"), "east", "west"))
+fem_share_tech <- filter(fem_share_tech, !(inv_ctry %in% c("PT", "KR", "CR", "LT", "RU")))
+# fem_share_tech <- filter(fem_share_tech, !(inv_ctry %in% c("RU")))
 
 ## Daten für NZZ-Artikel
 fem_share_tech_overall <- filter(fem_share_tech, tech_group == "Overall")
@@ -19,6 +21,8 @@ fem_share_tech_overall <- dplyr::select(fem_share_tech_overall, Land, female_sha
 fem_share_tech_overall <- dplyr::rename(fem_share_tech_overall, Frauenanteil_MINT = female_share_graduates, Frauenanteil_Patenterfinder = female_share_inventors, ISO_Code = inv_ctry)
 fem_share_tech_overall %>% write.table("C:/Users/christian rutzer/Dropbox/CIEB/Projekte/Innovation/Analysis/Female_Inventors/Zeitungsartikel/Daten_plot.csv", dec = ".", sep = ";", row.names = FALSE)
 
+
+summary(lm(female_share_inventors ~ female_share_graduates, data = fem_share_tech))
 
 # Define UI 
 ui <- fluidPage(
@@ -76,15 +80,20 @@ server <- function(input, output, session) {
   # fit <- lm(female_share_inventors ~ female_share_graduates, data = dat_set_tech())
     
   p <-   ggplotly(
-      ggplot(data = filter(dat_set_tech()), aes(x = female_share_graduates, y = female_share_inventors, color = east)) +
+      ggplot(data = filter(dat_set_tech()), aes(x = female_share_graduates, y = female_share_inventors)) +
         geom_point() +
-        geom_text(aes(x = female_share_graduates, y = female_share_inventors, label = inv_ctry), position = position_nudge(y = -0.005)) +
+        geom_text(aes(x = female_share_graduates, y = female_share_inventors, label = inv_ctry, colour = 
+                        ifelse(inv_ctry == "CH", "red", "green")),  position = position_nudge(y = -0.005)) +
         geom_smooth(method="lm",fullrange = TRUE,formula =y~x, se = FALSE)  +
-        xlab("Frauenanteil MINT-Absolventen") +
-        ylab("Frauenanteil Patenterfindern") +
+        xlab("Frauenanteil MINT-Abschlüsse") +
+        ylab("Frauenanteil Patenterfindungen") +
         # geom_vline(xintercept = 2015, linetype="dotted") +
         theme(axis.title = element_text(face="bold",size = 10),
-              legend.title = element_blank()))
+              legend.title = element_blank()) +
+    scale_y_continuous(limits = c(0, 0.25)) +
+    scale_x_continuous(limits = c(0.25, 0.5))  
+      ) %>% layout(width = 500, height = 500)
+  
   
 
     p  
