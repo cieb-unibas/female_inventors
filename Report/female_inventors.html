@@ -45,9 +45,15 @@
 
 
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71167447-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-71167447-1', { 'anonymize_ip': true });
+</script>
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
-</head>
 <link rel="stylesheet" href="style.css" type="text/css" />
 <div class="container-fluid main-container">
 
@@ -157,11 +163,12 @@ Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/ma
 Plotly.newPlot('plot_3', data, layout, {displayModeBar: false})
 });
 </script>
+</head>
 <!-- START with text -->
 <div id="a-gender-gap-to-more-innovation-in-switzerland" class="section level2">
 <h2><strong>A Gender Gap to More Innovation in Switzerland </strong></h2>
 <p><br></p>
-<p><em>May 2021</em> by <a href="https://wwz.unibas.ch/de/persons/matthias-niggli/" target = "_blank">Matthias Niggli</a> and <a href="https://wwz.unibas.ch/de/personen/christian-rutzer/" target = "_blank">Christian Rutzer</a> <br></p>
+<p><em>May 2021</em> by <a href="https://cieb.unibas.ch/en/team/" target = "_blank">Matthias Niggli</a> and <a href="https://cieb.unibas.ch/en/team/" target = "_blank">Christian Rutzer</a> <br></p>
 <p><img src="scientist_from_back.jpg" style="width:100.0%" /></p>
 <p><a href="https://unsplash.com/photos/8yS04veb1TQ" target = "_blank">ThisisEngineering | unsplash</a></p>
 <p><br></p>
@@ -430,13 +437,6 @@ Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
 <p><strong>Are you interested in</strong> the importance of cross-border commuters for Switzerland’s innovativeness? Then check out our article <a href = https://innoscape.ch/en/publications/cross-border-commuting-and-inventions-made-in-switzerland target=”_blank”> Cross-border commuting and inventions Made in Switzerland</a>.</p>
 <p><br></p>
 <p><span style="font-size:0.8em"><em>This report was written using <a href = https://rmarkdown.rstudio.com/ target = “_blank”>R Markdown</a>, <a href = https://shiny.rstudio.com/ target = “_blank”>R shiny</a> and <a href = https://plotly.com/javascript/ target = “_blank”>Plotly</a>. Data and code to reproduce the figures presented in this article are available on <a href=https://github.com/cieb-unibas/female_inventors target="_blank">GitHub</a>. Calculations and data processing were performed at <a href = http://scicore.unibas.ch/ target = “_blank”> sciCORE</a> scientific computing center at the University of Basel. We thank Conny Wunsch for valuable feedback and Monty Sufrin for excellent proof-reading.</em></span> <br> <br> <br> <br></p>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71167447-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-71167447-1', { 'anonymize_ip': true });
-</script>
 </div>
 </div>
 
