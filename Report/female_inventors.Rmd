@@ -1,6 +1,9 @@
 ---
 output:
   html_document:
+    includes:
+       after_body: footer.html
+    title: "Gender and Innovation"
     self_contained: false
     theme: null
     css: "https://innoscape.de/female_share/style.css"
@@ -19,7 +22,8 @@ output:
 
 
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 <div class="container-fluid main-container">
@@ -144,7 +148,7 @@ Plotly.newPlot('plot_3', data, layout, {displayModeBar: false})
 
 <br>
 
-*May 2021* by <a href="https://cieb.unibas.ch/en/team/" target = "_blank">Matthias Niggli</a> and <a href="https://cieb.unibas.ch/en/team/" target = "_blank">Christian Rutzer</a> 
+*May 2021* by <a href="#" data-placement="bottom" data-toggle="tooltip"  data-html="true" title="<img src='https://innoscape.de/authors/mn2018.jpg'><b>Matthias Niggli</b> is a project collaborator. He has a background in public policy from previous positions at the Swiss Federal Institute of Intellectual Property (IPI) and the Swiss State Secretariat for Economic Affairs (SECO). He has a special interest in experimenting with all kinds of machine-learning methods and is enthusiastic about discovering novel approaches to visualize data.">Matthias Niggli</a> and <a href="#" data-placement="bottom" data-toggle="tooltip"  data-html="true" title="<img src='https://innoscape.de/authors/Christian Rutzer_small.jpg'> <b>Christian Rutzer</b> is the chief scientist and operational manager of the project. He holds a PhD in economics from the University of Basel in international trade and innovation. Christian likes to apply new methods from data science to analyze economic questions.">Christian Rutzer</a>
 <br>
 
 ![](scientist_from_back.jpg){width=100%} 
@@ -264,7 +268,9 @@ To sum up, policies in different areas are important channels to raise the parti
 <span style="font-size:0.8em">*This report was written using <a href = https://rmarkdown.rstudio.com/ target = “_blank”>R Markdown</a>, <a href = https://shiny.rstudio.com/ target = “_blank”>R shiny</a> and <a href = https://plotly.com/javascript/ target = “_blank”>Plotly</a>. Data and code to reproduce the figures presented in this article are available on <a href=https://github.com/cieb-unibas/female_inventors target="_blank">GitHub</a>. Calculations and data processing were performed at <a href = http://scicore.unibas.ch/ target = “_blank”> sciCORE</a> scientific computing center at the University of Basel. We thank Conny Wunsch for valuable feedback and Monty Sufrin for excellent proof-reading.*</span>
 <br>
 <br>
-<br>
-<br>
 
-
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
