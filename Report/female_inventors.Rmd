@@ -3,7 +3,7 @@ output:
   html_document:
     includes:
        in_header: google_analytics.html 
-       after_body: footer.html
+       after_body: "https://innoscape.de/general_stuff/footer.html"
     title: "Gender and Innovation"
     self_contained: false
     theme: null
@@ -12,13 +12,6 @@ output:
     mathjax: null
 ---
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71167447-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-71167447-1', { 'anonymize_ip': true });
-</script>
 
 <!-- START with text -->
 
@@ -154,3 +147,12 @@ $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
 });
 </script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71167447-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-71167447-1', { 'anonymize_ip': true });
+</script>
+
