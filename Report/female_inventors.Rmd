@@ -2,6 +2,7 @@
 output:
   html_document:
     includes:
+       in_header: google_analytics.html 
        after_body: footer.html
     title: "Gender and Innovation"
     self_contained: false
@@ -11,16 +12,6 @@ output:
     mathjax: null
 ---
 <head>
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71167447-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-71167447-1', { 'anonymize_ip': true });
-</script>
-
-
 <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet">
