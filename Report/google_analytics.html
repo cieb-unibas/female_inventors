@@ -1,7 +1,120 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71167447-1"></script>
+
+
+
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.1/math.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+<div class="container-fluid main-container">
+
+<!-- Create FIGURE 2: SCATTERPOLOT WITH 45 DEGREE LINE -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-71167447-1', { 'anonymize_ip': true });
+Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/female_inventors_graduates_USPTO.csv", function(err, rows){
+
+  function unpack(rows, key) {
+  return rows.map(function(row) { return row[key]; });
+}
+
+  var data = [{
+      type: 'scatter',
+      mode: 'markers',
+      marker: { color:  ['#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         'red',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f',
+                         '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f']},
+      x: unpack(rows, 'female_share_graduates'),
+      y: unpack(rows, 'female_share_inventors'),
+      hoverinfo: 'markers',
+      text: unpack(rows, 'country')
+    }]
+    
+  var layout = {
+    xaxis: {range: [0, 0.75], tickformat: ',.1%', 
+            title: {text: '<b>Female Graduate Share in STEM Fields</b>'},
+            showgrid: false,
+            fixedrange: true},
+    yaxis: {range: [0, 0.6], tickformat: ',.1%',
+            title: {text: '<b>Female Inventor Share</b>'},
+            showgrid: false,
+            fixedrange: true},
+    shapes: [{
+      type: 'line',
+      x0: 0,
+      y0: 0,
+      x1: 1,
+      y1: 1,
+      line: {dash: 'dot'}
+    }],
+    margin: {
+    l: 70,
+    r: 50,
+    b: 60,
+    t: 50,
+    pad: 5
+  },
+    title: false
+};
+
+Plotly.newPlot('plot_2', data, layout, {displayModeBar: false})
+
+});
 </script>
+
+<!-- Create FIGURE 3: CONVERSION RATE BETWEEN FEMALE STEM GRADUATES AND INVENTORS -->
+
+<script>
+Plotly.d3.csv("https://raw.githubusercontent.com/cieb-unibas/female_inventors/main/Report/converstion_rate_plot.csv", function(err, rows){
+
+  function unpack(rows, key) {
+  return rows.map(function(row) { return row[key]; });
+}
+
+  var data = [{
+      type: 'bar',
+      marker: {color: ['#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 'red',
+                       '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                       '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', 
+                       '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f', '#2ca25f']},
+      x: unpack(rows, 'conv_rate'),
+      y: unpack(rows, 'country'),
+      orientation: 'h'}]
+
+  var layout = {
+    xaxis: {range: [0, 0.85], tickformat: ',.1%',
+            title: {text: '<b>Female Inventor Share to <br> Female STEM Graduate Share Ratio</b>'},
+            showgrid: false,
+            fixedrange: true},
+    yaxis: {showgrid: false,
+            automargin: true,
+            dtick: 1,
+            fixedrange: true},
+    <!-- margin: {l: 150}, -->
+    shapes: [{
+      type: 'line',
+      x0: 0.289, 
+      y0: 0,
+      x1: 0.289,
+      y1: 20,
+      line: {dash: 'dot'}
+    }],
+    margin: {
+    l: 70,
+    r: 40,
+    b: 80,
+    t: 20,
+    pad: 5
+  },
+    title: false
+};
+
+Plotly.newPlot('plot_3', data, layout, {displayModeBar: false})
+});
+</script>
+
+
