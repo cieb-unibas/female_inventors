@@ -7,6 +7,7 @@ library(plotly)
 
 # Load data 
 fem_share <- read.csv2("female_inventor_share_USPTO.csv", sep = ",") 
+fem_share <- subset(fem_share, !(total_inventors > 0 & total_inventors < 100)) 
 fem_share$female_share_inventors <- round(as.numeric(as.character(fem_share$female_share_inventors)), 4)
 fem_share$info <- ifelse(fem_share$female_share_inventors == 0, "not enough\nobservations", " ")
 
