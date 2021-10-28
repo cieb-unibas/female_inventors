@@ -23,7 +23,7 @@ output:
 
 <!-- START with text -->
 
-## **A Gender Gap to More Innovation in Switzerland **
+### **A Gender Gap to More Innovation in Switzerland **
 
 <br>
 
@@ -32,16 +32,6 @@ output:
 <a href='mailto:matthias.niggli@unibas.ch'>matthias.niggli@unibas.ch</a>">Matthias Niggli</a> and <a href="#" data-placement="bottom" data-toggle="tooltip"  data-html="true" title="<img src='https://innoscape.de/authors/Christian Rutzer_small.jpg'> <b>Christian Rutzer</b> is the chief scientist and operational manager of the project. He holds a PhD in economics from the University of Basel in international trade and innovation. Christian likes to apply new methods from data science to analyze economic questions. <br> 
 <a href='mailto:christian.rutzer@unibas.ch'>christian.rutzer@unibas.ch</a>">Christian Rutzer</a>
 </p>
-
-<p style="text-align: left; line-height: 150%;">
-*Share this article:* 
-&nbsp;
-<a href='https://www.linkedin.com/sharing/share-offsite/?url=https://www.linkedin.com/posts/cieb-unibas_innoscape-a-gender-gap-to-more-innovation-activity-6797511156475928577-pYzq' class="fa fa-linkedin" style='color:black;text-decoration: none;' target='_blank'></a>
-&nbsp;
-<a href='https://twitter.com/cieb_unibas/status/1391749629272903688' class="fa fa-twitter" style='color:black;text-decoration: none;' target='_blank'></a>
-</p>
-
-
 
 
 
@@ -152,6 +142,23 @@ On the other hand, the conversion rate of female STEM graduates to female invent
 
 
 To sum up, policies in different areas are important channels to raise the participation of women in inventive activities. As the Swiss economy constantly requires new technical innovations, new ideas and improved processes to remain one of the world`s leading innovation hubs, making good use of the skill potential of its workforce is key for Switzerland’s future prosperity. Hence, there is a strong case for pushing policies aimed at increasing the attractiveness of R&D careers for women.
+
+
+<br>
+
+<hr class="hr_red">
+<p style="text-align: left; line-height: 150%;">
+**Did you enjoy this article?**
+<br>
+Share it with your friends and colleagues on Social Media
+<br>
+<a href='https://twitter.com/cieb_unibas/status/1391749629272903688' class="fa fa-twitter" style='color:black;text-decoration: none; font-size:22px;' target='_blank'></a>
+&nbsp; 
+<a href='https://www.linkedin.com/feed/update/urn:li:activity:6797511156475928577' class="fa fa-linkedin" style='color:black;text-decoration: none; font-size:22px;' target='_blank'></a>
+</p>
+
+<br>
+
 
 <div>
 <iframe id="slider" width=100%" height="400" scrolling="no" frameBorder="0" style="overflow: hidden" src="https://innoscape.de/general_stuff/teaser/femal_inventor_teaser.html">
