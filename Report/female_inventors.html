@@ -12,9 +12,9 @@
 
 
 
-<title>female_inventors.utf8</title>
+<title>female_inventors.knit</title>
 
-<script src="female_inventors_files/header-attrs-2.4/header-attrs.js"></script>
+<script src="female_inventors_files/header-attrs-2.12/header-attrs.js"></script>
 
 <head>
 
@@ -147,7 +147,10 @@ Plotly.newPlot('plot_3', data, layout, {displayModeBar: false})
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-      </style>
+      .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+
+
 
 
 
@@ -246,7 +249,7 @@ Your browser does not support iframes
 <hr class="hr_red">
 <div id="figure-4-female-inventor-shares-and-female-graduate-shares-in-stem" class="section level4">
 <h4><strong>Figure 4: Female inventor shares and female graduate shares in STEM</strong></h4>
-<p><head>
+<head>
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
@@ -425,7 +428,14 @@ Plotly.newPlot('myDiv', data, layout, {displayModeBar: false});
 
 <div id='myDiv'></div>
 </body>
-     <span style="font-size:0.8em"><em>Source: CIEB`s own estimations based on data from the <a href=https://www.patentsview.org/download/ target = “_blank”>USPTO</a> and the <a href=https://stats.oecd.org/index.aspx?queryid=79486# target = “_blank”>OECD</a>. We use information for the period 2010-2015 and aggregate the data of this period to smooth out yearly fluctuations. The dashed lines indicate the respective median among these 39 countries. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors target = “_blank”>GitHub</a>.</em></span></p>
+    
+<details>
+<summary>
+<b>Sources and notes</b>
+</summary>
+<br> <span style="font-size:0.8em"> <em>CIEB`s own estimations based on data from the <a href=https://www.patentsview.org/download/ target = “_blank”>USPTO</a> and the <a href=https://stats.oecd.org/index.aspx?queryid=79486# target = “_blank”>OECD</a>. We use information for the period 2010-2015 and aggregate the data of this period to smooth out yearly fluctuations. The dashed lines indicate the respective median among these 39 countries. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors target = “_blank”>GitHub</a>.<br>The selectable technology groups are based on <a href = https://www.wipo.int/export/sites/www/ipstats/en/statistics/patents/pdf/wipo_ipc_technology.pdf target = “_blank”>Schmoch et al. (2008)</a> and contain the following fields: <br>Overall: All technology fields.<br>Chemistry: Biotechnology, Chemistry, Pharmaceuticals.<br>Electrical engineering: Audio-visual technology, Computer technology, Digital communication, Electrical machinery, Semiconductors, Telecommunications.<br>Instruments: Control, Measurement, Medical technology, Optics.<br>Mechanical engineering: Engines, Handling, Machine tools, Mechanical elements, Textile and paper machines, Transport.<br>Other fields: Furniture, Games and Civil engineering.</em> </span>
+<hr>
+</details>
 <p><br></p>
 <p>Recall from Figure 3 that South Korea seemed to perform a lot better than other countries. However, there are some caveats to this argument. As you can see, countries like South Korea or Belgium start off with rather low female inventor shares. This could mean that there is just stronger self-selection. That is to say, among their lower numbers of female graduates, there are more who are determined to become inventors than in other countries. Another argument might be that the advantage we see of these countries could be driven by country-specific industry specialization. Think of it this way: If there are some technology areas where women inventors are more adequately represented (for example, Chemistry compared to Mechanical Engineering), a country that specializes in such technology areas might have a higher overall female share. But this higher overall share would not be due to some successful policy framework in this country, but rather to industry specialization.</p>
 <p>Figure 4 allows us to examine the latter caveat by selecting a technology area in the slider panel. After selecting a given technology area, the graph states female inventor shares of patents exclusively from this technology area across countries. Observing these country-level differences in female inventor shares, we see they are generally less pronounced within the same technology area. For example, countries are more closely positioned to each other along the y-axis in the fields “Mechanical Engineering” or “Electrical Engineering”. Accordingly, technological specialization seems to be one good explanation for differences across countries. However, substantial gaps remain between countries (e.g. in “Chemistry”) and it is noteworthy that South Korea is always most closely located to the left among all countries, that is, towards the diagonal 45-degree line. This suggests that beyond industry characteristics, policies and cultural norms are also important.</p>
@@ -482,12 +492,10 @@ $(document).ready(function(){
 &nbsp;
 <hr />
 
-<!--<p style="text-align: center;"><a href="https://cieb.unibas.ch" target='_blank' style='color:black;text-decoration: none;'>Center for International Economics and Business | CIEB | University of Basel </a>
-</p>
--->
-
 <p style="text-align: center;">
-  <h_footer>Follow us on Social Media </h_footer> &nbsp;&nbsp;
+  <h_footer><a href="https://cieb.unibas.ch" target='_blank' style='color:black;text-decoration: none;'>CIEB | University of Basel </a> </h_footer>
+
+  <h_footer>| Follow us on Social Media </h_footer> &nbsp;&nbsp;
     <br class='br_mobile'>
 
     <a href="https://twitter.com/cieb_unibas/" class="fa fa-twitter" style='color:black;text-decoration: none;' target='_blank'></a>

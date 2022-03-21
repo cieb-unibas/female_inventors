@@ -112,7 +112,15 @@ That said, there are notable differences across countries. Figure 4 zooms in to 
 ```{r, echo=FALSE}
 htmltools::includeHTML("tech_group.html")
 ```
-<span style="font-size:0.8em">*Source: CIEB`s own estimations based on data from the <a href=https://www.patentsview.org/download/ target = “_blank”>USPTO</a> and the <a href=https://stats.oecd.org/index.aspx?queryid=79486# target = “_blank”>OECD</a>. We use information for the period 2010-2015 and aggregate the data of this period to smooth out yearly fluctuations. The dashed lines indicate the respective median among these 39 countries. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors target = “_blank”>GitHub</a>.*</span>
+<details> 
+<summary><b>Sources and notes</b></summary> 
+<br>
+<span style="font-size:0.8em">
+*CIEB`s own estimations based on data from the <a href=https://www.patentsview.org/download/ target = “_blank”>USPTO</a> and the <a href=https://stats.oecd.org/index.aspx?queryid=79486# target = “_blank”>OECD</a>. We use information for the period 2010-2015 and aggregate the data of this period to smooth out yearly fluctuations. The dashed lines indicate the respective median among these 39 countries. The data used for this plot is available on <a href= https://github.com/cieb-unibas/female_inventors target = “_blank”>GitHub</a>.<br>The selectable technology groups are based on <a href = https://www.wipo.int/export/sites/www/ipstats/en/statistics/patents/pdf/wipo_ipc_technology.pdf target = “_blank”>Schmoch et al. (2008)</a> and contain the following fields: <br>Overall: All technology fields.<br>Chemistry: Biotechnology, Chemistry, Pharmaceuticals.<br>Electrical engineering: Audio-visual technology, Computer technology, Digital communication, Electrical machinery, Semiconductors, Telecommunications.<br>Instruments: Control, Measurement, Medical technology, Optics.<br>Mechanical engineering: Engines, Handling, Machine tools, Mechanical elements, Textile and paper machines, Transport.<br>Other fields: Furniture, Games and Civil engineering.*
+</span>
+<hr>
+</details> 
+
 
 <br>
 
